@@ -1,0 +1,30 @@
+
+name: Nix
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  nix-build-linux:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Nix
+        uses: cachix/install-nix-action@v24
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Checkout
+        uses: actions/checkout@v3
+      - uses: cachix/cachix-action@v14
+        with:
+          name: gh-nix-idris2-packages
+          # If you chose API tokens for write access OR if you have a private cache
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - name: Build
+        run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
+
