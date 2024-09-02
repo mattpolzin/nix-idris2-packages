@@ -1,5 +1,5 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i bash -p nodejs nix-prefetch-git sed
+#! nix-shell -i bash -p nodejs nix-prefetch-git gnused
 
 set -euo pipefail
 
@@ -13,7 +13,7 @@ cat $pack_db_location/share/idris2.json \
   | node ./idris2-pack-db/update-hashes.js > ./idris2-pack-db/idris2.json
 
 sed -i'' \
-  "s#idris-lang/idris2/.*\";#idris-lang/idris2/$(cat ./idris2-pack-db/idris2.json | jq -r .src.rev)#" \
+  "s#idris-lang/idris2/.*\";#idris-lang/idris2/$(cat ./idris2-pack-db/idris2.json | jq -r .src.rev)\";#" \
   ./flake.nix
 
 nix flake update idris2
