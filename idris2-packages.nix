@@ -3,19 +3,15 @@
   fetchgit,
   idris2Packages,
 }:
-let attrsToBuildIdris = packageName: attrs:
+let builtinPackages = [ "base" "contrib" "linear" "network" "papers" "prelude" "test" ];
+  attrsToBuildIdris = packageName: attrs:
   idris2Packages.buildIdris {
     inherit (attrs) ipkgName;
     src = fetchgit (attrs.src // {deepClone = true;});
-    idrisLibraries = [];
+    idrisLibraries = map (depName: packages.${depName}) (lib.subtractLists builtinPackages attrs.ipkgJson.depends);
   };
 
-  pack-db-json = builtins.fromJSON (builtins.readFile ./idris2-pack-db/pack-db-resolved.json);
-  packages = lib.mapAttrs attrsToBuildIdris pack-db-json;
+  idris2Json = builtins.fromJSON (builtins.readFile ./idris2-pack-db/idris2.json);
+  packDbJson = builtins.fromJSON (builtins.readFile ./idris2-pack-db/pack-db-resolved.json);
+  packages = lib.mapAttrs attrsToBuildIdris packDbJson;
 in packages
-
-# fetchgit {
-#   url = "https://github.com/mattpolzin/idris-indexed";
-#   rev = "d3fe9a1d1aac2e269667e9d2bb44eac8bee6a013";
-#   hash = "sha256-A9p5rjjy7+8jdExd4PgxJDYWdQrYbqpqI1XuB0SI/Sk=";
-# }
