@@ -43,21 +43,21 @@
         ]
       },
       "locked": {
-        "lastModified": 1724668209,
-        "narHash": "sha256-2DZNozNUd+Iv3aWjvi4dgay9iWOtT+0KMU55gqPyuIY=",
+        "lastModified": 1725199044,
+        "narHash": "sha256-iiNvbLIfOnMYy9FnCb5t4D1fl0nSoH7hCJVrxXteZrU=",
         "owner": "idris-lang",
         "repo": "idris2",
-        "rev": "c5f31c9d20c50196d0a5edf13f5e1344bf38c226",
+        "rev": "5459e1726582c7326c3846bd98dfaeb9ac25cdfc",
         "type": "github"
       },
       "original": {
         "owner": "idris-lang",
         "repo": "idris2",
-        "rev": "c5f31c9d20c50196d0a5edf13f5e1344bf38c226",
+        "rev": "5459e1726582c7326c3846bd98dfaeb9ac25cdfc",
         "type": "github"
       }
     },
-    "idris2-pack-db": {
+    "idris2PackDbSrc": {
       "flake": false,
       "locked": {
         "lastModified": 1725227742,
@@ -92,7 +92,7 @@
     "root": {
       "inputs": {
         "idris2": "idris2",
-        "idris2-pack-db": "idris2-pack-db",
+        "idris2PackDbSrc": "idris2PackDbSrc",
         "nixpkgs": "nixpkgs"
       }
     },

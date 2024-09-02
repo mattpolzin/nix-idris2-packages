@@ -1,21 +1,22 @@
+let flakeLock = builtins.fromJSON (builtins.readFile ../flake.lock);
+  packDbRev = flakeLock.nodes.idris2PackDbSrc.locked.rev;
+  packDbHash = flakeLock.nodes.idris2PackDbSrc.locked.narHash;
+in
 {
   fetchFromGitHub,
   stdenvNoCC,
   yq,
+  idris2PackDbSrc ? fetchFromGitHub {
+    owner = "stefan-hoeck";
+    repo = "idris2-pack-db";
+    rev = packDbRev;
+    hash = packDbHash;
+  },
 }:
 stdenvNoCC.mkDerivation {
   name = "idris2-pack-db";
 
-  src = fetchFromGitHub {
-    owner = "stefan-hoeck";
-    repo = "idris2-pack-db";
-    rev = "98fd629a28d720cdada61b4e4baac37f9207843c";
-    hash = "sha256-dBX+mP0cZyCOQj0CylnBuwSnBbUGhUTM9ZJv63yyLe8=";
-
-    sparseCheckout = [
-      "collections"
-    ];
-  };
+  src = idris2PackDbSrc;
 
   nativeBuildInputs = [
     yq

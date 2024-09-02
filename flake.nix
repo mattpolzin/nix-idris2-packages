@@ -1,12 +1,12 @@
 {
   inputs = {
     nixpkgs.url = "github:/nixos/nixpkgs/nixpkgs-unstable";
-    idris2-pack-db = {
+    idris2PackDbSrc = {
       url = "github:/stefan-hoeck/idris2-pack-db";
       flake = false;
     };
     idris2 = {
-      url = "github:/idris-lang/idris2/c5f31c9d20c50196d0a5edf13f5e1344bf38c226";
+      url = "github:/idris-lang/idris2/5459e1726582c7326c3846bd98dfaeb9ac25cdfc";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -15,7 +15,7 @@
     {
       self,
       nixpkgs,
-      idris2-pack-db,
+      idris2PackDbSrc,
       idris2,
     }:
     let

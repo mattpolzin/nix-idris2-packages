@@ -11,36 +11,14 @@
   buildIdrisOverride ? null,
 }:
 let
-  builtinPackages = [
-    "base"
-    "contrib"
-    "linear"
-    "network"
-    "papers"
-    "prelude"
-    "test"
-  ];
+  idris2Default = import ./idris2.nix { inherit system lib fetchgit; };
 
-  idris2Json = lib.importJSON ./idris2-pack-db/idris2.json;
-  idris2Src = fetchgit idris2Json.src;
-
-  idris2Pkg = import idris2Src;
-  idris2 = if idris2Override == null then idris2Pkg.default else idris2Override;
+  idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
   buildIdris =
-    if buildIdrisOverride == null then idris2Pkg.buildIdris.${system} else buildIdrisOverride;
+    if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
+  idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
 
-  idris2Api =
-    (buildIdris {
-      inherit (idris2) src version;
-      ipkgName = "idris2api";
-      idrisLibraries = [ ];
-      preBuild = ''
-        export IDRIS2_PREFIX=$out/lib
-        make src/IdrisPaths.idr
-      '';
-      meta.packName = "idris2";
-    }).library
-      { };
+  inherit (idris2Default) builtinPackages;
 
   brokenPackages = lib.importJSON ./idris2-pack-db/broken.json;
   isBroken = (
