@@ -39,7 +39,7 @@ let
     execOrLib (buildIdris {
       inherit (attrs) ipkgName;
       version = attrs.ipkgJson.version or "unversioned";
-      src = fetchgit attrs.src;
+      src = fetchgit (attrs.src // { fetchSubmodules = false; });
       idrisLibraries = map (depName: packages.${depName}) (
         lib.subtractLists builtinPackages attrs.ipkgJson.depends
       );
