@@ -1,4 +1,6 @@
 {
-  nixpkgs ? import <nixpkgs> {}
+  pkgs ? import <nixpkgs> {},
+  idris2 ? null,
+  buildIdris ? null,
 }:
-nixpkgs.callPackage ./idris2-packages.nix { }
+pkgs.callPackage ./idris2-packages.nix { idris2Override = idris2; buildIdrisOverride = buildIdris; }

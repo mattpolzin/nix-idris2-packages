@@ -2,6 +2,8 @@
   lib,
   fetchgit,
   system ? builtins.currentSystem or "unknown-system",
+  idris2Override ? null,
+  buildIdrisOverride ? null,
 }:
 let
   builtinPackages = [ "base" "contrib" "linear" "network" "papers" "prelude" "test" ];
@@ -10,8 +12,8 @@ let
   idris2Src = fetchgit idris2Json.src;
 
   idris2Pkg = import idris2Src;
-  idris2 = idris2Pkg.default;
-  buildIdris = idris2Pkg.buildIdris.${system};
+  idris2 = if idris2Override == null then idris2Pkg.default else idris2Override;
+  buildIdris = if buildIdrisOverride == null then idris2Pkg.buildIdris.${system} else buildIdrisOverride;
 
   attrsToBuildIdris = packageName: attrs:
   buildIdris {
