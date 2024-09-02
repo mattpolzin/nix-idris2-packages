@@ -15,6 +15,7 @@
     {
       nixpkgs,
       idris2,
+      ...
     }:
     let
       inherit (nixpkgs) lib;
@@ -29,6 +30,6 @@
       );
     in
     {
-      packages = lib.mapAttrs (n: attrs: attrs.packages) ps;
+      packages = lib.mapAttrs (n: attrs: (attrs.packages // { inherit (attrs) idris2 idris2Lsp; })) ps;
     };
 }

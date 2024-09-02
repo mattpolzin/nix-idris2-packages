@@ -58,4 +58,5 @@ let
 in
 {
   inherit idris2 buildIdris packages;
+  idris2Lsp = packages.idris2-lsp;
 }
