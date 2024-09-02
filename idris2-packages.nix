@@ -21,12 +21,13 @@ let
   buildIdris = if buildIdrisOverride == null then idris2Pkg.buildIdris.${system} else buildIdrisOverride;
 
   attrsToBuildIdris = packageName: attrs:
-  buildIdris {
+  let execOrLib = (p: if attrs.ipkgJson ? "executable" then p.executable else p.library {});
+  in execOrLib (buildIdris {
     inherit (attrs) ipkgName;
     version = attrs.ipkgJson.version or "unversioned";
     src = fetchgit attrs.src;
     idrisLibraries = map (depName: packages.${depName}) (lib.subtractLists builtinPackages attrs.ipkgJson.depends);
-  };
+  });
 
   packDbJson = builtins.fromJSON (builtins.readFile ./idris2-pack-db/pack-db-resolved.json);
   packages = lib.mapAttrs attrsToBuildIdris packDbJson;
