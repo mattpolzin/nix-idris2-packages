@@ -17,4 +17,5 @@
 , "c-ffi"
 , "tyttp"
 , "web-server-racket"
+, "spidr"
 ]
