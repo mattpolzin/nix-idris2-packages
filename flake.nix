@@ -13,9 +13,7 @@
 
   outputs =
     {
-      self,
       nixpkgs,
-      idris2PackDbSrc,
       idris2,
     }:
     let

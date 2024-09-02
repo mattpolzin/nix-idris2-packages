@@ -1,5 +1,5 @@
 {
-  pkgs ? import <nixpkgs> { },
+  pkgs ? import ./nixpkgs.nix,
 }:
 let
   idris2Packages = pkgs.callPackage ./. { };

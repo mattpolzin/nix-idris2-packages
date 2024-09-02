@@ -4,7 +4,7 @@
 # determining that all the packages you are going to need to build will support
 # the Idris2 version you are using.
 {
-  pkgs ? import <nixpkgs> { },
+  pkgs ? import ./nixpkgs.nix,
   idris2Override ? null,
   buildIdrisOverride ? null,
 }:
