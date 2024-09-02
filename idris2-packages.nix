@@ -1,3 +1,8 @@
+# NOTE: Call this with idris2 and/or buildIdris overrides if you want to build
+# packages using a different version of Idris2 than the most recent Pack
+# package-set specifies. This can be useful but you are on your own in
+# determining that all the packages you are going to need to build will support
+# the Idris2 version you are using.
 {
   lib,
   fetchgit,
@@ -18,6 +23,7 @@ let
   attrsToBuildIdris = packageName: attrs:
   buildIdris {
     inherit (attrs) ipkgName;
+    version = attrs.ipkgJson.version or "unversioned";
     src = fetchgit attrs.src;
     idrisLibraries = map (depName: packages.${depName}) (lib.subtractLists builtinPackages attrs.ipkgJson.depends);
   };
