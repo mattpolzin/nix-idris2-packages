@@ -21,7 +21,7 @@ function prefetch(url, commit) {
 // Idris2, not a list of packages
 if (obj.version) {
   const {hash, path} = prefetch(obj.url, obj.commit)
-  const out = { name: "idris2", src: { url: obj.url, rev: obj.commit, hash } }
+  const out = { name: "idris2", version: obj.version, src: { url: obj.url, rev: obj.commit, hash } }
   console.error(`resolved hash of idris2 (src: ${path})`)
   console.log(JSON.stringify(out))
   exit(0)
