@@ -11,7 +11,7 @@
   buildIdrisOverride ? null,
 }:
 let
-  idris2Default = import ./idris2.nix { inherit system lib fetchgit; };
+  idris2Default = import ./idris2.nix { inherit system; };
 
   idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
   buildIdris =

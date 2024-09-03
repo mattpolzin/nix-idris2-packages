@@ -8,18 +8,23 @@ let
     "prelude"
     "test"
   ];
+
+  flakeLock = builtins.fromJSON (builtins.readFile ./flake.lock);
+  rev = flakeLock.nodes.idris2.locked.rev;
+  hash = flakeLock.nodes.idris2.locked.narHash;
+  owner = flakeLock.nodes.idris2.locked.owner;
+  repo = flakeLock.nodes.idris2.locked.repo;
+
+  idris2 = import (builtins.fetchTarball {
+    url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+    sha256 = hash;
+  });
 in
 {
   system,
-  lib,
-  fetchgit,
 }:
-let
-  idris2Json = lib.importJSON ./idris2-pack-db/idris2.json;
-  idris2Src = fetchgit idris2Json.src;
-  idris2Pkg = import idris2Src;
-in {
-  idris2 = idris2Pkg.default; 
-  buildIdris = idris2Pkg.buildIdris.${system};
+{
+  idris2 = idris2.packages.${system}.idris2; 
+  buildIdris = idris2.buildIdris.${system};
   inherit builtinPackages;
 }

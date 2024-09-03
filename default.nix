@@ -5,7 +5,8 @@
 # the Idris2 version you are using.
 {
   pkgs ? import ./nixpkgs.nix,
+  system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
   buildIdrisOverride ? null,
 }:
-pkgs.callPackage ./idris2-packages.nix { inherit idris2Override buildIdrisOverride; }
+pkgs.callPackage ./idris2-packages.nix { inherit system idris2Override buildIdrisOverride; }
