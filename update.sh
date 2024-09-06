@@ -1,7 +1,7 @@
 #! /usr/bin/env nix-shell
 #! nix-shell -i bash -p nodejs nix-prefetch-git gnused
 
-set -euo pipefail
+set -euxo pipefail
 
 nix flake update nixpkgs
 nix flake update idris2PackDbSrc
@@ -19,5 +19,6 @@ sed -i'' \
 
 nix flake update idris2
 
-cat $pack_db_location/share/packages.json \
-  | node ./idris2-pack-db/update-hashes.js > ./idris2-pack-db/pack-db-resolved.json
+export alias idris2="$(nix build .#idris2 --print-out-paths)/bin/idris2"
+
+cat $pack_db_location/share/packages.json | node ./idris2-pack-db/update-hashes.js > ./idris2-pack-db/pack-db-resolved.json
