@@ -3,7 +3,8 @@
 
 set -euo pipefail
 
-nix flake update nixpkgs idris2PackDbSrc
+nix flake update nixpkgs
+nix flake update idris2PackDbSrc
 
 pack_db_location=$(nix-build --expr 'with import <nixpkgs> {}; callPackage ./idris2-pack-db {}')
 
