@@ -1,5 +1,5 @@
 
-name: Nix
+name: Nix Build And Cache
 
 on:
   push:
@@ -10,7 +10,32 @@ on:
     - cron: '0 1 * * *'
 
 jobs:
+  update-package-set:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Nix
+        uses: cachix/install-nix-action@v24
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Checkout
+        uses: actions/checkout@v3
+      - uses: cachix/cachix-action@v14
+        with:
+          name: gh-nix-idris2-packages
+          # If you chose API tokens for write access OR if you have a private cache
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - name: Update Package Set
+        run: ./update.sh
+      - name: Commit
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git commit -am 'CI: update package set'
+          git push
+
   nix-build-x86_64-linux:
+    needs: update-package-set
     runs-on: ubuntu-latest
 
     steps:
@@ -29,6 +54,7 @@ jobs:
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
 
   nix-build-x86_64-darwin:
+    needs: update-package-set
     runs-on: macos-13
 
     steps:
@@ -47,6 +73,7 @@ jobs:
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
 
   nix-build-aarch64-darwin:
+    needs: update-package-set
     runs-on: macos-14
 
     steps:
