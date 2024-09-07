@@ -24,7 +24,7 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: cachix/cachix-action@v14
         with:
           name: gh-nix-idris2-packages
@@ -32,6 +32,14 @@ jobs:
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
       - name: Update Package Set
         run: ./update.sh
+      - name: Cache Updates
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            flake.lock
+            idris2-pack-db/idris2.json
+            idris2-pack-db/pack-db-resolved.json
+          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
       - name: Commit
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -52,12 +60,20 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: cachix/cachix-action@v14
         with:
           name: gh-nix-idris2-packages
           # If you chose API tokens for write access OR if you have a private cache
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - name: Restore Cache 
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            flake.lock
+            idris2-pack-db/idris2.json
+            idris2-pack-db/pack-db-resolved.json
+          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
       - name: Build
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
 
@@ -72,12 +88,20 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: cachix/cachix-action@v14
         with:
           name: gh-nix-idris2-packages
           # If you chose API tokens for write access OR if you have a private cache
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - name: Restore Cache 
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            flake.lock
+            idris2-pack-db/idris2.json
+            idris2-pack-db/pack-db-resolved.json
+          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
       - name: Build
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
 
@@ -92,11 +116,19 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: cachix/cachix-action@v14
         with:
           name: gh-nix-idris2-packages
           # If you chose API tokens for write access OR if you have a private cache
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - name: Restore Cache 
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            flake.lock
+            idris2-pack-db/idris2.json
+            idris2-pack-db/pack-db-resolved.json
+          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
       - name: Build
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
