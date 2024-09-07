@@ -31,7 +31,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git commit -am 'CI: update package set'
+          git commit -am 'CI: update package set' || echo 'No changes to commit'
           git push
 
   nix-build-x86_64-linux:
