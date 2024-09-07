@@ -11,6 +11,8 @@ on:
 
 jobs:
   update-package-set:
+    if: github.event_name == 'schedule'
+
     runs-on: ubuntu-latest
 
     permissions:
@@ -41,6 +43,7 @@ jobs:
 
   nix-build-x86_64-linux:
     needs: update-package-set
+    if: always()
     runs-on: ubuntu-latest
 
     steps:
@@ -60,6 +63,7 @@ jobs:
 
   nix-build-x86_64-darwin:
     needs: update-package-set
+    if: always()
     runs-on: macos-13
 
     steps:
@@ -79,6 +83,7 @@ jobs:
 
   nix-build-aarch64-darwin:
     needs: update-package-set
+    if: always()
     runs-on: macos-14
 
     steps:
