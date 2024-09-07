@@ -4,9 +4,14 @@
 # will be merged with the default attribute set and passed to `buildIdris`.
 # That means any attribute `buildIdris` explicitly supports can be specified
 # here in addition to any attributes supported by `mkDerivation`.
-{ stdenv }:
+{ stdenv, ncurses }:
 {
   base64 = {
     meta.broken = stdenv.isAarch64 || stdenv.isAarch32;
+  };
+  ncurses-idris = {
+    buildInputs = [
+      ncurses.dev
+    ];
   };
 }

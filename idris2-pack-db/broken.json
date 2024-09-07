@@ -3,7 +3,6 @@
 , "crypt"
 , "distribution"
 , "linux"
-, "ncurses-idris"
 , "rtlsdr"
 , "pg-idris"
 , "sqlite3-rio"
