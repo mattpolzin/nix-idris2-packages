@@ -3,7 +3,9 @@
 # package-set specifies. This can be useful but you are on your own in
 # determining that all the packages you are going to need to build will support
 # the Idris2 version you are using.
-{
+let brokenPackages = import ./idris2-pack-db/broken-packages.nix;
+    packDb = import ./idris2-pack-db/pack-db.nix;
+in {
   lib,
   fetchgit,
   callPackage,
@@ -23,7 +25,6 @@ let
 
   inherit (idris2Default) builtinPackages;
 
-  brokenPackages = lib.importJSON ./idris2-pack-db/broken.json;
   isBroken = (
     packageName:
     let
@@ -56,9 +57,8 @@ let
     in
     execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 
-  packDbJson = lib.importJSON ./idris2-pack-db/pack-db-resolved.json;
   packages =
-    (lib.mapAttrs attrsToBuildIdris packDbJson)
+    (lib.mapAttrs attrsToBuildIdris packDb)
     //
     # The idris2-api package is named 'idris2':
     {
