@@ -8,5 +8,6 @@
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
   buildIdrisOverride ? null,
+  idris2SupportOverride ? null,
 }:
-pkgs.callPackage ./idris2-packages.nix { inherit system idris2Override buildIdrisOverride; }
+pkgs.callPackage ./idris2-packages.nix { inherit system idris2Override buildIdrisOverride idris2SupportOverride; }

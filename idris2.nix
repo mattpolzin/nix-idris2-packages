@@ -24,6 +24,7 @@ in
   system,
 }:
 {
+  support = idris2.packages.${system}.support;
   idris2 = idris2.packages.${system}.idris2; 
   buildIdris = idris2.buildIdris.${system};
   inherit builtinPackages;

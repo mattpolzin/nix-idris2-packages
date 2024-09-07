@@ -10,11 +10,13 @@
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
   buildIdrisOverride ? null,
+  idris2SupportOverride ? null,
 }:
 let
   idris2Default = import ./idris2.nix { inherit system; };
 
   idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
+  idris2Support = if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
   buildIdris =
     if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
   idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
@@ -31,7 +33,10 @@ let
     in builtins.elem packageName brokenPackages || depsBroken
   );
 
-  overrides = callPackage ./idris2-pack-db/overrides.nix {};
+  overrides = callPackage ./idris2-pack-db/overrides.nix {
+    inherit idris2 idris2Support;
+    idris2Packages = packages;
+  };
 
   attrsToBuildIdris =
     packageName: attrs:
