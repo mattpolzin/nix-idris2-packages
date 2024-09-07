@@ -6,6 +6,7 @@
 {
   lib,
   fetchgit,
+  callPackage,
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
   buildIdrisOverride ? null,
@@ -25,27 +26,30 @@ let
     packageName:
     let
       depsBroken = lib.lists.any (
-        p: builtins.elem p.meta.packName brokenPackages
+        p: (p.meta.broken or false) || builtins.elem p.meta.packName brokenPackages
       ) packages.${packageName}.propagatedIdrisLibraries;
-    in
-    builtins.elem packageName brokenPackages || depsBroken
+    in builtins.elem packageName brokenPackages || depsBroken
   );
+
+  overrides = callPackage ./idris2-pack-db/overrides.nix {};
 
   attrsToBuildIdris =
     packageName: attrs:
     let
       execOrLib = (p: if attrs.ipkgJson ? "executable" then p.executable else p.library { });
+      idrisPackageAttrs = {
+        inherit (attrs) ipkgName;
+        version = attrs.ipkgJson.version or "unversioned";
+        src = fetchgit (attrs.src // { fetchSubmodules = false; });
+        idrisLibraries = map (depName: packages.${depName}) (
+          lib.subtractLists builtinPackages attrs.ipkgJson.depends
+        );
+        meta.packName = attrs.packName;
+        meta.broken = isBroken packageName;
+      };
+      override = overrides.${packageName} or {};
     in
-    execOrLib (buildIdris {
-      inherit (attrs) ipkgName;
-      version = attrs.ipkgJson.version or "unversioned";
-      src = fetchgit (attrs.src // { fetchSubmodules = false; });
-      idrisLibraries = map (depName: packages.${depName}) (
-        lib.subtractLists builtinPackages attrs.ipkgJson.depends
-      );
-      meta.packName = attrs.packName;
-      meta.broken = isBroken packageName;
-    });
+    execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 
   packDbJson = lib.importJSON ./idris2-pack-db/pack-db-resolved.json;
   packages =
