@@ -1,6 +1,4 @@
-[ "uv"
-, "uv-data"
-, "distribution"
+[ "distribution"
 , "linux"
 , "rtlsdr"
 , "pg-idris"

@@ -14,6 +14,7 @@
   idris2Support,
   makeWrapper,
   libxcrypt,
+  libuv,
   ncurses,
 }:
 {
@@ -63,6 +64,18 @@
   ncurses-idris = {
     buildInputs = [
       ncurses.dev
+    ];
+  };
+
+  uv = {
+    buildInputs = [
+      libuv.dev
+    ];
+  };
+
+  uv-data = {
+    buildInputs = [
+      libuv.dev
     ];
   };
 }
