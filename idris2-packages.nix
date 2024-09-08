@@ -32,14 +32,14 @@ let
     let
       depsBroken = lib.lists.any (
         p: (p.meta.broken or false) || builtins.elem p.meta.packName brokenPackages
-      ) packages.${packageName}.propagatedIdrisLibraries;
+      ) idris2Packages.${packageName}.propagatedIdrisLibraries;
     in
     builtins.elem packageName brokenPackages || depsBroken
   );
 
   overrides = callPackage ./idris2-pack-db/overrides.nix {
     inherit idris2 idris2Support;
-    idris2Packages = packages;
+    idris2Packages = idris2Packages;
   };
 
   attrsToBuildIdris =
@@ -50,7 +50,7 @@ let
         inherit (attrs) ipkgName;
         version = attrs.ipkgJson.version or "unversioned";
         src = fetchgit (attrs.src // { fetchSubmodules = false; });
-        idrisLibraries = map (depName: packages.${depName}) (
+        idrisLibraries = map (depName: idris2Packages.${depName}) (
           lib.subtractLists builtinPackages attrs.ipkgJson.depends
         );
         meta.packName = attrs.packName;
@@ -60,7 +60,7 @@ let
     in
     execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 
-  packages =
+  idris2Packages =
     (lib.mapAttrs attrsToBuildIdris packDb)
     //
     # The idris2-api package is named 'idris2':
@@ -69,6 +69,6 @@ let
     };
 in
 {
-  inherit idris2 buildIdris packages;
-  idris2Lsp = packages.idris2-lsp;
+  inherit idris2 buildIdris idris2Packages;
+  idris2Lsp = idris2Packages.idris2-lsp;
 }

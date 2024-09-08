@@ -32,7 +32,8 @@
       );
     in
     {
-      packages = lib.mapAttrs (n: attrs: (attrs.packages // { inherit (attrs) idris2 idris2Lsp; })) ps;
+      packages = lib.mapAttrs (n: attrs: (attrs.idris2Packages // { inherit (attrs) idris2 idris2Lsp; })) ps;
+      idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) ps;
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
     };
 }

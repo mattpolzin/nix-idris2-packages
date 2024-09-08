@@ -3,8 +3,8 @@
 }:
 let
   supportedPlatform = attrs: !(attrs.meta ? "platforms") || builtins.elem pkgs.stdenv.hostPlatform.config attrs.meta.platforms;
-  idris2Packages = pkgs.callPackage ./. { };
-  packages = pkgs.lib.filterAttrs (n: attrs: !attrs.meta.broken && supportedPlatform attrs) idris2Packages.packages;
+  packageset = pkgs.callPackage ./. { };
+  packages = pkgs.lib.filterAttrs (n: attrs: !attrs.meta.broken && supportedPlatform attrs) packageset.idris2Packages;
 in
 pkgs.runCommand "all-packages"
   {

@@ -24,7 +24,7 @@ A non-flake project can import the Idris2 package set pinned at a particular
 revision as in the following snippet.
 ```nix
 let
-  idris2Packages = import (pkgs.fetchgit {
+  packageset = import (pkgs.fetchgit {
     url = "https://github.com/mattpolzin/nix-idris2-packages";
     rev = "245a47d5f86aa74c4aa423dc448488e26507e114";
     hash = "sha256-QAtztZ30wxrx8XAFO5UbxpLr+hyLD+UwdQn9+AKitKY=";
@@ -41,7 +41,7 @@ can choose to include the source code or not (including the source code is
 helpful for editor integrations when developing against the library). Here's a
 snippet illustrating building a library with source code included:
 ```nix
-let myPkg = idris2Packages.buildIdris {
+let myPkg = packageset.buildIdris {
   ipkgName = "my-pkg";
   src = ./.;
   idrisLibraries = [];
@@ -63,7 +63,7 @@ If your package depends on other Idris2 packages, build them with `buildIdris`
 and pass them in the `idrisLibraries` list. If you need to use other packages
 that are already a part of the package set, you can include them even more
 readily; for example, including the `ncurses-idris` library looks like:
-`idrisLibraries = [ idris2Packages.packages.ncurses-idris ]`.
+`idrisLibraries = [ packageset.idris2Packages.ncurses-idris ]`.
 
 ### Using a developer Shell
 You can easily set a dev shell up with the Nixpkgs `mkShell` function. Pass it
@@ -72,7 +72,7 @@ and pass it your project's `library {}` or `executable` under the `inputsFrom`
 argument.
 ```nix
 let
-  inherit (idris2Packages) idris2 idris2Lsp;
+  inherit (packageset) idris2 idris2Lsp;
   myPkg = import ./my-pkg.nix;
 in
 pkgs.mkShell {
@@ -87,7 +87,7 @@ pkgs.mkShell {
 }
 ```
 
-## Updating this packgeset
+## Updating this packageset
 To update to the package set & package versions to the latest Pack has to offer,
 run the `update.sh` script from the root of the repository. You must run this
 with a version of Idris2 in your `PATH` that supports the `--dump-ipkg-json`
