@@ -31,5 +31,7 @@ stdenvNoCC.mkDerivation {
       | tomlq .db > $out/share/packages.json
     cat ./collections/$file \
       | tomlq .idris2 > $out/share/idris2.json
+    cat ./collections/$file \
+      | tomlq '.db["idris2-lsp"]' > $out/share/idris2-lsp.json
   '';
 }

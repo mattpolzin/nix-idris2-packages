@@ -9,6 +9,11 @@
       url = "github:/idris-lang/idris2/5459e1726582c7326c3846bd98dfaeb9ac25cdfc";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    idris2Lsp = {
+      url = "github:/idris-community/idris2-lsp/377967035270c35a92bed3f19f7d042441111312";
+      inputs.idris.follows = "idris2";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

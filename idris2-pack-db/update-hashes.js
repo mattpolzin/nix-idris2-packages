@@ -17,8 +17,16 @@ function prefetch(url, commit) {
   return {hash, path}
 }
 
-// short circuit if just dealing with 1 entry with a version as we know it's
-// Idris2, not a list of packages
+// short circuit if just dealing with Idris2-LSP, not a list of packages
+if (obj.ipkg && obj.ipkg.includes('idris2-lsp')) {
+  const {hash, path} = prefetch(obj.url, obj.commit)
+  const out = { name: "idris2", version: obj.version, src: { url: obj.url, rev: obj.commit, hash } }
+  console.error(`resolved hash of idris2-lsp (src: ${path})`)
+  console.log(JSON.stringify(out))
+  exit(0)
+}
+
+// short circuit if just dealing with Idris2, not a list of packages
 if (obj.version) {
   const {hash, path} = prefetch(obj.url, obj.commit)
   const out = { name: "idris2", version: obj.version, src: { url: obj.url, rev: obj.commit, hash } }
