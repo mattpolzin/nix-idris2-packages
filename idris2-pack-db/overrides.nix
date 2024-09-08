@@ -83,6 +83,12 @@
   };
 
   uv-data = {
+
+    preBuild = ''
+      patchShebangs --build data/gencode.sh
+      patchShebangs --build data/cleanup.sh
+    '';
+
     buildInputs = [
       libuv.dev
     ];
