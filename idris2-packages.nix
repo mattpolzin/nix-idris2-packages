@@ -3,9 +3,11 @@
 # package-set specifies. This can be useful but you are on your own in
 # determining that all the packages you are going to need to build will support
 # the Idris2 version you are using.
-let brokenPackages = import ./idris2-pack-db/broken-packages.nix;
-    packDb = import ./idris2-pack-db/pack-db.nix;
-in {
+let
+  brokenPackages = import ./idris2-pack-db/broken-packages.nix;
+  packDb = import ./idris2-pack-db/pack-db.nix;
+in
+{
   lib,
   fetchgit,
   callPackage,
@@ -18,9 +20,9 @@ let
   idris2Default = import ./idris2.nix { inherit system; };
 
   idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
-  idris2Support = if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
-  buildIdris =
-    if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
+  idris2Support =
+    if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
+  buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
   idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
 
   inherit (idris2Default) builtinPackages;
@@ -31,7 +33,8 @@ let
       depsBroken = lib.lists.any (
         p: (p.meta.broken or false) || builtins.elem p.meta.packName brokenPackages
       ) packages.${packageName}.propagatedIdrisLibraries;
-    in builtins.elem packageName brokenPackages || depsBroken
+    in
+    builtins.elem packageName brokenPackages || depsBroken
   );
 
   overrides = callPackage ./idris2-pack-db/overrides.nix {
@@ -53,7 +56,7 @@ let
         meta.packName = attrs.packName;
         meta.broken = isBroken packageName;
       };
-      override = overrides.${packageName} or {};
+      override = overrides.${packageName} or { };
     in
     execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 

@@ -1,4 +1,5 @@
-let flakeLock = builtins.fromJSON (builtins.readFile ../flake.lock);
+let
+  flakeLock = builtins.fromJSON (builtins.readFile ../flake.lock);
   packDbRev = flakeLock.nodes.idris2PackDbSrc.locked.rev;
   packDbHash = flakeLock.nodes.idris2PackDbSrc.locked.narHash;
 in

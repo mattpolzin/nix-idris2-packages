@@ -33,5 +33,6 @@
     in
     {
       packages = lib.mapAttrs (n: attrs: (attrs.packages // { inherit (attrs) idris2 idris2Lsp; })) ps;
+      formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
     };
 }

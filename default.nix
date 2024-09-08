@@ -10,4 +10,11 @@
   buildIdrisOverride ? null,
   idris2SupportOverride ? null,
 }:
-pkgs.callPackage ./idris2-packages.nix { inherit system idris2Override buildIdrisOverride idris2SupportOverride; }
+pkgs.callPackage ./idris2-packages.nix {
+  inherit
+    system
+    idris2Override
+    buildIdrisOverride
+    idris2SupportOverride
+    ;
+}
