@@ -2,13 +2,20 @@
   pkgs ? import ./nixpkgs.nix,
 }:
 let
-  supportedPlatform = attrs: !(attrs.meta ? "platforms") || builtins.elem pkgs.stdenv.hostPlatform.config attrs.meta.platforms;
-  packageset = pkgs.callPackage ./. { };
-  packages = pkgs.lib.filterAttrs (n: attrs: !attrs.meta.broken && supportedPlatform attrs) packageset.idris2Packages;
+  inherit (pkgs) lib stdenv callPackage;
+  packageset = callPackage ./. { };
+
+  inherit (packageset) idris2Packages;
+
+  supportedPlatform = attrs: !(attrs.meta ? "platforms") || builtins.elem stdenv.hostPlatform.config attrs.meta.platforms;
+
+  depsBroken = p: lib.lists.any (p: (p.meta.broken or false) || depsBroken p) p.propagatedIdrisLibraries;
+
+  packages = lib.filterAttrs (n: p: !p.meta.broken && !(depsBroken p) && supportedPlatform p) idris2Packages;
 in
 pkgs.runCommand "all-packages"
   {
-    nativeBuildInputs = pkgs.lib.attrValues packages;
+    nativeBuildInputs = lib.attrValues packages;
   }
   ''
     echo ${toString (builtins.attrNames packages)} > $out

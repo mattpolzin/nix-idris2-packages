@@ -27,15 +27,7 @@ let
 
   inherit (idris2Default) builtinPackages;
 
-  isBroken = (
-    packageName:
-    let
-      depsBroken = lib.lists.any (
-        p: (p.meta.broken or false) || builtins.elem p.meta.packName brokenPackages
-      ) idris2Packages.${packageName}.propagatedIdrisLibraries;
-    in
-    builtins.elem packageName brokenPackages || depsBroken
-  );
+  isBroken = packageName: builtins.elem packageName brokenPackages;
 
   overrides = callPackage ./idris2-pack-db/overrides.nix {
     inherit idris2 idris2Support;
