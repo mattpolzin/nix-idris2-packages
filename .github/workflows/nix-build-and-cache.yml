@@ -79,6 +79,10 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
       - name: Build
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
+      - name: Ensure Flake idris2 & idris2LSP
+        run: |
+          nix build .#idris2
+          nix build .#idris2Lsp
 
   nix-build-x86_64-darwin:
     needs: update-package-set
@@ -107,6 +111,10 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
       - name: Build
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
+      - name: Ensure Flake idris2 & idris2LSP
+        run: |
+          nix build .#idris2
+          nix build .#idris2Lsp
 
   nix-build-aarch64-darwin:
     needs: update-package-set
@@ -135,3 +143,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
       - name: Build
         run: NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
+      - name: Ensure Flake idris2 & idris2LSP
+        run: |
+          nix build .#idris2
+          nix build .#idris2Lsp
