@@ -9,10 +9,6 @@
 {
   lib,
   stdenv,
-  idris2,
-  idris2Packages,
-  idris2Support,
-  makeWrapper,
   pkg-config,
   libxcrypt,
   libuv,
@@ -30,39 +26,6 @@
       libxcrypt
     ];
   };
-
-  idris2-lsp =
-    let
-      supportLibrariesPath = lib.makeLibraryPath [ idris2Support ];
-      supportSharePath = lib.makeSearchPath "share" [ idris2Support ];
-
-      globalLibraries =
-        let
-          idrName = "idris2-${idris2.version}";
-        in
-        [
-          "\\$HOME/.nix-profile/lib/${idrName}"
-          "/run/current-system/sw/lib/${idrName}"
-          "${idris2}/${idrName}"
-        ];
-      globalLibrariesPath = builtins.concatStringsSep ":" globalLibraries;
-
-    in
-    {
-      idrisLibraries = [
-        idris2Packages.idris2
-        idris2Packages.lsp-lib
-      ];
-
-      nativeBuildInputs = [ makeWrapper ];
-      postInstall = ''
-        wrapProgram $out/bin/idris2-lsp \
-          --run 'export IDRIS2_PREFIX=''${IDRIS2_PREFIX-"$HOME/.idris2"}' \
-          --suffix IDRIS2_LIBS ':' "${supportLibrariesPath}" \
-          --suffix IDRIS2_DATA ':' "${supportSharePath}" \
-          --suffix IDRIS2_PACKAGE_PATH ':' "${globalLibrariesPath}"
-      '';
-    };
 
   ncurses-idris = {
     buildInputs = [

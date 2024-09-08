@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     idris2Lsp = {
-      url = "github:/idris-community/idris2-lsp/377967035270c35a92bed3f19f7d042441111312";
+      url = "github:/idris-community/idris2-lsp/971937339fa1650339e14098f73a39052fb9d7f0";
       inputs.idris.follows = "idris2";
       inputs.nixpkgs.follows = "nixpkgs";
     };
@@ -20,6 +20,7 @@
     {
       nixpkgs,
       idris2,
+      idris2Lsp,
       ...
     }:
     let
@@ -30,8 +31,8 @@
         import ./. {
           pkgs = import nixpkgs { inherit system; };
           idris2Override = idris2.packages.${system}.idris2;
+          idris2LspOverride = idris2Lsp.packages.${system}.idris2Lsp;
           buildIdrisOverride = idris2.buildIdris.${system};
-          idris2SupportOverride = idris2.packages.${system}.support;
           inherit system;
         }
       );

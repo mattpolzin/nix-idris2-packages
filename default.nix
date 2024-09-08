@@ -7,14 +7,14 @@
   pkgs ? import ./nixpkgs.nix,
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
+  idris2LspOverride ? null,
   buildIdrisOverride ? null,
-  idris2SupportOverride ? null,
 }:
 pkgs.callPackage ./idris2-packages.nix {
   inherit
     system
     idris2Override
+    idris2LspOverride
     buildIdrisOverride
-    idris2SupportOverride
     ;
 }

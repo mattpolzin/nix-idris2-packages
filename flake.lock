@@ -294,17 +294,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1719605009,
-        "narHash": "sha256-IaS1PHflovJfg4HQuR/fj/dcshzz9mkoUdGiHBKxp+g=",
+        "lastModified": 1725822610,
+        "narHash": "sha256-Z/vya7jbtDYjfxw9mFH46gFbkpjdyEDfyeAlIujBvbc=",
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "377967035270c35a92bed3f19f7d042441111312",
+        "rev": "971937339fa1650339e14098f73a39052fb9d7f0",
         "type": "github"
       },
       "original": {
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "377967035270c35a92bed3f19f7d042441111312",
+        "rev": "971937339fa1650339e14098f73a39052fb9d7f0",
         "type": "github"
       }
     },

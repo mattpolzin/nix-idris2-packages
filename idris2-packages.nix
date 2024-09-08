@@ -13,15 +13,15 @@ in
   callPackage,
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
+  idris2LspOverride ? null,
   buildIdrisOverride ? null,
-  idris2SupportOverride ? null,
 }:
 let
   idris2Default = import ./idris2.nix { inherit system; };
+  idris2LspDefault = import ./idris2-lsp.nix { inherit system; };
 
   idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
-  idris2Support =
-    if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
+  idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
   buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
   idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
 
@@ -29,10 +29,7 @@ let
 
   isBroken = packageName: builtins.elem packageName brokenPackages;
 
-  overrides = callPackage ./idris2-pack-db/overrides.nix {
-    inherit idris2 idris2Support;
-    idris2Packages = idris2Packages;
-  };
+  overrides = callPackage ./idris2-pack-db/overrides.nix {};
 
   attrsToBuildIdris =
     packageName: attrs:
@@ -55,12 +52,13 @@ let
   idris2Packages =
     (lib.mapAttrs attrsToBuildIdris packDb)
     //
-    # The idris2-api package is named 'idris2':
     {
+      # The idris2-api package is named 'idris2':
       idris2 = idris2Api;
+      # We build the LSP from its own repo's derivation:
+      idris2-lsp = idris2Lsp;
     };
 in
 {
-  inherit idris2 buildIdris idris2Packages;
-  idris2Lsp = idris2Packages.idris2-lsp;
+  inherit idris2 idris2Lsp buildIdris idris2Packages;
 }
