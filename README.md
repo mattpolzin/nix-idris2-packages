@@ -1,6 +1,9 @@
 This is an experimental stab at populating Nix derivations for all the same
 packages as Pack currently offers.
 
+In addition to the brief instructions given below, you can find example
+projects that use this packageset in the `examples/` folder.
+
 ## Using in your project
 You can use this packageset in your Flake-based project, your non-Flake project,
 or a developer shell.
