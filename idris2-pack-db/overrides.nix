@@ -13,7 +13,6 @@
   idris2Packages,
   idris2Support,
   makeWrapper,
-  curl,
   libxcrypt,
   libuv,
   ncurses,
@@ -69,11 +68,12 @@
   };
 
   spidr = {
-    nativeBuildInputs = [
-      curl
-    ];
-
     meta.platforms = lib.platforms.linux;
+    # Spidr uses curl to download a library as part of installation.
+    # that's not allowed in a sandboxed build environment, so fixing this
+    # will mean patching the curl call out and taking care of it as a FOD
+    # I suppose.
+    meta.broken = true;
   };
 
   uv = {
