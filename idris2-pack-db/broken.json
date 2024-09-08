@@ -1,6 +1,5 @@
 [ "uv"
 , "uv-data"
-, "crypt"
 , "distribution"
 , "linux"
 , "rtlsdr"

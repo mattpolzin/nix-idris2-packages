@@ -6,10 +6,16 @@
 # here in addition to any attributes supported by `mkDerivation`.
 #
 # `idris2Packages` is a reference to the final packages of this package set.
-{ lib, stdenv, idris2, idris2Packages, idris2Support, makeWrapper, ncurses }:
+{ lib, stdenv, idris2, idris2Packages, idris2Support, makeWrapper, libxcrypt, ncurses }:
 {
   base64 = {
     meta.broken = stdenv.isAarch64 || stdenv.isAarch32;
+  };
+
+  crypt = {
+    buildInputs = [
+      libxcrypt
+    ];
   };
 
   idris2-lsp = 
