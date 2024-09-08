@@ -8,7 +8,6 @@
 , "cheerio"
 , "epoll"
 , "cptr"
-, "sqlite3"
 , "game-2048"
 , "c-ffi"
 , "tyttp"

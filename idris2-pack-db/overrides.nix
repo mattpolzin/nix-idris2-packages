@@ -16,6 +16,7 @@
   libxcrypt,
   libuv,
   ncurses,
+  sqlite,
 }:
 {
   base64 = {
@@ -74,6 +75,12 @@
     # will mean patching the curl call out and taking care of it as a FOD
     # I suppose.
     meta.broken = true;
+  };
+
+  sqlite3 = {
+    buildInputs = [
+      sqlite.dev
+    ];
   };
 
   uv = {
