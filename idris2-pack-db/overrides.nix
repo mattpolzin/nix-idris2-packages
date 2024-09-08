@@ -13,6 +13,7 @@
   idris2Packages,
   idris2Support,
   makeWrapper,
+  curl,
   libxcrypt,
   libuv,
   ncurses,
@@ -65,6 +66,14 @@
     buildInputs = [
       ncurses.dev
     ];
+  };
+
+  spidr = {
+    nativeBuildInputs = [
+      curl
+    ];
+
+    meta.platforms = lib.platforms.linux;
   };
 
   uv = {
