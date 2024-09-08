@@ -29,7 +29,7 @@ let
 
   isBroken = packageName: builtins.elem packageName brokenPackages;
 
-  overrides = callPackage ./idris2-pack-db/overrides.nix {};
+  overrides = callPackage ./idris2-pack-db/overrides.nix { };
 
   attrsToBuildIdris =
     packageName: attrs:
@@ -49,16 +49,18 @@ let
     in
     execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 
-  idris2Packages =
-    (lib.mapAttrs attrsToBuildIdris packDb)
-    //
-    {
-      # The idris2-api package is named 'idris2':
-      idris2 = idris2Api;
-      # We build the LSP from its own repo's derivation:
-      idris2-lsp = idris2Lsp;
-    };
+  idris2Packages = (lib.mapAttrs attrsToBuildIdris packDb) // {
+    # The idris2-api package is named 'idris2':
+    idris2 = idris2Api;
+    # We build the LSP from its own repo's derivation:
+    idris2-lsp = idris2Lsp;
+  };
 in
 {
-  inherit idris2 idris2Lsp buildIdris idris2Packages;
+  inherit
+    idris2
+    idris2Lsp
+    buildIdris
+    idris2Packages
+    ;
 }
