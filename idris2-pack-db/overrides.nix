@@ -16,7 +16,7 @@
   pkg-config,
   libxcrypt,
   libuv,
-  ncurses,
+  ncurses5,
   rtl-sdr-librtlsdr,
   sqlite,
 }:
@@ -66,7 +66,7 @@
 
   ncurses-idris = {
     buildInputs = [
-      ncurses.dev
+      ncurses5.dev
     ];
   };
 
