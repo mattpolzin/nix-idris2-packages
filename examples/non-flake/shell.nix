@@ -1,9 +1,17 @@
-{ pkgs ? import <nixpkgs> { overlays = []; config = {}; },
+{
+  pkgs ? import <nixpkgs> {
+    overlays = [ ];
+    config = { };
+  },
 }:
-let 
+let
   packageset = import ./packageset.nix { inherit pkgs; };
   myPkg = import ./. { inherit pkgs; };
-in pkgs.mkShell {
-  packages = [ packageset.idris2 packageset.idris2Lsp ];
+in
+pkgs.mkShell {
+  packages = [
+    packageset.idris2
+    packageset.idris2Lsp
+  ];
   inputsFrom = [ myPkg ];
 }

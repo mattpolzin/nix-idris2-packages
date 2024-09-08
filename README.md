@@ -20,7 +20,20 @@ You can use this package set as either a flake input or imported from a
 derivation.
 
 #### Flake project
-_Todo_
+A flake project can use the Idris2 package set as an input. If you want to
+benefit from the Cachix cash at all (currently only caches the compiler & LSP,
+but that's quite a bit of time saved), you'll need to avoid changes the
+`follows` for the package set.
+```nix
+inputs.packageset.url = "github:mattpolzin/nix-idris2-packages";
+
+outputs = { packageset, ...}:
+  let
+    inherit (packageset.packages.x86_64-linux) idris2 idris2Lsp buildIdris;
+    idris2Packages = packageset.idris2Packages.x86_64-linux;
+  in
+  {}
+```
 
 #### Non-Flake project
 A non-flake project can import the Idris2 package set pinned at a particular
@@ -32,6 +45,8 @@ let
     rev = "245a47d5f86aa74c4aa423dc448488e26507e114";
     hash = "sha256-QAtztZ30wxrx8XAFO5UbxpLr+hyLD+UwdQn9+AKitKY=";
   }) {};
+
+  inherit (packageset) idris2 idris2Lsp buildIdris idris2Packages;
 in
 {}
 ```
