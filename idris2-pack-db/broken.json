@@ -1,6 +1,5 @@
 [ "distribution"
 , "linux"
-, "rtlsdr"
 , "pg-idris"
 , "sqlite3-rio"
 , "idris2-go"

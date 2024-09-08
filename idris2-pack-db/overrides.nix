@@ -13,9 +13,11 @@
   idris2Packages,
   idris2Support,
   makeWrapper,
+  pkg-config,
   libxcrypt,
   libuv,
   ncurses,
+  rtl-sdr-librtlsdr,
   sqlite,
 }:
 {
@@ -65,6 +67,16 @@
   ncurses-idris = {
     buildInputs = [
       ncurses.dev
+    ];
+  };
+
+  rtlsdr = {
+    nativeBuildInputs = [
+      pkg-config
+    ];
+
+    buildInputs = [
+      rtl-sdr-librtlsdr
     ];
   };
 
