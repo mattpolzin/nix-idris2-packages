@@ -492,8 +492,8 @@
     "ipkgName": "cptr",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
-      "rev": "53f764584e31e47441a48995b32e62474ce63e7f",
-      "hash": "sha256-xnVhznq6VrBwGmITvf11lxBvOroS5PGfQW0QpAGjneI="
+      "rev": "1a3155d9f2f729db92be9dc5c5c161a9a9132a05",
+      "hash": "sha256-hIyi0J5p0aSgpHybGYc+Q0QKjWxIBbrqKmXZBFrR6bU="
     },
     "ipkgJson": {
       "name": "cptr",
@@ -1331,8 +1331,8 @@
     "ipkgName": "idris2-lsp",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "377967035270c35a92bed3f19f7d042441111312",
-      "hash": "sha256-IaS1PHflovJfg4HQuR/fj/dcshzz9mkoUdGiHBKxp+g="
+      "rev": "971937339fa1650339e14098f73a39052fb9d7f0",
+      "hash": "sha256-Z/vya7jbtDYjfxw9mFH46gFbkpjdyEDfyeAlIujBvbc="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
@@ -1603,8 +1603,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "31da9e26d3382763f59780dcdba7796f7706fa9a",
-      "hash": "sha256-fTe/ftUad5QM1OsHDJ9/G8sX8GoRD94yNJ9/obT+KFA="
+      "rev": "06b801ae91cb8222b55ce27e6e4f155b64546370",
+      "hash": "sha256-nUsXGIU/Ks0o482bwxrB8UXl7opRA/IFmsc90xfjXsQ="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2204,8 +2204,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "31da9e26d3382763f59780dcdba7796f7706fa9a",
-      "hash": "sha256-fTe/ftUad5QM1OsHDJ9/G8sX8GoRD94yNJ9/obT+KFA="
+      "rev": "06b801ae91cb8222b55ce27e6e4f155b64546370",
+      "hash": "sha256-nUsXGIU/Ks0o482bwxrB8UXl7opRA/IFmsc90xfjXsQ="
     },
     "ipkgJson": {
       "name": "posix",
@@ -2633,8 +2633,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "f5dab36bd676533b9e9929c5acb69b4b01cbdeb5",
-      "hash": "sha256-fSXGJ7mzI18TjlpNG9d3mn2i1UgZoB/FYkcw6n2m5l8="
+      "rev": "557601aff06ed785727ef5b52536ff32667be8a1",
+      "hash": "sha256-7j9W+bQU6SGnLomaVS7piscpkQ3SZLevx181aZHq1iQ="
     },
     "ipkgJson": {
       "name": "rtlsdr",
