@@ -25,6 +25,8 @@ let
   buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
   idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
 
+  buildIdris' = callPackage ./build-idris-prime.nix { inherit idris2 idris2Packages buildIdris; };
+
   inherit (idris2Default) builtinPackages;
 
   isBroken = packageName: builtins.elem packageName brokenPackages;
@@ -61,6 +63,7 @@ in
     idris2
     idris2Lsp
     buildIdris
+    buildIdris'
     idris2Packages
     ;
 }
