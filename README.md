@@ -4,6 +4,20 @@ packages as Pack currently offers.
 In addition to the brief instructions given below, you can find example
 projects that use this packageset in the `examples/` folder.
 
+## What is it?
+This is a Nix wrapper around the Idris2 Pack package database. What that means
+is that it makes it easy to use the package's found in that database within a
+Nix derivation that builds your own Idris2 package. This project doesn't
+facilitate using Pack itself, it provides packages wrapped in `buildIdris` Nix
+derivations that can be used in your own `buildIdris` call by passing them as
+the `idrisLibraries` argument.
+
+The `buildIdris` function offered by this package set is the same one you may be
+familiar with from the Nix tooling in the Idris2 compiler repo or the Nixpkgs
+`idris2Packages.buildIdris`. This project additionally offers a `buildIdris'`
+function that uses `ipkg` data to fill in additional information. See the
+section on `buildIdris'` below for details.
+
 ## Using in your project
 You can use this packageset in your Flake-based project, your non-Flake project,
 or a developer shell.
@@ -53,7 +67,8 @@ in
 
 ### Building a project
 Once you've got the package set, whether as a flake or not, you can use the
-`buildIdris` function. You get back a package set with options to build your
+`buildIdris` function (or see below for the even more convenient `buildIdris'`
+function). You get back a package set with options to build your
 package as either a library or an executable. If you are building a library, you
 can choose to include the source code or not (including the source code is
 helpful for editor integrations when developing against the library). Here's a
@@ -82,6 +97,25 @@ and pass them in the `idrisLibraries` list. If you need to use other packages
 that are already a part of the package set, you can include them even more
 readily; for example, including the `ncurses-idris` library looks like:
 `idrisLibraries = [ packageset.idris2Packages.ncurses-idris ]`.
+
+#### The buildIdris' function
+In addition to surfacing the `buildIdris` function, this project supports
+`buildIdris'`. The latter will attempt to do the following:
+  - Determine the package version from the `ipkg` file.
+  - Automatically add any dependencies that can be found in this package set to
+    the `idrisLibraries` of `buildIdris`.
+  - Determine if this package is an executable or library based on whether the
+    `ipkg` file has an `executable` property and call the appropriate
+    `.executable` or `.library {}` attributes of the `buildIdris` result.
+
+This means you probably don't want to set `idrisLibraries` yourself or you will
+overwrite the libraries `buildIdris'` finds in the package set, but if you need
+to add additional libraries (perhaps not all dependencies are found in the
+package set) you can still do that with the `extraIdrisLibaries` argument to
+`buildIdris'`.
+
+See `examples/non-flake-build-idris-prime/` for an example using this
+convenience function.
 
 ### Using a developer Shell
 You can easily set a dev shell up with the Nixpkgs `mkShell` function. Pass it

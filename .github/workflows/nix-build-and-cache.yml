@@ -84,7 +84,12 @@ jobs:
           nix build .#idris2
           nix build .#idris2Lsp
       - name: Build Examples
-        run: cd examples/non-flake && nix-build
+        run: |
+          cd examples/non-flake
+          nix-build
+
+          cd examples/non-flake-build-idris-prime
+          nix-build
 
   nix-build-x86_64-darwin:
     needs: update-package-set
