@@ -42,7 +42,7 @@ jobs:
             flake.lock
             idris2-pack-db/idris2.json
             idris2-pack-db/pack-db-resolved.json
-          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: Commit
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -76,7 +76,7 @@ jobs:
             flake.lock
             idris2-pack-db/idris2.json
             idris2-pack-db/pack-db-resolved.json
-          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: Build
         run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
       - name: Ensure Flake idris2 & idris2LSP
@@ -115,7 +115,7 @@ jobs:
             flake.lock
             idris2-pack-db/idris2.json
             idris2-pack-db/pack-db-resolved.json
-          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: Build
         run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
       - name: Ensure Flake idris2 & idris2LSP
@@ -147,7 +147,7 @@ jobs:
             flake.lock
             idris2-pack-db/idris2.json
             idris2-pack-db/pack-db-resolved.json
-          key: ${{ runner.os }}-${{ hashFiles('flake.lock') }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: Build
         run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
       - name: Ensure Flake idris2 & idris2LSP
