@@ -36,7 +36,7 @@ derivation.
 #### Flake project
 A flake project can use the Idris2 package set as an input. If you want to
 benefit from the Cachix cash at all (currently only caches the compiler & LSP,
-but that's quite a bit of time saved), you'll need to avoid changes the
+but that's quite a bit of time saved), you'll need to avoid changing the
 `follows` for the package set.
 ```nix
 inputs.packageset.url = "github:mattpolzin/nix-idris2-packages";
