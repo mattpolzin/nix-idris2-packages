@@ -354,8 +354,8 @@
     "ipkgName": "collection-utils",
     "src": {
       "url": "https://github.com/buzden/idris2-collection-utils",
-      "rev": "ff239e69db8e2df1657009628e4d6b6fe01cb738",
-      "hash": "sha256-JTUyANs6KlJU1HpWT1tSbf5OXgyBAXMeJE44fBTNCB8="
+      "rev": "48a3300dad6082b8aa28aab3dcafe3ff7073dd5d",
+      "hash": "sha256-nN7A/l3FlXdkCL7HjAKalQAMOq1cxxpyo3jskh0nZcU="
     },
     "ipkgJson": {
       "name": "collection-utils",
@@ -1603,8 +1603,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "06b801ae91cb8222b55ce27e6e4f155b64546370",
-      "hash": "sha256-nUsXGIU/Ks0o482bwxrB8UXl7opRA/IFmsc90xfjXsQ="
+      "rev": "b0fb6011e5dbc0bfb5c3074318d3933ec08b77e6",
+      "hash": "sha256-ZAYpEyewmFNL/YWravQa1toU6M5buU1QTFpgL7IgKYQ="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2204,8 +2204,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "06b801ae91cb8222b55ce27e6e4f155b64546370",
-      "hash": "sha256-nUsXGIU/Ks0o482bwxrB8UXl7opRA/IFmsc90xfjXsQ="
+      "rev": "b0fb6011e5dbc0bfb5c3074318d3933ec08b77e6",
+      "hash": "sha256-ZAYpEyewmFNL/YWravQa1toU6M5buU1QTFpgL7IgKYQ="
     },
     "ipkgJson": {
       "name": "posix",
@@ -2633,8 +2633,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "557601aff06ed785727ef5b52536ff32667be8a1",
-      "hash": "sha256-7j9W+bQU6SGnLomaVS7piscpkQ3SZLevx181aZHq1iQ="
+      "rev": "014f6c9212c26b4606b047dc4b79a48a8c2c522b",
+      "hash": "sha256-dCZrl8a1JfX00MAAicwF877gX1u6aSZY2iMF92LA8N8="
     },
     "ipkgJson": {
       "name": "rtlsdr",
