@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "97d77bbb3f9374071f0ebd10d34321a9516ca693",
-      "hash": "sha256-vrGBJloPLQeMjIvfwqW3Ncve9dAKz6UV2BG/0n5jnmQ="
+      "rev": "40c1c77798725a5e9806f24aa30ed3a377514ce7",
+      "hash": "sha256-MTQwLBxoPXeM0aH/QOMChOznIzMwcwR/kkJSJzuahwg="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -608,7 +608,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.240724",
+      "version": "0.0.240909",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -2633,8 +2633,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "014f6c9212c26b4606b047dc4b79a48a8c2c522b",
-      "hash": "sha256-dCZrl8a1JfX00MAAicwF877gX1u6aSZY2iMF92LA8N8="
+      "rev": "faeb72cd42129f648632fdafb44d005f2544d797",
+      "hash": "sha256-DK59Mla6gpEYWymNbjTsN4SfqSK65KUx3IbFbR30c8U="
     },
     "ipkgJson": {
       "name": "rtlsdr",
