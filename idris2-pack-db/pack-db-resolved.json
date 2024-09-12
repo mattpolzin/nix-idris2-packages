@@ -1868,8 +1868,8 @@
     "ipkgName": "pack",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "415dfda8909f68721241b8a121ca1aa481ad1ecf",
-      "hash": "sha256-3vJSCdiSZaf5zTEq5a9SPm050t1o9eW/I6yaKPQymZk="
+      "rev": "5099700b523ab6fdf24da9b0cb9831a07f1fb8eb",
+      "hash": "sha256-+N/qxiAClD8yIuvBXvrPyGlAnSN63ULLPs6ufmgTZFs="
     },
     "ipkgJson": {
       "name": "pack",
@@ -1902,8 +1902,8 @@
     "ipkgName": "pack-admin",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "415dfda8909f68721241b8a121ca1aa481ad1ecf",
-      "hash": "sha256-3vJSCdiSZaf5zTEq5a9SPm050t1o9eW/I6yaKPQymZk="
+      "rev": "5099700b523ab6fdf24da9b0cb9831a07f1fb8eb",
+      "hash": "sha256-+N/qxiAClD8yIuvBXvrPyGlAnSN63ULLPs6ufmgTZFs="
     },
     "ipkgJson": {
       "name": "pack-admin",
@@ -2633,8 +2633,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "faeb72cd42129f648632fdafb44d005f2544d797",
-      "hash": "sha256-DK59Mla6gpEYWymNbjTsN4SfqSK65KUx3IbFbR30c8U="
+      "rev": "e3cc8acaa1d440a611e76fbd4c667de098eabffe",
+      "hash": "sha256-ELGHv0nw04PPOV3TMU/69Cpy0IE3Y7k602/WyCfr8KI="
     },
     "ipkgJson": {
       "name": "rtlsdr",
