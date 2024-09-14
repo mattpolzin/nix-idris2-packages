@@ -58,6 +58,12 @@
     ];
   };
 
+  sqlite3-rio = {
+    buildInputs = [
+      sqlite.dev
+    ];
+  };
+
   uv = {
     buildInputs = [
       libuv.dev
