@@ -10,8 +10,13 @@
   lib,
   stdenv,
   pkg-config,
-  libxcrypt,
+  makeWrapper,
+  idris2Support,
+  idris2,
+  chez,
+  go,
   libuv,
+  libxcrypt,
   ncurses5,
   rtl-sdr-librtlsdr,
   sqlite,
@@ -25,6 +30,39 @@
     buildInputs = [
       libxcrypt
     ];
+  };
+
+  idris2-go = {
+    nativeBuildInputs = [
+      makeWrapper
+    ];
+
+    buildInputs = [
+      go
+    ];
+
+    postInstall =
+    let
+        name = "${idris2.pname}-${idris2.version}";
+        globalLibraries = [
+          "\\$HOME/.nix-profile/lib/${name}"
+          "/run/current-system/sw/lib/${name}"
+          "${idris2}/${name}"
+        ];
+        globalLibrariesPath = builtins.concatStringsSep ":" globalLibraries;
+        supportLibrariesPath = lib.makeLibraryPath [ idris2Support ];
+        supportSharePath = lib.makeSearchPath "share" [ idris2Support ];
+    in ''
+      wrapProgram "$out/bin/idris2-go" \
+        --set-default CHEZ "${lib.getExe chez}" \
+        --run 'export IDRIS2_PREFIX=''${IDRIS2_PREFIX-"$HOME/.idris2"}' \
+        --suffix IDRIS2_LIBS ':' "${supportLibrariesPath}" \
+        --suffix IDRIS2_DATA ':' "${supportSharePath}" \
+        --suffix IDRIS2_PACKAGE_PATH ':' "${globalLibrariesPath}" \
+        --suffix LD_LIBRARY_PATH ':' "${supportLibrariesPath}" \
+        --suffix DYLD_LIBRARY_PATH ':' "${supportLibrariesPath}" \
+        --set-default IDRIS2_GO ${lib.getExe go}
+    '';
   };
 
   ncurses-idris = {

@@ -13,6 +13,7 @@ in
   callPackage,
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
+  idris2SupportOverride ? null,
   idris2LspOverride ? null,
   buildIdrisOverride ? null,
 }:
@@ -21,6 +22,7 @@ let
   idris2LspDefault = import ./idris2-lsp.nix { inherit system; };
 
   idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
+  idris2Support = if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
   idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
   buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
   idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
@@ -31,7 +33,7 @@ let
 
   isBroken = packageName: builtins.elem packageName brokenPackages;
 
-  overrides = callPackage ./idris2-pack-db/overrides.nix { };
+  overrides = callPackage ./idris2-pack-db/overrides.nix { inherit idris2 idris2Support; };
 
   attrsToBuildIdris =
     packageName: attrs:

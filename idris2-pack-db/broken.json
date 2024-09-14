@@ -1,6 +1,5 @@
 [ "distribution"
 , "pg-idris"
-, "idris2-go"
 , "idrisGL"
 , "cheerio"
 , "epoll"
