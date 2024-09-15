@@ -54,5 +54,15 @@
       ) ps;
       idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) ps;
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
+
+      impureShell =
+        {
+          system ? builtins.currentSystem,
+          src ? /. + builtins.getEnv "PWD",
+        }:
+        nixpkgs.legacyPackages.${system}.callPackage ./ipkg-shell.nix {
+          inherit src;
+          inherit (ps.${system}) buildIdris' idris2 idris2Lsp;
+        };
     };
 }

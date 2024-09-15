@@ -139,6 +139,26 @@ pkgs.mkShell {
 }
 ```
 
+#### No-fuss developer shell
+If you are going to work on an Idris2 package for which no shell.nix file exists
+ahead of time, there is an experimental flake-based command you can run to get
+`idris2` and `idris2-lsp` set up for a project in the current directory along
+with all dependencies built and available. The following only works trivially if
+there is exactly one `ipkg` file in the current directory.
+
+```shell
+nix develop --impure --expr '(builtins.getFlake "github:mattpolzin/nix-idris2-packages").impureShell'
+```
+
+It's a bit of a mouthful, but that'll spin up a new developer shell.
+
+Although you do need the flakes experimental feature enabled either way, you can
+run the same expression with `nix-shell` if you prefer:
+
+```shell
+nix-shell --expr '(builtins.getFlake "github:mattpolzin/nix-idris2-packages").impureShell'
+```
+
 ## Updating this packageset
 To update to the package set & package versions to the latest Pack has to offer,
 run the `update.sh` script from the root of the repository.
