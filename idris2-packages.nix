@@ -15,6 +15,8 @@ in
   idris2Override ? null,
   idris2LspOverride ? null,
   buildIdrisOverride ? null,
+  # Call with `withSource = true` to get jump-to-definition support with editor tooling.
+  withSource ? false,
 }:
 let
   idris2Default = import ./idris2.nix { inherit system; };
@@ -36,7 +38,7 @@ let
   attrsToBuildIdris =
     packageName: attrs:
     let
-      execOrLib = (p: if attrs.ipkgJson ? "executable" then p.executable else p.library { });
+      execOrLib = (p: if attrs.ipkgJson ? "executable" then p.executable else p.library { inherit withSource; });
       idrisPackageAttrs = {
         inherit (attrs) ipkgName;
         version = attrs.ipkgJson.version or "unversioned";
