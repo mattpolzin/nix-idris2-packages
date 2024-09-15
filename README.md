@@ -141,10 +141,7 @@ pkgs.mkShell {
 
 ## Updating this packageset
 To update to the package set & package versions to the latest Pack has to offer,
-run the `update.sh` script from the root of the repository. You must run this
-with a version of Idris2 in your `PATH` that supports the `--dump-ipkg-json`
-command. That's important because the version of Idris2 published in Nixpkgs as
-of 2024/09/01 is not new enough to include that command.
+run the `update.sh` script from the root of the repository.
 
 ## Adding new packages
 To add new packages to this packageset, please add them to Pack's [package database](https://github.com/stefan-hoeck/idris2-pack-db).
