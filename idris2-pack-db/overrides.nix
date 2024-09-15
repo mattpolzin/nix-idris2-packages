@@ -10,8 +10,9 @@
   lib,
   stdenv,
   pkg-config,
-  libxcrypt,
+  gsl,
   libuv,
+  libxcrypt,
   ncurses5,
   rtl-sdr-librtlsdr,
   sqlite,
@@ -24,6 +25,12 @@
   crypt = {
     buildInputs = [
       libxcrypt
+    ];
+  };
+
+  distribution = {
+    buildInputs = [
+      gsl.dev
     ];
   };
 
