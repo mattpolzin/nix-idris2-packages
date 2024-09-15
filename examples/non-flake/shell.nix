@@ -5,7 +5,7 @@
   },
 }:
 let
-  packageset = import ./packageset.nix { inherit pkgs; };
+  packageset = import ./packageset.nix { inherit pkgs; withSource = true; };
   myPkg = import ./. { inherit pkgs; withSource = true; };
 in
 pkgs.mkShell {
