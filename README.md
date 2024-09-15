@@ -49,6 +49,9 @@ outputs = { packageset, ...}:
   {}
 ```
 
+If you're setting up a developer shell or have some other need for source code
+of your dependencies, use `packageset.idris2PackagesWithSource...` instead.
+
 #### Non-Flake project
 A non-flake project can import the Idris2 package set pinned at a particular
 revision as in the following snippet.
@@ -64,6 +67,9 @@ let
 in
 {}
 ```
+
+If you're setting up a developer shell or have some other need for source code
+of your dependencies, pass the `packageset` `import` `{ withSource = true; }`.
 
 ### Building a project
 Once you've got the package set, whether as a flake or not, you can use the

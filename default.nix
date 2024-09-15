@@ -9,6 +9,8 @@
   idris2Override ? null,
   idris2LspOverride ? null,
   buildIdrisOverride ? null,
+  # Call with `withSource = true` to get jump-to-definition support with editor tooling.
+  withSource ? false,
 }:
 pkgs.callPackage ./idris2-packages.nix {
   inherit
@@ -16,5 +18,6 @@ pkgs.callPackage ./idris2-packages.nix {
     idris2Override
     idris2LspOverride
     buildIdrisOverride
+    withSource
     ;
 }

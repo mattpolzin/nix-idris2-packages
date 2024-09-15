@@ -26,14 +26,14 @@
     let
       inherit (nixpkgs) lib;
       forEachSystem = lib.genAttrs lib.systems.flakeExposed;
-      ps = forEachSystem (
+      ps = withSource: forEachSystem (
         system:
         import ./. {
           pkgs = import nixpkgs { inherit system; };
           idris2Override = idris2.packages.${system}.idris2;
           idris2LspOverride = idris2Lsp.packages.${system}.idris2Lsp;
           buildIdrisOverride = idris2.buildIdris.${system};
-          inherit system;
+          inherit system withSource;
         }
       );
     in
@@ -51,8 +51,10 @@
               ;
           }
         )
-      ) ps;
-      idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) ps;
+      ) (ps false);
+      idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps false);
+      idris2PackagesWithSource = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps true);
+
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
 
       impureShell =
@@ -62,7 +64,7 @@
         }:
         nixpkgs.legacyPackages.${system}.callPackage ./ipkg-shell.nix {
           inherit src;
-          inherit (ps.${system}) buildIdris' idris2 idris2Lsp;
+          inherit ((ps true).${system}) buildIdris' idris2 idris2Lsp;
         };
     };
 }
