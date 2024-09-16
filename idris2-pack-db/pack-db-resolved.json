@@ -1331,8 +1331,8 @@
     "ipkgName": "idris2-lsp",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "971937339fa1650339e14098f73a39052fb9d7f0",
-      "hash": "sha256-Z/vya7jbtDYjfxw9mFH46gFbkpjdyEDfyeAlIujBvbc="
+      "rev": "81e70d48b7428034b8bc1fa679838532232b5387",
+      "hash": "sha256-7pLoru49CDJhe2+EAP6sK0VyywHAPE7VToLluHhbnbc="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
@@ -1609,8 +1609,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "c582b289bcc9af9814af045259a619276c693be4",
-      "hash": "sha256-OmTFBuPRRbN3RPLJBfhzA49cciF1Bk/qQeNgXrA8PQs="
+      "rev": "95bde9f72797ef24c1a88b523dd6e013cbf142a5",
+      "hash": "sha256-j66cgvw+e924Gwm/eC/zKNVDDgjPzRr+e+NzpRIna+w="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2210,8 +2210,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "c582b289bcc9af9814af045259a619276c693be4",
-      "hash": "sha256-OmTFBuPRRbN3RPLJBfhzA49cciF1Bk/qQeNgXrA8PQs="
+      "rev": "95bde9f72797ef24c1a88b523dd6e013cbf142a5",
+      "hash": "sha256-j66cgvw+e924Gwm/eC/zKNVDDgjPzRr+e+NzpRIna+w="
     },
     "ipkgJson": {
       "name": "posix",
