@@ -1,6 +1,5 @@
 [ "pg-idris"
 , "idrisGL"
-, "cheerio"
 , "epoll"
 , "cptr"
 , "game-2048"
