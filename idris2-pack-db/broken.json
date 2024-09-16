@@ -1,7 +1,6 @@
 [ "pg-idris"
 , "idrisGL"
 , "game-2048"
-, "c-ffi"
 , "tyttp"
 , "posix"
 , "web-server-racket-hello-world"

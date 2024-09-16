@@ -12,6 +12,7 @@
   pkg-config,
   makeWrapper,
   zsh,
+  gcc,
   idris2Support,
   idris2,
   chez,
@@ -26,6 +27,12 @@
 {
   base64 = {
     meta.broken = stdenv.isAarch64 || stdenv.isAarch32;
+  };
+
+  c-ffi = {
+    nativeBuildInputs = [ gcc ];
+    # this package only builds its included C library for Linux currently.
+    meta.platforms = lib.platforms.linux;
   };
 
   cheerio = {
