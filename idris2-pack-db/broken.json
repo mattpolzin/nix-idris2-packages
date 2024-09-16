@@ -1,6 +1,5 @@
 [ "pg-idris"
 , "idrisGL"
-, "cptr"
 , "game-2048"
 , "c-ffi"
 , "tyttp"
