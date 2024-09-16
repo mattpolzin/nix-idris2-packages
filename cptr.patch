@@ -1,0 +1,12 @@
+diff --git a/support/cptr.c b/support/cptr.c
+index 6e64228..a557e72 100644
+--- a/support/cptr.c
++++ b/support/cptr.c
+@@ -3,6 +3,7 @@
+ #include <stdint.h>
+ #include <stdio.h>
+ #include <stdlib.h>
++#include <time.h>
+ 
+ void *cptr_malloc(size_t bytes) {
+   if (bytes == 0) {

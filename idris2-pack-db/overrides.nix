@@ -37,6 +37,16 @@
     meta.broken = true;
   };
 
+  cptr = {
+    patches = [
+      ../cptr.patch
+    ];
+
+    preBuild = ''
+      patchShebangs --build gencode.sh
+    '';
+  };
+
   crypt = {
     buildInputs = [
       libxcrypt
