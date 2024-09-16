@@ -28,6 +28,15 @@
     meta.broken = stdenv.isAarch64 || stdenv.isAarch32;
   };
 
+  cheerio = {
+    preInstall = ''
+      mv ./cheerio/build ./
+    '';
+    # would need to figure out pnpm dependencies to fix.
+    # for now, it will build ok but cannot be executed.
+    broken = true;
+  };
+
   crypt = {
     buildInputs = [
       libxcrypt
