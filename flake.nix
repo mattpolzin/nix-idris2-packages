@@ -31,6 +31,7 @@
         import ./. {
           pkgs = import nixpkgs { inherit system; };
           idris2Override = idris2.packages.${system}.idris2;
+          idris2SupportOverride = idris2.packages.${system}.support;
           idris2LspOverride = idris2Lsp.packages.${system}.idris2Lsp;
           buildIdrisOverride = idris2.buildIdris.${system};
           inherit system withSource;

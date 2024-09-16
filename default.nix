@@ -7,6 +7,7 @@
   pkgs ? import ./nixpkgs.nix,
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
+  idris2SupportOverride ? null,
   idris2LspOverride ? null,
   buildIdrisOverride ? null,
   # Call with `withSource = true` to get jump-to-definition support with editor tooling.
@@ -16,6 +17,7 @@ pkgs.callPackage ./idris2-packages.nix {
   inherit
     system
     idris2Override
+    idris2SupportOverride 
     idris2LspOverride
     buildIdrisOverride
     withSource
