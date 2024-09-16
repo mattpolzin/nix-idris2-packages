@@ -3,9 +3,10 @@
     overlays = [ ];
     config = { };
   },
+  withSource ? false,
 }:
 import (pkgs.fetchgit {
   url = "https://github.com/mattpolzin/nix-idris2-packages";
-  rev = "5ce9f4764bb20fef00520c6bc108453085b40883";
-  hash = "sha256-py4/g7gFFjVcqIWiKGmtcH57pORD1TlXbhbjhSAw7Ac=";
-}) { }
+  rev = "6eb57073378f26a747210603ea4f3521591388d4";
+  hash = "sha256-/5i359aDX8WDpNDDnMDO15Vc/e4xCmWKXTiHzNZfn9U=";
+}) { inherit withSource; }

@@ -1,5 +1,4 @@
-[ "distribution"
-, "pg-idris"
+[ "pg-idris"
 , "idrisGL"
 , "cheerio"
 , "epoll"

@@ -15,6 +15,7 @@
   idris2,
   chez,
   go,
+  gsl,
   libuv,
   libxcrypt,
   ncurses5,
@@ -63,6 +64,12 @@
         --suffix DYLD_LIBRARY_PATH ':' "${supportLibrariesPath}" \
         --set-default IDRIS2_GO ${lib.getExe go}
     '';
+  };
+
+  distribution = {
+    buildInputs = [
+      gsl.dev
+    ];
   };
 
   ncurses-idris = {

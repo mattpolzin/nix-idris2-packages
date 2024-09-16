@@ -6,7 +6,7 @@
       flake = false;
     };
     idris2 = {
-      url = "github:/idris-lang/idris2/53f448c0dbe3b399225bef5b195c573c51977b4c";
+      url = "github:/idris-lang/idris2/09cb83dd97ccfaee921c7766d093092a6da55bc2";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     idris2Lsp = {
@@ -26,7 +26,7 @@
     let
       inherit (nixpkgs) lib;
       forEachSystem = lib.genAttrs lib.systems.flakeExposed;
-      ps = forEachSystem (
+      ps = withSource: forEachSystem (
         system:
         import ./. {
           pkgs = import nixpkgs { inherit system; };
@@ -34,7 +34,7 @@
           idris2SupportOverride = idris2.packages.${system}.support;
           idris2LspOverride = idris2Lsp.packages.${system}.idris2Lsp;
           buildIdrisOverride = idris2.buildIdris.${system};
-          inherit system;
+          inherit system withSource;
         }
       );
     in
@@ -52,8 +52,20 @@
               ;
           }
         )
-      ) ps;
-      idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) ps;
+      ) (ps false);
+      idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps false);
+      idris2PackagesWithSource = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps true);
+
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
+
+      impureShell =
+        {
+          system ? builtins.currentSystem,
+          src ? /. + builtins.getEnv "PWD",
+        }:
+        nixpkgs.legacyPackages.${system}.callPackage ./ipkg-shell.nix {
+          inherit src;
+          inherit ((ps true).${system}) buildIdris' idris2 idris2Lsp;
+        };
     };
 }

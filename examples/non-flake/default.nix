@@ -3,9 +3,10 @@
     overlays = [ ];
     config = { };
   },
+  withSource ? false,
 }:
 let
-  packageset = import ./packageset.nix { inherit pkgs; };
+  packageset = import ./packageset.nix { inherit pkgs withSource; };
   pkg = packageset.buildIdris {
     ipkgName = "my-pkg";
     src = builtins.path {
