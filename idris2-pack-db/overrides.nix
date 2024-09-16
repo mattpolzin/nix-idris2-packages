@@ -11,6 +11,7 @@
   stdenv,
   pkg-config,
   makeWrapper,
+  zsh,
   idris2Support,
   idris2,
   chez,
@@ -36,7 +37,7 @@
   idris2-go = {
     nativeBuildInputs = [
       makeWrapper
-    ];
+    ] ++ lib.optional stdenv.isDarwin zsh;
 
     buildInputs = [
       go
