@@ -34,13 +34,17 @@
     '';
     # would need to figure out pnpm dependencies to fix.
     # for now, it will build ok but cannot be executed.
-    broken = true;
+    meta.broken = true;
   };
 
   crypt = {
     buildInputs = [
       libxcrypt
     ];
+  };
+
+  epoll = {
+    meta.platforms = lib.platforms.linux;
   };
 
   idris2-go = {
