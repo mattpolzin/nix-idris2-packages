@@ -3,6 +3,6 @@
 , "game-2048"
 , "c-ffi"
 , "tyttp"
-, "web-server-racket"
 , "posix"
+, "web-server-racket-hello-world"
 ]
