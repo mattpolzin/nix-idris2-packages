@@ -4,4 +4,5 @@
 , "c-ffi"
 , "tyttp"
 , "posix"
+, "web-server-racket-hello-world"
 ]
