@@ -22,6 +22,11 @@
   ncurses5,
   rtl-sdr-librtlsdr,
   sqlite,
+  SDL2,
+  SDL2_image,
+  SDL2_mixer,
+  SDL2_ttf,
+  SDL2_gfx,
 }:
 {
   base64 = {
@@ -50,6 +55,12 @@
   crypt = {
     buildInputs = [
       libxcrypt
+    ];
+  };
+
+  distribution = {
+    buildInputs = [
+      gsl.dev
     ];
   };
 
@@ -90,9 +101,13 @@
     '';
   };
 
-  distribution = {
+  idrisGL = {
     buildInputs = [
-      gsl.dev
+      SDL2.dev
+      SDL2_image
+      SDL2_mixer.dev
+      SDL2_ttf
+      SDL2_gfx
     ];
   };
 
