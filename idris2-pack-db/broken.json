@@ -1,5 +1,4 @@
-[ "pg-idris"
-, "idrisGL"
+[ "idrisGL"
 , "posix"
 , "web-server-racket-hello-world"
 ]
