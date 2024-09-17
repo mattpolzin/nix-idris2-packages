@@ -147,6 +147,12 @@
     ];
   };
 
+  tyttp-adapter-node = {
+    preInstall = ''
+      mv ./adapter-node/build ./
+    '';
+  };
+
   uv = {
     buildInputs = [
       libuv.dev
