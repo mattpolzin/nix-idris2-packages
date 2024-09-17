@@ -6,7 +6,7 @@ projects that use this packageset in the `examples/` folder.
 
 ## What is it?
 This is a Nix wrapper around the Idris2 Pack package database. What that means
-is that it makes it easy to use the package's found in that database within a
+is that it makes it easy to use the packages found in that database within a
 Nix derivation that builds your own Idris2 package. This project doesn't
 facilitate using Pack itself, it provides packages wrapped in `buildIdris` Nix
 derivations that can be used in your own `buildIdris` call by passing them as
