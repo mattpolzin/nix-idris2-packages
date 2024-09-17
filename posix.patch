@@ -1,0 +1,97 @@
+diff --git a/posix/codegen/error.c b/posix/codegen/error.c
+index 90ff9a3..5b24bff 100644
+--- a/posix/codegen/error.c
++++ b/posix/codegen/error.c
+@@ -96,16 +96,9 @@ void *print_errorcodes() {
+   print_code("EINPROGRESS", EINPROGRESS);
+   print_code("ESTALE", ESTALE);
+   print_code("EDQUOT", EDQUOT);
+-  print_code("EMEDIUMTYPE", EMEDIUMTYPE);
+   print_code("ECANCELED", ECANCELED);
+-  print_code("ENOKEY", ENOKEY);
+-  print_code("EKEYEXPIRED", EKEYEXPIRED);
+-  print_code("EKEYREVOKED", EKEYREVOKED);
+-  print_code("EKEYREJECTED", EKEYREJECTED);
+   print_code("EOWNERDEAD", EOWNERDEAD);
+   print_code("ENOTRECOVERABLE", ENOTRECOVERABLE);
+-  print_code("ERFKILL", ERFKILL);
+-  print_code("EHWPOISON", EHWPOISON);
+ 
+ #ifdef __GLIBC__
+   print_code("ECHRNG", ECHRNG);
+@@ -145,6 +138,13 @@ void *print_errorcodes() {
+   print_code("EISNAM", EISNAM);
+   print_code("EREMOTEIO", EREMOTEIO);
+   print_code("ENOMEDIUM", ENOMEDIUM);
++  print_code("EMEDIUMTYPE", EMEDIUMTYPE);
++  print_code("ENOKEY", ENOKEY);
++  print_code("EKEYEXPIRED", EKEYEXPIRED);
++  print_code("EKEYREVOKED", EKEYREVOKED);
++  print_code("EKEYREJECTED", EKEYREJECTED);
++  print_code("ERFKILL", ERFKILL);
++  print_code("EHWPOISON", EHWPOISON);
+ #endif
+ }
+ 
+@@ -242,16 +242,9 @@ void *print_errortexts() {
+   print_errtxt(EINPROGRESS);
+   print_errtxt(ESTALE);
+   print_errtxt(EDQUOT);
+-  print_errtxt(EMEDIUMTYPE);
+   print_errtxt(ECANCELED);
+-  print_errtxt(ENOKEY);
+-  print_errtxt(EKEYEXPIRED);
+-  print_errtxt(EKEYREVOKED);
+-  print_errtxt(EKEYREJECTED);
+   print_errtxt(EOWNERDEAD);
+   print_errtxt(ENOTRECOVERABLE);
+-  print_errtxt(ERFKILL);
+-  print_errtxt(EHWPOISON);
+ #ifdef __GLIBC__
+   print_errtxt(ECHRNG);
+   print_errtxt(EL2NSYNC);
+@@ -290,6 +283,13 @@ void *print_errortexts() {
+   print_errtxt(EISNAM);
+   print_errtxt(EREMOTEIO);
+   print_errtxt(ENOMEDIUM);
++  print_errtxt(EMEDIUMTYPE);
++  print_errtxt(ENOKEY);
++  print_errtxt(EKEYEXPIRED);
++  print_errtxt(EKEYREVOKED);
++  print_errtxt(EKEYREJECTED);
++  print_errtxt(ERFKILL);
++  print_errtxt(EHWPOISON);
+ #endif
+   printf("errorText (EN x) = \"Unknown error: \\{show x}\"\n");
+ }
+@@ -380,16 +380,9 @@ void *print_errornames() {
+   print_errname(EINPROGRESS, "EINPROGRESS");
+   print_errname(ESTALE, "ESTALE");
+   print_errname(EDQUOT, "EDQUOT");
+-  print_errname(EMEDIUMTYPE, "EMEDIUMTYPE");
+   print_errname(ECANCELED, "ECANCELED");
+-  print_errname(ENOKEY, "ENOKEY");
+-  print_errname(EKEYEXPIRED, "EKEYEXPIRED");
+-  print_errname(EKEYREVOKED, "EKEYREVOKED");
+-  print_errname(EKEYREJECTED, "EKEYREJECTED");
+   print_errname(EOWNERDEAD, "EOWNERDEAD");
+   print_errname(ENOTRECOVERABLE, "ENOTRECOVERABLE");
+-  print_errname(ERFKILL, "ERFKILL");
+-  print_errname(EHWPOISON, "EHWPOISON");
+ #ifdef __GLIBC__
+   print_errname(ECHRNG, "ECHRNG");
+   print_errname(EL2NSYNC, "EL2NSYNC");
+@@ -428,6 +421,13 @@ void *print_errornames() {
+   print_errname(EISNAM, "EISNAM");
+   print_errname(EREMOTEIO, "EREMOTEIO");
+   print_errname(ENOMEDIUM, "ENOMEDIUM");
++  print_errname(EMEDIUMTYPE, "EMEDIUMTYPE");
++  print_errname(ENOKEY, "ENOKEY");
++  print_errname(EKEYEXPIRED, "EKEYEXPIRED");
++  print_errname(EKEYREVOKED, "EKEYREVOKED");
++  print_errname(EKEYREJECTED, "EKEYREJECTED");
++  print_errname(ERFKILL, "ERFKILL");
++  print_errname(EHWPOISON, "EHWPOISON");
+ #endif
+   printf("errorName (EN _) = \"EUNKNOWN\"\n");
+ }

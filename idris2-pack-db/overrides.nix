@@ -118,6 +118,10 @@
   };
 
   posix = {
+    patches = [
+      ../posix.patch
+    ];
+
     preBuild = ''
       patchShebangs --build posix/gencode.sh
     '';
