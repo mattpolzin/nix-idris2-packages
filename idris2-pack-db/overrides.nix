@@ -117,6 +117,17 @@
     buildInputs = [ postgresql.dev ];
   };
 
+  posix = {
+    preBuild = ''
+      patchShebangs --build posix/gencode.sh
+    '';
+
+    preInstall = ''
+      make -C posix/support install
+      mv ./posix/lib ./lib
+    '';
+  };
+
   rtlsdr = {
     nativeBuildInputs = [
       pkg-config
