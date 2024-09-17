@@ -23,6 +23,7 @@
   ncurses5,
   rtl-sdr-librtlsdr,
   sqlite,
+  postgresql,
 }:
 {
   base64 = {
@@ -57,6 +58,12 @@
   crypt = {
     buildInputs = [
       libxcrypt
+    ];
+  };
+
+  distribution = {
+    buildInputs = [
+      gsl.dev
     ];
   };
 
@@ -104,16 +111,14 @@
       '';
   };
 
-  distribution = {
-    buildInputs = [
-      gsl.dev
-    ];
-  };
-
   ncurses-idris = {
     buildInputs = [
       ncurses5.dev
     ];
+  };
+
+  pg-idris = {
+    buildInputs = [ postgresql.dev ];
   };
 
   rtlsdr = {
