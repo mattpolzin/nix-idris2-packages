@@ -63,7 +63,7 @@
   epoll = {
     meta.platforms = lib.platforms.linux;
   };
-  
+
   game-2048 = {
     preInstall = ''
       mv ./game-2048/build ./
@@ -80,7 +80,7 @@
     ];
 
     postInstall =
-    let
+      let
         name = "${idris2.pname}-${idris2.version}";
         globalLibraries = [
           "\\$HOME/.nix-profile/lib/${name}"
@@ -90,17 +90,18 @@
         globalLibrariesPath = builtins.concatStringsSep ":" globalLibraries;
         supportLibrariesPath = lib.makeLibraryPath [ idris2Support ];
         supportSharePath = lib.makeSearchPath "share" [ idris2Support ];
-    in ''
-      wrapProgram "$out/bin/idris2-go" \
-        --set-default CHEZ "${lib.getExe chez}" \
-        --run 'export IDRIS2_PREFIX=''${IDRIS2_PREFIX-"$HOME/.idris2"}' \
-        --suffix IDRIS2_LIBS ':' "${supportLibrariesPath}" \
-        --suffix IDRIS2_DATA ':' "${supportSharePath}" \
-        --suffix IDRIS2_PACKAGE_PATH ':' "${globalLibrariesPath}" \
-        --suffix LD_LIBRARY_PATH ':' "${supportLibrariesPath}" \
-        --suffix DYLD_LIBRARY_PATH ':' "${supportLibrariesPath}" \
-        --set-default IDRIS2_GO ${lib.getExe go}
-    '';
+      in
+      ''
+        wrapProgram "$out/bin/idris2-go" \
+          --set-default CHEZ "${lib.getExe chez}" \
+          --run 'export IDRIS2_PREFIX=''${IDRIS2_PREFIX-"$HOME/.idris2"}' \
+          --suffix IDRIS2_LIBS ':' "${supportLibrariesPath}" \
+          --suffix IDRIS2_DATA ':' "${supportSharePath}" \
+          --suffix IDRIS2_PACKAGE_PATH ':' "${globalLibrariesPath}" \
+          --suffix LD_LIBRARY_PATH ':' "${supportLibrariesPath}" \
+          --suffix DYLD_LIBRARY_PATH ':' "${supportLibrariesPath}" \
+          --set-default IDRIS2_GO ${lib.getExe go}
+      '';
   };
 
   distribution = {

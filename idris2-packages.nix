@@ -24,7 +24,8 @@ let
   idris2LspDefault = import ./idris2-lsp.nix { inherit system; };
 
   idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
-  idris2Support = if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
+  idris2Support =
+    if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
   idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
   buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
   idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
@@ -40,7 +41,9 @@ let
   attrsToBuildIdris =
     packageName: attrs:
     let
-      execOrLib = (p: if attrs.ipkgJson ? "executable" then p.executable else p.library { inherit withSource; });
+      execOrLib = (
+        p: if attrs.ipkgJson ? "executable" then p.executable else p.library { inherit withSource; }
+      );
       idrisPackageAttrs = {
         inherit (attrs) ipkgName;
         version = attrs.ipkgJson.version or "unversioned";

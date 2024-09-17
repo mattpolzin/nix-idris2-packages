@@ -17,7 +17,7 @@ pkgs.callPackage ./idris2-packages.nix {
   inherit
     system
     idris2Override
-    idris2SupportOverride 
+    idris2SupportOverride
     idris2LspOverride
     buildIdrisOverride
     withSource

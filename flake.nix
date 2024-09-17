@@ -26,17 +26,19 @@
     let
       inherit (nixpkgs) lib;
       forEachSystem = lib.genAttrs lib.systems.flakeExposed;
-      ps = withSource: forEachSystem (
-        system:
-        import ./. {
-          pkgs = import nixpkgs { inherit system; };
-          idris2Override = idris2.packages.${system}.idris2;
-          idris2SupportOverride = idris2.packages.${system}.support;
-          idris2LspOverride = idris2Lsp.packages.${system}.idris2Lsp;
-          buildIdrisOverride = idris2.buildIdris.${system};
-          inherit system withSource;
-        }
-      );
+      ps =
+        withSource:
+        forEachSystem (
+          system:
+          import ./. {
+            pkgs = import nixpkgs { inherit system; };
+            idris2Override = idris2.packages.${system}.idris2;
+            idris2SupportOverride = idris2.packages.${system}.support;
+            idris2LspOverride = idris2Lsp.packages.${system}.idris2Lsp;
+            buildIdrisOverride = idris2.buildIdris.${system};
+            inherit system withSource;
+          }
+        );
     in
     {
       packages = lib.mapAttrs (
