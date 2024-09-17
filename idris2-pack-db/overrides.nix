@@ -63,6 +63,12 @@
   epoll = {
     meta.platforms = lib.platforms.linux;
   };
+  
+  game-2048 = {
+    preInstall = ''
+      mv ./game-2048/build ./
+    '';
+  };
 
   idris2-go = {
     nativeBuildInputs = [
