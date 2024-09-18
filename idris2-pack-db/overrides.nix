@@ -46,10 +46,6 @@
   };
 
   cptr = {
-    patches = [
-      ../cptr.patch
-    ];
-
     preBuild = ''
       patchShebangs --build gencode.sh
     '';
