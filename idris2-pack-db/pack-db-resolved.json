@@ -492,8 +492,8 @@
     "ipkgName": "cptr",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
-      "rev": "d27389ecf77ee5ce5a005833d2b9ada2a2562db8",
-      "hash": "sha256-8MqDjl56+K4j3N8mMkqQlFxTVb7VnyyNThQvWCpaWV8="
+      "rev": "ea9daaa2be9de965809ea9ef6023169fcdb988e9",
+      "hash": "sha256-dh7I5hDPjLHYp3m7vNPj77/1sLahabXgoajiVmdGvxo="
     },
     "ipkgJson": {
       "name": "cptr",
@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "40c1c77798725a5e9806f24aa30ed3a377514ce7",
-      "hash": "sha256-MTQwLBxoPXeM0aH/QOMChOznIzMwcwR/kkJSJzuahwg="
+      "rev": "0a2bbef7e2e9f0a10400ff5ca226e4a296f15e66",
+      "hash": "sha256-1nfKUGgqroXvNoW4ABBoISutOea3Nd9YrAahSxGo/AM="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1609,8 +1609,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "95bde9f72797ef24c1a88b523dd6e013cbf142a5",
-      "hash": "sha256-j66cgvw+e924Gwm/eC/zKNVDDgjPzRr+e+NzpRIna+w="
+      "rev": "f6f773790948e5c98ee9b02fa85898b0a9631043",
+      "hash": "sha256-UDNdAT/Z5FscjmH7eRwbKsELtOrxPVotscAFiFwT1Vk="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2210,8 +2210,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "95bde9f72797ef24c1a88b523dd6e013cbf142a5",
-      "hash": "sha256-j66cgvw+e924Gwm/eC/zKNVDDgjPzRr+e+NzpRIna+w="
+      "rev": "f6f773790948e5c98ee9b02fa85898b0a9631043",
+      "hash": "sha256-UDNdAT/Z5FscjmH7eRwbKsELtOrxPVotscAFiFwT1Vk="
     },
     "ipkgJson": {
       "name": "posix",
