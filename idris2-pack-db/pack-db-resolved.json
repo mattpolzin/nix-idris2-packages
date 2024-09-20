@@ -492,8 +492,8 @@
     "ipkgName": "cptr",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
-      "rev": "f63149b67f9f97c716da165f009d1e509897c4f7",
-      "hash": "sha256-SPblPqZvvUqNHwdo2QuVmpYrruahCKY8K+If2adl54o="
+      "rev": "287d0b271e6a9fef7f301e054f8680d78c9f5244",
+      "hash": "sha256-wEQMNoggvyYX3rx4qUpClvKkHaD+xemKWDOvoJ0mcuA="
     },
     "ipkgJson": {
       "name": "cptr",
@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "0a2bbef7e2e9f0a10400ff5ca226e4a296f15e66",
-      "hash": "sha256-1nfKUGgqroXvNoW4ABBoISutOea3Nd9YrAahSxGo/AM="
+      "rev": "e3a28b10e1a0cd1c2f3e73b1e937a9fb8be328de",
+      "hash": "sha256-TiJeJ7kk5ufTzHcydPyDQ1nkIBBPOP+H6QoGez/9GKo="
     },
     "ipkgJson": {
       "name": "deptycheck",
