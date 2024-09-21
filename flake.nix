@@ -49,8 +49,6 @@
             inherit (attrs)
               idris2
               idris2Lsp
-              buildIdris
-              buildIdris'
               ;
           }
         )
@@ -58,15 +56,31 @@
       idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps false);
       idris2PackagesWithSource = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps true);
 
+      buildIdris = lib.mapAttrs (n: attrs: attrs.buildIdris);
+      buildIdris' = lib.mapAttrs (n: attrs: attrs.buildIdris');
+
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
 
       impureShell =
         {
           system ? builtins.currentSystem,
           src ? /. + builtins.getEnv "PWD",
+          ipkgName ?
+            let
+              fileMatches = lib.filesystem.locateDominatingFile "(.*)\.ipkg" src;
+            in
+            if fileMatches == null then
+              throw "Could not locate an ipkg file automatically"
+            else
+              let
+                inherit (fileMatches) matches path;
+                relative = lib.head (lib.head matches);
+                absolute = lib.path.append path relative;
+              in
+              lib.strings.removePrefix ((toString src) + "/") (toString absolute),
         }:
         nixpkgs.legacyPackages.${system}.callPackage ./ipkg-shell.nix {
-          inherit src;
+          inherit src ipkgName;
           inherit ((ps true).${system}) buildIdris' idris2 idris2Lsp;
         };
     };
