@@ -4,7 +4,6 @@
 # determining that all the packages you are going to need to build will support
 # the Idris2 version you are using.
 let
-  brokenPackages = import ./idris2-pack-db/broken-packages.nix;
   packDb = import ./idris2-pack-db/pack-db.nix;
 in
 {
@@ -34,8 +33,6 @@ let
 
   inherit (idris2Default) builtinPackages;
 
-  isBroken = packageName: builtins.elem packageName brokenPackages;
-
   overrides = callPackage ./idris2-pack-db/overrides.nix { inherit idris2 idris2Support; };
 
   attrsToBuildIdris =
@@ -52,7 +49,6 @@ let
           lib.subtractLists builtinPackages attrs.ipkgJson.depends
         );
         meta.packName = attrs.packName;
-        meta.broken = isBroken packageName;
       };
       override = overrides.${packageName} or { };
     in
