@@ -1,5 +1,7 @@
 result
 
+idris2-pack-db/idris2-lsp.json
+idris2-pack-db/idris2.json
 idris2-pack-db/pack-db-resolved.json.new
 
 harmony.json
