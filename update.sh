@@ -16,7 +16,7 @@ nix flake update idris2PackDbSrc
 
 header "Updating Pack Collection"
 
-pack_db_location=$(nix-build --expr 'with import <nixpkgs> {}; callPackage ./idris2-pack-db {}')
+pack_db_location=$(nix-build --expr 'with import <nixpkgs> {}; callPackage ./idris2-pack-db/unresolved-pack-db.nix {}')
 
 debug "pack-db latest dataset at $pack_db_location"
 
@@ -28,6 +28,7 @@ cat $pack_db_location/share/idris2.json \
 sed -i'' \
   "s#idris-lang/idris2/.*\";#idris-lang/idris2/$(cat ./idris2-pack-db/idris2.json | jq -r .src.rev)\";#" \
   ./flake.nix
+rm ./idris2-pack-db/idris2.json
 
 nix flake update idris2
 
@@ -39,6 +40,7 @@ cat $pack_db_location/share/idris2-lsp.json \
 sed -i'' \
   "s#idris-community/idris2-lsp/.*\";#idris-community/idris2-lsp/$(cat ./idris2-pack-db/idris2-lsp.json | jq -r .src.rev)\";#" \
   ./flake.nix
+rm ./idris2-pack-db/idris2-lsp.json
 
 nix flake update idris2Lsp
 
