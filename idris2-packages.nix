@@ -65,6 +65,7 @@ in
   inherit
     idris2
     idris2Lsp
+    idris2Api
     buildIdris
     buildIdris'
     idris2Packages
