@@ -1,5 +1,5 @@
 {
-  pkgs ? import ./nixpkgs.nix,
+  pkgs ? import ./packages/nixpkgs.nix,
 }:
 let
   inherit (pkgs) lib stdenv callPackage;

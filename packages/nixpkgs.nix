@@ -1,5 +1,5 @@
 let
-  flakeLock = builtins.fromJSON (builtins.readFile ./flake.lock);
+  flakeLock = builtins.fromJSON (builtins.readFile ../flake.lock);
   rev = flakeLock.nodes.nixpkgs.locked.rev;
   hash = flakeLock.nodes.nixpkgs.locked.narHash;
   owner = flakeLock.nodes.nixpkgs.locked.owner;

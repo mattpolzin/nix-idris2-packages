@@ -9,7 +9,7 @@ let
     "test"
   ];
 
-  flakeLock = builtins.fromJSON (builtins.readFile ./flake.lock);
+  flakeLock = builtins.fromJSON (builtins.readFile ../flake.lock);
   rev = flakeLock.nodes.idris2.locked.rev;
   hash = flakeLock.nodes.idris2.locked.narHash;
   owner = flakeLock.nodes.idris2.locked.owner;

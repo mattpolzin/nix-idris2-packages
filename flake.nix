@@ -49,6 +49,7 @@
             inherit (attrs)
               idris2
               idris2Lsp
+              idris2Api
               ;
           }
         )
