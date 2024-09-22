@@ -19,15 +19,15 @@ in
   withSource ? false,
 }:
 let
-  idris2Default = import ./idris2.nix { inherit system; };
-  idris2LspDefault = import ./idris2-lsp.nix { inherit system; };
+  idris2Default = import ./packages/idris2.nix { inherit system; };
+  idris2LspDefault = import ./packages/idris2-lsp.nix { inherit system; };
 
   idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
   idris2Support =
     if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
   idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
   buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
-  idris2Api = import ./idris2-api.nix { inherit idris2 buildIdris; };
+  idris2Api = import ./packages/idris2-api.nix { inherit idris2 buildIdris; };
 
   buildIdris' = callPackage ./build-idris-prime.nix { inherit idris2 idris2Packages buildIdris; };
 
