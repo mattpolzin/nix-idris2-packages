@@ -474,8 +474,8 @@
     "ipkgName": "cozippable",
     "src": {
       "url": "https://github.com/buzden/idris2-cozippable",
-      "rev": "6595b0e359fd207ba0feef15902107e878ecce65",
-      "hash": "sha256-Wvl9y5qtcTuaqDH+F1Y3h4DZbeOw4ybbOAEp8y7yFc8="
+      "rev": "ceaf178d9f2aa864f9ddedc7d4d5b059d69ed9be",
+      "hash": "sha256-IRQZmrmmEIrt/onTm8PWVxicbCU7SC1nRHmwNunJvmQ="
     },
     "ipkgJson": {
       "name": "cozippable",
@@ -893,8 +893,8 @@
     "ipkgName": "fin-lizzie",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
-      "rev": "04a916ad665787a9ef509e787b7bbc36cadaa74e",
-      "hash": "sha256-U7It7cht62RCY6Tzls7JBlk/D9CABThi0T0gPoUL/hk="
+      "rev": "9c7076c7cced1999c4269f6bc8eca340e8c0f6ab",
+      "hash": "sha256-LNbaWJKqXAkarJuulJkG9xbTbKzkvHvwBvtQ7C8/Bck="
     },
     "ipkgJson": {
       "name": "fin-lizzie",
@@ -2639,8 +2639,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "d35f5e74f7c38368a2cb3d1f45fc5efe08469c4e",
-      "hash": "sha256-mcVRPpPU1Qo9BNXu9c5h6FJ9MLATAIHA3uS3V2KkvW0="
+      "rev": "4a873c5390ff174cd8a8e8e41ed02782dd743ba2",
+      "hash": "sha256-Xq7Ra7C3OQJwhVwEnJRiUHfTsXPx54XSRhSA2iNu/yk="
     },
     "ipkgJson": {
       "name": "rtlsdr",
