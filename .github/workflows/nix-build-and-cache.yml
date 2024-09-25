@@ -84,9 +84,10 @@ jobs:
           key: ${{ github.run_number }}-${{ github.run_attempt }}
       - name: Build
         run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
-      - name: Ensure Flake idris2 & idris2LSP
+      - name: Ensure Flake idris2, idris2Api, and idris2LSP
         run: |
           nix build .#idris2
+          nix build .#idris2Api
           nix build .#idris2Lsp
       - name: Build Examples
         run: |
