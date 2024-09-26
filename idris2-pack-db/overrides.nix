@@ -112,6 +112,19 @@
     meta.broken = true;
   };
 
+  linux = {
+    preBuild = ''
+      patchShebangs --build linux/gencode.sh
+    '';
+
+    preInstall = ''
+      make -C linux/support install
+      mv ./linux/lib ./lib
+    '';
+
+    meta.platforms = lib.platforms.linux;
+  };
+
   ncurses-idris = {
     buildInputs = [
       ncurses5.dev
