@@ -156,10 +156,16 @@ there is exactly one `ipkg` file in the current directory.
 nix develop --impure --expr '(builtins.getFlake "github:mattpolzin/nix-idris2-packages").impureShell'
 ```
 
-It's a bit of a mouthful, but that'll spin up a new developer shell.
+It's a bit of a mouthful, but that'll spin up a new developer shell. If you do
+want or need to specify an ipkg file explicitly, you can pass `ipkgName` which
+must be the name of the ipkg file without its extension. It can, however, point
+to an ipkg file in a subdirectory. For example:
+```shell
+nix develop --impure --expr '(...).impureShell { ipkgName = "subdir/my-pkg"; }'
+```
 
 Although you do need the flakes experimental feature enabled either way, you can
-run the same expression with `nix-shell` if you prefer:
+run the shell with `nix-shell` if you prefer:
 
 ```shell
 nix-shell --expr '(builtins.getFlake "github:mattpolzin/nix-idris2-packages").impureShell'
