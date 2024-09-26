@@ -432,8 +432,8 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-containers",
-      "rev": "b99c3539e2c2f71dd6a4151ce8ef5de8a2f7492f",
-      "hash": "sha256-HXTLbBNTAag05BrPShEagztc5LF3R3RHRIXu6rxgRjE="
+      "rev": "3f303a15960057fbdfedcd9c5cb13c5bde1e0f26",
+      "hash": "sha256-kK2wgEj2S9ARc+W/pwgb9QBg+Y+1F1AZuxgCoOc+MKM="
     },
     "ipkgJson": {
       "name": "containers",
@@ -442,7 +442,7 @@
         "elab-util"
       ],
       "version": "0.6.0",
-      "authors": "stefan-hoeck",
+      "authors": "stefan-hoeck and matthew-mosior",
       "brief": "Basic Tree and Queue data structures",
       "sourcedir": "src"
     }
@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "e3a28b10e1a0cd1c2f3e73b1e937a9fb8be328de",
-      "hash": "sha256-TiJeJ7kk5ufTzHcydPyDQ1nkIBBPOP+H6QoGez/9GKo="
+      "rev": "f376dea67c96f4f803884b610a41d38aa3271377",
+      "hash": "sha256-xYPozo+S3QHPhr1e0vS9oFfy9jjtQJNVscKpVADZmGk="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1609,8 +1609,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "67323969eaebda522be55dfe3d571485d38b152b",
-      "hash": "sha256-1896bn+5BujsWzYHKAQ//53jPg8eMSMWDRbaixuebL0="
+      "rev": "609bb29ac39c18872d4dc15b3f0009333eb1a633",
+      "hash": "sha256-x0b8Os4yO0LGpAa+TZL4iziqVqvyqGSMNyCz9xeOvW0="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2210,8 +2210,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "67323969eaebda522be55dfe3d571485d38b152b",
-      "hash": "sha256-1896bn+5BujsWzYHKAQ//53jPg8eMSMWDRbaixuebL0="
+      "rev": "609bb29ac39c18872d4dc15b3f0009333eb1a633",
+      "hash": "sha256-x0b8Os4yO0LGpAa+TZL4iziqVqvyqGSMNyCz9xeOvW0="
     },
     "ipkgJson": {
       "name": "posix",
@@ -2639,8 +2639,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "4a873c5390ff174cd8a8e8e41ed02782dd743ba2",
-      "hash": "sha256-Xq7Ra7C3OQJwhVwEnJRiUHfTsXPx54XSRhSA2iNu/yk="
+      "rev": "cbee14f3b4ebe1c145382cbc32fb831cfc99ecf9",
+      "hash": "sha256-4O6AZmSuFtEKIeEpsgw8HB8HLjOIxajjeqf7ccvkL84="
     },
     "ipkgJson": {
       "name": "rtlsdr",
