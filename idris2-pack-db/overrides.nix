@@ -123,8 +123,14 @@
   };
 
   posix = {
-    # See WIP branch: https://github.com/mattpolzin/nix-idris2-packages/tree/unbreak-posix
-    meta.broken = stdenv.isDarwin;
+    preBuild = ''
+      patchShebangs --build posix/gencode.sh
+    '';
+
+    preInstall = ''
+      make -C posix/support install
+      mv ./posix/lib ./lib
+    '';
   };
 
   rtlsdr = {
