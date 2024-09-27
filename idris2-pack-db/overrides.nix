@@ -112,6 +112,19 @@
     meta.broken = true;
   };
 
+  linux = {
+    preBuild = ''
+      patchShebangs --build linux/gencode.sh
+    '';
+
+    preInstall = ''
+      make -C linux/support install
+      mv ./linux/lib ./lib
+    '';
+
+    meta.platforms = lib.platforms.linux;
+  };
+
   ncurses-idris = {
     buildInputs = [
       ncurses5.dev
@@ -123,8 +136,14 @@
   };
 
   posix = {
-    # See WIP branch: https://github.com/mattpolzin/nix-idris2-packages/tree/unbreak-posix
-    meta.broken = stdenv.isDarwin;
+    preBuild = ''
+      patchShebangs --build posix/gencode.sh
+    '';
+
+    preInstall = ''
+      make -C posix/support install
+      mv ./posix/lib ./lib
+    '';
   };
 
   rtlsdr = {
