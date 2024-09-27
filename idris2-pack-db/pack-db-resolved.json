@@ -432,8 +432,8 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-containers",
-      "rev": "3f303a15960057fbdfedcd9c5cb13c5bde1e0f26",
-      "hash": "sha256-kK2wgEj2S9ARc+W/pwgb9QBg+Y+1F1AZuxgCoOc+MKM="
+      "rev": "1d4d46256a7021d63bbf5fc9a8e32dfeaa9f32c1",
+      "hash": "sha256-DI9AQWy57q4glW9/Mu0pP0V8hrOpfrR6wSncX39rrTw="
     },
     "ipkgJson": {
       "name": "containers",
@@ -893,8 +893,8 @@
     "ipkgName": "fin-lizzie",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
-      "rev": "9c7076c7cced1999c4269f6bc8eca340e8c0f6ab",
-      "hash": "sha256-LNbaWJKqXAkarJuulJkG9xbTbKzkvHvwBvtQ7C8/Bck="
+      "rev": "985d572b66ea8dffac55d4d7c335460fb223d318",
+      "hash": "sha256-T07xQXKwr2I6HAmgl+qUL3ltwqoeVO08nk5uifuJe0M="
     },
     "ipkgJson": {
       "name": "fin-lizzie",
@@ -1609,8 +1609,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "609bb29ac39c18872d4dc15b3f0009333eb1a633",
-      "hash": "sha256-x0b8Os4yO0LGpAa+TZL4iziqVqvyqGSMNyCz9xeOvW0="
+      "rev": "e60517671a0e3261931ed9972f77213269a26414",
+      "hash": "sha256-Gxh9HDKN8G+06E/8QW3Ppc8ViZIW1Vl/dfKEG408LEM="
     },
     "ipkgJson": {
       "name": "linux",
@@ -1866,6 +1866,27 @@
       "license": "MIT",
       "brief": "Linear algebra and data science library",
       "readme": "README.md",
+      "sourcedir": "src"
+    }
+  },
+  "okasaki-pfds": {
+    "packName": "okasaki-pfds",
+    "ipkgName": "okasaki-pfds",
+    "src": {
+      "url": "https://gitlab.com/bss03/idris2-okasaki-pfds",
+      "rev": "d56d08c4f0c54e6b0ed9727c506beb757052f1ec",
+      "hash": "sha256-fEPdTnpmab5XU2EgSZ0nUNI9ZM3aGlUTZ+YJf9L9gSg="
+    },
+    "ipkgJson": {
+      "name": "okasaki-pfds",
+      "depends": [],
+      "version": "1.0.0",
+      "langversion": {
+        "lowerInclusive": true,
+        "lowerBound": "0.7.0",
+        "upperInclusive": true,
+        "upperBound": "*"
+      },
       "sourcedir": "src"
     }
   },
@@ -2210,8 +2231,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "609bb29ac39c18872d4dc15b3f0009333eb1a633",
-      "hash": "sha256-x0b8Os4yO0LGpAa+TZL4iziqVqvyqGSMNyCz9xeOvW0="
+      "rev": "e60517671a0e3261931ed9972f77213269a26414",
+      "hash": "sha256-Gxh9HDKN8G+06E/8QW3Ppc8ViZIW1Vl/dfKEG408LEM="
     },
     "ipkgJson": {
       "name": "posix",
