@@ -1,3 +1,14 @@
+# `buildIdris'` takes the `buildIdris` function and wraps it in as much automation
+# as possible. It: 
+# - Determines dependencies from the ipkg file and includes them in
+#   `idrisLibraries` if they can be located within the pack-db packageset.
+# - Determines derivation version from the ipkg file.
+# - Determines if the derivation should be an executable or library from the
+#   ipkg file (which means that unlike the result of `buildIdris`, the result of
+#   `buildIdris'` is a derivation, not an attribute set containing `library` and
+#   `executable` properties).
+# - Supports extra additional dependencies that cannot be found in the pack-db
+#   packageset with an `extraIdrisLibraries` argument.
 {
   idris2,
   idris2Packages,
