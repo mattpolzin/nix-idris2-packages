@@ -1874,8 +1874,8 @@
     "ipkgName": "okasaki-pfds",
     "src": {
       "url": "https://gitlab.com/bss03/idris2-okasaki-pfds",
-      "rev": "d56d08c4f0c54e6b0ed9727c506beb757052f1ec",
-      "hash": "sha256-fEPdTnpmab5XU2EgSZ0nUNI9ZM3aGlUTZ+YJf9L9gSg="
+      "rev": "a8dd0b89dc307ef621f35e59216b11aadb128ade",
+      "hash": "sha256-1v76ZD5FQXfaA886GfV6kxn06O7duJK//jdYtu6hWUE="
     },
     "ipkgJson": {
       "name": "okasaki-pfds",
@@ -1887,6 +1887,7 @@
         "upperInclusive": true,
         "upperBound": "*"
       },
+      "brief": "Purely Functional Data Structures ala Okasaki",
       "sourcedir": "src"
     }
   },
@@ -2660,8 +2661,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "cbee14f3b4ebe1c145382cbc32fb831cfc99ecf9",
-      "hash": "sha256-4O6AZmSuFtEKIeEpsgw8HB8HLjOIxajjeqf7ccvkL84="
+      "rev": "984255e736db4d38077163477b39458f6f03d5b9",
+      "hash": "sha256-SpH/pEXvcx5EPf6noEa+J8Ln2n0vCBxjDiCbaMH3NcA="
     },
     "ipkgJson": {
       "name": "rtlsdr",
