@@ -171,6 +171,33 @@ run the shell with `nix-shell` if you prefer:
 nix-shell --expr '(builtins.getFlake "github:mattpolzin/nix-idris2-packages").impureShell'
 ```
 
+## Experimental stuff
+This packageset might from time to time experiment with new (almost exclusively
+backwards compatible) interfaces to existing functions or derivations surfaced
+originally by nixpkgs, idris2, or this packageset.
+
+### buildIdris
+There are currently `experimental.buildIdris` and `experimental.buildIdris'` functions in this packageset that allow an Idris2 library previously built without source to later be rebuilt with source included. This means an upstream project can offer its library built without source and a downstream project or nix-shell can rebuild it with source for the purposes of editor integrations.
+
+Let's say you have a `package.nix` file like:
+```nix
+let myPkg = experimental.buildIdris {
+  ...
+};
+in myPkg.library { withSource = false; }
+```
+
+Then your `shell.nix` file may look like this:
+```nix
+let myPkgLib = import ./package.nix;
+in mkShell {
+  packages = [ idris2 idris2Lsp ];
+  inputsFrom = [
+    myPkgLib.withSource
+  ];
+}
+```
+
 ## Updating this packageset
 To update to the package set & package versions to the latest Pack has to offer,
 run the `update.sh` script from the root of the repository.
