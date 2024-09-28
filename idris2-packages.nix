@@ -30,6 +30,16 @@ let
   idris2Api = import ./packages/idris2-api.nix { inherit idris2 buildIdris; };
 
   buildIdris' = callPackage ./build-idris-prime.nix { inherit idris2 idris2Packages buildIdris; };
+  buildIdrisAlpha = callPackage ./build-idris-alpha.nix {
+      inherit idris2;
+      idris2Version = idris2.version;
+      support = idris2Support;
+    };
+
+  experimental = {
+    buildIdris = buildIdrisAlpha;
+    buildIdris' = buildIdris'.override { buildIdris = buildIdrisAlpha; };
+  };
 
   inherit (idris2Default) builtinPackages;
 
@@ -69,5 +79,6 @@ in
     buildIdris
     buildIdris'
     idris2Packages
+    experimental
     ;
 }
