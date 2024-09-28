@@ -21,6 +21,7 @@
       nixpkgs,
       idris2,
       idris2Lsp,
+      self,
       ...
     }:
     let
@@ -41,6 +42,16 @@
         );
     in
     {
+      overlays =
+        let
+          mkOverlay = withSource: import ./overlay.nix { inherit idris2 idris2Lsp withSource; };
+        in
+        {
+          withoutSource = mkOverlay false;
+          withSource = mkOverlay true;
+          default = self.overlays.withSource;
+        };
+
       packages = lib.mapAttrs (
         n: attrs:
         (
