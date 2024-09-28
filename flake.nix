@@ -57,8 +57,8 @@
       idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps false);
       idris2PackagesWithSource = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps true);
 
-      buildIdris = lib.mapAttrs (n: attrs: attrs.buildIdris);
-      buildIdris' = lib.mapAttrs (n: attrs: attrs.buildIdris');
+      buildIdris = lib.mapAttrs (n: attrs: attrs.buildIdris) (ps false);
+      buildIdris' = lib.mapAttrs (n: attrs: attrs.buildIdris') (ps false);
 
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
 
