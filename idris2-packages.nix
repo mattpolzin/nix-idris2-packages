@@ -31,10 +31,10 @@ let
 
   buildIdris' = callPackage ./build-idris-prime.nix { inherit idris2 idris2Packages buildIdris; };
   buildIdrisAlpha = callPackage ./build-idris-alpha.nix {
-      inherit idris2;
-      idris2Version = idris2.version;
-      support = idris2Support;
-    };
+    inherit idris2;
+    idris2Version = idris2.version;
+    support = idris2Support;
+  };
 
   experimental = {
     buildIdris = buildIdrisAlpha;
