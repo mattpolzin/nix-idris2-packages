@@ -97,3 +97,6 @@ jobs:
 
           cd ../../examples/non-flake-build-idris-prime
           nix-build
+
+          cd ../../examples/non-flake-without-source-with-source
+          nix-build
