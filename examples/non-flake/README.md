@@ -1,5 +1,5 @@
 
-This simply example uses the nix idris2 packageset to pull the `ncurses-idris`
+This simple example uses the nix idris2 packageset to pull the `ncurses-idris`
 dependency into an example Idris2 project.
 
 Build the example with `nix-build`. Run the example with
