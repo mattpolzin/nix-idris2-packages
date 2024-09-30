@@ -76,7 +76,7 @@ jobs:
           name: gh-nix-idris2-packages
           # If you chose API tokens for write access OR if you have a private cache
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
-      - name: Restore Cache 
+      - name: Restore Cache
         uses: actions/cache/restore@v4
         with:
           path: |
@@ -97,4 +97,3 @@ jobs:
 
           cd ../../examples/non-flake-build-idris-prime
           nix-build
-
