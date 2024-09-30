@@ -17,5 +17,5 @@ pkgs.mkShell {
     packageset.idris2
     packageset.idris2Lsp
   ];
-  inputsFrom = [ myPkg ];
+  inputsFrom = [ myPkg.withSource ];
 }
