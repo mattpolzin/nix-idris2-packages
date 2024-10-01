@@ -3,13 +3,9 @@
 # package-set specifies. This can be useful but you are on your own in
 # determining that all the packages you are going to need to build will support
 # the Idris2 version you are using.
-let
-  packDb = import ./idris2-pack-db/pack-db.nix;
-in
 {
   lib,
-  fetchgit,
-  callPackage,
+  newScope,
   system ? builtins.currentSystem or "unknown-system",
   idris2Override ? null,
   idris2SupportOverride ? null,
@@ -22,71 +18,41 @@ let
   idris2Default = import ./packages/idris2.nix { inherit system; };
   idris2LspDefault = import ./packages/idris2-lsp.nix { inherit system; };
 
-  idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
-  idris2Support =
-    if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
-  idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
-  buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
-  idris2Api = import ./packages/idris2-api.nix { inherit idris2 buildIdris; };
+  idris2Scope = lib.makeScope newScope (self: {
+    idris2Support =
+      if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
+    idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
+    buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
+    idris2Api = self.callPackage ./packages/idris2-api.nix { };
+    idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
 
-  buildIdris' = callPackage ./build-idris-prime.nix { inherit idris2 idris2Packages buildIdris; };
-  buildIdrisAlpha = callPackage ./build-idris-alpha.nix {
-    inherit idris2;
-    idris2Version = idris2.version;
-    support = idris2Support;
-  };
+    buildIdris' = self.callPackage ./build-idris-prime.nix { };
+    buildIdrisAlpha = self.callPackage ./build-idris-alpha.nix {
+      idris2Version = self.idris2.version;
+      support = self.idris2Support;
+    };
 
-  experimental =
-    let
-      idris2Packages = mkPackages buildIdrisAlpha;
-      buildIdris = buildIdrisAlpha;
-    in
-    {
-      inherit idris2Packages buildIdris;
-      buildIdris' = buildIdris'.override {
+    inherit (idris2Default) builtinPackages;
+
+    overrides = self.callPackage ./idris2-pack-db/overrides.nix { };
+
+    idris2Packages = self.callPackage ./mk-packageset.nix { inherit withSource; };
+
+    experimental =
+      let
+        idris2Packages = self.idris2Packages.override { buildIdris = self.buildIdrisAlpha; };
+        buildIdris = self.buildIdrisAlpha;
+      in
+      {
         inherit idris2Packages buildIdris;
+        buildIdris' = self.buildIdris'.override {
+          inherit idris2Packages buildIdris;
+        };
       };
-    };
-
-  inherit (idris2Default) builtinPackages;
-
-  overrides = callPackage ./idris2-pack-db/overrides.nix { inherit idris2 idris2Support; };
-
-  mkPackages =
-    buildIdris:
-    let
-      attrsToBuildIdris =
-        packageName: attrs:
-        let
-          execOrLib = (
-            p: if attrs.ipkgJson ? "executable" then p.executable else p.library { inherit withSource; }
-          );
-          idrisPackageAttrs = {
-            inherit (attrs) ipkgName;
-            version = attrs.ipkgJson.version or "unversioned";
-            src = fetchgit (attrs.src // { fetchSubmodules = false; });
-            idrisLibraries = map (depName: (mkPackages buildIdris).${depName}) (
-              lib.subtractLists builtinPackages attrs.ipkgJson.depends
-            );
-            meta.packName = attrs.packName;
-          };
-          override = overrides.${packageName} or { };
-        in
-        execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
-
-    in
-    (lib.mapAttrs attrsToBuildIdris packDb)
-    // {
-      # The idris2-api package is named 'idris2':
-      idris2 = idris2Api;
-      # We build the LSP from its own repo's derivation:
-      idris2-lsp = idris2Lsp;
-    };
-
-  idris2Packages = mkPackages buildIdris;
+  });
 in
 {
-  inherit
+  inherit (idris2Scope)
     idris2
     idris2Lsp
     idris2Api

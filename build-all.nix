@@ -14,7 +14,7 @@ let
     p: lib.lists.any (p: (p.meta.broken or false) || depsBroken p) p.propagatedIdrisLibraries;
 
   packages = lib.filterAttrs (
-    n: p: !p.meta.broken && !(depsBroken p) && supportedPlatform p
+    n: p: (lib.isDerivation p) && !p.meta.broken && !(depsBroken p) && supportedPlatform p
   ) idris2Packages;
 in
 pkgs.runCommand "all-packages"
