@@ -37,47 +37,51 @@ let
   };
 
   experimental =
-  let
-    idris2Packages = mkPackages buildIdrisAlpha;
-    buildIdris = buildIdrisAlpha;
-  in {
-    inherit idris2Packages buildIdris;
-    buildIdris' = buildIdris'.override { 
+    let
+      idris2Packages = mkPackages buildIdrisAlpha;
+      buildIdris = buildIdrisAlpha;
+    in
+    {
       inherit idris2Packages buildIdris;
+      buildIdris' = buildIdris'.override {
+        inherit idris2Packages buildIdris;
+      };
     };
-  };
 
   inherit (idris2Default) builtinPackages;
 
   overrides = callPackage ./idris2-pack-db/overrides.nix { inherit idris2 idris2Support; };
 
-  mkPackages = buildIdris:
-  let
-  attrsToBuildIdris =
-    packageName: attrs:
+  mkPackages =
+    buildIdris:
     let
-      execOrLib = (
-        p: if attrs.ipkgJson ? "executable" then p.executable else p.library { inherit withSource; }
-      );
-      idrisPackageAttrs = {
-        inherit (attrs) ipkgName;
-        version = attrs.ipkgJson.version or "unversioned";
-        src = fetchgit (attrs.src // { fetchSubmodules = false; });
-        idrisLibraries = map (depName: (mkPackages buildIdris).${depName}) (
-          lib.subtractLists builtinPackages attrs.ipkgJson.depends
-        );
-        meta.packName = attrs.packName;
-      };
-      override = overrides.${packageName} or { };
-    in
-    execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
+      attrsToBuildIdris =
+        packageName: attrs:
+        let
+          execOrLib = (
+            p: if attrs.ipkgJson ? "executable" then p.executable else p.library { inherit withSource; }
+          );
+          idrisPackageAttrs = {
+            inherit (attrs) ipkgName;
+            version = attrs.ipkgJson.version or "unversioned";
+            src = fetchgit (attrs.src // { fetchSubmodules = false; });
+            idrisLibraries = map (depName: (mkPackages buildIdris).${depName}) (
+              lib.subtractLists builtinPackages attrs.ipkgJson.depends
+            );
+            meta.packName = attrs.packName;
+          };
+          override = overrides.${packageName} or { };
+        in
+        execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 
-  in (lib.mapAttrs attrsToBuildIdris packDb) // {
-    # The idris2-api package is named 'idris2':
-    idris2 = idris2Api;
-    # We build the LSP from its own repo's derivation:
-    idris2-lsp = idris2Lsp;
-  };
+    in
+    (lib.mapAttrs attrsToBuildIdris packDb)
+    // {
+      # The idris2-api package is named 'idris2':
+      idris2 = idris2Api;
+      # We build the LSP from its own repo's derivation:
+      idris2-lsp = idris2Lsp;
+    };
 
   idris2Packages = mkPackages buildIdris;
 in
