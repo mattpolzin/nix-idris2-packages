@@ -18,7 +18,7 @@ let
   idris2Default = import ./packages/idris2.nix { inherit system; };
   idris2LspDefault = import ./packages/idris2-lsp.nix { inherit system; };
 
-  idrisScope = lib.makeScope newScope (self: {
+  idris2Scope = lib.makeScope newScope (self: {
     idris2Support =
       if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
     idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
@@ -52,7 +52,7 @@ let
   });
 in
 {
-  inherit (idrisScope)
+  inherit (idris2Scope)
     idris2
     idris2Lsp
     idris2Api
