@@ -11,7 +11,7 @@ in
 packageset.buildIdris' {
   ipkgName = "my-pkg";
   src = builtins.path {
-    path = ./.;
+    path = ../shared-src;
     name = "my-ipkg-src";
   };
 }

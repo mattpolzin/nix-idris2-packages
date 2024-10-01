@@ -90,13 +90,15 @@ jobs:
           nix build .#idris2
           nix build .#idris2Api
           nix build .#idris2Lsp
-      - name: Build Examples
+      - name: Build Example 1
         run: |
           cd examples/non-flake
           nix-build
-
-          cd ../../examples/non-flake-build-idris-prime
+      - name: Build Example 2
+        run: |
+          cd examples/non-flake-build-idris-prime
           nix-build
-
-          cd ../../examples/non-flake-without-source-with-source
+      - name: Build Example 3
+        run: |
+          cd examples/non-flake-without-source-with-source
           nix-build
