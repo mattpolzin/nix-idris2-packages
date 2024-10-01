@@ -44,13 +44,11 @@ let
       throw "Found an Idris2 library dependency that was not the result of the buildIdris function"
   ) idrisLibraries;
 
-  applyWithSource = withSource: lib: if withSource then lib.withSource else lib;
   propagate =
     libs: lib.unique (lib.concatMap (nextLib: [ nextLib ] ++ nextLib.propagatedIdrisLibraries) libs);
   ipkgFileName = ipkgName + ".ipkg";
   idrName = "idris2-${idris2Version}";
   libSuffix = "lib/${idrName}";
-  propagatedIdrisLibs = withSource: map (applyWithSource withSource) (propagate idrisLibraryLibs);
   libDirs = libs: lib.strings.makeSearchPath libSuffix libs;
   drvAttrs = builtins.removeAttrs attrs [
     "ipkgName"
@@ -61,7 +59,8 @@ let
   mkDerivation =
     withSource:
     let
-      propagatedIdrisLibraries = propagatedIdrisLibs withSource;
+      applyWithSource = lib: if withSource then lib.withSource else lib;
+      propagatedIdrisLibraries = map applyWithSource (propagate idrisLibraryLibs);
     in
     stdenv.mkDerivation (
       finalAttrs:
@@ -134,6 +133,8 @@ let
         runHook postInstall
       '';
 
+      # allow an executable's dependencies to be built with source. this is convenient when
+      # building a development shell for the exectuable using `mkShell`'s `inputsFrom`.
       passthru = derivation.passthru // {
         withSource = mkExecutable true;
       };
