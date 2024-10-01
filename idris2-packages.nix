@@ -30,11 +30,29 @@ let
   idris2Api = import ./packages/idris2-api.nix { inherit idris2 buildIdris; };
 
   buildIdris' = callPackage ./build-idris-prime.nix { inherit idris2 idris2Packages buildIdris; };
+  buildIdrisAlpha = callPackage ./build-idris-alpha.nix {
+    inherit idris2;
+    idris2Version = idris2.version;
+    support = idris2Support;
+  };
+
+  experimental =
+  let
+    idris2Packages = mkPackages buildIdrisAlpha;
+    buildIdris = buildIdrisAlpha;
+  in {
+    inherit idris2Packages buildIdris;
+    buildIdris' = buildIdris'.override { 
+      inherit idris2Packages buildIdris;
+    };
+  };
 
   inherit (idris2Default) builtinPackages;
 
   overrides = callPackage ./idris2-pack-db/overrides.nix { inherit idris2 idris2Support; };
 
+  mkPackages = buildIdris:
+  let
   attrsToBuildIdris =
     packageName: attrs:
     let
@@ -45,7 +63,7 @@ let
         inherit (attrs) ipkgName;
         version = attrs.ipkgJson.version or "unversioned";
         src = fetchgit (attrs.src // { fetchSubmodules = false; });
-        idrisLibraries = map (depName: idris2Packages.${depName}) (
+        idrisLibraries = map (depName: (mkPackages buildIdris).${depName}) (
           lib.subtractLists builtinPackages attrs.ipkgJson.depends
         );
         meta.packName = attrs.packName;
@@ -54,12 +72,14 @@ let
     in
     execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 
-  idris2Packages = (lib.mapAttrs attrsToBuildIdris packDb) // {
+  in (lib.mapAttrs attrsToBuildIdris packDb) // {
     # The idris2-api package is named 'idris2':
     idris2 = idris2Api;
     # We build the LSP from its own repo's derivation:
     idris2-lsp = idris2Lsp;
   };
+
+  idris2Packages = mkPackages buildIdris;
 in
 {
   inherit
@@ -69,5 +89,6 @@ in
     buildIdris
     buildIdris'
     idris2Packages
+    experimental
     ;
 }
