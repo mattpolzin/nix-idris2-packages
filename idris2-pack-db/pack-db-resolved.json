@@ -866,8 +866,8 @@
     "ipkgName": "filepath",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-filepath",
-      "rev": "2d3196cb8fd4e24f7555e74bc9c2a1564c718550",
-      "hash": "sha256-IDFbjmwoKvN1BgTj6Ji6Ko9OjquPa288VpQMWXwxVzM="
+      "rev": "bb4742c4dc58526879da769a878b87fcd228abd8",
+      "hash": "sha256-07setecJENAyKKKQ0MxG21bG/DJBNQHxxI1qlOtF/Sw="
     },
     "ipkgJson": {
       "name": "filepath",
@@ -2661,8 +2661,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "28a4f48d72c443d91edd650f05cb96c4a2f86e81",
-      "hash": "sha256-l9PIKr3BQ7/RNPEmJtmehSQTJ16drfLJt/Io3VgvY1I="
+      "rev": "9c381aac2b72549d52cfd61affad21ebb1b95519",
+      "hash": "sha256-pbptVY+6fSYDsLhzDhLgDCFDS5ApYJSO3xirnMD9HYI="
     },
     "ipkgJson": {
       "name": "rtlsdr",
