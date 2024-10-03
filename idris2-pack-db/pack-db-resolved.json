@@ -308,8 +308,8 @@
     "ipkgName": "chem",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "ab06f53f11885b1976143f18a5494b2e7678d918",
-      "hash": "sha256-Vh3bEZwtdgjlEJreN0B/awzgkb0m95tvB+cmk3xXay0="
+      "rev": "7965b0f61d16fcfbb958e90ae27dfe7b83b9ef88",
+      "hash": "sha256-KTo6NLqTHmq/8h3zTd60mqSkuJDHvhP0uUCOyrjsOJc="
     },
     "ipkgJson": {
       "name": "chem",
@@ -333,8 +333,8 @@
     "ipkgName": "chem-generators/chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "ab06f53f11885b1976143f18a5494b2e7678d918",
-      "hash": "sha256-Vh3bEZwtdgjlEJreN0B/awzgkb0m95tvB+cmk3xXay0="
+      "rev": "7965b0f61d16fcfbb958e90ae27dfe7b83b9ef88",
+      "hash": "sha256-KTo6NLqTHmq/8h3zTd60mqSkuJDHvhP0uUCOyrjsOJc="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "f376dea67c96f4f803884b610a41d38aa3271377",
-      "hash": "sha256-xYPozo+S3QHPhr1e0vS9oFfy9jjtQJNVscKpVADZmGk="
+      "rev": "e702b57a0419221963e45e883067c18d620cd3b2",
+      "hash": "sha256-q3eEmyYhtcLensbrBrsFgufLzsLg8pI9CVtBzmLCpbI="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -2661,8 +2661,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "9c381aac2b72549d52cfd61affad21ebb1b95519",
-      "hash": "sha256-pbptVY+6fSYDsLhzDhLgDCFDS5ApYJSO3xirnMD9HYI="
+      "rev": "d544d456ede96617aa6859d09c8b0a079b091050",
+      "hash": "sha256-yNl4kHVZArpCuuC4jve5i1I4LSr8MOqQboGRGFxEw4M="
     },
     "ipkgJson": {
       "name": "rtlsdr",
