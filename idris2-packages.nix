@@ -40,7 +40,10 @@ let
 
     experimental =
       let
-        idris2Packages = self.idris2Packages.override { buildIdris = self.buildIdrisAlpha; };
+        idris2Packages = self.idris2Packages.override {
+          buildIdris = self.buildIdrisAlpha;
+          inherit idris2Packages;
+        };
         buildIdris = self.buildIdrisAlpha;
       in
       {
