@@ -2661,8 +2661,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "d2a759159f035c8d5cf92d8ff868241dab823ea9",
-      "hash": "sha256-0awC4RBvy6LU9ydsBLq1LBLI+MjixYyk+yXKrHg6qFU="
+      "rev": "c24a4b8aef7e36859a0dfdc5642f70e171009164",
+      "hash": "sha256-YOKzXghv/iMHUScslKisGWH80ADixHrmdUvYGfNP+Dc="
     },
     "ipkgJson": {
       "name": "rtlsdr",
@@ -3074,8 +3074,8 @@
     "ipkgName": "typelevel-emptiness-collections",
     "src": {
       "url": "https://github.com/buzden/idris2-typelevel-emptiness-collections",
-      "rev": "f791ef193281b0ec7436d47b08ab05c4bbb57497",
-      "hash": "sha256-F5jLA1cw8CnRHCWdDQ/q4CvgHVfLkdn4O2ZCb1dcYGs="
+      "rev": "9da25759d51ec042a4edfac089098c65f47ef246",
+      "hash": "sha256-kbOQPRH93iffymH1qOq5jrmWr34w88U2bGQpO8pkc4Q="
     },
     "ipkgJson": {
       "name": "typelevel-emptiness-collections",
