@@ -2661,8 +2661,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "6c154ccde13d50b48dd0426562b80ad7ea2b6e35",
-      "hash": "sha256-hWtuMYBzm4SxEaDPxPz8N/EVPTerrFh1YJ32lHHRaDs="
+      "rev": "6b277fb8d7e439c4b055fc5dfcd3d512eb6371f6",
+      "hash": "sha256-Z+HjbMcVmvmjsvM1X4lAdOxy4EHz4Yb2+BrNJfhShaA="
     },
     "ipkgJson": {
       "name": "rtlsdr",
