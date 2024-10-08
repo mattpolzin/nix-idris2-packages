@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "e702b57a0419221963e45e883067c18d620cd3b2",
-      "hash": "sha256-q3eEmyYhtcLensbrBrsFgufLzsLg8pI9CVtBzmLCpbI="
+      "rev": "e2e444287fbed410c717a3be509ccc5fe5d304bf",
+      "hash": "sha256-Q6iiV3iHuc1MbTiRDR6X2BjiekmS6f6AW5Xx0aqYOZg="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -866,8 +866,8 @@
     "ipkgName": "filepath",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-filepath",
-      "rev": "bb4742c4dc58526879da769a878b87fcd228abd8",
-      "hash": "sha256-07setecJENAyKKKQ0MxG21bG/DJBNQHxxI1qlOtF/Sw="
+      "rev": "0441eaee9ff1d921fc3f4619c2a8d542588c0e99",
+      "hash": "sha256-HiaT1Ggbzm7aAEMnCobhhavdheKbYyMA5D9BO0cdG7Y="
     },
     "ipkgJson": {
       "name": "filepath",
@@ -2661,8 +2661,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "6b277fb8d7e439c4b055fc5dfcd3d512eb6371f6",
-      "hash": "sha256-Z+HjbMcVmvmjsvM1X4lAdOxy4EHz4Yb2+BrNJfhShaA="
+      "rev": "75da892ddc86f48b289d17d6efd4a2ef3d1b939e",
+      "hash": "sha256-2+Ojb+8sscXA7QpIX/PtrPl4c9XM0VEzbwHjhx55/cI="
     },
     "ipkgJson": {
       "name": "rtlsdr",
