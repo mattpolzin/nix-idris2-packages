@@ -35,7 +35,7 @@ derivation.
 
 #### Flake project
 A flake project can use the Idris2 package set as an input. If you want to
-benefit from the Cachix cash at all (currently only caches the compiler & LSP,
+benefit from the Cachix cache at all (currently only caches the compiler & LSP,
 but that's quite a bit of time saved), you'll need to avoid changing the
 `follows` for the package set.
 ```nix
