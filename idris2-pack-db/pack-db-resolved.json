@@ -678,8 +678,8 @@
     "ipkgName": "dom-mvc",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom-mvc",
-      "rev": "edc345e88148764771547d71ec4fcddb55d92b06",
-      "hash": "sha256-gPqMPv8Lv3oey91dwdQ45RVu4CvzKZgLdvE+W+pYh1g="
+      "rev": "aa13b5cb074b9f1537cc55cac365cf1f5d76c8b3",
+      "hash": "sha256-HJLPAmFw9z2u3kacaG4s5UD12wAXp9Dsrgp8Lx1Afws="
     },
     "ipkgJson": {
       "name": "dom-mvc",
@@ -702,8 +702,8 @@
     "ipkgName": "extra/dom-mvc-extra",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom-mvc",
-      "rev": "edc345e88148764771547d71ec4fcddb55d92b06",
-      "hash": "sha256-gPqMPv8Lv3oey91dwdQ45RVu4CvzKZgLdvE+W+pYh1g="
+      "rev": "aa13b5cb074b9f1537cc55cac365cf1f5d76c8b3",
+      "hash": "sha256-HJLPAmFw9z2u3kacaG4s5UD12wAXp9Dsrgp8Lx1Afws="
     },
     "ipkgJson": {
       "name": "dom-mvc-extra",
@@ -2661,8 +2661,8 @@
     "ipkgName": "rtlsdr",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
-      "rev": "2f87f7b1222fe2109c31011c4da7c6c5259eaf16",
-      "hash": "sha256-8yYT4iVd9h1GXpcT7Htn8crdESAN0gYcUVVhEULryEg="
+      "rev": "5ee5a09b04b89de4d5fb4e347a136ec158558032",
+      "hash": "sha256-DuZ1AefaluxcdinUHdtu431jCmTscuTgSCRzTz+iIes="
     },
     "ipkgJson": {
       "name": "rtlsdr",
