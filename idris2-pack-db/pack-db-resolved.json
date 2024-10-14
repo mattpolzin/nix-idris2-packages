@@ -1153,8 +1153,8 @@
     "ipkgName": "hedgehog",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-hedgehog",
-      "rev": "87d3bf91c04e5bde2063308855d1e983242d8f29",
-      "hash": "sha256-gankTDgxCheg4UTybynFiNi5aWSl2EBXKW4aAKqUvxQ="
+      "rev": "3dd9beb4e6c569ec21fac034991ef8dd49971d5e",
+      "hash": "sha256-Rsj0GRHEvd1cQW+/N9HDPY8WU/JL/cH9LCP7hSdLVHI="
     },
     "ipkgJson": {
       "name": "hedgehog",
