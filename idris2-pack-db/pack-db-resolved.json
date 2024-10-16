@@ -2172,8 +2172,8 @@
     "ipkgName": "pjrt-plugins/xla-cpu/pjrt-plugin-xla-cpu",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "d76189274c7bebc87d187ca1b53b6fa84f6511b7",
-      "hash": "sha256-qB7LVdOnouoOi5vAeB/N1fQFvz3042dbLIyUIOO6MJI="
+      "rev": "3e14f649a9af84ab68109a3afb8f248ffc953127",
+      "hash": "sha256-GodR2jewuN0ugLyTC67S5OSFM+xKKhZSuF4h8TZ7ebM="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -2192,8 +2192,8 @@
     "ipkgName": "pjrt-plugins/xla-cuda/pjrt-plugin-xla-cuda",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "d76189274c7bebc87d187ca1b53b6fa84f6511b7",
-      "hash": "sha256-qB7LVdOnouoOi5vAeB/N1fQFvz3042dbLIyUIOO6MJI="
+      "rev": "3e14f649a9af84ab68109a3afb8f248ffc953127",
+      "hash": "sha256-GodR2jewuN0ugLyTC67S5OSFM+xKKhZSuF4h8TZ7ebM="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -2768,8 +2768,8 @@
     "ipkgName": "spidr/spidr",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "d76189274c7bebc87d187ca1b53b6fa84f6511b7",
-      "hash": "sha256-qB7LVdOnouoOi5vAeB/N1fQFvz3042dbLIyUIOO6MJI="
+      "rev": "3e14f649a9af84ab68109a3afb8f248ffc953127",
+      "hash": "sha256-GodR2jewuN0ugLyTC67S5OSFM+xKKhZSuF4h8TZ7ebM="
     },
     "ipkgJson": {
       "name": "spidr",
