@@ -202,6 +202,8 @@ in mkShell {
 To update to the package set & package versions to the latest Pack has to offer,
 run the `update.sh` script from the root of the repository.
 
+the package set is updated automatically by CI each night. 
+
 ## Adding new packages
 To add new packages to this packageset, please add them to Pack's [package database](https://github.com/stefan-hoeck/idris2-pack-db).
 New packages in Pack's database will automatically be pulled into this Nix
