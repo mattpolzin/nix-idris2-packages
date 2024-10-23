@@ -893,8 +893,8 @@
     "ipkgName": "fin-lizzie",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
-      "rev": "985d572b66ea8dffac55d4d7c335460fb223d318",
-      "hash": "sha256-T07xQXKwr2I6HAmgl+qUL3ltwqoeVO08nk5uifuJe0M="
+      "rev": "f718c67e988cf61ddd6fe416c476eb0ef2f8ac3b",
+      "hash": "sha256-WvPfl0Vl2/YrDh7+GKJF4LC0PYWEj6h9AMyQOyLw6l0="
     },
     "ipkgJson": {
       "name": "fin-lizzie",
