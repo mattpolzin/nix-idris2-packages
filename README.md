@@ -18,6 +18,8 @@ familiar with from the Nix tooling in the Idris2 compiler repo or the Nixpkgs
 function that uses `ipkg` data to fill in additional information. See the
 section on `buildIdris'` below for details.
 
+See also the [Alternatives](#alternatives) section.
+
 ## Using in your project
 You can use this packageset in your Flake-based project, your non-Flake project,
 or a developer shell.
@@ -208,3 +210,35 @@ the package set is updated automatically by CI each night.
 To add new packages to this packageset, please add them to Pack's [package database](https://github.com/stefan-hoeck/idris2-pack-db).
 New packages in Pack's database will automatically be pulled into this Nix
 packageset each night.
+
+## Alternatives
+This is not necessarily a comprehensive list of alternatives. Please open an
+issue or a PR if you'd like me to cover an alternative that isn't mentioned here
+yet.
+
+### [`claymager/idris2-pkgs`](https://github.com/claymager/idris2-pkgs)
+This is (as far as I am aware) the first really robust implementation of Idris2
+package management via Nix. There are far more similarities than differences
+between `idris2-pkgs` and `nix-idris2-packages`. The biggest two differences I
+believe are: 
+  1. `idris2-pkgs` has fallen out of maintenance (though that's not to say it is
+     necessarily a bad choice)
+  2. `nix-idris2-packages` always offers the same packages as `pack` whereas
+     `idris2-pkgs` maintains its own list of packages.
+
+### [`thatonelutenist/idr2nix`](https://sr.ht/~thatonelutenist/idr2nix)
+I am not intimately familiar with this project, but there is a clear difference
+in methodology that is worth speaking to.
+
+`nix-idris2-packages` (this project) centers around a `buildIdris` Nix function
+that reads an `ipkg` file, resolves dependencies, etc. at evaluation time
+without creating an additional Nix file. This is similar in feel to using other
+"build"/"make" functions in the Nix ecosystem like `buildNpmPackage`.
+
+`idr2nix` is a standalone application that generates a Nix derivation based on
+an Idris2 project. This is similar in feel to using other "2nix" tools in the
+Nix ecosystem like `npm2nix`.
+
+One tradeoff here is that `buildIdris` is going to take longer to evaluate but
+`idr2nix` is going to require a generated Nix file be stored and updated as the
+project changes.
