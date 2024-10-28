@@ -40,13 +40,18 @@ A flake project can use the Idris2 package set as an input. If you want to
 benefit from the Cachix cache at all (currently only caches the compiler & LSP,
 but that's quite a bit of time saved), you'll need to avoid changing the
 `follows` for the package set.
+
+You can use the basic template as a starting place with `nix flake init -t
+github:mattpolzin/nix-idris2-packages` or use similar code to the following:
 ```nix
 inputs.packageset.url = "github:mattpolzin/nix-idris2-packages";
 
 outputs = { packageset, ...}:
   let
-    inherit (packageset.packages.x86_64-linux) idris2 idris2Lsp buildIdris;
+    inherit (packageset.packages.x86_64-linux) idris2 idris2Lsp;
     idris2Packages = packageset.idris2Packages.x86_64-linux;
+    buildIdris = packageset.buildIdris.x86_64-linux;
+    buildIdris' = packageset.buildIdris'.x86_64-linux;
   in
   {}
 ```
