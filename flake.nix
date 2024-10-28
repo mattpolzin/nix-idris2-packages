@@ -74,6 +74,13 @@
 
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
 
+      templates = {
+        default = {
+          path = ./templates/basic;
+          description = "A simple template that produces results for multiple systems without using flake-utils";
+        };
+      };
+
       impureShell =
         {
           system ? builtins.currentSystem,
