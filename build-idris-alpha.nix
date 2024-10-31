@@ -53,7 +53,6 @@ let
   drvAttrs = builtins.removeAttrs attrs [
     "ipkgName"
     "idrisLibraries"
-    "withDependencySources"
   ];
 
   mkDerivation =
@@ -67,8 +66,7 @@ let
       drvAttrs
       // {
         pname = ipkgName;
-        inherit version;
-        src = src;
+        inherit src version;
         nativeBuildInputs = [
           idris2
           makeWrapper
@@ -183,4 +181,8 @@ in
       withSource ? false,
     }:
     mkLibrary withSource;
+
+  # Make a library without source; you can still use the `withSource` attribute
+  # on the resulting derivation to build the library with source at a later time.
+  library' = mkLibrary false;
 }
