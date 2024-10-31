@@ -1202,8 +1202,8 @@
     "ipkgName": "http",
     "src": {
       "url": "https://github.com/idris-community/idris2-http",
-      "rev": "64d1279898a15292d4531c7c6e2cfebb0d0b52d4",
-      "hash": "sha256-pXNXYtvVCMYAQdhstjIptdrexjh6vkIBoxzY01/Qt70="
+      "rev": "51c7eb034e08aceaffce675fac1efca50952fbe5",
+      "hash": "sha256-muspaDHAL0LNb924AZ/r/maTBu/JB9t3IhXw6oQYpLA="
     },
     "ipkgJson": {
       "name": "http",
@@ -3028,8 +3028,8 @@
     "ipkgName": "tls",
     "src": {
       "url": "https://github.com/idris-community/idris2-tls",
-      "rev": "3209050628b89811a5cd247dac44d19bd555aab2",
-      "hash": "sha256-tU3kjNJDYbIlN7jK4pBthrbrMoeGuLhegbGz9dc8YY0="
+      "rev": "29e9ccb1510a8e26c6434712f55daf240a627feb",
+      "hash": "sha256-ZgU+TjdySIFse+MYFHzTSI5SjoJR5y8RDerltb4rRiE="
     },
     "ipkgJson": {
       "name": "tls",
@@ -3049,7 +3049,9 @@
       "sourceloc": "https://github.com/octeep/idris2-tls.git",
       "bugtracker": "https://github.com/octeep/idris2-tls/issues",
       "opts": "-Wno-shadowing",
-      "sourcedir": "src"
+      "sourcedir": "src",
+      "prebuild": "make -C support all",
+      "preinstall": "make -C support install"
     }
   },
   "toml": {
