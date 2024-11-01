@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "426cd8eb553cf8caa5f4ab5d9b7032e2b31531bf",
-      "hash": "sha256-niHorouVS0XDLDEHIzVGJ/j77v6HrvMTp7J8S6eNIpM="
+      "rev": "e3b4a054a73ef1c3702091a0f3d16c3e9f4d0ecc",
+      "hash": "sha256-Z+efZbrM43w1MRs3PUjK+LiQCoGqQr7Hoqu7fOj/nWk="
     },
     "ipkgJson": {
       "name": "deptycheck",
