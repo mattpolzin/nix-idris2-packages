@@ -432,8 +432,8 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-containers",
-      "rev": "1d4d46256a7021d63bbf5fc9a8e32dfeaa9f32c1",
-      "hash": "sha256-DI9AQWy57q4glW9/Mu0pP0V8hrOpfrR6wSncX39rrTw="
+      "rev": "c04344b658e6fa66445b8010cdeff30a07ecc91c",
+      "hash": "sha256-aPOVlV36ILxVSNY/bSPF63jD3Mzd42nLTjrMSKdB50A="
     },
     "ipkgJson": {
       "name": "containers",
@@ -443,7 +443,7 @@
       ],
       "version": "0.6.0",
       "authors": "stefan-hoeck and matthew-mosior",
-      "brief": "Basic Tree and Queue data structures",
+      "brief": "Assorted concrete container types",
       "sourcedir": "src"
     }
   },
@@ -1331,8 +1331,8 @@
     "ipkgName": "idris2-lsp",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "81e70d48b7428034b8bc1fa679838532232b5387",
-      "hash": "sha256-7pLoru49CDJhe2+EAP6sK0VyywHAPE7VToLluHhbnbc="
+      "rev": "4ec24c88f757027028c23c6ce2c541e46e5d1191",
+      "hash": "sha256-VQyZxHu8dR0fOxjsKhUy/PDxvsBXNYFgVzzAvwXpC9c="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
