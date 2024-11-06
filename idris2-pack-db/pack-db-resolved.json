@@ -1532,8 +1532,8 @@
     "ipkgName": "katla",
     "src": {
       "url": "https://github.com/idris-community/katla",
-      "rev": "13a4d14dfc98b9daca97c50e2c58c36e005a36d5",
-      "hash": "sha256-k9TSiTOYfzEO98gdhSTjH41zmVvGBxnV3FmET+IIo/s="
+      "rev": "53b0e47102805973371b6697383db70e8c3d6868",
+      "hash": "sha256-z+n4cb3DOkQYMeHjWXFrmaa4S1ZnpIeyBnK1pEt7hco="
     },
     "ipkgJson": {
       "name": "katla",
