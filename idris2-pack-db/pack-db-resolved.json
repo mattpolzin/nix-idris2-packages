@@ -588,8 +588,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "e3b4a054a73ef1c3702091a0f3d16c3e9f4d0ecc",
-      "hash": "sha256-Z+efZbrM43w1MRs3PUjK+LiQCoGqQr7Hoqu7fOj/nWk="
+      "rev": "1fc4ef17356f6d41764aad0d3cc56ae1c1d9edbc",
+      "hash": "sha256-yA60rgFxWDzGlJ8zXcm+FpNLM7raycVkUArXZNz39rE="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -608,7 +608,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.240909",
+      "version": "0.0.241022",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1546,6 +1546,25 @@
       "authors": "Ohad Kammar and Guillaume Allais",
       "main": "Katla",
       "executable": "katla",
+      "sourcedir": "src"
+    }
+  },
+  "katla-pandoc": {
+    "packName": "katla-pandoc",
+    "ipkgName": "katla-pandoc",
+    "src": {
+      "url": "https://github.com/idris-community/katla",
+      "rev": "53b0e47102805973371b6697383db70e8c3d6868",
+      "hash": "sha256-z+n4cb3DOkQYMeHjWXFrmaa4S1ZnpIeyBnK1pEt7hco="
+    },
+    "ipkgJson": {
+      "name": "katla-pandoc",
+      "depends": [
+        "contrib"
+      ],
+      "authors": "Robert Wright",
+      "main": "Katla.Pandoc",
+      "executable": "katla-pandoc",
       "sourcedir": "src"
     }
   },
