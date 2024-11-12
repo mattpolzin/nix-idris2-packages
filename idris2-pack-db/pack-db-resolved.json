@@ -563,6 +563,31 @@
       "sourcedir": "src"
     }
   },
+  "dependent-map": {
+    "packName": "dependent-map",
+    "ipkgName": "dependent-map",
+    "src": {
+      "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
+      "rev": "1f365a217d0754d9abde625562e9c60c14e9787c",
+      "hash": "sha256-0mLC/AC7Ess4BL0U2y3OmfBzWzvD4bmZYjq8o81neag="
+    },
+    "ipkgJson": {
+      "name": "dependent-map",
+      "depends": [
+        "base"
+      ],
+      "version": "0.0.1",
+      "langversion": {
+        "lowerInclusive": true,
+        "lowerBound": "0.5.1",
+        "upperInclusive": true,
+        "upperBound": "*"
+      },
+      "authors": "Jan Serwatka",
+      "brief": "A port of the `dependent-map` package from Hackage",
+      "sourcedir": "src"
+    }
+  },
   "dependent-vect": {
     "packName": "dependent-vect",
     "ipkgName": "dependent-vect",
@@ -588,8 +613,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ba2aeb5d73df549cc202d0a626f4da132fa8b03d",
-      "hash": "sha256-kQfw17tZEM2JHYrrGhqthrWX56VROiOyOxkY716X95A="
+      "rev": "85e23c7c400cc595a8440649e40110049d8e70ee",
+      "hash": "sha256-GSnQ0tveF00zYE0nEbONjhmxV3Zu0Z3VQf4PyyPK/3g="
     },
     "ipkgJson": {
       "name": "deptycheck",
