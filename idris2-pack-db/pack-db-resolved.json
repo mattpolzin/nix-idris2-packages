@@ -1227,8 +1227,8 @@
     "ipkgName": "http",
     "src": {
       "url": "https://github.com/idris-community/idris2-http",
-      "rev": "dca24755b72c4419ea68ec56b1b6a575378a61d4",
-      "hash": "sha256-cQh7Ke6fOEih+h7eRJnV9AlGcr99fV8h43wE0jrbIFA="
+      "rev": "92940faa76e0ab0f01ea9ba8ec0c20c96a04b769",
+      "hash": "sha256-LlGWM8uWv1LnF29yKwws/NOp7dCyc2hVKwsvgLI9Jc4="
     },
     "ipkgJson": {
       "name": "http",
