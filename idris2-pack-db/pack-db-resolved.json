@@ -613,8 +613,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "653e902f2f84232fd25ebc337f5082f7fa6dd0bc",
-      "hash": "sha256-fZGaP96eUqF6gfVzsTEVsNhvL2Rwc2HQoZsNSZCjjLg="
+      "rev": "ec79bb6327928973a4a43102f25632ff458c1bb5",
+      "hash": "sha256-KLT2MMGzjOaT6ktKBvm/AZzGAQbgYOcVRFdM9Gd8BxQ="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -2507,8 +2507,8 @@
     "ipkgName": "random-pure",
     "src": {
       "url": "https://github.com/buzden/idris2-random-pure",
-      "rev": "8283aadb9602286080dbce6a9b878e14b9b2aef4",
-      "hash": "sha256-URLBCKxvXBNgiSObzk8Cxb3k7zGo20hRvxKMkwblM00="
+      "rev": "ee75e73bdf0b0b212e9672ec04f9be7829a3f2cc",
+      "hash": "sha256-ZnS3R9vajHSwn3BCyBopdRTnv70SQWZCXGCPUjyd4ds="
     },
     "ipkgJson": {
       "name": "random-pure",
