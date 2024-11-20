@@ -568,8 +568,8 @@
     "ipkgName": "dependent-map",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
-      "rev": "1f365a217d0754d9abde625562e9c60c14e9787c",
-      "hash": "sha256-0mLC/AC7Ess4BL0U2y3OmfBzWzvD4bmZYjq8o81neag="
+      "rev": "0d2e4643f4f89861dcfc0b2683e00a5754ead7f4",
+      "hash": "sha256-HBFQfTc+cnwMHvJ2JymCFa5HBHdXBfimBCvok1BMTfM="
     },
     "ipkgJson": {
       "name": "dependent-map",
@@ -584,6 +584,7 @@
         "upperBound": "*"
       },
       "authors": "Jan Serwatka",
+      "license": "BSD-3 Clause",
       "brief": "A port of the `dependent-map` package from Hackage",
       "sourcedir": "src"
     }
@@ -1870,6 +1871,30 @@
       "prebuild": "make -C support",
       "postinstall": "TARGET_VERSION='0.4.0' make -C support install",
       "postclean": "make -C support clean"
+    }
+  },
+  "nested": {
+    "packName": "nested",
+    "ipkgName": "nested",
+    "src": {
+      "url": "https://gitlab.com/bss03/nested",
+      "rev": "13a03fb65054ca0836e13965e7a55131e9c7e826",
+      "hash": "sha256-yjFLaZbfajf4QyQbvhfqCt5fj/EWUFwSfIAiZLelbj0="
+    },
+    "ipkgJson": {
+      "name": "nested",
+      "depends": [],
+      "version": "0.1.0",
+      "langversion": {
+        "lowerInclusive": true,
+        "lowerBound": "0.7.0",
+        "upperInclusive": true,
+        "upperBound": "*"
+      },
+      "authors": "Boyd Stephen Smith Jr.",
+      "license": "AGPLv3",
+      "brief": "nested (or non-uniform) recursion schemes",
+      "sourcedir": "src"
     }
   },
   "node": {
