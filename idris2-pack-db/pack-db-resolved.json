@@ -568,15 +568,16 @@
     "ipkgName": "dependent-map",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
-      "rev": "0d2e4643f4f89861dcfc0b2683e00a5754ead7f4",
-      "hash": "sha256-HBFQfTc+cnwMHvJ2JymCFa5HBHdXBfimBCvok1BMTfM="
+      "rev": "4a61cf5b91e034851a97260795e2fd60f534b9c5",
+      "hash": "sha256-QsYMDQyE8fcuCiL0Y2v78kSxzfMAUVZ9CXywCCqOppw="
     },
     "ipkgJson": {
       "name": "dependent-map",
       "depends": [
-        "base"
+        "base",
+        "dtypes"
       ],
-      "version": "0.0.1",
+      "version": "0.1.0",
       "langversion": {
         "lowerInclusive": true,
         "lowerBound": "0.5.1",
@@ -614,8 +615,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ec79bb6327928973a4a43102f25632ff458c1bb5",
-      "hash": "sha256-KLT2MMGzjOaT6ktKBvm/AZzGAQbgYOcVRFdM9Gd8BxQ="
+      "rev": "d1dff758f64fde1be89f970d30242b34062bd3e8",
+      "hash": "sha256-DYZ+2vQSyMua+OmIki83oGZrxHruUyh8Xs6JbzWHK7U="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -766,6 +767,24 @@
       "sourceloc": "https://github.com/CodingCellist/idris2-dot-parse",
       "bugtracker": "https://github.com/CodingCellist/idris2-dot-parse/issues",
       "main": "Graphics.DOT",
+      "sourcedir": "src"
+    }
+  },
+  "dtypes": {
+    "packName": "dtypes",
+    "ipkgName": "dtypes",
+    "src": {
+      "url": "https://github.com/JankaGramofonomanka/idris-dtypes",
+      "rev": "8e6363732d7823d8aeb6b0e56edf3e98625178c3",
+      "hash": "sha256-VDcwegiFeScJtkEezyQaYmjzRO1WtuSjQKvArxkJ2oo="
+    },
+    "ipkgJson": {
+      "name": "dtypes",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Jan Serwatka",
+      "license": "BSD-3 Clause",
+      "brief": "dependent variants of common idris/haskell types and interfaces",
       "sourcedir": "src"
     }
   },
@@ -1878,8 +1897,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "13a03fb65054ca0836e13965e7a55131e9c7e826",
-      "hash": "sha256-yjFLaZbfajf4QyQbvhfqCt5fj/EWUFwSfIAiZLelbj0="
+      "rev": "67c282ea251d2a538f3c1e3c7b337ce7514f5cf4",
+      "hash": "sha256-KCuNXaVF6t8x6VGkRWoaTgScknD3xe4p8M7l3Fft09g="
     },
     "ipkgJson": {
       "name": "nested",
@@ -1965,8 +1984,8 @@
     "ipkgName": "pack",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "fa686af45720d8117d06482cf5054280a7847142",
-      "hash": "sha256-rzTtyjV7XRLnutkDNrnXsrQC7dNFwNLvjJ1/yB3wzOw="
+      "rev": "3fd992ddbc6f4acbd6340064c99f1dc2b58917d5",
+      "hash": "sha256-iuiVaTXz+MMszk+uIY41KmQnC4zEwSiYly4gEjWiV0o="
     },
     "ipkgJson": {
       "name": "pack",
@@ -1999,8 +2018,8 @@
     "ipkgName": "pack-admin",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "fa686af45720d8117d06482cf5054280a7847142",
-      "hash": "sha256-rzTtyjV7XRLnutkDNrnXsrQC7dNFwNLvjJ1/yB3wzOw="
+      "rev": "3fd992ddbc6f4acbd6340064c99f1dc2b58917d5",
+      "hash": "sha256-iuiVaTXz+MMszk+uIY41KmQnC4zEwSiYly4gEjWiV0o="
     },
     "ipkgJson": {
       "name": "pack-admin",
