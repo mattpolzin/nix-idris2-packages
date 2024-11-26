@@ -568,8 +568,8 @@
     "ipkgName": "dependent-map",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
-      "rev": "4a61cf5b91e034851a97260795e2fd60f534b9c5",
-      "hash": "sha256-QsYMDQyE8fcuCiL0Y2v78kSxzfMAUVZ9CXywCCqOppw="
+      "rev": "f2896d04876d2aebb437a6cd780dbb871765c863",
+      "hash": "sha256-8emuAbyIMBidtq3YcjqoOPIT1+v3cuNhcqecNmvg+OY="
     },
     "ipkgJson": {
       "name": "dependent-map",
@@ -775,8 +775,8 @@
     "ipkgName": "dtypes",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dtypes",
-      "rev": "8e6363732d7823d8aeb6b0e56edf3e98625178c3",
-      "hash": "sha256-VDcwegiFeScJtkEezyQaYmjzRO1WtuSjQKvArxkJ2oo="
+      "rev": "028eb21c8f157037b2fa75e3f911cb33471e2774",
+      "hash": "sha256-hSJw9oi44BAD+vJxWRb8bOElOZEga3XdfstFP35Hsos="
     },
     "ipkgJson": {
       "name": "dtypes",
@@ -836,8 +836,8 @@
     "ipkgName": "elab-pretty",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elab-util",
-      "rev": "4ee05e54b80986f05ee5a79e16cb51d4ef6cfb65",
-      "hash": "sha256-yHKTtUx91kvdGEwimpbMg+c4rEasfuk+W97yiwTNgcQ="
+      "rev": "61a57ddd49879422e7b5d0287258361dfe40e78f",
+      "hash": "sha256-1nrFrNw5pKQzQLAKydgcTagf8rLZIUz5SNZnByyZmgM="
     },
     "ipkgJson": {
       "name": "elab-pretty",
@@ -858,8 +858,8 @@
     "ipkgName": "elab-util",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elab-util",
-      "rev": "4ee05e54b80986f05ee5a79e16cb51d4ef6cfb65",
-      "hash": "sha256-yHKTtUx91kvdGEwimpbMg+c4rEasfuk+W97yiwTNgcQ="
+      "rev": "61a57ddd49879422e7b5d0287258361dfe40e78f",
+      "hash": "sha256-1nrFrNw5pKQzQLAKydgcTagf8rLZIUz5SNZnByyZmgM="
     },
     "ipkgJson": {
       "name": "elab-util",
@@ -1247,13 +1247,14 @@
     "ipkgName": "http",
     "src": {
       "url": "https://github.com/idris-community/idris2-http",
-      "rev": "92940faa76e0ab0f01ea9ba8ec0c20c96a04b769",
-      "hash": "sha256-LlGWM8uWv1LnF29yKwws/NOp7dCyc2hVKwsvgLI9Jc4="
+      "rev": "0ff06cf2c831cc9283d2e539978fedf599df2b17",
+      "hash": "sha256-yudPQUPAuMuBlyHac2OZW49EEU6Y11zxKYtvWzE1bLA="
     },
     "ipkgJson": {
       "name": "http",
       "depends": [
         "base",
+        "base64",
         "contrib",
         "network",
         "sop",
@@ -1897,8 +1898,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "67c282ea251d2a538f3c1e3c7b337ce7514f5cf4",
-      "hash": "sha256-KCuNXaVF6t8x6VGkRWoaTgScknD3xe4p8M7l3Fft09g="
+      "rev": "d410696383a306d95f426beac6ece5e770b45033",
+      "hash": "sha256-us41biS2iWSIY0Xc+bPvn3F+Zsy0vKcYqlo+xoZtxpU="
     },
     "ipkgJson": {
       "name": "nested",
@@ -2260,8 +2261,8 @@
     "ipkgName": "pjrt-plugins/xla-cpu/pjrt-plugin-xla-cpu",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "3e14f649a9af84ab68109a3afb8f248ffc953127",
-      "hash": "sha256-GodR2jewuN0ugLyTC67S5OSFM+xKKhZSuF4h8TZ7ebM="
+      "rev": "b68d523a4d0e751949b28aa1ba2cf95aec178277",
+      "hash": "sha256-YVwHXKno8LPK2awCjL2FYHCNZzEr4F8fU7dOlDgdJwU="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -2280,8 +2281,8 @@
     "ipkgName": "pjrt-plugins/xla-cuda/pjrt-plugin-xla-cuda",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "3e14f649a9af84ab68109a3afb8f248ffc953127",
-      "hash": "sha256-GodR2jewuN0ugLyTC67S5OSFM+xKKhZSuF4h8TZ7ebM="
+      "rev": "b68d523a4d0e751949b28aa1ba2cf95aec178277",
+      "hash": "sha256-YVwHXKno8LPK2awCjL2FYHCNZzEr4F8fU7dOlDgdJwU="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -2816,13 +2817,13 @@
     "ipkgName": "snocvect",
     "src": {
       "url": "https://github.com/mattpolzin/idris-snocvect",
-      "rev": "f6148c3d06c7a9989062a2425f925fc844468215",
-      "hash": "sha256-oIFb2yKKxIDHNCdr0ZkHPuV7KeX0m6m9xBwRFPqz7iw="
+      "rev": "3de29a7a1227a2b1c2baef4cac2d04d70bad60d1",
+      "hash": "sha256-0QDruWXaX71xLOS9Tss1Y5deQRq4lNQB2f4XS3WC5aI="
     },
     "ipkgJson": {
       "name": "snocvect",
       "depends": [],
-      "version": "0.1.0",
+      "version": "0.2.0",
       "authors": "Mathew Polzin",
       "license": "MIT",
       "sourceloc": "https://github.com/mattpolzin/idris-snocvect",
@@ -2856,8 +2857,8 @@
     "ipkgName": "spidr/spidr",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "3e14f649a9af84ab68109a3afb8f248ffc953127",
-      "hash": "sha256-GodR2jewuN0ugLyTC67S5OSFM+xKKhZSuF4h8TZ7ebM="
+      "rev": "b68d523a4d0e751949b28aa1ba2cf95aec178277",
+      "hash": "sha256-YVwHXKno8LPK2awCjL2FYHCNZzEr4F8fU7dOlDgdJwU="
     },
     "ipkgJson": {
       "name": "spidr",
