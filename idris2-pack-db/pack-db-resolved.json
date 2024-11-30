@@ -452,8 +452,8 @@
     "ipkgName": "coop",
     "src": {
       "url": "https://github.com/buzden/idris2-coop",
-      "rev": "46461308c80c6f9dc60fa3581db8c5e7282bd780",
-      "hash": "sha256-sP+7WR3akvcJYApBQLLSwxhNiDCQ0dLR+3uJTHaX6DA="
+      "rev": "b5caf74ac8abeac1f6149a6eccd0b454eb041740",
+      "hash": "sha256-Y+LuqrJ6u7vnlgGxnCsxZlZu9HGWo5cYoeNBqRqmHRk="
     },
     "ipkgJson": {
       "name": "coop",
@@ -615,8 +615,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "8641217cec9b17cd2f22e55cdeb5b60218b03c23",
-      "hash": "sha256-RI1UWVPVO5xHAXDL9hx27Zo+0C+DlE0f+YL1kdHGILM="
+      "rev": "3b8db030542c240874404ae9ee08c19aa465b12a",
+      "hash": "sha256-gtvsrA+2O4xM4XB168oOpSdCedYZPa05fTMT1jCG0ow="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -635,7 +635,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.241022",
+      "version": "0.0.241127",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1467,8 +1467,8 @@
     "ipkgName": "indexed-graph",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "7ccad4525fbd96df28a5e20e393f1f8ff0ab876b",
-      "hash": "sha256-Hj69QOijWTxHlgnEtPGApdz9X+DgRWouA3yCbQUJ9gc="
+      "rev": "96c452960714fa610681940caf18562386c48acd",
+      "hash": "sha256-BbAvimFdn2hqeEgaAORAbGY1asjZ2FZUAyWs9DFKM94="
     },
     "ipkgJson": {
       "name": "indexed-graph",
@@ -2261,8 +2261,8 @@
     "ipkgName": "pjrt-plugins/xla-cpu/pjrt-plugin-xla-cpu",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "b68d523a4d0e751949b28aa1ba2cf95aec178277",
-      "hash": "sha256-YVwHXKno8LPK2awCjL2FYHCNZzEr4F8fU7dOlDgdJwU="
+      "rev": "33e3cf751d635ad07fb2ef72b4e9e903b00d58da",
+      "hash": "sha256-bpNRqFANZDZE08gDS8Twwri7xypcWSxpq5OS3kmM/ik="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -2281,8 +2281,8 @@
     "ipkgName": "pjrt-plugins/xla-cuda/pjrt-plugin-xla-cuda",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "b68d523a4d0e751949b28aa1ba2cf95aec178277",
-      "hash": "sha256-YVwHXKno8LPK2awCjL2FYHCNZzEr4F8fU7dOlDgdJwU="
+      "rev": "33e3cf751d635ad07fb2ef72b4e9e903b00d58da",
+      "hash": "sha256-bpNRqFANZDZE08gDS8Twwri7xypcWSxpq5OS3kmM/ik="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -2301,8 +2301,8 @@
     "ipkgName": "positive-nat",
     "src": {
       "url": "https://github.com/buzden/idris2-positive-nat",
-      "rev": "b9751d9ca5e3b5cbe4f9d5bf581d24c29dee9b1f",
-      "hash": "sha256-p4cMCryuy8uMiEE1+Fs3lSIBxQOsJRzXXZ8DhjDXn3U="
+      "rev": "d4cfb3c60a69304390bb34447256ef7473bc375f",
+      "hash": "sha256-KfauXzZR3Ofvp+PV+yZ3qnpRqOUTyBayleZd8tLefx8="
     },
     "ipkgJson": {
       "name": "positive-nat",
@@ -2857,8 +2857,8 @@
     "ipkgName": "spidr/spidr",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "b68d523a4d0e751949b28aa1ba2cf95aec178277",
-      "hash": "sha256-YVwHXKno8LPK2awCjL2FYHCNZzEr4F8fU7dOlDgdJwU="
+      "rev": "33e3cf751d635ad07fb2ef72b4e9e903b00d58da",
+      "hash": "sha256-bpNRqFANZDZE08gDS8Twwri7xypcWSxpq5OS3kmM/ik="
     },
     "ipkgJson": {
       "name": "spidr",
@@ -3074,8 +3074,8 @@
     "ipkgName": "time-for-sleep",
     "src": {
       "url": "https://github.com/buzden/idris2-time-for-sleep",
-      "rev": "14efd410ad435d5fbedb5a45218f68b676c81cb0",
-      "hash": "sha256-/vwzskVNtLtIDGpsMjBnqLzHC+UjNC7+tBEmUeiv81I="
+      "rev": "0e17fc865a053fe34b0c348f0725a49edd2c06a1",
+      "hash": "sha256-NPmfUx7OeimHlFp0EdGvjiKagwIrPb87vFiNU7UeNFA="
     },
     "ipkgJson": {
       "name": "time-for-sleep",
