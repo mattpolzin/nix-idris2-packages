@@ -615,8 +615,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "3b8db030542c240874404ae9ee08c19aa465b12a",
-      "hash": "sha256-gtvsrA+2O4xM4XB168oOpSdCedYZPa05fTMT1jCG0ow="
+      "rev": "f2c0e525f8bfccf51d167302fcc2e919ccca876c",
+      "hash": "sha256-eBVfUKBoV5OuVRJYTGjw2C9UHFfvMjfYc0BoUH1dVTM="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -635,7 +635,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.241127",
+      "version": "0.0.241203",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
