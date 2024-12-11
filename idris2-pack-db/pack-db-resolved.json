@@ -615,8 +615,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "f2c0e525f8bfccf51d167302fcc2e919ccca876c",
-      "hash": "sha256-eBVfUKBoV5OuVRJYTGjw2C9UHFfvMjfYc0BoUH1dVTM="
+      "rev": "45a62567162aeb409ffe2c3bc61327a9116607ba",
+      "hash": "sha256-z2VJ6mi+VeDHu3mLen1HJ70O+FWghvDJcyKITgLq1u4="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1868,8 +1868,8 @@
     "ipkgName": "ncurses-idris",
     "src": {
       "url": "https://github.com/mattpolzin/ncurses-idris",
-      "rev": "e4faae7df3867d2d546d220dd9f9889ecda3cf6e",
-      "hash": "sha256-DpSaMahHR1DC+lVSH4iByO+t8t5Zpj4GmElJlN6AQLM="
+      "rev": "9f1e575d48cb2acb837f9713e003fbb6ddbf8f44",
+      "hash": "sha256-Yh1I30Jg3Z0/8ZlQlekP+PTXhgnfwxs6J69J1Up3fnk="
     },
     "ipkgJson": {
       "name": "ncurses-idris",
