@@ -39,6 +39,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: |
+            flake.nix
             flake.lock
             idris2-pack-db/pack-db-resolved.json
           key: ${{ github.run_number }}-${{ github.run_attempt }}
@@ -80,6 +81,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: |
+            flake.nix
             flake.lock
             idris2-pack-db/pack-db-resolved.json
           key: ${{ github.run_number }}-${{ github.run_attempt }}
