@@ -2212,19 +2212,19 @@
     "ipkgName": "pg-idris",
     "src": {
       "url": "https://github.com/mattpolzin/pg-idris",
-      "rev": "75b931004f98043125754dfc84361c1fef2cf4b7",
-      "hash": "sha256-U3MYi09zf9ogrrcoiOvZYJ0GCvEcfaeULFfMEw7GqR8="
+      "rev": "3f0e40ffa3da3a751cea9b2f0962446308f0c918",
+      "hash": "sha256-AGn41Y+hyOqQLHaV0cLXrJYwmbURlbfMnwvwSc+IgEw="
     },
     "ipkgJson": {
       "name": "pg-idris",
       "depends": [
-        "contrib",
-        "indexed"
+        "indexed",
+        "parser-json"
       ],
-      "version": "0.0.7",
+      "version": "0.0.8",
       "langversion": {
         "lowerInclusive": false,
-        "lowerBound": "0.6.0",
+        "lowerBound": "0.7.0",
         "upperInclusive": true,
         "upperBound": "*"
       },
@@ -2232,9 +2232,9 @@
       "license": "MIT",
       "brief": "Postgres support for Idris 2 programs compiled with the Chez Scheme or NodeJS backends.",
       "sourcedir": "src",
-      "prebuild": "TARGET_VERSION=0.0.7 make -C support",
-      "postinstall": "TARGET_VERSION=0.0.7 make -C support install",
-      "postclean": "TARGET_VERSION=0.0.7 make -C support clean"
+      "prebuild": "TARGET_VERSION=0.0.8 make -C support",
+      "postinstall": "TARGET_VERSION=0.0.8 make -C support install",
+      "postclean": "TARGET_VERSION=0.0.8 make -C support clean"
     }
   },
   "pg-types": {
