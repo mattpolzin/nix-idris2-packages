@@ -1674,8 +1674,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "d72c7975289a9fe4952efeab3b1fba079f22c59b",
-      "hash": "sha256-v29rVtjMSer2nIIAnYxIJ7VVUYSPjAC8HbdY8YBTrjY="
+      "rev": "bf7b398c3179750fc3926d60561e414eb4c8dadb",
+      "hash": "sha256-w+zG1CspwBSuJ761CXZFNAKREPvl6gdlzQBnTii3UY0="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2321,8 +2321,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "d72c7975289a9fe4952efeab3b1fba079f22c59b",
-      "hash": "sha256-v29rVtjMSer2nIIAnYxIJ7VVUYSPjAC8HbdY8YBTrjY="
+      "rev": "bf7b398c3179750fc3926d60561e414eb4c8dadb",
+      "hash": "sha256-w+zG1CspwBSuJ761CXZFNAKREPvl6gdlzQBnTii3UY0="
     },
     "ipkgJson": {
       "name": "posix",
