@@ -6,11 +6,11 @@
       flake = false;
     };
     idris2 = {
-      url = "github:/idris-lang/idris2/1316f5842a8d864c3c19d4c63ad63f0c9841c775";
+      url = "github:/idris-lang/idris2/457ca7c6effd66a3f49e721171b142f979bb7406";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     idris2Lsp = {
-      url = "github:/idris-community/idris2-lsp/e2c4c53997ce1f37b72d9516fd4baeb66740284e";
+      url = "github:/idris-community/idris2-lsp/8055815a4187b85af467fdde75de35ef7a549c46";
       inputs.idris.follows = "idris2";
       inputs.nixpkgs.follows = "nixpkgs";
     };
