@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     idris2Lsp = {
-      url = "github:/idris-community/idris2-lsp/8055815a4187b85af467fdde75de35ef7a549c46";
+      url = "github:/idris-community/idris2-lsp/df322faeb1b5b7f70c901978274cf03a15061ced";
       inputs.idris.follows = "idris2";
       inputs.nixpkgs.follows = "nixpkgs";
     };

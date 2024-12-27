@@ -34,6 +34,7 @@
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "lsp-lib",
           "idris2Lsp",
           "nixpkgs"
@@ -80,6 +81,7 @@
     "fenix_2": {
       "inputs": {
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -201,6 +203,24 @@
         "systems": "systems_6"
       },
       "locked": {
+        "lastModified": 1710146030,
+        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_7": {
+      "inputs": {
+        "systems": "systems_7"
+      },
+      "locked": {
         "lastModified": 1705309234,
         "narHash": "sha256-uNRRNRKmJyCRC/8y1RqBkqWBLM034y4qN7EprSdmgyA=",
         "owner": "numtide",
@@ -257,11 +277,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1731023033,
-        "narHash": "sha256-+w/9HxFMEGjgPy6VCac6ud5hVqd7cwMUpEEjp5CQvZ8=",
+        "lastModified": 1733093802,
+        "narHash": "sha256-bUjIOLocDumq6XdJ5mAuS4t3SMht9JKVYZ88BSQSiGs=",
         "owner": "idris-lang",
         "repo": "Idris2",
-        "rev": "fc3d2a04dcd7571b8f736ee24b0fd25eefa408e9",
+        "rev": "d176ab4108a42cd8423466a0e2450e17cc693b7c",
         "type": "github"
       },
       "original": {
@@ -366,6 +386,22 @@
         "type": "github"
       }
     },
+    "idris-emacs-src_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1666078909,
+        "narHash": "sha256-oYNHFIpcrFfPb4sXJwEBFKeH+PB4AGCrAFrfBrSTCeo=",
+        "owner": "redfish64",
+        "repo": "idris2-mode",
+        "rev": "3bcb52a65c488f31c99d20f235f6050418a84c9d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "redfish64",
+        "repo": "idris2-mode",
+        "type": "github"
+      }
+    },
     "idris2": {
       "inputs": {
         "flake-utils": "flake-utils",
@@ -396,23 +432,23 @@
           "idris2"
         ],
         "idris2Lsp": "idris2Lsp_2",
-        "lspLib": "lspLib_4",
+        "lspLib": "lspLib_5",
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1734522401,
-        "narHash": "sha256-Vvmrn4NicSgY76rkbjs41M4MaRNY3LC9Crb8DpiPAZU=",
+        "lastModified": 1735184607,
+        "narHash": "sha256-4coxShK2mMeOLzq1hM9H4xliW4Afe4dnEWJLkCL5FUs=",
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "8055815a4187b85af467fdde75de35ef7a549c46",
+        "rev": "df322faeb1b5b7f70c901978274cf03a15061ced",
         "type": "github"
       },
       "original": {
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "8055815a4187b85af467fdde75de35ef7a549c46",
+        "rev": "df322faeb1b5b7f70c901978274cf03a15061ced",
         "type": "github"
       }
     },
@@ -424,8 +460,38 @@
         ],
         "idris": "idris",
         "idris2Lsp": "idris2Lsp_3",
+        "lspLib": "lspLib_4",
+        "nixpkgs": [
+          "idris2Lsp",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1734522401,
+        "narHash": "sha256-vmRb6IHU1N65bs4rD27Kvf7Ing6RmEUQTWIRIrC3vuA=",
+        "owner": "idris-community",
+        "repo": "idris2-lsp",
+        "rev": "8055815a4187b85af467fdde75de35ef7a549c46",
+        "type": "github"
+      },
+      "original": {
+        "owner": "idris-community",
+        "repo": "idris2-lsp",
+        "type": "github"
+      }
+    },
+    "idris2Lsp_3": {
+      "inputs": {
+        "alejandra": [
+          "idris2Lsp",
+          "idris2Lsp",
+          "alejandra"
+        ],
+        "idris": "idris_2",
+        "idris2Lsp": "idris2Lsp_4",
         "lspLib": "lspLib_3",
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "nixpkgs"
         ]
@@ -444,17 +510,19 @@
         "type": "github"
       }
     },
-    "idris2Lsp_3": {
+    "idris2Lsp_4": {
       "inputs": {
         "alejandra": [
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "alejandra"
         ],
-        "idris": "idris_2",
-        "idris2Lsp": "idris2Lsp_4",
+        "idris": "idris_3",
+        "idris2Lsp": "idris2Lsp_5",
         "lspLib": "lspLib_2",
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "nixpkgs"
@@ -474,18 +542,20 @@
         "type": "github"
       }
     },
-    "idris2Lsp_4": {
+    "idris2Lsp_5": {
       "inputs": {
         "alejandra": [
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "alejandra"
         ],
-        "idris": "idris_3",
-        "idris2Lsp": "idris2Lsp_5",
+        "idris": "idris_4",
+        "idris2Lsp": "idris2Lsp_6",
         "lspLib": "lspLib",
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -506,18 +576,20 @@
         "type": "github"
       }
     },
-    "idris2Lsp_5": {
+    "idris2Lsp_6": {
       "inputs": {
         "alejandra": [
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "alejandra"
         ],
-        "idris": "idris_4",
+        "idris": "idris_5",
         "lsp-lib": "lsp-lib",
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -539,12 +611,13 @@
         "type": "github"
       }
     },
-    "idris2Lsp_6": {
+    "idris2Lsp_7": {
       "inputs": {
         "alejandra": "alejandra_2",
-        "idris": "idris_5",
+        "idris": "idris_6",
         "lsp-lib": "lsp-lib_2",
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -571,11 +644,11 @@
     "idris2PackDbSrc": {
       "flake": false,
       "locked": {
-        "lastModified": 1735163601,
-        "narHash": "sha256-lo3gulHvmSidfk+8GxS1hh3nh5w+lO6g2iujm+3LsXw=",
+        "lastModified": 1735249942,
+        "narHash": "sha256-MoLnd0ygPt96g7CbcFMpXO4HyZDXOft17ezOhCBQykk=",
         "owner": "stefan-hoeck",
         "repo": "idris2-pack-db",
-        "rev": "649a06b860649bc3e6c57d2fcb6f21e7f3cc3df1",
+        "rev": "4f2f0e29061b711f01abd1b14376d8f4df434208",
         "type": "github"
       },
       "original": {
@@ -596,11 +669,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1726357373,
-        "narHash": "sha256-WGsJRL25W97Bc08rRwrNj3aIxRtW+xpVrPW4o1Tms1Q=",
+        "lastModified": 1731023033,
+        "narHash": "sha256-+w/9HxFMEGjgPy6VCac6ud5hVqd7cwMUpEEjp5CQvZ8=",
         "owner": "idris-lang",
         "repo": "Idris2",
-        "rev": "6d02c52102331b225303dbf51781d508eeb06edd",
+        "rev": "fc3d2a04dcd7571b8f736ee24b0fd25eefa408e9",
         "type": "github"
       },
       "original": {
@@ -622,11 +695,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1719576576,
-        "narHash": "sha256-aSKhNLCT/DVAF/gT73h3V+qqfpdM5mYtjTgzyaLEuso=",
+        "lastModified": 1726357373,
+        "narHash": "sha256-WGsJRL25W97Bc08rRwrNj3aIxRtW+xpVrPW4o1Tms1Q=",
         "owner": "idris-lang",
         "repo": "Idris2",
-        "rev": "57f455d135ded025e33e236fd010f6570c46fc6e",
+        "rev": "6d02c52102331b225303dbf51781d508eeb06edd",
         "type": "github"
       },
       "original": {
@@ -649,11 +722,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1719329838,
-        "narHash": "sha256-J/QmVnC7FhFB6OCeGa7tZKrG2rv+ieUxu1JJXLrAL5g=",
+        "lastModified": 1719576576,
+        "narHash": "sha256-aSKhNLCT/DVAF/gT73h3V+qqfpdM5mYtjTgzyaLEuso=",
         "owner": "idris-lang",
         "repo": "Idris2",
-        "rev": "3649821625eccc4e08ab357e0dfe27534d993e47",
+        "rev": "57f455d135ded025e33e236fd010f6570c46fc6e",
         "type": "github"
       },
       "original": {
@@ -667,6 +740,35 @@
         "flake-utils": "flake-utils_6",
         "idris-emacs-src": "idris-emacs-src_6",
         "nixpkgs": [
+          "idris2Lsp",
+          "idris2Lsp",
+          "idris2Lsp",
+          "idris2Lsp",
+          "idris2Lsp",
+          "idris2Lsp",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1719329838,
+        "narHash": "sha256-J/QmVnC7FhFB6OCeGa7tZKrG2rv+ieUxu1JJXLrAL5g=",
+        "owner": "idris-lang",
+        "repo": "Idris2",
+        "rev": "3649821625eccc4e08ab357e0dfe27534d993e47",
+        "type": "github"
+      },
+      "original": {
+        "owner": "idris-lang",
+        "repo": "Idris2",
+        "type": "github"
+      }
+    },
+    "idris_6": {
+      "inputs": {
+        "flake-utils": "flake-utils_7",
+        "idris-emacs-src": "idris-emacs-src_7",
+        "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -699,10 +801,12 @@
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "idris"
         ],
-        "idris2Lsp": "idris2Lsp_6",
+        "idris2Lsp": "idris2Lsp_7",
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -733,11 +837,13 @@
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "lsp-lib",
           "idris2Lsp",
           "idris"
         ],
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -769,6 +875,7 @@
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "idris"
         ],
         "idris2Lsp": [
@@ -776,9 +883,11 @@
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "idris2Lsp"
         ],
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -806,15 +915,18 @@
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "idris"
         ],
         "idris2Lsp": [
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "idris2Lsp"
         ],
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
@@ -840,14 +952,17 @@
         "idris": [
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "idris"
         ],
         "idris2Lsp": [
           "idris2Lsp",
           "idris2Lsp",
+          "idris2Lsp",
           "idris2Lsp"
         ],
         "nixpkgs": [
+          "idris2Lsp",
           "idris2Lsp",
           "idris2Lsp",
           "nixpkgs"
@@ -868,6 +983,38 @@
       }
     },
     "lspLib_4": {
+      "inputs": {
+        "idris": [
+          "idris2Lsp",
+          "idris2Lsp",
+          "idris"
+        ],
+        "idris2Lsp": [
+          "idris2Lsp",
+          "idris2Lsp",
+          "idris2Lsp"
+        ],
+        "nixpkgs": [
+          "idris2Lsp",
+          "idris2Lsp",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1733093814,
+        "narHash": "sha256-vq9hueMpPZ+WA46lUkIXk3BPf3dL+nM+f80UDBOfdFA=",
+        "owner": "idris-community",
+        "repo": "LSP-lib",
+        "rev": "8ff3a886c0dc41a9eebea6ec5956349752d29714",
+        "type": "github"
+      },
+      "original": {
+        "owner": "idris-community",
+        "repo": "LSP-lib",
+        "type": "github"
+      }
+    },
+    "lspLib_5": {
       "inputs": {
         "idris": [
           "idris2Lsp",
@@ -1030,6 +1177,21 @@
       }
     },
     "systems_6": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_7": {
       "locked": {
         "lastModified": 1681028828,
         "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
