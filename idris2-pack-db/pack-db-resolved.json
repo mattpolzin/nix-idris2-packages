@@ -79,8 +79,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "6f1b2fb91328db46445b0389649ad4bd610b5f34",
-      "hash": "sha256-738mJDJAbnOwZ826f/4VWjjq3y9o8yDIt+sLB7v3Ba8="
+      "rev": "c477aa813fec7ec8473d1e2bd88f0b6e255a5923",
+      "hash": "sha256-O+1SoyEpnq2+2SyWww+TYkNgOftRd8R4PM0QlI96EFM="
     },
     "ipkgJson": {
       "name": "array",
@@ -2959,6 +2959,29 @@
       "sourcedir": "src",
       "prebuild": "make -C support",
       "preinstall": "make -C support install"
+    }
+  },
+  "structures": {
+    "packName": "structures",
+    "ipkgName": "structures",
+    "src": {
+      "url": "https://git.sr.ht/~thatonelutenist/Structures",
+      "rev": "80a48e3b36c0a5454a2b8a96666aec892f88cc3e",
+      "hash": "sha256-0DTnLn5vuRPgqEd28x1Ebcxb73tjZsKnMgzZkNAnHBo="
+    },
+    "ipkgJson": {
+      "name": "structures",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Nathan McCarty",
+      "maintainers": "Nathan McCarty <thatonelutenist@stranger.systems>",
+      "license": "Parity OR Prosperity",
+      "brief": "Collection of data structures for Idris 2",
+      "readme": "README.md",
+      "homepage": "https://sr.ht/~thatonelutenist/idris2/",
+      "sourceloc": "https://git.sr.ht/~thatonelutenist/Structures",
+      "bugtracker": "https://todo.sr.ht/~thatonelutenist/idris2",
+      "sourcedir": "src"
     }
   },
   "summary-stat": {
