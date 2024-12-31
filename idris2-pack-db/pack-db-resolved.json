@@ -79,8 +79,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "c477aa813fec7ec8473d1e2bd88f0b6e255a5923",
-      "hash": "sha256-O+1SoyEpnq2+2SyWww+TYkNgOftRd8R4PM0QlI96EFM="
+      "rev": "8a5346c7b59bdf95e6a9368f81cbaf4f35d86723",
+      "hash": "sha256-Jkb3wL8+piwiT2eScNv055/r8Br6iPWe0uPtlf3cTV0="
     },
     "ipkgJson": {
       "name": "array",
