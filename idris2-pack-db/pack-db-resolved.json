@@ -79,8 +79,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "8a5346c7b59bdf95e6a9368f81cbaf4f35d86723",
-      "hash": "sha256-Jkb3wL8+piwiT2eScNv055/r8Br6iPWe0uPtlf3cTV0="
+      "rev": "3f14963a645d3f0dd53f8c421416e25ca80cae7d",
+      "hash": "sha256-yHuIp1yGUhTcVlqRRr1/Y3Bj4l0x/eUHL1rAE8AohB8="
     },
     "ipkgJson": {
       "name": "array",
@@ -100,14 +100,16 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "4d247f120a4f115963328de989c26d07676a9fbc",
-      "hash": "sha256-EKDLkNgU0TBq8S/pZjLM+LsFv0NkTjjbk8P6wAiXTE0="
+      "rev": "10ae85b1d25f460dd88d097e4abf6a0d8332bd58",
+      "hash": "sha256-jyn9O+2PD2Iy+iGZ/I5kIm0rR680upx6zki90S4Wios="
     },
     "ipkgJson": {
       "name": "async",
       "depends": [
         "base",
+        "array",
         "containers",
+        "posix",
         "quantifiers-extra"
       ],
       "version": "0.1.0",
@@ -1674,8 +1676,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "c65a54d42935dba632c574e9c71d360197d645c8",
-      "hash": "sha256-blbNazVyY5tnoEl238GOvX2BjgMvor4NX2MA3IqbBjM="
+      "rev": "7bc4d5093d384a1bf0b075bb6e8353231c0a0a4f",
+      "hash": "sha256-2LWI1heh2wPz8NTrZCKQ6my3ZdZ7WiXUYWTey9mvQDU="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2321,8 +2323,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "c65a54d42935dba632c574e9c71d360197d645c8",
-      "hash": "sha256-blbNazVyY5tnoEl238GOvX2BjgMvor4NX2MA3IqbBjM="
+      "rev": "7bc4d5093d384a1bf0b075bb6e8353231c0a0a4f",
+      "hash": "sha256-2LWI1heh2wPz8NTrZCKQ6my3ZdZ7WiXUYWTey9mvQDU="
     },
     "ipkgJson": {
       "name": "posix",
@@ -2593,8 +2595,8 @@
     "ipkgName": "ref1",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "2f53bbc66cd38c51148c48b6494db38f93ced30b",
-      "hash": "sha256-45hr4lpC8dRW+tuBU1R3R3BJJbCxUQ8i8AK9oL5X+o0="
+      "rev": "276a2ff121290ca05b5afa0e48488a15b64cf8ea",
+      "hash": "sha256-mQI2UbHo4sOsAgZju7i1VBEhjaOCf5h8bKSjhdUSdxg="
     },
     "ipkgJson": {
       "name": "ref1",
