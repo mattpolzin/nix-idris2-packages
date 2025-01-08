@@ -118,6 +118,26 @@
       "sourcedir": "src"
     }
   },
+  "async-epoll": {
+    "packName": "async-epoll",
+    "ipkgName": "async-epoll/async-epoll",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-async",
+      "rev": "10ae85b1d25f460dd88d097e4abf6a0d8332bd58",
+      "hash": "sha256-jyn9O+2PD2Iy+iGZ/I5kIm0rR680upx6zki90S4Wios="
+    },
+    "ipkgJson": {
+      "name": "async-epoll",
+      "depends": [
+        "async",
+        "linux"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "An epoll-based event loop for asynchronous computations on Linux",
+      "sourcedir": "src"
+    }
+  },
   "barbies": {
     "packName": "barbies",
     "ipkgName": "barbies",
