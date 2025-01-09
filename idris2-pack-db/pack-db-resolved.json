@@ -453,9 +453,9 @@
     "packName": "containers",
     "ipkgName": "containers",
     "src": {
-      "url": "https://github.com/stefan-hoeck/idris2-containers",
-      "rev": "c04344b658e6fa66445b8010cdeff30a07ecc91c",
-      "hash": "sha256-aPOVlV36ILxVSNY/bSPF63jD3Mzd42nLTjrMSKdB50A="
+      "url": "https://github.com/idris-community/idris2-containers",
+      "rev": "e4f03581c6d2c84664c7ee4266591d31a1007c21",
+      "hash": "sha256-vi004dyQ3GKVnCtS6Jpi5Yk5FO8pScGhPEwaz9BL+rw="
     },
     "ipkgJson": {
       "name": "containers",
