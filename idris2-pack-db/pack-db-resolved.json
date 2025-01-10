@@ -454,13 +454,14 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "e4f03581c6d2c84664c7ee4266591d31a1007c21",
-      "hash": "sha256-vi004dyQ3GKVnCtS6Jpi5Yk5FO8pScGhPEwaz9BL+rw="
+      "rev": "b631275556807a17b2423bc40d76a8aab1d71a19",
+      "hash": "sha256-EWQFs/h0C4jP/Cy2K972bkIpSt1Tedzngjto7VFQogk="
     },
     "ipkgJson": {
       "name": "containers",
       "depends": [
         "base",
+        "array",
         "elab-util"
       ],
       "version": "0.6.0",
@@ -514,8 +515,8 @@
     "ipkgName": "cptr",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
-      "rev": "c48e5e6f164fd60141fed1880160911bc328ac83",
-      "hash": "sha256-IcO1OVVzCQyCzSj7LYIuq69iN1nczeto4Wyb9cka1rs="
+      "rev": "ef54ca87a3b6a2a9430425778a6581a8d500e49f",
+      "hash": "sha256-PK7GRzCfulTvVnCn8U253nedmEB8Bm5Z3NxJvSPPaug="
     },
     "ipkgJson": {
       "name": "cptr",
