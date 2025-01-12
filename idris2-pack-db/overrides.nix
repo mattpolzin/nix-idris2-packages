@@ -26,6 +26,10 @@
   postgresql,
 }:
 {
+  async-epoll = {
+    meta.platforms = lib.platforms.linux;
+  };
+
   base64 = {
     meta.broken = stdenv.isAarch64 || stdenv.isAarch32;
   };
