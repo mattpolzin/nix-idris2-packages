@@ -454,8 +454,8 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "0ca879269641a65e5aedfc2ddb82996c19612ae2",
-      "hash": "sha256-1kEMFQ0QJbkLhwSpP1GGWlItyaOWhljntoynm/xfsHM="
+      "rev": "609c25cf5da8c3728332be88f207b8d468e9e662",
+      "hash": "sha256-QV+/19iJB1XMne/h+BW6tjx7gfOjfktuQP2iMCRbXgQ="
     },
     "ipkgJson": {
       "name": "containers",
@@ -467,6 +467,30 @@
       "version": "0.6.0",
       "authors": "stefan-hoeck and matthew-mosior",
       "brief": "Assorted concrete container types",
+      "sourcedir": "src"
+    }
+  },
+  "control-spec": {
+    "packName": "control-spec",
+    "ipkgName": "control-spec",
+    "src": {
+      "url": "https://github.com/dannypsnl/control-spec",
+      "rev": "1aa5c4b00d2409fabd9ac716a2f9afd570fa6968",
+      "hash": "sha256-OS8lRBZGHAp1fr6rK3UR8jVJVLgIsgIObIjUo8/S3c0="
+    },
+    "ipkgJson": {
+      "name": "control-spec",
+      "depends": [
+        "contrib"
+      ],
+      "version": "0.1.0",
+      "authors": "dannypsnl",
+      "maintainers": "dannypsnl",
+      "license": "BSD3",
+      "readme": "README.md",
+      "homepage": "https://github.com/dannypsnl/control-spec",
+      "main": "SpecDiscover",
+      "executable": "spec-discover",
       "sourcedir": "src"
     }
   },
@@ -2008,8 +2032,8 @@
     "ipkgName": "pack",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "3fd992ddbc6f4acbd6340064c99f1dc2b58917d5",
-      "hash": "sha256-iuiVaTXz+MMszk+uIY41KmQnC4zEwSiYly4gEjWiV0o="
+      "rev": "494967faa0fdd3dd02ff13b812228753188a96ef",
+      "hash": "sha256-SMuOhet7UACNeRZH2rx9n3QAIkd4dmekz4jokAh+zKo="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2042,8 +2066,8 @@
     "ipkgName": "pack-admin",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "3fd992ddbc6f4acbd6340064c99f1dc2b58917d5",
-      "hash": "sha256-iuiVaTXz+MMszk+uIY41KmQnC4zEwSiYly4gEjWiV0o="
+      "rev": "494967faa0fdd3dd02ff13b812228753188a96ef",
+      "hash": "sha256-SMuOhet7UACNeRZH2rx9n3QAIkd4dmekz4jokAh+zKo="
     },
     "ipkgJson": {
       "name": "pack-admin",
