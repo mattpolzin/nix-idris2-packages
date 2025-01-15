@@ -16,16 +16,29 @@ let
   attrsToBuildIdris =
     packageName: attrs:
     let
-      execOrLib = (
-        p: if attrs.ipkgJson ? "executable" then p.executable else p.library { inherit withSource; }
-      );
+      # If the ipkg file contains an executable we still support building it as
+      # a library by adding the library option as a passthru.
+      execOrLib =
+        p:
+        if attrs.ipkgJson ? "executable" then
+          (lib.recursiveUpdate p.executable {
+            passthru = {
+              library' = p.library { inherit withSource; };
+            };
+          })
+        else
+          p.library { inherit withSource; };
       idrisPackageAttrs = {
         inherit (attrs) ipkgName;
         version = attrs.ipkgJson.version or "unversioned";
         src = fetchgit (attrs.src // { fetchSubmodules = false; });
-        idrisLibraries = map (depName: idris2Packages.${depName}) (
-          lib.subtractLists builtinPackages attrs.ipkgJson.depends
-        );
+        idrisLibraries = map (
+          depName:
+          let
+            dep = idris2Packages.${depName};
+          in
+          if (dep.passthru ? "library'") then dep.passthru.library' else dep
+        ) (lib.subtractLists builtinPackages attrs.ipkgJson.depends);
         meta.packName = attrs.packName;
       };
       override = overrides.${packageName} or { };
