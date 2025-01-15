@@ -539,8 +539,8 @@
     "ipkgName": "cptr",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
-      "rev": "ef54ca87a3b6a2a9430425778a6581a8d500e49f",
-      "hash": "sha256-PK7GRzCfulTvVnCn8U253nedmEB8Bm5Z3NxJvSPPaug="
+      "rev": "9a581f6a58a30c05632e0f4e226b242ccab94c91",
+      "hash": "sha256-vjpMiH0ONtCOUTQqS08ZAmQKfkEcvnzAy4AeNT/Bzdo="
     },
     "ipkgJson": {
       "name": "cptr",
@@ -2032,8 +2032,8 @@
     "ipkgName": "pack",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "494967faa0fdd3dd02ff13b812228753188a96ef",
-      "hash": "sha256-SMuOhet7UACNeRZH2rx9n3QAIkd4dmekz4jokAh+zKo="
+      "rev": "dd32806f8b43696a972ffdee75fcd867d488b827",
+      "hash": "sha256-O3JrMq69nzZlIluJzQIsQXzlchABqNWsZC9rwpsn+y0="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2066,8 +2066,8 @@
     "ipkgName": "pack-admin",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "494967faa0fdd3dd02ff13b812228753188a96ef",
-      "hash": "sha256-SMuOhet7UACNeRZH2rx9n3QAIkd4dmekz4jokAh+zKo="
+      "rev": "dd32806f8b43696a972ffdee75fcd867d488b827",
+      "hash": "sha256-O3JrMq69nzZlIluJzQIsQXzlchABqNWsZC9rwpsn+y0="
     },
     "ipkgJson": {
       "name": "pack-admin",
@@ -2303,13 +2303,31 @@
       "sourcedir": "src"
     }
   },
+  "pipelines": {
+    "packName": "pipelines",
+    "ipkgName": "pipelines",
+    "src": {
+      "url": "https://gitlab.com/glaive-research/pipelines.git",
+      "rev": "6b6b9c28ebbcf799e28d91342b483604b3bb4e36",
+      "hash": "sha256-yXRPnn1h1bAKQG3mfZqio4bdBUxtb0ENNKwh5k7zang="
+    },
+    "ipkgJson": {
+      "name": "pipelines",
+      "depends": [
+        "contrib"
+      ],
+      "version": "0.1.0",
+      "authors": "André Videla",
+      "sourcedir": "src"
+    }
+  },
   "pjrt-plugin-xla-cpu": {
     "packName": "pjrt-plugin-xla-cpu",
     "ipkgName": "pjrt-plugins/xla-cpu/pjrt-plugin-xla-cpu",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "fb808c12c31857a863afe381edd0555eb927f027",
-      "hash": "sha256-C4lGwz6TN/ws/RxiyRUSlZLJFargN21hW4ZWvrEJc2Y="
+      "rev": "5d449d58125c4a7cc484133d5e6d11c4f3f04393",
+      "hash": "sha256-5TWuW+VXJBM5Yu7F20XxH5VVqgrAluLTEZfD8q8WJLg="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -2328,8 +2346,8 @@
     "ipkgName": "pjrt-plugins/xla-cuda/pjrt-plugin-xla-cuda",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "fb808c12c31857a863afe381edd0555eb927f027",
-      "hash": "sha256-C4lGwz6TN/ws/RxiyRUSlZLJFargN21hW4ZWvrEJc2Y="
+      "rev": "5d449d58125c4a7cc484133d5e6d11c4f3f04393",
+      "hash": "sha256-5TWuW+VXJBM5Yu7F20XxH5VVqgrAluLTEZfD8q8WJLg="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -2904,8 +2922,8 @@
     "ipkgName": "spidr/spidr",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "fb808c12c31857a863afe381edd0555eb927f027",
-      "hash": "sha256-C4lGwz6TN/ws/RxiyRUSlZLJFargN21hW4ZWvrEJc2Y="
+      "rev": "5d449d58125c4a7cc484133d5e6d11c4f3f04393",
+      "hash": "sha256-5TWuW+VXJBM5Yu7F20XxH5VVqgrAluLTEZfD8q8WJLg="
     },
     "ipkgJson": {
       "name": "spidr",
@@ -2969,6 +2987,65 @@
       "sourcedir": "src"
     }
   },
+  "stellar-api": {
+    "packName": "stellar-api",
+    "ipkgName": "api/stellar-api",
+    "src": {
+      "url": "https://gitlab.com/avidela/stellar",
+      "rev": "8cd5937c677c6f9d003a6a75daabd5aa14b74c81",
+      "hash": "sha256-UrA9PBFcXyPgeoLBkYvcsKb979+kgwWVuCp1SJF4xAU="
+    },
+    "ipkgJson": {
+      "name": "stellar-api",
+      "depends": [
+        "algdata"
+      ],
+      "authors": "Andre Videla",
+      "opts": "--total",
+      "sourcedir": "src"
+    }
+  },
+  "stellar-http": {
+    "packName": "stellar-http",
+    "ipkgName": "http/stellar-http",
+    "src": {
+      "url": "https://gitlab.com/avidela/stellar",
+      "rev": "8cd5937c677c6f9d003a6a75daabd5aa14b74c81",
+      "hash": "sha256-UrA9PBFcXyPgeoLBkYvcsKb979+kgwWVuCp1SJF4xAU="
+    },
+    "ipkgJson": {
+      "name": "stellar-http",
+      "depends": [
+        "stellar-api",
+        "tyttp",
+        "node",
+        "tyttp-adapter-node"
+      ],
+      "sourcedir": "src"
+    }
+  },
+  "stellar-sql": {
+    "packName": "stellar-sql",
+    "ipkgName": "sql/stellar-sql",
+    "src": {
+      "url": "https://gitlab.com/avidela/stellar",
+      "rev": "8cd5937c677c6f9d003a6a75daabd5aa14b74c81",
+      "hash": "sha256-UrA9PBFcXyPgeoLBkYvcsKb979+kgwWVuCp1SJF4xAU="
+    },
+    "ipkgJson": {
+      "name": "stellar-sql",
+      "depends": [
+        "sqlite3",
+        "sqlite3-rio",
+        "algdata",
+        "stellar-api",
+        "contrib",
+        "json"
+      ],
+      "opts": "--total",
+      "sourcedir": "src"
+    }
+  },
   "string-builder": {
     "packName": "string-builder",
     "ipkgName": "string-builder",
@@ -3013,8 +3090,8 @@
     "ipkgName": "structures",
     "src": {
       "url": "https://git.sr.ht/~thatonelutenist/Structures",
-      "rev": "80a48e3b36c0a5454a2b8a96666aec892f88cc3e",
-      "hash": "sha256-0DTnLn5vuRPgqEd28x1Ebcxb73tjZsKnMgzZkNAnHBo="
+      "rev": "0926c31ee62a4cb717eba1cd81df59df1ab88fb8",
+      "hash": "sha256-JaXn7ZIWfbTCJAuel3sazex4CE2VfXeF2B7HHOcAJjo="
     },
     "ipkgJson": {
       "name": "structures",
@@ -3274,8 +3351,8 @@
     "ipkgName": "tyttp",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
-      "rev": "f159dfa6a44991528ccd8ed971fdd0d8c3a18a06",
-      "hash": "sha256-yDUNDibJqU8Wbd844dUChCx9f19wbJmn8T/o3OVjxnQ="
+      "rev": "9dd7ef9189c8c31870eee8589186108d3b7a55a8",
+      "hash": "sha256-d7/8sJBGL2RZx9TUqGcEx9nb9qJ95VkG7v/BIjK7WP4="
     },
     "ipkgJson": {
       "name": "tyttp",
@@ -3294,8 +3371,8 @@
     "ipkgName": "adapter-node/tyttp-adapter-node",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
-      "rev": "f159dfa6a44991528ccd8ed971fdd0d8c3a18a06",
-      "hash": "sha256-yDUNDibJqU8Wbd844dUChCx9f19wbJmn8T/o3OVjxnQ="
+      "rev": "9dd7ef9189c8c31870eee8589186108d3b7a55a8",
+      "hash": "sha256-d7/8sJBGL2RZx9TUqGcEx9nb9qJ95VkG7v/BIjK7WP4="
     },
     "ipkgJson": {
       "name": "tyttp-adapter-node",
@@ -3317,8 +3394,8 @@
     "ipkgName": "json/tyttp-json",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
-      "rev": "f159dfa6a44991528ccd8ed971fdd0d8c3a18a06",
-      "hash": "sha256-yDUNDibJqU8Wbd844dUChCx9f19wbJmn8T/o3OVjxnQ="
+      "rev": "9dd7ef9189c8c31870eee8589186108d3b7a55a8",
+      "hash": "sha256-d7/8sJBGL2RZx9TUqGcEx9nb9qJ95VkG7v/BIjK7WP4="
     },
     "ipkgJson": {
       "name": "tyttp-json",
