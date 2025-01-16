@@ -100,8 +100,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "10ae85b1d25f460dd88d097e4abf6a0d8332bd58",
-      "hash": "sha256-jyn9O+2PD2Iy+iGZ/I5kIm0rR680upx6zki90S4Wios="
+      "rev": "6812fc3655849a0de4c918df0867d4eed5130c67",
+      "hash": "sha256-WMWzPkrseNaHxmRNwrIimlVyrtVeQgSJuKrZ4oNKRDs="
     },
     "ipkgJson": {
       "name": "async",
@@ -123,8 +123,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "10ae85b1d25f460dd88d097e4abf6a0d8332bd58",
-      "hash": "sha256-jyn9O+2PD2Iy+iGZ/I5kIm0rR680upx6zki90S4Wios="
+      "rev": "6812fc3655849a0de4c918df0867d4eed5130c67",
+      "hash": "sha256-WMWzPkrseNaHxmRNwrIimlVyrtVeQgSJuKrZ4oNKRDs="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -591,8 +591,8 @@
     "ipkgName": "cyby-draw",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "0df06cfd26b94ec55314a60d07de57895c589df3",
-      "hash": "sha256-ZzCeW13g7BZuSCtWVgS0bkZPSEjPhuCrI6DxclcwZNo="
+      "rev": "e246b4c9e55d06a603e21354cc9599d784f49462",
+      "hash": "sha256-A2hQ9lnA9cOEXVn7ARO1eASrAOh+crwnazghwMQS9Qk="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -1721,8 +1721,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "7bc4d5093d384a1bf0b075bb6e8353231c0a0a4f",
-      "hash": "sha256-2LWI1heh2wPz8NTrZCKQ6my3ZdZ7WiXUYWTey9mvQDU="
+      "rev": "cd0d3099d35773ff6ec4863dceeebfbe5f62240f",
+      "hash": "sha256-Cn8vwYbkXe080YRzut3ChL6l4t+AR/CS7UUttJ+h0ro="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2386,8 +2386,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "7bc4d5093d384a1bf0b075bb6e8353231c0a0a4f",
-      "hash": "sha256-2LWI1heh2wPz8NTrZCKQ6my3ZdZ7WiXUYWTey9mvQDU="
+      "rev": "cd0d3099d35773ff6ec4863dceeebfbe5f62240f",
+      "hash": "sha256-Cn8vwYbkXe080YRzut3ChL6l4t+AR/CS7UUttJ+h0ro="
     },
     "ipkgJson": {
       "name": "posix",
@@ -2992,13 +2992,14 @@
     "ipkgName": "api/stellar-api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "8cd5937c677c6f9d003a6a75daabd5aa14b74c81",
-      "hash": "sha256-UrA9PBFcXyPgeoLBkYvcsKb979+kgwWVuCp1SJF4xAU="
+      "rev": "3007e8f165bf1ff57c37fbdc37d7a858e9b22132",
+      "hash": "sha256-aCtz/5YTUxkA/fbtbqQPxitf64VyEN1EQTGmvNEbr20="
     },
     "ipkgJson": {
       "name": "stellar-api",
       "depends": [
-        "algdata"
+        "algdata",
+        "contrib"
       ],
       "authors": "Andre Videla",
       "opts": "--total",
@@ -3010,8 +3011,8 @@
     "ipkgName": "http/stellar-http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "8cd5937c677c6f9d003a6a75daabd5aa14b74c81",
-      "hash": "sha256-UrA9PBFcXyPgeoLBkYvcsKb979+kgwWVuCp1SJF4xAU="
+      "rev": "3007e8f165bf1ff57c37fbdc37d7a858e9b22132",
+      "hash": "sha256-aCtz/5YTUxkA/fbtbqQPxitf64VyEN1EQTGmvNEbr20="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -3029,8 +3030,8 @@
     "ipkgName": "sql/stellar-sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "8cd5937c677c6f9d003a6a75daabd5aa14b74c81",
-      "hash": "sha256-UrA9PBFcXyPgeoLBkYvcsKb979+kgwWVuCp1SJF4xAU="
+      "rev": "3007e8f165bf1ff57c37fbdc37d7a858e9b22132",
+      "hash": "sha256-aCtz/5YTUxkA/fbtbqQPxitf64VyEN1EQTGmvNEbr20="
     },
     "ipkgJson": {
       "name": "stellar-sql",
