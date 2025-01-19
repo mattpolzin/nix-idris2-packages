@@ -39,7 +39,9 @@ let
           in
           if (dep.passthru ? "library'") then dep.passthru.library' else dep
         ) (lib.subtractLists builtinPackages attrs.ipkgJson.depends);
-        meta.packName = attrs.packName;
+        meta = {
+          packName = attrs.packName;
+        } // (lib.optionalAttrs (attrs.ipkgJson ? "brief") { description = attrs.ipkgJson.brief; });
       };
       override = overrides.${packageName} or { };
     in
