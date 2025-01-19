@@ -100,8 +100,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "d0db9ce001bd2da8ee03d425e2a336d66ab637e4",
-      "hash": "sha256-yuIOD02oEVM6DcstWPnTZ2/TooUjHSUxUoicqPvDaUg="
+      "rev": "f5bd218f2bdc733e1381f8c49c63b694b63487f4",
+      "hash": "sha256-CNB/SYx6oXg8LP/y5musjm3+7umzeiA9Q9Eaxf6sblc="
     },
     "ipkgJson": {
       "name": "async",
@@ -123,8 +123,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "d0db9ce001bd2da8ee03d425e2a336d66ab637e4",
-      "hash": "sha256-yuIOD02oEVM6DcstWPnTZ2/TooUjHSUxUoicqPvDaUg="
+      "rev": "f5bd218f2bdc733e1381f8c49c63b694b63487f4",
+      "hash": "sha256-CNB/SYx6oXg8LP/y5musjm3+7umzeiA9Q9Eaxf6sblc="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -1087,13 +1087,13 @@
     "ipkgName": "fvect",
     "src": {
       "url": "https://github.com/mattpolzin/idris-fvect",
-      "rev": "0a6e9c840be43248ed062f1c1b91834dc1fb9970",
-      "hash": "sha256-ZKzzBDgdbSHokhMaDkSr8SO2O0ElSiSytLJwBcMkSao="
+      "rev": "7a3a8bef75230f84369187334a2ee4f5bb75033c",
+      "hash": "sha256-DpBS26N3gx4Vyi1+S1uNd2v8wDqDLjRhbYbKpbjF1iE="
     },
     "ipkgJson": {
       "name": "fvect",
       "depends": [],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "authors": "Mathew Polzin",
       "license": "MIT",
       "sourceloc": "https://github.com/mattpolzin/idris-fvect",
@@ -3091,8 +3091,8 @@
     "ipkgName": "structures",
     "src": {
       "url": "https://git.sr.ht/~thatonelutenist/Structures",
-      "rev": "0926c31ee62a4cb717eba1cd81df59df1ab88fb8",
-      "hash": "sha256-JaXn7ZIWfbTCJAuel3sazex4CE2VfXeF2B7HHOcAJjo="
+      "rev": "67a2acc1ea787183028c2101b3ee946d360f6136",
+      "hash": "sha256-3TcS1VWWKw9k+cl02MIsocG1xB7IAZKI/jp+Cn/j/WE="
     },
     "ipkgJson": {
       "name": "structures",
