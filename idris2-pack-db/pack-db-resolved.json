@@ -100,8 +100,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "fd045ab3205a5ceb06a450bdfaf287dbcab38c2a",
-      "hash": "sha256-iYwqcPMMqmRcVzmhiJK6Bf3aNIyj1MdjZ6KvaIXE3I4="
+      "rev": "09fa9fa2dfc0b6dc66f9b56ae4c7435a7a639a54",
+      "hash": "sha256-v/c0qPzON+qH3xDHvpkZJVVNy2nw2n2p4N1yjIK0hzM="
     },
     "ipkgJson": {
       "name": "async",
@@ -123,8 +123,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "fd045ab3205a5ceb06a450bdfaf287dbcab38c2a",
-      "hash": "sha256-iYwqcPMMqmRcVzmhiJK6Bf3aNIyj1MdjZ6KvaIXE3I4="
+      "rev": "09fa9fa2dfc0b6dc66f9b56ae4c7435a7a639a54",
+      "hash": "sha256-v/c0qPzON+qH3xDHvpkZJVVNy2nw2n2p4N1yjIK0hzM="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -662,8 +662,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "3d9c571abfdeabb41f13a7d7e39134097ceef664",
-      "hash": "sha256-nEwUT07VhoLNox154oTmMxE4Nx5vJtiM13UWO8unLwI="
+      "rev": "90527956a78fe83a492f9bce73885b1cc9e8af09",
+      "hash": "sha256-sVAzNpDcVMCZqtgl7zF/2iM88Ft452BR0UdA0ximNv8="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -682,7 +682,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.241203",
+      "version": "0.0.250119",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1474,8 +1474,8 @@
     "ipkgName": "if-unsolved-implicit",
     "src": {
       "url": "https://github.com/buzden/idris2-if-unsolved-implicit",
-      "rev": "a56deec1d89e0c9bf83f11ae18b7e0787fcc5d50",
-      "hash": "sha256-FflXfnGWl9KNS69t2FXmNZNsnySnPWkfKgvyCT3BU4s="
+      "rev": "e6abc98a76134505218f3617980397e78872ea4f",
+      "hash": "sha256-D9j4jiIobXvMkWG7vrkhLa8cCDNh5pccgcB77RbBzsM="
     },
     "ipkgJson": {
       "name": "if-unsolved-implicit",
