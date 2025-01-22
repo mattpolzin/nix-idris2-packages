@@ -454,8 +454,8 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "609c25cf5da8c3728332be88f207b8d468e9e662",
-      "hash": "sha256-QV+/19iJB1XMne/h+BW6tjx7gfOjfktuQP2iMCRbXgQ="
+      "rev": "49d5fc96216eaa97eca242a97e03e5e1c05716f6",
+      "hash": "sha256-gpQjPCqkRHPAClHEVXAlL6qwTFLyT+2X/h1rNmcD6bA="
     },
     "ipkgJson": {
       "name": "containers",
@@ -591,8 +591,8 @@
     "ipkgName": "cyby-draw",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "15f16e439028d4b8d733246540f2a50a2b20da1b",
-      "hash": "sha256-YIZY5GA2Q2xVrEeZvF+3ir1v0NzghWIJewkQxbZxSk8="
+      "rev": "11090a58dcac0cebf994f56cf6b2e3a28ddbf0a0",
+      "hash": "sha256-eiAqxFyXwUIpbYAZxPLQBEjDtxWD2LCNrKjBTPzPdmg="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -662,8 +662,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "90527956a78fe83a492f9bce73885b1cc9e8af09",
-      "hash": "sha256-sVAzNpDcVMCZqtgl7zF/2iM88Ft452BR0UdA0ximNv8="
+      "rev": "67f4a7c4c5b9920afcf75483bbd777d4ed8d909b",
+      "hash": "sha256-uJxzYJx22QRCaRpMjVQ/e6/TCISjZhHGvBcRG8Y7fe4="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -671,6 +671,7 @@
         "ansi",
         "best-alternative",
         "collection-utils",
+        "cozippable",
         "dependent-vect",
         "elab-pretty",
         "elab-util",
