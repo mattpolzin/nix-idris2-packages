@@ -18,6 +18,12 @@
 #        in {
 #          lib = pkg.library { withSource = true; };
 #          bin = pkg.executable;
+#
+#          # implicitly without source:
+#          lib' = pkg.library'
+#
+#          # retroactively with source:
+#          lib'' = pkg.library'.withSource
 #        }
 #
 {

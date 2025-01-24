@@ -10,6 +10,7 @@
   lib,
   stdenv,
   pkg-config,
+  fetchpatch,
   makeWrapper,
   zsh,
   gcc,
@@ -148,6 +149,15 @@
       make -C posix/support install
       mv ./posix/lib ./lib
     '';
+
+    patches = [
+      (fetchpatch {
+            name = "fix-old-darwin-build.patch";
+      url = "https://github.com/stefan-hoeck/idris2-linux/commit/79d949f9da6e8c339349ab20190067849bcf5200.patch";
+      hash = "sha256-ol2UrMTre9pH9YzL8c08GZVrcvAj5TJjLfaZyl+/gZw=";
+
+      })
+    ];
   };
 
   rtlsdr = {
