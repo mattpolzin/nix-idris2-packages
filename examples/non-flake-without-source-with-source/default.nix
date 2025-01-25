@@ -7,7 +7,7 @@
 let
   packageset = import ./packageset.nix { inherit pkgs; };
 in
-packageset.experimental.buildIdris' {
+packageset.buildIdris' {
   ipkgName = "my-pkg";
   src = builtins.path {
     path = ../shared-src;

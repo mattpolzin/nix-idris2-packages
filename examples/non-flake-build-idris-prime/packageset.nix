@@ -7,6 +7,6 @@
 }:
 import (pkgs.fetchgit {
   url = "https://github.com/mattpolzin/nix-idris2-packages";
-  rev = "6eb57073378f26a747210603ea4f3521591388d4";
-  hash = "sha256-/5i359aDX8WDpNDDnMDO15Vc/e4xCmWKXTiHzNZfn9U=";
+  rev = "73712315d3d0f15b931682137ae2032346302b67";
+  hash = "sha256-0WS1Y69hV2Ik3nwJEdo6rxx8vcviUsVGGj8W0TNKCTY=";
 }) { inherit withSource; }

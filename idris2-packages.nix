@@ -27,10 +27,7 @@ let
     idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
 
     buildIdris' = self.callPackage ./build-idris-prime.nix { };
-    buildIdrisAlpha = self.callPackage ./build-idris-alpha.nix {
-      idris2Version = self.idris2.version;
-      support = self.idris2Support;
-    };
+    buildIdrisAlpha = self.callPackage ./build-idris-alpha.nix { };
 
     inherit (idris2Default) builtinPackages;
 

@@ -1,16 +1,16 @@
-This is an experimental stab at populating Nix derivations for all the same
-packages as Pack currently offers.
+This repository contains Nix derivations for all the same packages as Pack
+currently offers.
 
-In addition to the brief instructions given below, you can find example
-projects that use this packageset in the `examples/` folder.
+In addition to the brief instructions given below, you can find example projects
+that use this packageset in the `examples/` folder.
 
 ## What is it?
 This is a Nix wrapper around the Idris2 Pack package database. What that means
-is that it makes it easy to use the packages found in that database within a
-Nix derivation that builds your own Idris2 package. This project doesn't
-facilitate using Pack itself, it provides packages wrapped in `buildIdris` Nix
-derivations that can be used in your own `buildIdris` call by passing them as
-the `idrisLibraries` argument.
+is that it makes it easy to use the packages found in that database within a Nix
+derivation that builds your own Idris2 package. This project doesn't facilitate
+using Pack itself, it provides packages wrapped in `buildIdris` Nix derivations
+that can be used in your own `buildIdris` call by passing them as the
+`idrisLibraries` argument.
 
 The `buildIdris` function offered by this package set is the same one you may be
 familiar with from the Nix tooling in the Idris2 compiler repo or the Nixpkgs
@@ -57,7 +57,15 @@ outputs = { packageset, ...}:
 ```
 
 If you're setting up a developer shell or have some other need for source code
-of your dependencies, use `packageset.idris2PackagesWithSource...` instead.
+of your dependencies, you can use any given package's `withSource` passthru
+attribute to get a package ready for use in a development environment. For
+example:
+```
+mkShell {
+  packages = [ idris2 idris2Lsp ];
+  inputsFrom = [ myPkg.withSource ];
+}
+```
 
 #### Non-Flake project
 A non-flake project can import the Idris2 package set pinned at a particular
@@ -76,23 +84,24 @@ in
 ```
 
 If you're setting up a developer shell or have some other need for source code
-of your dependencies, pass the `packageset` `import` `{ withSource = true; }`.
+of your dependencies, see the note at the end of the Flake project section just
+above.
 
 ### Building a project
 Once you've got the package set, whether as a flake or not, you can use the
 `buildIdris` function (or see below for the even more convenient `buildIdris'`
-function). You get back a package set with options to build your
-package as either a library or an executable. If you are building a library, you
-can choose to include the source code or not (including the source code is
-helpful for editor integrations when developing against the library). Here's a
-snippet illustrating building a library with source code included:
+function). You get back a package set with options to build your package as
+either a library or an executable. If you are building a library, you can choose
+to include the source code or not (including the source code is helpful for
+editor integrations when developing against the library). Here's a snippet
+illustrating building a library with source code included:
 ```nix
 let myPkg = packageset.buildIdris {
   ipkgName = "my-pkg";
   src = ./.;
   idrisLibraries = [];
 };
-in myPkg.library { withSource = true; }
+in myPkg.library'
 ```
 
 The three arguments shown above are required. Note that the `ipkgName` is the
@@ -100,10 +109,8 @@ exact name of the ipkg file _without_ a file extension. You can pass
 `buildIdris` any other arguments supported by `mkDerivation` as well. Commonly
 this may include passing a C library required at runtime to the `buildInputs`.
 
-If you'd like to build an executable, replace `myPkg.library {...}` with
-`myPkg.executable`. If you'd like to build a library and not include the source
-code, you can omit the `withSource` argument which will default to `false`:
-`myPkg.library {}`.
+If you'd like to build an executable, replace `myPkg.library'` with
+`myPkg.executable`.
 
 If your package depends on other Idris2 packages, build them with `buildIdris`
 and pass them in the `idrisLibraries` list. If you need to use other packages
@@ -119,7 +126,7 @@ In addition to surfacing the `buildIdris` function, this project supports
     the `idrisLibraries` of `buildIdris`.
   - Determine if this package is an executable or library based on whether the
     `ipkg` file has an `executable` property and call the appropriate
-    `.executable` or `.library {}` attributes of the `buildIdris` result.
+    `.executable` or `.library'` attributes of the `buildIdris` result.
 
 This means you probably don't want to set `idrisLibraries` yourself or you will
 overwrite the libraries `buildIdris'` finds in the package set, but if you need
@@ -133,8 +140,9 @@ convenience function.
 ### Using a developer Shell
 You can easily set a dev shell up with the Nixpkgs `mkShell` function. Pass it
 any executables you want to use in your dev shell under the `packages` argument
-and pass it your project's `library {}` or `executable` under the `inputsFrom`
-argument.
+and pass it your project's `library` or `executable` under the `inputsFrom`
+argument. It is recommended to include source code when setting up a developer
+environment. You do this with the `withSource` passthru attribute as seen below.
 ```nix
 let
   inherit (packageset) idris2 idris2Lsp;
@@ -147,17 +155,19 @@ pkgs.mkShell {
   ];
 
   inputsFrom = [
-    myPkg.executable
+    myPkg.executable.withSource
   ];
 }
 ```
 
 #### No-fuss developer shell
 If you are going to work on an Idris2 package for which no shell.nix file exists
-ahead of time, there is an experimental flake-based command you can run to get
-`idris2` and `idris2-lsp` set up for a project in the current directory along
-with all dependencies built and available. The following only works trivially if
-there is exactly one `ipkg` file in the current directory.
+ahead of time, there is a flake-based command you can run to get `idris2` and
+`idris2-lsp` set up for a project in the current directory along with all
+dependencies built and available. The following only works trivially if there is
+exactly one `ipkg` file in the current directory. Note that this function
+currently relies on the `PWD` environment variable and is known to not work on
+some systems (improvement PRs welcome).
 
 ```shell
 nix develop --impure --expr '(builtins.getFlake "github:mattpolzin/nix-idris2-packages").impureShell'
@@ -183,27 +193,8 @@ This packageset might from time to time experiment with new (almost exclusively
 backwards compatible) interfaces to existing functions or derivations surfaced
 originally by nixpkgs, idris2, or this packageset.
 
-### buildIdris
-There are currently `experimental.buildIdris` and `experimental.buildIdris'` functions in this packageset that allow an Idris2 library previously built without source to later be rebuilt with source included. This means an upstream project can offer its library built without source and a downstream project or nix-shell can rebuild it with source for the purposes of editor integrations.
-
-Let's say you have a `package.nix` file like:
-```nix
-let myPkg = experimental.buildIdris {
-  ...
-};
-in myPkg.library { withSource = false; }
-```
-
-Then your `shell.nix` file may look like this:
-```nix
-let myPkgLib = import ./package.nix;
-in mkShell {
-  packages = [ idris2 idris2Lsp ];
-  inputsFrom = [
-    myPkgLib.withSource
-  ];
-}
-```
+There are not currently any differences in the experimental packageset (no
+current experiments).
 
 ## Updating this packageset
 To update to the package set & package versions to the latest Pack has to offer,
@@ -212,9 +203,13 @@ run the `update.sh` script from the root of the repository.
 the package set is updated automatically by CI each night. 
 
 ## Adding new packages
-To add new packages to this packageset, please add them to Pack's [package database](https://github.com/stefan-hoeck/idris2-pack-db).
-New packages in Pack's database will automatically be pulled into this Nix
-packageset each night.
+To add new packages to this packageset, please add them to Pack's [package
+database](https://github.com/stefan-hoeck/idris2-pack-db). New packages in
+Pack's database will automatically be pulled into this Nix packageset each
+night.
+
+If the new package requires any special Nix setup, you may need to add an entry
+to the `idris2-pack-db/overrides.nix` file as well.
 
 ## Alternatives
 This is not necessarily a comprehensive list of alternatives. Please open an
