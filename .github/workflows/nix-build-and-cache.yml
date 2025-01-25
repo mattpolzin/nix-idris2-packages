@@ -23,12 +23,12 @@ jobs:
 
     steps:
       - name: Install Nix
-        uses: cachix/install-nix-action@v24
+        uses: cachix/install-nix-action@v30
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: cachix/cachix-action@v14
+      - uses: cachix/cachix-action@v15
         with:
           name: gh-nix-idris2-packages
           # If you chose API tokens for write access OR if you have a private cache
@@ -67,15 +67,14 @@ jobs:
 
     steps:
       - name: Install Nix
-        uses: cachix/install-nix-action@v24
+        uses: cachix/install-nix-action@v30
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: cachix/cachix-action@v14
+      - uses: cachix/cachix-action@v15
         with:
           name: gh-nix-idris2-packages
-          # If you chose API tokens for write access OR if you have a private cache
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
       - name: Restore Cache
         uses: actions/cache/restore@v4
@@ -85,22 +84,25 @@ jobs:
             flake.lock
             idris2-pack-db/pack-db-resolved.json
           key: ${{ github.run_number }}-${{ github.run_attempt }}
-      - name: Build
-        run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
       - name: Ensure Flake idris2, idris2Api, and idris2LSP
         run: |
           nix build .#idris2
           nix build .#idris2Api
           nix build .#idris2Lsp
+      - name: Build All Packages
+        run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
       - name: Build Example 1
+        if: always()
         run: |
           cd examples/non-flake
           nix-build
       - name: Build Example 2
+        if: always()
         run: |
           cd examples/non-flake-build-idris-prime
           nix-build
       - name: Build Example 3
+        if: always()
         run: |
           cd examples/non-flake-without-source-with-source
           nix-build
