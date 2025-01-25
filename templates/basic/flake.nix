@@ -44,7 +44,7 @@
           };
         in
         {
-          default = myPkg.executable;
+          default = myPkg.executable; # or myPkg.library'
         }
       );
 
@@ -62,7 +62,7 @@
               idris2
               idris2Lsp
             ];
-            inputsFrom = [ self.packages.${system}.default ];
+            inputsFrom = [ self.packages.${system}.default.withSource ];
           };
         }
       );
