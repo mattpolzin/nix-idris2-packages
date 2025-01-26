@@ -15,7 +15,7 @@ let
 
   packages = lib.filterAttrs (
     n: p: (lib.isDerivation p) && !p.meta.broken && !(depsBroken p) && supportedPlatform p
-  ) idris2Packages;
+  ) idris2Packages.packdb;
 in
 pkgs.runCommand "all-packages"
   {

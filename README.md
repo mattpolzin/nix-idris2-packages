@@ -56,10 +56,8 @@ inputs.packageset.url = "github:mattpolzin/nix-idris2-packages";
 
 outputs = { packageset, ...}:
   let
-    inherit (packageset.packages.x86_64-linux) idris2 idris2Lsp;
-    idris2Packages = packageset.idris2Packages.x86_64-linux;
-    buildIdris = packageset.buildIdris.x86_64-linux;
-    buildIdris' = packageset.buildIdris'.x86_64-linux;
+    inherit (packageset.packages.x86_64-linux) idris2 idris2Lsp idris2Packages
+    buildIdris buildIdris';
   in
   {}
 ```
@@ -86,7 +84,7 @@ let
     hash = "sha256-QAtztZ30wxrx8XAFO5UbxpLr+hyLD+UwdQn9+AKitKY=";
   }) {};
 
-  inherit (packageset) idris2 idris2Lsp buildIdris idris2Packages;
+  inherit (packageset) idris2 idris2Lsp idris2Packages buildIdris buildIdris';
 in
 {}
 ```
@@ -124,7 +122,7 @@ If your package depends on other Idris2 packages, build them with `buildIdris`
 and pass them in the `idrisLibraries` list. If you need to use other packages
 that are already a part of the package set, you can include them even more
 readily; for example, including the `ncurses-idris` library looks like:
-`idrisLibraries = [ packageset.idris2Packages.ncurses-idris ]`.
+`idrisLibraries = [ packageset.idris2Packages.packdb.ncurses-idris ]`.
 
 #### The buildIdris' function
 In addition to surfacing the `buildIdris` function, this project supports

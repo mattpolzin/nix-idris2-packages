@@ -22,10 +22,7 @@
           system:
           f {
             inherit system;
-            inherit (packageset.packages.${system}) idris2 idris2Lsp;
-            idris2Packages = packageset.idris2Packages.${system};
-            buildIdris = packageset.buildIdris.${system};
-            buildIdris' = packageset.buildIdris'.${system};
+            inherit (packageset.packages.${system}) idris2 idris2Lsp buildIdris buildIdris' idris2Packages;
             pkgs = nixpkgs.legacyPackages.${system};
           }
         );
@@ -40,7 +37,9 @@
           myPkg = buildIdris {
             ipkgName = "my-pkg";
             src = ./.;
-            idrisLibraries = [];
+            idrisLibraries = [
+              # idris2Packages.packdb.ncurses-idris
+            ];
           };
         in
         {

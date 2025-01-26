@@ -15,7 +15,7 @@ let
     };
     idrisLibraries =
       let
-        ps = packageset.idris2Packages;
+        ps = packageset.idris2Packages.packdb;
       in
       [ ps.ncurses-idris ];
   };

@@ -26,7 +26,7 @@ in
       idris2Api
       idris2Lsp
       ;
-    packdb = packages.idris2Packages;
+    inherit (packages.idris2Packages) packdb;
   };
   idris2 = final.idris2Packages.idris2;
 }
