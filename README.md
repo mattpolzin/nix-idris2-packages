@@ -20,6 +20,14 @@ section on `buildIdris'` below for details.
 
 See also the [Alternatives](#alternatives) section.
 
+## Releases
+This project is updated nightly with a new commit and I generally recommend
+using the latest commit of HEAD as your target.
+
+I _will_ cut releases on rare occasions to indicate and describe significant
+and/or breaking changes to the project, but releases will not be intended to
+reflect the versions of the packages in the packageset.
+
 ## Using in your project
 You can use this packageset in your Flake-based project, your non-Flake project,
 or a developer shell.
