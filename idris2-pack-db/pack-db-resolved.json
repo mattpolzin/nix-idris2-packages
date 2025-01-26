@@ -41,8 +41,8 @@
     "ipkgName": "ansi",
     "src": {
       "url": "https://github.com/idris-community/idris2-ansi",
-      "rev": "f3cac49b50561c0182ce2d7d9bdc4de8000f5a3e",
-      "hash": "sha256-AlDUsA0+ptFHNfayX5mj6scCPfn1FWAJL+t+b6yVuVg="
+      "rev": "c099ebb827607e89e0e43034f03e8808e0078c47",
+      "hash": "sha256-k52GskgvL97Fzk4hR33yfDkhzVUPhfh8sGuZp+fxP/o="
     },
     "ipkgJson": {
       "name": "ansi",
@@ -100,8 +100,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5458cfe7346442a4f23bb322559b7f5f8f69a901",
-      "hash": "sha256-ST5sWmzYlQvZG1QazvYqqQ4dgIFcqciPMkEDkkyEpBY="
+      "rev": "8212dfddc0f758f332e881617aed83d94f423cec",
+      "hash": "sha256-hmc8NYDDe13EW5IcdxrADM5EHEbG+1+RXbRE9JwglDw="
     },
     "ipkgJson": {
       "name": "async",
@@ -123,8 +123,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5458cfe7346442a4f23bb322559b7f5f8f69a901",
-      "hash": "sha256-ST5sWmzYlQvZG1QazvYqqQ4dgIFcqciPMkEDkkyEpBY="
+      "rev": "8212dfddc0f758f332e881617aed83d94f423cec",
+      "hash": "sha256-hmc8NYDDe13EW5IcdxrADM5EHEbG+1+RXbRE9JwglDw="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -2426,8 +2426,8 @@
     "ipkgName": "prettier/prettier-ansi",
     "src": {
       "url": "https://github.com/idris-community/idris2-ansi",
-      "rev": "f3cac49b50561c0182ce2d7d9bdc4de8000f5a3e",
-      "hash": "sha256-AlDUsA0+ptFHNfayX5mj6scCPfn1FWAJL+t+b6yVuVg="
+      "rev": "c099ebb827607e89e0e43034f03e8808e0078c47",
+      "hash": "sha256-k52GskgvL97Fzk4hR33yfDkhzVUPhfh8sGuZp+fxP/o="
     },
     "ipkgJson": {
       "name": "prettier-ansi",
