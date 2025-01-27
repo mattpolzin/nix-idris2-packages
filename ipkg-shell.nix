@@ -16,5 +16,5 @@ mkShell {
     idris2
     idris2Lsp
   ];
-  inputsFrom = [ pkg ];
+  inputsFrom = [ pkg.withSource ];
 }

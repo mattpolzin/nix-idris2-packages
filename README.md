@@ -1,3 +1,10 @@
+---
+
+**NOTE** If you are coming here because you've noticed breaking changes
+introduced on 2025-01-26, see the [CHANGELOG](./CHANGELOG.md).
+
+---
+
 This repository contains Nix derivations for all the same packages as Pack
 currently offers.
 
@@ -19,6 +26,16 @@ function that uses `ipkg` data to fill in additional information. See the
 section on `buildIdris'` below for details.
 
 See also the [Alternatives](#alternatives) section.
+
+## Releases
+This project is updated nightly with a new commit and I generally recommend
+using the latest commit of HEAD as your target.
+
+I _will_ cut releases on rare occasions to indicate and describe significant
+and/or breaking changes to the project, but releases will not be intended to
+reflect the versions of the packages in the packageset.
+
+See the [CHANGELOG](./CHANGELOG.md).
 
 ## Using in your project
 You can use this packageset in your Flake-based project, your non-Flake project,
@@ -48,10 +65,8 @@ inputs.packageset.url = "github:mattpolzin/nix-idris2-packages";
 
 outputs = { packageset, ...}:
   let
-    inherit (packageset.packages.x86_64-linux) idris2 idris2Lsp;
-    idris2Packages = packageset.idris2Packages.x86_64-linux;
-    buildIdris = packageset.buildIdris.x86_64-linux;
-    buildIdris' = packageset.buildIdris'.x86_64-linux;
+    inherit (packageset.packages.x86_64-linux) idris2 idris2Lsp idris2Packages
+    buildIdris buildIdris';
   in
   {}
 ```
@@ -78,7 +93,7 @@ let
     hash = "sha256-QAtztZ30wxrx8XAFO5UbxpLr+hyLD+UwdQn9+AKitKY=";
   }) {};
 
-  inherit (packageset) idris2 idris2Lsp buildIdris idris2Packages;
+  inherit (packageset) idris2 idris2Lsp idris2Packages buildIdris buildIdris';
 in
 {}
 ```
@@ -116,7 +131,7 @@ If your package depends on other Idris2 packages, build them with `buildIdris`
 and pass them in the `idrisLibraries` list. If you need to use other packages
 that are already a part of the package set, you can include them even more
 readily; for example, including the `ncurses-idris` library looks like:
-`idrisLibraries = [ packageset.idris2Packages.ncurses-idris ]`.
+`idrisLibraries = [ packageset.idris2Packages.packdb.ncurses-idris ]`.
 
 #### The buildIdris' function
 In addition to surfacing the `buildIdris` function, this project supports

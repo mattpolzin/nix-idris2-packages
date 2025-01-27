@@ -47,7 +47,7 @@
 let
   depName = ipkgDep: (builtins.head (builtins.attrNames ipkgDep));
   depFromPackageset =
-    depName: if (idris2Packages ? ${depName}) then [ idris2Packages.${depName} ] else [ ];
+    depName: if (idris2Packages.packdb ? ${depName}) then [ idris2Packages.packdb.${depName} ] else [ ];
   addDep = acc: dep: acc ++ (depFromPackageset (depName dep));
 
   execOrLib =

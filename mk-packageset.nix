@@ -5,10 +5,12 @@ in
   lib,
   fetchgit,
   buildIdris,
+  buildIdris',
   builtinPackages,
   overrides,
   withSource,
   idris2Packages,
+  idris2,
   idris2Api,
   idris2Lsp,
 }:
@@ -35,7 +37,7 @@ let
         idrisLibraries = map (
           depName:
           let
-            dep = idris2Packages.${depName};
+            dep = idris2Packages.packdb.${depName};
           in
           if (dep.passthru ? "library'") then dep.passthru.library' else dep
         ) (lib.subtractLists builtinPackages attrs.ipkgJson.depends);
@@ -47,11 +49,18 @@ let
     in
     execOrLib (buildIdris (lib.recursiveUpdate idrisPackageAttrs override));
 
+  packdbBuilt = lib.mapAttrs attrsToBuildIdris packDb;
 in
-(lib.mapAttrs attrsToBuildIdris packDb)
-// {
-  # The idris2-api package is named 'idris2':
-  idris2 = idris2Api;
-  # We build the LSP from its own repo's derivation:
-  idris2-lsp = idris2Lsp;
+{
+  packdb = packdbBuilt // {
+    # The idris2-api package is named 'idris2':
+    idris2 = idris2Api;
+    # We build the LSP from its own repo's derivation:
+    idris2-lsp = idris2Lsp;
+  };
+
+  inherit idris2 idris2Api idris2Lsp;
+  inherit (packdbBuilt) pack;
+
+  inherit buildIdris buildIdris';
 }

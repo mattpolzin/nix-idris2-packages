@@ -12,8 +12,11 @@
   pkg-config,
   fetchpatch,
   makeWrapper,
+  makeBinaryWrapper,
   zsh,
+  clang,
   gcc,
+  gmp,
   idris2Support,
   idris2,
   chez,
@@ -134,6 +137,30 @@
     buildInputs = [
       ncurses5.dev
     ];
+  };
+
+  pack = {
+    nativeBuildInputs = [ makeBinaryWrapper ];
+
+    buildInputs = [
+      gmp
+      clang
+      chez
+    ] ++ lib.optionals stdenv.hostPlatform.isDarwin [ zsh ];
+
+    postInstall = ''
+      wrapProgram $out/bin/pack \
+        --suffix C_INCLUDE_PATH : ${lib.makeIncludePath [ gmp ]} \
+        --suffix PATH : ${
+          lib.makeBinPath (
+            [
+              clang
+              chez
+            ]
+            ++ lib.optionals stdenv.hostPlatform.isDarwin [ zsh ]
+          )
+        }
+    '';
   };
 
   pg-idris = {

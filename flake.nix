@@ -27,8 +27,7 @@
     let
       inherit (nixpkgs) lib;
       forEachSystem = lib.genAttrs lib.systems.flakeExposed;
-      ps =
-        withSource:
+      ps = {withSource}:
         forEachSystem (
           system:
           import ./. {
@@ -52,25 +51,11 @@
           default = self.overlays.withSource;
         };
 
-      packages = lib.mapAttrs (
-        n: attrs:
-        (
-          attrs.idris2Packages
-          // {
-            inherit (attrs)
-              idris2
-              idris2Lsp
-              idris2Api
-              ;
-          }
-        )
-      ) (ps false);
-      idris2Packages = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps false);
-      idris2PackagesWithSource = lib.mapAttrs (n: attrs: attrs.idris2Packages) (ps true);
+      packages = ps { withSource = false; };
 
-      buildIdris = lib.mapAttrs (_: attrs: attrs.buildIdris) (ps false);
-      buildIdris' = lib.mapAttrs (_: attrs: attrs.buildIdris') (ps false);
-      experimental = lib.mapAttrs (_: attrs: attrs.experimental) (ps false);
+      buildIdris = lib.mapAttrs (_: attrs: attrs.buildIdris) (ps { withSource = false;});
+      buildIdris' = lib.mapAttrs (_: attrs: attrs.buildIdris') (ps { withSource = false; });
+      experimental = lib.mapAttrs (_: attrs: attrs.experimental) (ps { withSource = false; });
 
       formatter = forEachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
 
@@ -101,7 +86,7 @@
         }:
         nixpkgs.legacyPackages.${system}.callPackage ./ipkg-shell.nix {
           inherit src ipkgName;
-          inherit ((ps true).${system}) buildIdris' idris2 idris2Lsp;
+          inherit ((ps {withSource = true;}).${system}) buildIdris' idris2 idris2Lsp;
         };
     };
 }
