@@ -1,3 +1,10 @@
+---
+
+**NOTE** If you are coming here because you've noticed breaking changes
+introduced on 2025-01-26, see the [CHANGELOG](./CHANGELOG.md).
+
+---
+
 This repository contains Nix derivations for all the same packages as Pack
 currently offers.
 
@@ -27,6 +34,8 @@ using the latest commit of HEAD as your target.
 I _will_ cut releases on rare occasions to indicate and describe significant
 and/or breaking changes to the project, but releases will not be intended to
 reflect the versions of the packages in the packageset.
+
+See the [CHANGELOG](./CHANGELOG.md).
 
 ## Using in your project
 You can use this packageset in your Flake-based project, your non-Flake project,
