@@ -2,6 +2,8 @@
 **NOTE** If you are coming here because you've noticed breaking changes
 introduced on 2025-01-26, see the [CHANGELOG](./CHANGELOG.md).
 
+---
+
 This repository contains Nix derivations for all the same packages as Pack
 currently offers.
 
