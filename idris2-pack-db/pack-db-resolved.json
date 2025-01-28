@@ -100,8 +100,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "92c0f4de1ba8a2af82773f08af35a67a1d23fcaf",
-      "hash": "sha256-QXyVPOG+OrCp68gaJPvdQuX86E0oe+zttU2tsRqO4sw="
+      "rev": "33bf4606326f54d108dcf99cee11f530f1252286",
+      "hash": "sha256-0PtsGwJg8MgTfn9hF78OEUZFOcol5HyxtDlX/1sUUzE="
     },
     "ipkgJson": {
       "name": "async",
@@ -123,8 +123,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "92c0f4de1ba8a2af82773f08af35a67a1d23fcaf",
-      "hash": "sha256-QXyVPOG+OrCp68gaJPvdQuX86E0oe+zttU2tsRqO4sw="
+      "rev": "33bf4606326f54d108dcf99cee11f530f1252286",
+      "hash": "sha256-0PtsGwJg8MgTfn9hF78OEUZFOcol5HyxtDlX/1sUUzE="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -454,8 +454,8 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "49d5fc96216eaa97eca242a97e03e5e1c05716f6",
-      "hash": "sha256-gpQjPCqkRHPAClHEVXAlL6qwTFLyT+2X/h1rNmcD6bA="
+      "rev": "f1ddaa874b83c6943581d2a263137a279d87735d",
+      "hash": "sha256-+xp3j7P278d+H93sRYrOzTNQxg6HfgoNVLNps0Fkb3Q="
     },
     "ipkgJson": {
       "name": "containers",
@@ -615,8 +615,8 @@
     "ipkgName": "dependent-map",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
-      "rev": "f2896d04876d2aebb437a6cd780dbb871765c863",
-      "hash": "sha256-8emuAbyIMBidtq3YcjqoOPIT1+v3cuNhcqecNmvg+OY="
+      "rev": "24486a6b3ace37c7c1802b721282e2239c751048",
+      "hash": "sha256-ZIB4QbJ/1VVZRgyodIi2Hw9ij8vTkkcQ1/gcHHnWHGU="
     },
     "ipkgJson": {
       "name": "dependent-map",
@@ -662,8 +662,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "67f4a7c4c5b9920afcf75483bbd777d4ed8d909b",
-      "hash": "sha256-uJxzYJx22QRCaRpMjVQ/e6/TCISjZhHGvBcRG8Y7fe4="
+      "rev": "90520e86c7a7c78e08b92a69697e5db8310a481b",
+      "hash": "sha256-kuY6mFYITdFc5YR1bepA7VYHUiJSn1x7PmIIGnvMbL8="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -3115,8 +3115,8 @@
     "ipkgName": "summary-stat",
     "src": {
       "url": "https://github.com/buzden/idris2-summary-stat",
-      "rev": "90810a9efd351e81b4a0819fd17f7de7dd42ae3e",
-      "hash": "sha256-EITJgzTG5DKSKrJzd4fPZyKAmKxxPWJziFYpPz8eiQc="
+      "rev": "1615748a9c4992f250794386d81906abc2439e77",
+      "hash": "sha256-RlTkbJB1wzNteDtceXS4fdR+pBwxvRCx9T91i7IzKDo="
     },
     "ipkgJson": {
       "name": "summary-stat",
