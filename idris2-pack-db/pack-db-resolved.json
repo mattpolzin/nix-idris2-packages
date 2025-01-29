@@ -470,6 +470,26 @@
       "sourcedir": "src"
     }
   },
+  "control-flow": {
+    "packName": "control-flow",
+    "ipkgName": "control-flow/control-flow",
+    "src": {
+      "url": "https://github.com/JankaGramofonomanka/idris-compiler-tools",
+      "rev": "e323d4707231ea0fb57b6b4015a35a6440cdc42a",
+      "hash": "sha256-3oqfV8PyefJz+ym/QkejSMeUgSktF3zzto6yiv/J41g="
+    },
+    "ipkgJson": {
+      "name": "control-flow",
+      "depends": [
+        "theory"
+      ],
+      "version": "0.1.0",
+      "authors": "Jan Serwatka",
+      "license": "MIT",
+      "brief": "Structurally correct control-flow graphs",
+      "sourcedir": "src"
+    }
+  },
   "control-spec": {
     "packName": "control-spec",
     "ipkgName": "control-spec",
@@ -3115,8 +3135,8 @@
     "ipkgName": "summary-stat",
     "src": {
       "url": "https://github.com/buzden/idris2-summary-stat",
-      "rev": "1615748a9c4992f250794386d81906abc2439e77",
-      "hash": "sha256-RlTkbJB1wzNteDtceXS4fdR+pBwxvRCx9T91i7IzKDo="
+      "rev": "03c2dad2f8074bd2fa5eb9c30d139ba734895d83",
+      "hash": "sha256-vWZYeBs5BR8SaMuGDrtmczSR/Pdwco2U7NzQQPdeWvM="
     },
     "ipkgJson": {
       "name": "summary-stat",
@@ -3215,6 +3235,24 @@
         "contrib"
       ],
       "version": "0.1.1",
+      "sourcedir": "src"
+    }
+  },
+  "theory": {
+    "packName": "theory",
+    "ipkgName": "theory",
+    "src": {
+      "url": "https://github.com/JankaGramofonomanka/idris-theory",
+      "rev": "ff2ec3487bfb70746173cdafda09ee55418a63f0",
+      "hash": "sha256-5c1fp5t8YLy9qesV8oJr2e38Qv9ma1bwvF5W5ZnHekc="
+    },
+    "ipkgJson": {
+      "name": "theory",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Jan Serwatka",
+      "license": "MIT",
+      "brief": "A set of theorems, mostly about lists",
       "sourcedir": "src"
     }
   },
