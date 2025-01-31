@@ -904,8 +904,8 @@
     "ipkgName": "elab-pretty",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elab-util",
-      "rev": "dc875d4a8a2aa3bf0a767fb586a4d9150d83363d",
-      "hash": "sha256-Of7PUpfVA0nP1sJA0A49h+yaeKYVYqux4qwibL4IpXY="
+      "rev": "ffbfe4f50900f45722035a16e6285f580047e846",
+      "hash": "sha256-tyamkMheSbVH93vJzMWjoYmiBcekr21pWd8v4ZXzzy4="
     },
     "ipkgJson": {
       "name": "elab-pretty",
@@ -926,8 +926,8 @@
     "ipkgName": "elab-util",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elab-util",
-      "rev": "dc875d4a8a2aa3bf0a767fb586a4d9150d83363d",
-      "hash": "sha256-Of7PUpfVA0nP1sJA0A49h+yaeKYVYqux4qwibL4IpXY="
+      "rev": "ffbfe4f50900f45722035a16e6285f580047e846",
+      "hash": "sha256-tyamkMheSbVH93vJzMWjoYmiBcekr21pWd8v4ZXzzy4="
     },
     "ipkgJson": {
       "name": "elab-util",
@@ -3135,13 +3135,14 @@
     "ipkgName": "summary-stat",
     "src": {
       "url": "https://github.com/buzden/idris2-summary-stat",
-      "rev": "03c2dad2f8074bd2fa5eb9c30d139ba734895d83",
-      "hash": "sha256-vWZYeBs5BR8SaMuGDrtmczSR/Pdwco2U7NzQQPdeWvM="
+      "rev": "041ceabb30deff4eb67eb98256e24173b9b8f111",
+      "hash": "sha256-WbY7CAVyqQDIsnwS5KPJg9xhjBfYrc5l+/gOFXPle9w="
     },
     "ipkgJson": {
       "name": "summary-stat",
       "depends": [
-        "bounded-doubles"
+        "bounded-doubles",
+        "weaker-traversals"
       ],
       "version": "0.1.0",
       "langversion": {
