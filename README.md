@@ -104,7 +104,7 @@ above.
 ### Building a project
 Once you've got the package set, whether as a flake or not, you can use the
 `buildIdris` function (or see below for the even more convenient `buildIdris'`
-function). You get back a package set with options to build your package as
+function). You get back an attribute set with options to build your package as
 either a library or an executable. If you are building a library, you can choose
 to include the source code or not (including the source code is helpful for
 editor integrations when developing against the library). Here's a snippet
