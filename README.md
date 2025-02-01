@@ -108,7 +108,7 @@ function). You get back an attribute set with options to build your package as
 either a library or an executable. If you are building a library, you can choose
 to include the source code or not (including the source code is helpful for
 editor integrations when developing against the library). Here's a snippet
-illustrating building a library with source code included:
+illustrating building a library without source code included:
 ```nix
 let myPkg = packageset.buildIdris {
   ipkgName = "my-pkg";
@@ -131,6 +131,17 @@ and pass them in the `idrisLibraries` list. If you need to use other packages
 that are already a part of the package set, you can include them even more
 readily; for example, including the `ncurses-idris` library looks like:
 `idrisLibraries = [ packageset.idris2Packages.packdb.ncurses-idris ]`.
+
+If you'd like to build your package without source and then later specify source should be included in a developer shell, you can:
+```nix
+let
+  mypkg = buildIdris { ... };
+in
+rec {
+  lib = mypkg.library';
+  libWithSrc = lib.withSource;
+}
+```
 
 #### The buildIdris' function
 In addition to surfacing the `buildIdris` function, this project supports
