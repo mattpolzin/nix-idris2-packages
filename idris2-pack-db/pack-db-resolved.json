@@ -974,6 +974,27 @@
       "preinstall": "make -C support install"
     }
   },
+  "extrafun": {
+    "packName": "extrafun",
+    "ipkgName": "extrafun",
+    "src": {
+      "url": "https://github.com/jcranch/extrafun",
+      "rev": "885b6437e5a14ebfb635771e1ef7fe4a90798556",
+      "hash": "sha256-LwEqDNaNBKVCxe9cIq20pdcvqAclAYwwiuDBhol0ELM="
+    },
+    "ipkgJson": {
+      "name": "extrafun",
+      "depends": [
+        "contrib"
+      ],
+      "version": "0.1.0",
+      "authors": "James Cranch <cranch@cantab.net>",
+      "license": "BSD3",
+      "brief": "Various extra category theory classes",
+      "sourceloc": "https://github.com/jcranch/extrafun",
+      "sourcedir": "src"
+    }
+  },
   "filepath": {
     "packName": "filepath",
     "ipkgName": "filepath",
@@ -1232,8 +1253,8 @@
     "ipkgName": "hashable",
     "src": {
       "url": "https://github.com/Z-snails/Idris2-hashable",
-      "rev": "39dbe1d962b20557b54652c40d2ca51059c6df91",
-      "hash": "sha256-viONPy4tD7ncIYOs3kv4/MF2hw0P9zJ15/L7kvb0z0s="
+      "rev": "0eb2bf20f677302209b8cd9d1bae426915baf5ef",
+      "hash": "sha256-5ktlbyA5KeS05tToOmNN2yGAOk8b7SOAKoWek6PxDtY="
     },
     "ipkgJson": {
       "name": "hashable",
