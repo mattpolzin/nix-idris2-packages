@@ -454,15 +454,16 @@
     "ipkgName": "containers",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "f1ddaa874b83c6943581d2a263137a279d87735d",
-      "hash": "sha256-+xp3j7P278d+H93sRYrOzTNQxg6HfgoNVLNps0Fkb3Q="
+      "rev": "9ae949502e44e235a33e17cfe228db17ccb38421",
+      "hash": "sha256-ArhBxNpLabVZUCKnKcUGVp68M6q042hkLDWXZYKwwtk="
     },
     "ipkgJson": {
       "name": "containers",
       "depends": [
         "base",
         "array",
-        "elab-util"
+        "elab-util",
+        "hashable"
       ],
       "version": "0.6.0",
       "authors": "stefan-hoeck and matthew-mosior",
@@ -682,8 +683,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "90520e86c7a7c78e08b92a69697e5db8310a481b",
-      "hash": "sha256-kuY6mFYITdFc5YR1bepA7VYHUiJSn1x7PmIIGnvMbL8="
+      "rev": "c5f13e9ffbeb7f103655668a97c706806e2a8d4d",
+      "hash": "sha256-jngbNlKgm9qtyIbwIqa3rn1HTFh683Ej4tXVLJFRmcU="
     },
     "ipkgJson": {
       "name": "deptycheck",
