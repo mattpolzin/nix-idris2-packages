@@ -1764,8 +1764,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "9bb598f44d9770efabb52a8c6f51125a808a4ca5",
-      "hash": "sha256-13Yz5czE2blQEgJ0Eq6LyTKfrdqKhiVo/ClXod+Xrv4="
+      "rev": "e6e20cffbc3bd9cfc55af7d3f096d155b593fa61",
+      "hash": "sha256-Bjnl1jyq4qHmT5cUbTz6xekfO0l/v39DkxZWsZyr9dU="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2429,8 +2429,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "9bb598f44d9770efabb52a8c6f51125a808a4ca5",
-      "hash": "sha256-13Yz5czE2blQEgJ0Eq6LyTKfrdqKhiVo/ClXod+Xrv4="
+      "rev": "e6e20cffbc3bd9cfc55af7d3f096d155b593fa61",
+      "hash": "sha256-Bjnl1jyq4qHmT5cUbTz6xekfO0l/v39DkxZWsZyr9dU="
     },
     "ipkgJson": {
       "name": "posix",
@@ -3035,8 +3035,8 @@
     "ipkgName": "api/stellar-api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "ebb6f628fb513218ff1c14ace7d6c6db2d8fd8ed",
-      "hash": "sha256-fAZ6A3W+98KA5LsfcOK4RKbfBA647dGCug4Mj/Cx7s8="
+      "rev": "d2272a31b6d3afa5c99ddbeeb09ef389b9b91382",
+      "hash": "sha256-EEF96h7g0E4OZz6Pu5CoUBrJPOKWEfp36QZ73cT+0k0="
     },
     "ipkgJson": {
       "name": "stellar-api",
@@ -3054,8 +3054,8 @@
     "ipkgName": "http/stellar-http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "ebb6f628fb513218ff1c14ace7d6c6db2d8fd8ed",
-      "hash": "sha256-fAZ6A3W+98KA5LsfcOK4RKbfBA647dGCug4Mj/Cx7s8="
+      "rev": "d2272a31b6d3afa5c99ddbeeb09ef389b9b91382",
+      "hash": "sha256-EEF96h7g0E4OZz6Pu5CoUBrJPOKWEfp36QZ73cT+0k0="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -3073,8 +3073,8 @@
     "ipkgName": "sql/stellar-sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "ebb6f628fb513218ff1c14ace7d6c6db2d8fd8ed",
-      "hash": "sha256-fAZ6A3W+98KA5LsfcOK4RKbfBA647dGCug4Mj/Cx7s8="
+      "rev": "d2272a31b6d3afa5c99ddbeeb09ef389b9b91382",
+      "hash": "sha256-EEF96h7g0E4OZz6Pu5CoUBrJPOKWEfp36QZ73cT+0k0="
     },
     "ipkgJson": {
       "name": "stellar-sql",
