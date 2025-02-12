@@ -100,8 +100,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "7433a40c64668840d14848a8f297ab2f7c3dce1c",
-      "hash": "sha256-SA43naSlPgQ1hQ2rm1/NsUU5lfUWjqWc/LljQbLQqG8="
+      "rev": "2cd2465bd45f3a22f2ab2eeb061a60f19e208120",
+      "hash": "sha256-sHOiC/g99PFd7934ANKmK+HNfY3J+NPst1vzqZXv78s="
     },
     "ipkgJson": {
       "name": "async",
@@ -123,8 +123,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "7433a40c64668840d14848a8f297ab2f7c3dce1c",
-      "hash": "sha256-SA43naSlPgQ1hQ2rm1/NsUU5lfUWjqWc/LljQbLQqG8="
+      "rev": "2cd2465bd45f3a22f2ab2eeb061a60f19e208120",
+      "hash": "sha256-sHOiC/g99PFd7934ANKmK+HNfY3J+NPst1vzqZXv78s="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -683,8 +683,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "c5f13e9ffbeb7f103655668a97c706806e2a8d4d",
-      "hash": "sha256-jngbNlKgm9qtyIbwIqa3rn1HTFh683Ej4tXVLJFRmcU="
+      "rev": "b9b0a58d9daf1cec405dfe6e807c6f8b58fdc22c",
+      "hash": "sha256-lXNVLwiFSBQoCw4q3HpBxO11eeOReDYKeWgOR3mb31g="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1467,8 +1467,8 @@
     "ipkgName": "idris2-lsp",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "df322faeb1b5b7f70c901978274cf03a15061ced",
-      "hash": "sha256-4coxShK2mMeOLzq1hM9H4xliW4Afe4dnEWJLkCL5FUs="
+      "rev": "2736cd1a80779b7b90abd229f58d40e5ed23b530",
+      "hash": "sha256-kaXX6jlNe6tmS1bz6Zxd7UPpJzVgwPP1+q03leSOm30="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
@@ -2369,8 +2369,8 @@
     "ipkgName": "pjrt-plugins/xla-cpu/pjrt-plugin-xla-cpu",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "5d449d58125c4a7cc484133d5e6d11c4f3f04393",
-      "hash": "sha256-5TWuW+VXJBM5Yu7F20XxH5VVqgrAluLTEZfD8q8WJLg="
+      "rev": "8d3b6bf97b38c8a1e93fe83bd80d0a5113b9e4c2",
+      "hash": "sha256-oSIJALJ0v0sXZ4fA3jKe2uSgXAXuMcM1M5tC5mI0wIU="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -2389,8 +2389,8 @@
     "ipkgName": "pjrt-plugins/xla-cuda/pjrt-plugin-xla-cuda",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "5d449d58125c4a7cc484133d5e6d11c4f3f04393",
-      "hash": "sha256-5TWuW+VXJBM5Yu7F20XxH5VVqgrAluLTEZfD8q8WJLg="
+      "rev": "8d3b6bf97b38c8a1e93fe83bd80d0a5113b9e4c2",
+      "hash": "sha256-oSIJALJ0v0sXZ4fA3jKe2uSgXAXuMcM1M5tC5mI0wIU="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -2965,8 +2965,8 @@
     "ipkgName": "spidr/spidr",
     "src": {
       "url": "https://github.com/joelberkeley/spidr",
-      "rev": "5d449d58125c4a7cc484133d5e6d11c4f3f04393",
-      "hash": "sha256-5TWuW+VXJBM5Yu7F20XxH5VVqgrAluLTEZfD8q8WJLg="
+      "rev": "8d3b6bf97b38c8a1e93fe83bd80d0a5113b9e4c2",
+      "hash": "sha256-oSIJALJ0v0sXZ4fA3jKe2uSgXAXuMcM1M5tC5mI0wIU="
     },
     "ipkgJson": {
       "name": "spidr",
@@ -3134,8 +3134,8 @@
     "ipkgName": "structures",
     "src": {
       "url": "https://git.sr.ht/~thatonelutenist/Structures",
-      "rev": "67a2acc1ea787183028c2101b3ee946d360f6136",
-      "hash": "sha256-3TcS1VWWKw9k+cl02MIsocG1xB7IAZKI/jp+Cn/j/WE="
+      "rev": "cd11a19794a139ccb14441c4d522de3d2b201083",
+      "hash": "sha256-mIDp6C6aADGQAyziLQGMUEod1h71OzxQ7Y0haaEaBQU="
     },
     "ipkgJson": {
       "name": "structures",
@@ -3665,8 +3665,8 @@
     "ipkgName": "webidl",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-webidl",
-      "rev": "388f7e7920ef9d8e36250a1854a6f84a55925d5f",
-      "hash": "sha256-5pB6OPjAuU5CCeYruqDUdOHBfJLrUvptKL02s0Wtn1g="
+      "rev": "eaf66e8247dac112fd535cb3371a300d5a220fd7",
+      "hash": "sha256-IWi36o1J9QdHvSqazg3KGgL960xg6nRbo8CdsWOJfec="
     },
     "ipkgJson": {
       "name": "webidl",
