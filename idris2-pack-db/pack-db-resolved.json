@@ -612,8 +612,8 @@
     "ipkgName": "cyby-draw",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "2090d46b2f0c10be733d8d26e477daf472844cbd",
-      "hash": "sha256-FMxXc5Qs5qRFHb7XJ1t2pAohhLSR2nBSgPuDbtiLaTA="
+      "rev": "417fc5caea1c26e9639df5fda133f8d68c8b4a7a",
+      "hash": "sha256-lXIAB7WHc3q4aBN51Q5geNeXDuRkbac9mVg1R8q8NMA="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -683,8 +683,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b9b0a58d9daf1cec405dfe6e807c6f8b58fdc22c",
-      "hash": "sha256-lXNVLwiFSBQoCw4q3HpBxO11eeOReDYKeWgOR3mb31g="
+      "rev": "b304da4e3a0b1fa063545dbfe044dced2694ad67",
+      "hash": "sha256-NqxEYo7lkVuYjXpIu1FXXFXjTHzDIpxlAmoNaBD3BNo="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -704,7 +704,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.250119",
+      "version": "0.0.250213",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
