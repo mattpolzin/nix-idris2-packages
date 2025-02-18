@@ -100,8 +100,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "947478806ad59dbb0313f47863f643025969cf19",
-      "hash": "sha256-2w/EKmak2LdqGV9KErMQlLmJKBOxrvjchmEvt35aJN8="
+      "rev": "725b4dbde56f63410113cb861710a7f1885aafe0",
+      "hash": "sha256-FqKNmDBRwe75P8lfoEh+uCfcoFyvHkrPaj1DfE9IGE0="
     },
     "ipkgJson": {
       "name": "async",
@@ -109,6 +109,7 @@
         "base",
         "array",
         "containers",
+        "elin",
         "posix",
         "quantifiers-extra"
       ],
@@ -123,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "947478806ad59dbb0313f47863f643025969cf19",
-      "hash": "sha256-2w/EKmak2LdqGV9KErMQlLmJKBOxrvjchmEvt35aJN8="
+      "rev": "725b4dbde56f63410113cb861710a7f1885aafe0",
+      "hash": "sha256-FqKNmDBRwe75P8lfoEh+uCfcoFyvHkrPaj1DfE9IGE0="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -683,8 +684,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b304da4e3a0b1fa063545dbfe044dced2694ad67",
-      "hash": "sha256-NqxEYo7lkVuYjXpIu1FXXFXjTHzDIpxlAmoNaBD3BNo="
+      "rev": "4fd03dc78b943f5bc750c665b2fb1b480da7f0fd",
+      "hash": "sha256-4HXxLcTR4JfdfKTHGwXTW05/phVniBDm2oY1A+m2t4M="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -940,6 +941,27 @@
       "license": "BSD-2 Clause",
       "brief": "Utilities and documentation for working with elaborator reflection",
       "readme": "README.md",
+      "sourcedir": "src"
+    }
+  },
+  "elin": {
+    "packName": "elin",
+    "ipkgName": "elin",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-elin",
+      "rev": "c6830c88188ceb096c82648963bab6d18a311bdc",
+      "hash": "sha256-qjmNIcl/RLgzoWCD19EISRNKPXNz5Roz4QnhZdxcdso="
+    },
+    "ipkgJson": {
+      "name": "elin",
+      "depends": [
+        "base",
+        "quantifiers-extra",
+        "ref1"
+      ],
+      "version": "0.7.0",
+      "authors": "stefan-hoeck",
+      "brief": "Stateful linear computations with error handling",
       "sourcedir": "src"
     }
   },
@@ -1764,8 +1786,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "56e76b30776712c2d75bb39bf156af556ff06cf2",
-      "hash": "sha256-wA5Wzyw3Qrh38N/U3qQy3CaeRNJ0s7Ro0b/wmyW6pbY="
+      "rev": "c230ebe6e8ef7edc774f325593549e085a200434",
+      "hash": "sha256-xXIs2pcwLRU7f4ZkkoXLPYDUw8GQpy0A7GM1kXfXL+w="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2429,8 +2451,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "56e76b30776712c2d75bb39bf156af556ff06cf2",
-      "hash": "sha256-wA5Wzyw3Qrh38N/U3qQy3CaeRNJ0s7Ro0b/wmyW6pbY="
+      "rev": "c230ebe6e8ef7edc774f325593549e085a200434",
+      "hash": "sha256-xXIs2pcwLRU7f4ZkkoXLPYDUw8GQpy0A7GM1kXfXL+w="
     },
     "ipkgJson": {
       "name": "posix",
@@ -2439,6 +2461,7 @@
         "bytestring",
         "cptr",
         "elab-util",
+        "elin",
         "finite"
       ],
       "version": "0.1.0",
@@ -2701,8 +2724,8 @@
     "ipkgName": "ref1",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "cb9c26d5489750772419237cfbc2b616ac42efcb",
-      "hash": "sha256-5Y1A98Ij8IG+nyurScUEMHc3SHTOvGskkQYog878VnY="
+      "rev": "416cf798291b597d3843758659daab22268a9af5",
+      "hash": "sha256-SO4p2EDCmi1O52Z7O9H7J6znLvycsOP1TEmerMfauRg="
     },
     "ipkgJson": {
       "name": "ref1",
