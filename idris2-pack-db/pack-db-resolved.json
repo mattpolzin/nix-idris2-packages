@@ -637,8 +637,8 @@
     "ipkgName": "dependent-map",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
-      "rev": "24486a6b3ace37c7c1802b721282e2239c751048",
-      "hash": "sha256-ZIB4QbJ/1VVZRgyodIi2Hw9ij8vTkkcQ1/gcHHnWHGU="
+      "rev": "71dcfb3c44eda5f47aa467130d1a1627c0d9694c",
+      "hash": "sha256-GXmUhkKmDaE/zsGca3tjHMUQ81Z6Xku+VbJDf/WTWF4="
     },
     "ipkgJson": {
       "name": "dependent-map",
@@ -684,8 +684,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "cfb5d9240ed36daafeddf6b1d294d6df455bab42",
-      "hash": "sha256-5R8S09QCONvH3Lvtj31pJzZA4GYBBmCFWJ2Wb8qFRlw="
+      "rev": "aab4ec17d2ff91d2cbeff7f03c7f51c2ae43e55c",
+      "hash": "sha256-/5RxU1mlWsBqsPisUckiiXdLL3megG+TIl5rG92CLrw="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -3398,8 +3398,8 @@
     "ipkgName": "typelevel-emptiness-collections",
     "src": {
       "url": "https://github.com/buzden/idris2-typelevel-emptiness-collections",
-      "rev": "4aa98e6d38432062f64ae4f2275a00ff5f47b653",
-      "hash": "sha256-gN+xBw8n4RlxufBjTDs8jhWRgFTBwaAje+htxqQi6Dw="
+      "rev": "bfb00b9ee20abbeea0254fc93ca51765fb2ec851",
+      "hash": "sha256-3f2rZxxkki7GYAnQuAFNTww18v/bgWlwbPbJHlD7mI0="
     },
     "ipkgJson": {
       "name": "typelevel-emptiness-collections",
