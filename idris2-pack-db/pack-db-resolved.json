@@ -637,16 +637,17 @@
     "ipkgName": "dependent-map",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
-      "rev": "71dcfb3c44eda5f47aa467130d1a1627c0d9694c",
-      "hash": "sha256-GXmUhkKmDaE/zsGca3tjHMUQ81Z6Xku+VbJDf/WTWF4="
+      "rev": "19718e6df489aeb42d5084da01013eed9acd7ffc",
+      "hash": "sha256-k5B14GzKVV1E9srncNBvEMZutN1LX+hYvQ24WZH5mZE="
     },
     "ipkgJson": {
       "name": "dependent-map",
       "depends": [
         "base",
-        "dtypes"
+        "dtypes",
+        "hedgehog"
       ],
-      "version": "0.1.0",
+      "version": "0.1.1",
       "langversion": {
         "lowerInclusive": true,
         "lowerBound": "0.5.1",
@@ -1539,8 +1540,8 @@
     "ipkgName": "if-unsolved-implicit",
     "src": {
       "url": "https://github.com/buzden/idris2-if-unsolved-implicit",
-      "rev": "e6abc98a76134505218f3617980397e78872ea4f",
-      "hash": "sha256-D9j4jiIobXvMkWG7vrkhLa8cCDNh5pccgcB77RbBzsM="
+      "rev": "ee673701d62dcc18132e9bb6b1525dabf7b71139",
+      "hash": "sha256-swGsZzuyzqKolFPFCXCQow2vIb/T6Hqw4ZnKVbCj+LY="
     },
     "ipkgJson": {
       "name": "if-unsolved-implicit",
@@ -2724,8 +2725,8 @@
     "ipkgName": "ref1",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "416cf798291b597d3843758659daab22268a9af5",
-      "hash": "sha256-SO4p2EDCmi1O52Z7O9H7J6znLvycsOP1TEmerMfauRg="
+      "rev": "c4d37d4ecc1a274a386001ece30a8bc18c34fbdd",
+      "hash": "sha256-G/AzL9k7CrHL7U4B7nbj/CH+r+LPcZ435rIcyQfXzfE="
     },
     "ipkgJson": {
       "name": "ref1",
