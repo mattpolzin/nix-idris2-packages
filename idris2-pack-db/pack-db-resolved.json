@@ -4,8 +4,8 @@
     "ipkgName": "algdata",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
-      "rev": "b9bcc294f306cd0e884818b3cf6e37a6f90f92a3",
-      "hash": "sha256-V3hpKxw46ihcc6iGtRZLDi+oVdSS5FHeWPtxQN6wqNA="
+      "rev": "539c19e70c9244e51027d120b4535fdc2c40ea92",
+      "hash": "sha256-b2kTUcH+8HWo637dCRuDnnSG/l1hJS2vyM7+HYZe90E="
     },
     "ipkgJson": {
       "name": "algdata",
