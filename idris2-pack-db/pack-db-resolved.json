@@ -4,14 +4,15 @@
     "ipkgName": "algdata",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
-      "rev": "539c19e70c9244e51027d120b4535fdc2c40ea92",
-      "hash": "sha256-b2kTUcH+8HWo637dCRuDnnSG/l1hJS2vyM7+HYZe90E="
+      "rev": "edd0d78b88a27de39008ab53de1bcb61f3125505",
+      "hash": "sha256-HR/ooE1DRo29uwDljG/n4JsBAQgtEResxUPK60xzL8k="
     },
     "ipkgJson": {
       "name": "algdata",
       "depends": [
         "base"
       ],
+      "version": "0.2",
       "sourcedir": "src"
     }
   },
@@ -100,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "d078cfdd756d424fa3ec23e3a0b76c497f428a79",
-      "hash": "sha256-+Ih3EFvedeBaKrbO8id94uISLIBxzqBs8ugx5MMLQBM="
+      "rev": "d855ff10b1371f7f3b5d198e6aa5a72a91a0b75c",
+      "hash": "sha256-7fK4nK4+GphAsHNF0I742q1npAeRAIFFXRpa0AOfF80="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +125,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "d078cfdd756d424fa3ec23e3a0b76c497f428a79",
-      "hash": "sha256-+Ih3EFvedeBaKrbO8id94uISLIBxzqBs8ugx5MMLQBM="
+      "rev": "d855ff10b1371f7f3b5d198e6aa5a72a91a0b75c",
+      "hash": "sha256-7fK4nK4+GphAsHNF0I742q1npAeRAIFFXRpa0AOfF80="
     },
     "ipkgJson": {
       "name": "async-epoll",
