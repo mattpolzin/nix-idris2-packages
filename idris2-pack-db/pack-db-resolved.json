@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "39bcec0c359c6c725293fddde7bbbe8524533760",
-      "hash": "sha256-B7jELhWtPiL9BCeayr/FRPIhSB7F4Qjg6LlgiTQmpBg="
+      "rev": "5b2710adaacdba93b028ca635892b53bc2b9c7ef",
+      "hash": "sha256-jH6meLw+Svh1Nk5x8rVqatE7OIZs2ktvV9LgsbqO9Q8="
     },
     "ipkgJson": {
       "name": "async",
@@ -111,7 +111,6 @@
         "array",
         "containers",
         "elin",
-        "posix",
         "quantifiers-extra"
       ],
       "version": "0.1.0",
@@ -125,18 +124,38 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "39bcec0c359c6c725293fddde7bbbe8524533760",
-      "hash": "sha256-B7jELhWtPiL9BCeayr/FRPIhSB7F4Qjg6LlgiTQmpBg="
+      "rev": "5b2710adaacdba93b028ca635892b53bc2b9c7ef",
+      "hash": "sha256-jH6meLw+Svh1Nk5x8rVqatE7OIZs2ktvV9LgsbqO9Q8="
     },
     "ipkgJson": {
       "name": "async-epoll",
       "depends": [
-        "async",
+        "async-posix",
         "linux"
       ],
       "version": "0.1.0",
       "authors": "stefan-hoeck",
       "brief": "An epoll-based event loop for asynchronous computations on Linux",
+      "sourcedir": "src"
+    }
+  },
+  "async-posix": {
+    "packName": "async-posix",
+    "ipkgName": "async-posix/async-posix",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-async",
+      "rev": "5b2710adaacdba93b028ca635892b53bc2b9c7ef",
+      "hash": "sha256-jH6meLw+Svh1Nk5x8rVqatE7OIZs2ktvV9LgsbqO9Q8="
+    },
+    "ipkgJson": {
+      "name": "async-posix",
+      "depends": [
+        "async",
+        "posix"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "A poll-based event loop for asynchronous computations on Posix systems",
       "sourcedir": "src"
     }
   },
@@ -630,6 +649,25 @@
       "version": "0.1.0",
       "authors": "Claudio Etterli, Salome Heilig, Stefan Höck",
       "brief": "A drawing tool for molecules running in the browser",
+      "sourcedir": "src"
+    }
+  },
+  "decord": {
+    "packName": "decord",
+    "ipkgName": "decord",
+    "src": {
+      "url": "https://github.com/jcranch/idris-decord",
+      "rev": "6bad8b28de454f9119316c522cc0710b41292adb",
+      "hash": "sha256-RvEFr2qkS4BKEfDWI5V6eg2S+BWjUKThuQgTaRO4zsw="
+    },
+    "ipkgJson": {
+      "name": "decord",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "James Cranch <cranch@cantab.net>",
+      "license": "BSD3",
+      "brief": "Support for decidable orderings, equalities (and relations with Eq and Ord)",
+      "sourceloc": "https://github.com/jcranch/idris-decord",
       "sourcedir": "src"
     }
   },
@@ -2388,46 +2426,6 @@
       "sourcedir": "src"
     }
   },
-  "pjrt-plugin-xla-cpu": {
-    "packName": "pjrt-plugin-xla-cpu",
-    "ipkgName": "pjrt-plugins/xla-cpu/pjrt-plugin-xla-cpu",
-    "src": {
-      "url": "https://github.com/joelberkeley/spidr",
-      "rev": "8d3b6bf97b38c8a1e93fe83bd80d0a5113b9e4c2",
-      "hash": "sha256-oSIJALJ0v0sXZ4fA3jKe2uSgXAXuMcM1M5tC5mI0wIU="
-    },
-    "ipkgJson": {
-      "name": "pjrt-plugin-xla-cpu",
-      "depends": [
-        "spidr"
-      ],
-      "version": "0.0.1",
-      "license": "Apache License, Version 2.0",
-      "brief": "XLA PJRT plugin for CPU.",
-      "readme": "README.md",
-      "postinstall": "./postinstall.sh"
-    }
-  },
-  "pjrt-plugin-xla-cuda": {
-    "packName": "pjrt-plugin-xla-cuda",
-    "ipkgName": "pjrt-plugins/xla-cuda/pjrt-plugin-xla-cuda",
-    "src": {
-      "url": "https://github.com/joelberkeley/spidr",
-      "rev": "8d3b6bf97b38c8a1e93fe83bd80d0a5113b9e4c2",
-      "hash": "sha256-oSIJALJ0v0sXZ4fA3jKe2uSgXAXuMcM1M5tC5mI0wIU="
-    },
-    "ipkgJson": {
-      "name": "pjrt-plugin-xla-cuda",
-      "depends": [
-        "spidr"
-      ],
-      "version": "0.0.1",
-      "license": "Apache License, Version 2.0",
-      "brief": "XLA PJRT plugin for CUDA-enabled GPUs.",
-      "readme": "README.md",
-      "postinstall": "./postinstall.sh"
-    }
-  },
   "positive-nat": {
     "packName": "positive-nat",
     "ipkgName": "positive-nat",
@@ -2983,28 +2981,6 @@
       "brief": "Generic representation of data types as sums of products",
       "readme": "README.md",
       "sourcedir": "src"
-    }
-  },
-  "spidr": {
-    "packName": "spidr",
-    "ipkgName": "spidr/spidr",
-    "src": {
-      "url": "https://github.com/joelberkeley/spidr",
-      "rev": "8d3b6bf97b38c8a1e93fe83bd80d0a5113b9e4c2",
-      "hash": "sha256-oSIJALJ0v0sXZ4fA3jKe2uSgXAXuMcM1M5tC5mI0wIU="
-    },
-    "ipkgJson": {
-      "name": "spidr",
-      "depends": [
-        "elab-util"
-      ],
-      "version": "0.0.6",
-      "license": "Apache License, Version 2.0",
-      "brief": "Hardware-accelerated machine learning with dependent types.",
-      "readme": "README.md",
-      "opts": "--total",
-      "sourcedir": "src",
-      "postinstall": "./postinstall.sh"
     }
   },
   "sqlite3": {
