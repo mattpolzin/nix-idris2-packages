@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5b2710adaacdba93b028ca635892b53bc2b9c7ef",
-      "hash": "sha256-jH6meLw+Svh1Nk5x8rVqatE7OIZs2ktvV9LgsbqO9Q8="
+      "rev": "e9b0518d4275d5c27d654f7dc19d03b4ae7f7a4c",
+      "hash": "sha256-ozufdaPwCjrQH0lik3laKxBAlOmDxWruJyZtKEU/gRg="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5b2710adaacdba93b028ca635892b53bc2b9c7ef",
-      "hash": "sha256-jH6meLw+Svh1Nk5x8rVqatE7OIZs2ktvV9LgsbqO9Q8="
+      "rev": "e9b0518d4275d5c27d654f7dc19d03b4ae7f7a4c",
+      "hash": "sha256-ozufdaPwCjrQH0lik3laKxBAlOmDxWruJyZtKEU/gRg="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5b2710adaacdba93b028ca635892b53bc2b9c7ef",
-      "hash": "sha256-jH6meLw+Svh1Nk5x8rVqatE7OIZs2ktvV9LgsbqO9Q8="
+      "rev": "e9b0518d4275d5c27d654f7dc19d03b4ae7f7a4c",
+      "hash": "sha256-ozufdaPwCjrQH0lik3laKxBAlOmDxWruJyZtKEU/gRg="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -724,8 +724,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "aab4ec17d2ff91d2cbeff7f03c7f51c2ae43e55c",
-      "hash": "sha256-/5RxU1mlWsBqsPisUckiiXdLL3megG+TIl5rG92CLrw="
+      "rev": "cc4e19618669dca8388001dc24363dc57b43516a",
+      "hash": "sha256-Qba4Vai6e1wMRaSb04FszKfTcUd/+51l2n3dgALgGZ0="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -745,7 +745,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.250217",
+      "version": "0.0.250302",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
