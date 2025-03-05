@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "e9b0518d4275d5c27d654f7dc19d03b4ae7f7a4c",
-      "hash": "sha256-ozufdaPwCjrQH0lik3laKxBAlOmDxWruJyZtKEU/gRg="
+      "rev": "13f78f971069555953f4e2a581fba01b62a42bcb",
+      "hash": "sha256-qt+Tys4AgNREy3qOfidJR7Gd3qQ9MZHsCLAH1QOWpWM="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "e9b0518d4275d5c27d654f7dc19d03b4ae7f7a4c",
-      "hash": "sha256-ozufdaPwCjrQH0lik3laKxBAlOmDxWruJyZtKEU/gRg="
+      "rev": "13f78f971069555953f4e2a581fba01b62a42bcb",
+      "hash": "sha256-qt+Tys4AgNREy3qOfidJR7Gd3qQ9MZHsCLAH1QOWpWM="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "e9b0518d4275d5c27d654f7dc19d03b4ae7f7a4c",
-      "hash": "sha256-ozufdaPwCjrQH0lik3laKxBAlOmDxWruJyZtKEU/gRg="
+      "rev": "13f78f971069555953f4e2a581fba01b62a42bcb",
+      "hash": "sha256-qt+Tys4AgNREy3qOfidJR7Gd3qQ9MZHsCLAH1QOWpWM="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -724,8 +724,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "cc4e19618669dca8388001dc24363dc57b43516a",
-      "hash": "sha256-Qba4Vai6e1wMRaSb04FszKfTcUd/+51l2n3dgALgGZ0="
+      "rev": "991ac82d56d71dea87b6adcc003095666ab0b93b",
+      "hash": "sha256-DFE+hHbTuVyUjT5H28HasZyWGcHlk0QVOKRQjD0Lwtg="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -989,8 +989,8 @@
     "ipkgName": "elin",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elin",
-      "rev": "31c6d4564e6e549b0b5124758d6ef7b7f60fed27",
-      "hash": "sha256-eIK8jDWuAVT7dZ5ciuIEjPw4+AhLOjjpnlOToarSDUs="
+      "rev": "cc418a59c912ed718160b57864cf7b6ded7b414d",
+      "hash": "sha256-YsqQyyKxvssslKJssdLK1HjhuIw06f0AvuJCOxH2/WM="
     },
     "ipkgJson": {
       "name": "elin",
