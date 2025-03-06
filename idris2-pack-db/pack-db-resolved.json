@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "13f78f971069555953f4e2a581fba01b62a42bcb",
-      "hash": "sha256-qt+Tys4AgNREy3qOfidJR7Gd3qQ9MZHsCLAH1QOWpWM="
+      "rev": "281232f9a010401b2c4f3c9f6c48eae18993deea",
+      "hash": "sha256-uIXfUaoXWcpMNExkWEe6t6U56swDUN0back8ETVXwMI="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "13f78f971069555953f4e2a581fba01b62a42bcb",
-      "hash": "sha256-qt+Tys4AgNREy3qOfidJR7Gd3qQ9MZHsCLAH1QOWpWM="
+      "rev": "281232f9a010401b2c4f3c9f6c48eae18993deea",
+      "hash": "sha256-uIXfUaoXWcpMNExkWEe6t6U56swDUN0back8ETVXwMI="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "13f78f971069555953f4e2a581fba01b62a42bcb",
-      "hash": "sha256-qt+Tys4AgNREy3qOfidJR7Gd3qQ9MZHsCLAH1QOWpWM="
+      "rev": "281232f9a010401b2c4f3c9f6c48eae18993deea",
+      "hash": "sha256-uIXfUaoXWcpMNExkWEe6t6U56swDUN0back8ETVXwMI="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -724,8 +724,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "991ac82d56d71dea87b6adcc003095666ab0b93b",
-      "hash": "sha256-DFE+hHbTuVyUjT5H28HasZyWGcHlk0QVOKRQjD0Lwtg="
+      "rev": "b547f33775498010a832289b3a060f851d347f80",
+      "hash": "sha256-stPb7oiIdWWXMKUlSuOfLBWKtHXObPuH/t6VcQ7TpVo="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1090,8 +1090,8 @@
     "ipkgName": "fin-lizzie",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
-      "rev": "a3b4726e404f539c666392fb5d6c9d118aaec3d8",
-      "hash": "sha256-k0HW3/zjYSMRvze8UGVrTf7rhjlPQTDrEdwBlv8o7QA="
+      "rev": "1a6e59b988f1f4cdbb1ff49a1395057089dc2c97",
+      "hash": "sha256-ZqQ0FGzoOdtm0HMOgbfTaGxrQSPfcmci2Mkofk/dzYY="
     },
     "ipkgJson": {
       "name": "fin-lizzie",
