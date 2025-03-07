@@ -10,7 +10,6 @@
   lib,
   stdenv,
   pkg-config,
-  fetchpatch,
   makeWrapper,
   makeBinaryWrapper,
   zsh,
@@ -32,6 +31,11 @@
 {
   async-epoll = {
     meta.platforms = lib.platforms.linux;
+  };
+
+  async-posix = {
+    # see https://github.com/stefan-hoeck/idris2-async/issues/78
+    meta.broken = stdenv.isDarwin;
   };
 
   base64 = {
