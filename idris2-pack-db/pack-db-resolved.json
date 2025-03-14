@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "ec8c3bf3673514c1e9ed1695a37926d12d4b68c1",
-      "hash": "sha256-Yno0p0GvymEluqrWd2EcCF18kDtqNLe1PUWFVFtocf8="
+      "rev": "05b77ec8b8c8a44c3b1efbdfbf5fc12b2a00de49",
+      "hash": "sha256-vVAnz0u36/WfennZ1FUbXV7S7D4ycrDIugzfsKIO0BY="
     },
     "ipkgJson": {
       "name": "array",
@@ -208,8 +208,8 @@
     "ipkgName": "best-alternative",
     "src": {
       "url": "https://github.com/buzden/idris2-best-alternative",
-      "rev": "8e24bc9f2b202d16158b6e8b59d3e226ebd37bc7",
-      "hash": "sha256-9cGIelixr9SHjtM8RRwNjIyprPjOwlZzrYoVycE9kQI="
+      "rev": "c90c3f054ca5999aad29c1524f09547b66f01db1",
+      "hash": "sha256-6HbuMGnn2fuBriJQfAu7+ELNFMD/fXTit6J/uV16AfA="
     },
     "ipkgJson": {
       "name": "best-alternative",
