@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "05b77ec8b8c8a44c3b1efbdfbf5fc12b2a00de49",
-      "hash": "sha256-vVAnz0u36/WfennZ1FUbXV7S7D4ycrDIugzfsKIO0BY="
+      "rev": "7b8b35b2214789e9a2e7ebd72a882d06b24219a4",
+      "hash": "sha256-AVUvpUjSXVMlSZ7OvTP2EgLsRYqEk0kQ3UkL4n2WyQI="
     },
     "ipkgJson": {
       "name": "array",
@@ -287,8 +287,8 @@
     "ipkgName": "bytestring",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
-      "rev": "8d4bad352860d681818520a176750b684af51909",
-      "hash": "sha256-SjI+CNbd9tkLOgGw4bKzH9ktpnMQlZhlm4nSikZu5j8="
+      "rev": "4317a13d53fd67c3099a615e7b34bdf3cd219601",
+      "hash": "sha256-ns41otNriWvarc8P/gy4TSXucrhZlyWUetHBqB1g3Ck="
     },
     "ipkgJson": {
       "name": "bytestring",
@@ -724,8 +724,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "9586cbc6b0891152ddc89ffea7c622979f172c5b",
-      "hash": "sha256-U5aCczz6eE3tfBi50wOhacrYa6GMYZoLA2EHN7QT+No="
+      "rev": "8bb9d7159273e06c80a07f99e0060ba6f5f71130",
+      "hash": "sha256-PrB6iyKESAms5434EBgdhvidPD9jeVlrtkKOZmfbn1M="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1826,8 +1826,8 @@
     "ipkgName": "linux/linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "9494aa5fdf28b7f91d73d85604a6b5e06948e1ee",
-      "hash": "sha256-LKLXepbuW3gNRdD8q7/NTQ8KhMRcvlgytFjuiOGQq7I="
+      "rev": "7e6d3c814eff2de6f13563da73f5578cd920cc03",
+      "hash": "sha256-Yvm/Ar6fWrHANsudKp9xYVd9E30oeNgr0BfkyNiQqaE="
     },
     "ipkgJson": {
       "name": "linux",
@@ -2451,8 +2451,8 @@
     "ipkgName": "posix/posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "9494aa5fdf28b7f91d73d85604a6b5e06948e1ee",
-      "hash": "sha256-LKLXepbuW3gNRdD8q7/NTQ8KhMRcvlgytFjuiOGQq7I="
+      "rev": "7e6d3c814eff2de6f13563da73f5578cd920cc03",
+      "hash": "sha256-Yvm/Ar6fWrHANsudKp9xYVd9E30oeNgr0BfkyNiQqaE="
     },
     "ipkgJson": {
       "name": "posix",
