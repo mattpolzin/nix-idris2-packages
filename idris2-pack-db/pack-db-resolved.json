@@ -989,8 +989,8 @@
     "ipkgName": "elin",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elin",
-      "rev": "cc418a59c912ed718160b57864cf7b6ded7b414d",
-      "hash": "sha256-YsqQyyKxvssslKJssdLK1HjhuIw06f0AvuJCOxH2/WM="
+      "rev": "a3de6c988a3e82f7f006a8a9eff19ee739a5f588",
+      "hash": "sha256-/hUKrNGENhQ0btYVoIFFbPyV4o+C3eq5zI363X0a/+U="
     },
     "ipkgJson": {
       "name": "elin",
