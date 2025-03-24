@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "05f4866bf0cb381e9c1788608566d7f786130a4a",
-      "hash": "sha256-PO2bDbrwLiD86LUdwFaqDbOilhK6e3cWVEKeJzp8GiA="
+      "rev": "5ebce615e71c721f5d38194857f0c981e37fe27c",
+      "hash": "sha256-PcP9uXOak7ZOU8inr3+kODGSMB2+Uuvc6QlWAzc8du0="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "05f4866bf0cb381e9c1788608566d7f786130a4a",
-      "hash": "sha256-PO2bDbrwLiD86LUdwFaqDbOilhK6e3cWVEKeJzp8GiA="
+      "rev": "5ebce615e71c721f5d38194857f0c981e37fe27c",
+      "hash": "sha256-PcP9uXOak7ZOU8inr3+kODGSMB2+Uuvc6QlWAzc8du0="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "05f4866bf0cb381e9c1788608566d7f786130a4a",
-      "hash": "sha256-PO2bDbrwLiD86LUdwFaqDbOilhK6e3cWVEKeJzp8GiA="
+      "rev": "5ebce615e71c721f5d38194857f0c981e37fe27c",
+      "hash": "sha256-PcP9uXOak7ZOU8inr3+kODGSMB2+Uuvc6QlWAzc8du0="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -3088,6 +3088,50 @@
         "json"
       ],
       "opts": "--total",
+      "sourcedir": "src"
+    }
+  },
+  "streams": {
+    "packName": "streams",
+    "ipkgName": "streams",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-streams",
+      "rev": "8f42e988c38e925d3754e19b6e52601e6b5d4368",
+      "hash": "sha256-bXQRrUC6rxyo8OHoJy12IttFxd3O1WrjST213Ftwt50="
+    },
+    "ipkgJson": {
+      "name": "streams",
+      "depends": [
+        "base",
+        "async",
+        "bytestring",
+        "elin"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "Functional, effectful streaming with resource management",
+      "sourcedir": "src"
+    }
+  },
+  "streams-posix": {
+    "packName": "streams-posix",
+    "ipkgName": "posix/streams-posix",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-streams",
+      "rev": "8f42e988c38e925d3754e19b6e52601e6b5d4368",
+      "hash": "sha256-bXQRrUC6rxyo8OHoJy12IttFxd3O1WrjST213Ftwt50="
+    },
+    "ipkgJson": {
+      "name": "streams-posix",
+      "depends": [
+        "base",
+        "async-posix",
+        "filepath",
+        "streams"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "Streams on top of the posix API",
       "sourcedir": "src"
     }
   },
