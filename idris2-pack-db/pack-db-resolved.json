@@ -2050,8 +2050,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "67524695bf949e83c2c419e94d173a46558fd2bd",
-      "hash": "sha256-RrcxzhavvxcblpHCwbkJgo1hYF3sdZ7VR34PGQbuoys="
+      "rev": "ae4a165a0a789fe614d14071dd7643677aedae57",
+      "hash": "sha256-v2lZ7aOTJOsG6tNvN55pcKJs6wMxnpALQe54ecpm5pg="
     },
     "ipkgJson": {
       "name": "nested",
