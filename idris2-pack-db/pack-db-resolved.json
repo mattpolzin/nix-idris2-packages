@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5ebce615e71c721f5d38194857f0c981e37fe27c",
-      "hash": "sha256-PcP9uXOak7ZOU8inr3+kODGSMB2+Uuvc6QlWAzc8du0="
+      "rev": "39e5c79fc91a90044367482c70ed6ff3b6370cdc",
+      "hash": "sha256-S207D6XMORzqWEquFPqlNk4dSUZS75/9+vY2yUhJmSM="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5ebce615e71c721f5d38194857f0c981e37fe27c",
-      "hash": "sha256-PcP9uXOak7ZOU8inr3+kODGSMB2+Uuvc6QlWAzc8du0="
+      "rev": "39e5c79fc91a90044367482c70ed6ff3b6370cdc",
+      "hash": "sha256-S207D6XMORzqWEquFPqlNk4dSUZS75/9+vY2yUhJmSM="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "5ebce615e71c721f5d38194857f0c981e37fe27c",
-      "hash": "sha256-PcP9uXOak7ZOU8inr3+kODGSMB2+Uuvc6QlWAzc8du0="
+      "rev": "39e5c79fc91a90044367482c70ed6ff3b6370cdc",
+      "hash": "sha256-S207D6XMORzqWEquFPqlNk4dSUZS75/9+vY2yUhJmSM="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -185,17 +185,18 @@
     "ipkgName": "base64",
     "src": {
       "url": "https://git.sr.ht/~janus/base64",
-      "rev": "886d93952ac87f3a091765d2680fa731624d0ef3",
-      "hash": "sha256-Sv9ITMnAtLLqG8qwgLSfjDx8SD2uqjTgSY7SCVnIamQ="
+      "rev": "64bcfdf2371d49cefb4040439fc1383fbf7b6680",
+      "hash": "sha256-IAlTK/0qfCPfN4uCklx8yGfiPmqJ6SONLl5fXjic0z0="
     },
     "ipkgJson": {
       "name": "base64",
       "depends": [
         "base",
+        "array",
         "utf8"
       ],
       "version": "0.0.1",
-      "authors": "Janus Troelsen <ysangkok@gmail.com>",
+      "authors": "Janus Troelsen <ysangkok@gmail.com> and Matthew Mosior <mattm.github@gmail.com>",
       "license": "BSD-3-Clause",
       "brief": "Base64 decoding/encoding, based on C. Provides `Data.String.Base64`. Used in e.g. the `scram` package.",
       "sourcedir": "src",
@@ -455,8 +456,8 @@
     "ipkgName": "cont",
     "src": {
       "url": "https://git.sr.ht/~janus/cont",
-      "rev": "519dabee666fafc846173170c8755cde67f2931a",
-      "hash": "sha256-DQxZz/gzVo2BsbRIwPGdQTD6ocjrLzUbJ4+Ec0UnEQE="
+      "rev": "4b82cfbbd3f94fc6c6fefd645c064976b960eb27",
+      "hash": "sha256-+S4S0kufxTiyUuF82ujsk3BABo8F6d1FR0/dDdl5bj0="
     },
     "ipkgJson": {
       "name": "cont",
@@ -1427,8 +1428,8 @@
     "ipkgName": "http2",
     "src": {
       "url": "https://git.sr.ht/~janus/http2",
-      "rev": "fea2612948335cf00ddda29181fcc18daeaa03e4",
-      "hash": "sha256-oJLEzX8Wr2W9DTg/E1nufU0EFOGy3RmFLbiZADKWkEg="
+      "rev": "ce3e72a7843c6c42b7b30d62699b675001fa1e6c",
+      "hash": "sha256-WQwyEzIq/RlHl8xiBwF/yMGDXDuJEkqNb5t+Q3j02Uc="
     },
     "ipkgJson": {
       "name": "http2",
@@ -2050,8 +2051,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "ae4a165a0a789fe614d14071dd7643677aedae57",
-      "hash": "sha256-v2lZ7aOTJOsG6tNvN55pcKJs6wMxnpALQe54ecpm5pg="
+      "rev": "0999f2324b0ed3d9ac313472f3baf0f734df138d",
+      "hash": "sha256-ZHl3QzXCdzLxVu9iLEYYczY3wG1LMgrDR0plpwfIvR4="
     },
     "ipkgJson": {
       "name": "nested",
@@ -2338,8 +2339,8 @@
     "ipkgName": "pg",
     "src": {
       "url": "https://git.sr.ht/~janus/pg",
-      "rev": "785635145ce6bdb67690acb66d806c9ce9e3c03e",
-      "hash": "sha256-lbxtbazHhpp7nBj8PDKkFtAuB5T2pme3iLCH4yK7yY0="
+      "rev": "344fd9240b24b1e18cc4c619ebf07152f316ee95",
+      "hash": "sha256-hwZYqoQLKRdhvyQyYdXbvDvAfIvban/tYPUc7qypSck="
     },
     "ipkgJson": {
       "name": "pg",
@@ -2351,7 +2352,8 @@
         "utf8",
         "scram",
         "sha",
-        "hash"
+        "hash",
+        "array"
       ],
       "version": "0.0.1",
       "authors": "Janus Troelsen <ysangkok@gmail.com>",
@@ -2724,8 +2726,8 @@
     "ipkgName": "ref1",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "6be27070f6c07681015bd9c022286e48574bc406",
-      "hash": "sha256-pl01n/M7O9vrwS87deYY1bCGBNHR3KgpdoFTnt4y9Gk="
+      "rev": "0780eca4faa0523366fb8e2900d4cde1a739ce1c",
+      "hash": "sha256-flfR2ppi4cAtF8I5g7UbhFwEFA834TO9PdUAESrczSk="
     },
     "ipkgJson": {
       "name": "ref1",
@@ -2901,8 +2903,8 @@
     "ipkgName": "scram",
     "src": {
       "url": "https://git.sr.ht/~janus/scram",
-      "rev": "b71f745c68cb038c86e34ecb443a75a6b9bebc1f",
-      "hash": "sha256-clbFqUYWiMBmWEJjqtOXIj7vnXe3zMx2UJ9m+JxiApQ="
+      "rev": "06023bed57d62d5ac0c3f991d6229305fa45eea0",
+      "hash": "sha256-UiXU5GtA+0j/Qg7Ujqaa4XOnbHQwVw6hSn8IGAA9ZoM="
     },
     "ipkgJson": {
       "name": "scram",
@@ -3157,15 +3159,15 @@
     "ipkgName": "string-search",
     "src": {
       "url": "https://git.sr.ht/~janus/string-search",
-      "rev": "a30d7dcbd232edab23459ebbc68ca129b2574222",
-      "hash": "sha256-UniQyzMjq0dU63Hu4MnztvJLJT2qRMvkeNg3HU6WwvY="
+      "rev": "519de6bcc6a8e9c66941ed7d72bcce3bbdb17045",
+      "hash": "sha256-Mo4fMMWCeb3p9v/FTaaMZhqyJ0hB1lthTuATQ8xcgUw="
     },
     "ipkgJson": {
       "name": "string-search",
       "depends": [
         "base"
       ],
-      "version": "0.0.1",
+      "version": "0.0.2",
       "authors": "Janus Troelsen <ysangkok@gmail.com>",
       "license": "BSD-3 Clause",
       "brief": "Search for the index of a `Buffer` contained in another `Buffer`. Uses `memmem` from `libc`. Also provides `splitBits8 : List Bits8 -> List Bits8 -> Maybe (List Bits8, List Bits8)`.",
@@ -3576,18 +3578,19 @@
     "ipkgName": "utf8",
     "src": {
       "url": "https://git.sr.ht/~janus/utf8",
-      "rev": "c52080fb4630a699e3f1977b39c7dcd790033f5d",
-      "hash": "sha256-AYRPwHK3oBBoguz6Z6qdUeZl+L2IoeFx+aDQJmeWOOg="
+      "rev": "f3584f3cf7ac09bd566b5cc5301192db272d03c9",
+      "hash": "sha256-qMRbmvXPpF0nDf3qimNqmn8H4s6nBlmYFrN+OlXW5jU="
     },
     "ipkgJson": {
       "name": "utf8",
       "depends": [
-        "base"
+        "base",
+        "array"
       ],
-      "version": "0.1.0",
-      "authors": "Janus Troelsen <ysangkok@gmail.com>",
+      "version": "1.0.0",
+      "authors": "Janus Troelsen <ysangkok@gmail.com> and Matthew Mosior <mattm.github@gmail.com>",
       "license": "BSD-3 Clause",
-      "brief": "UTF-8 encoding and decoding for Racket/Chez (contributions welcome)",
+      "brief": "UTF-8 encoding and decoding, thin wrapper around the 'array' library",
       "sourcedir": "src"
     }
   },
@@ -3662,8 +3665,8 @@
     "ipkgName": "web-server-racket",
     "src": {
       "url": "https://git.sr.ht/~janus/web-server-racket",
-      "rev": "95384223a48666a78a1199c7fc49e224eefa2e67",
-      "hash": "sha256-MdOhpoRQ0xjtiPrwSvPZwVDZUKwvlMXRkIC3DeznmuA="
+      "rev": "0d67bc5ef7c0ae112d6a61dbd011944cdfb15ccc",
+      "hash": "sha256-DnyBLgXCT5ZGrLjKUoFSJdWia5TYXz6kyrPzmESaZ+g="
     },
     "ipkgJson": {
       "name": "web-server-racket",
@@ -3672,7 +3675,8 @@
         "pg",
         "utf8",
         "http2",
-        "racket-tcp"
+        "racket-tcp",
+        "array"
       ],
       "version": "0.0.2",
       "authors": "Janus Troelsen <ysangkok@gmail.com>",
@@ -3686,17 +3690,18 @@
     "ipkgName": "web-server-racket-hello-world",
     "src": {
       "url": "https://git.sr.ht/~janus/web-server-racket-hello-world",
-      "rev": "c46aeae902d8fc2e624d63983cea850adcf00184",
-      "hash": "sha256-fthBuENz6q4hmrFMg+kOccfyKgzN0cVQktOw0hX1Og4="
+      "rev": "afa3aa1e8b8e7367802731cb5e239ecfeed63aad",
+      "hash": "sha256-tuYTV9jX04bylXTEXR4J/TVqblnmgj0/KqhyFfmcb+Y="
     },
     "ipkgJson": {
       "name": "web-server-racket-hello-world",
       "depends": [
         "base",
+        "array",
         "web-server-racket"
       ],
       "version": "0.0.1",
-      "authors": "Janus Troelsen <ysangkok@gmail.com>",
+      "authors": "Janus Troelsen <ysangkok@gmail.com> and Matthew Mosior <mattm.github@gmail.com>",
       "license": "BSD-3 Clause",
       "brief": "Example demo web server that computes 1+1 on a PostgreSQL server and returns the result over HTTP2. Racket only.",
       "main": "HelloWorld",
