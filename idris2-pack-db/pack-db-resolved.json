@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "ea98cbd2da8408d30eb2e86a9f778c97fdaa54fb",
-      "hash": "sha256-VTsW3igBc6RowHVmQlrgI+oVxpKhoUgHI+8tzWissPA="
+      "rev": "7049a2743a6311b44e30e33abf9fa70a570735c0",
+      "hash": "sha256-Cio08IUlpeCFPO9szSZ+jmDf4MqVsKxjsTBO51ABBQc="
     },
     "ipkgJson": {
       "name": "array",
@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "39e5c79fc91a90044367482c70ed6ff3b6370cdc",
-      "hash": "sha256-S207D6XMORzqWEquFPqlNk4dSUZS75/9+vY2yUhJmSM="
+      "rev": "318442f88b5d5ebb29fb9ea65ead213ba913a466",
+      "hash": "sha256-ZNan2bUfFujshBtxKRD5A9UvSaPSnIl/KumP6Q78iJI="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "39e5c79fc91a90044367482c70ed6ff3b6370cdc",
-      "hash": "sha256-S207D6XMORzqWEquFPqlNk4dSUZS75/9+vY2yUhJmSM="
+      "rev": "318442f88b5d5ebb29fb9ea65ead213ba913a466",
+      "hash": "sha256-ZNan2bUfFujshBtxKRD5A9UvSaPSnIl/KumP6Q78iJI="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "39e5c79fc91a90044367482c70ed6ff3b6370cdc",
-      "hash": "sha256-S207D6XMORzqWEquFPqlNk4dSUZS75/9+vY2yUhJmSM="
+      "rev": "318442f88b5d5ebb29fb9ea65ead213ba913a466",
+      "hash": "sha256-ZNan2bUfFujshBtxKRD5A9UvSaPSnIl/KumP6Q78iJI="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -2051,8 +2051,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "0999f2324b0ed3d9ac313472f3baf0f734df138d",
-      "hash": "sha256-ZHl3QzXCdzLxVu9iLEYYczY3wG1LMgrDR0plpwfIvR4="
+      "rev": "7607f7201ba6ed18fc5f43dd3aa56e71e86f24d8",
+      "hash": "sha256-35/zwhzXwnnJetHyjf1bvOo8VFG8ujlKfpSSn3AswXI="
     },
     "ipkgJson": {
       "name": "nested",
