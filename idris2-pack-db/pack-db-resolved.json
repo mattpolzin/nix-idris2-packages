@@ -990,8 +990,8 @@
     "ipkgName": "elin",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elin",
-      "rev": "5dda82ea68cc887f307cde374c5ae69aa4b17227",
-      "hash": "sha256-NXwTQGZeSAR7mw3hglxx3pTvprsajCwdn/YIeWAadpQ="
+      "rev": "7c8572b9a10c2885c2842a0d26006a1cc6891a8c",
+      "hash": "sha256-8TKcJ8kAYtw0GcorZtq/Va41OpZnJnKHL1jMjMEyNpY="
     },
     "ipkgJson": {
       "name": "elin",
@@ -2051,8 +2051,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "7607f7201ba6ed18fc5f43dd3aa56e71e86f24d8",
-      "hash": "sha256-35/zwhzXwnnJetHyjf1bvOo8VFG8ujlKfpSSn3AswXI="
+      "rev": "81aa21c5893a676dad7a2a229b8e292f908595c2",
+      "hash": "sha256-o0OEnNoYNQ3Vd6amCX4zuV1sRxhAVHjZR4UfAPEplwY="
     },
     "ipkgJson": {
       "name": "nested",
@@ -2620,8 +2620,8 @@
     "ipkgName": "quantifiers-extra",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-quantifiers-extra",
-      "rev": "93c295028229ef54c079c4f3691f209605792980",
-      "hash": "sha256-wvK+4tlJdzHkqcKruP8682pAiLixurn3L5virdEeCsU="
+      "rev": "cd788c0810a0ed35a99bb23268a1fe803ffb57c5",
+      "hash": "sha256-ub2Rn3wRngjHv6QL8HlWvzFL+r0gAddGn7E5SfOTIvo="
     },
     "ipkgJson": {
       "name": "quantifiers-extra",
@@ -3098,8 +3098,8 @@
     "ipkgName": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "69a2e09e7512a5b7c16406aeab44ad7b1c8b2bf0",
-      "hash": "sha256-sssF+5GMJlJ+16MSZxMVMwlZ3Um/dxHXZXV3XuMvN/4="
+      "rev": "9bc31a0ea4a8be50d4deb700a9d17cdf42bc5e33",
+      "hash": "sha256-FrmZQZ0ErUfppSCGYS2dEQ5gH/Zs47fnltlztajf/bY="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3120,8 +3120,8 @@
     "ipkgName": "posix/streams-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "69a2e09e7512a5b7c16406aeab44ad7b1c8b2bf0",
-      "hash": "sha256-sssF+5GMJlJ+16MSZxMVMwlZ3Um/dxHXZXV3XuMvN/4="
+      "rev": "9bc31a0ea4a8be50d4deb700a9d17cdf42bc5e33",
+      "hash": "sha256-FrmZQZ0ErUfppSCGYS2dEQ5gH/Zs47fnltlztajf/bY="
     },
     "ipkgJson": {
       "name": "streams-posix",
