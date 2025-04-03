@@ -2051,8 +2051,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "81aa21c5893a676dad7a2a229b8e292f908595c2",
-      "hash": "sha256-o0OEnNoYNQ3Vd6amCX4zuV1sRxhAVHjZR4UfAPEplwY="
+      "rev": "3ca7d8c8ebebc3e4c55046c12c5a1da796d120b2",
+      "hash": "sha256-iaIftifcVOjiha2Btv1ZpWOi5czIatnQybGFJEdwM7A="
     },
     "ipkgJson": {
       "name": "nested",
@@ -3098,8 +3098,8 @@
     "ipkgName": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "9bc31a0ea4a8be50d4deb700a9d17cdf42bc5e33",
-      "hash": "sha256-FrmZQZ0ErUfppSCGYS2dEQ5gH/Zs47fnltlztajf/bY="
+      "rev": "cd3b14c1237d8935f3e1a8e025e5a77d56208bec",
+      "hash": "sha256-h6W1t1d0AkfiRocg8ByH3dV3YgPKqGsuvJ7wLXtT2Ck="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3120,8 +3120,8 @@
     "ipkgName": "posix/streams-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "9bc31a0ea4a8be50d4deb700a9d17cdf42bc5e33",
-      "hash": "sha256-FrmZQZ0ErUfppSCGYS2dEQ5gH/Zs47fnltlztajf/bY="
+      "rev": "cd3b14c1237d8935f3e1a8e025e5a77d56208bec",
+      "hash": "sha256-h6W1t1d0AkfiRocg8ByH3dV3YgPKqGsuvJ7wLXtT2Ck="
     },
     "ipkgJson": {
       "name": "streams-posix",
