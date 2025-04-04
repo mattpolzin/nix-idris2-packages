@@ -1799,8 +1799,8 @@
     "ipkgName": "lens",
     "src": {
       "url": "https://github.com/kiana-S/idris2-lens",
-      "rev": "da8f3a05e60673a0700765bdbfdd33f33cb8fd4f",
-      "hash": "sha256-ov19Ew4j6e+gyXB2iGEkHOShDj+OVDR+MRxXBTDqCyU="
+      "rev": "d6bae26222a0b2290bf4146279bdc31bb900d527",
+      "hash": "sha256-JV7fdlF39Y0uUlUJsMG6t+X9N+Dd+/twIfb6Rhlg8OU="
     },
     "ipkgJson": {
       "name": "lens",
