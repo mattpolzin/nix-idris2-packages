@@ -725,8 +725,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "43db773be808f8782f7f7bf27fac262dcda1b803",
-      "hash": "sha256-shPkQbjRUvMR71xxDGd51Mt1zgmzdR6cu89OiGGSsws="
+      "rev": "160e4b88b60da30c4aaab572b94907ca29e88c1c",
+      "hash": "sha256-RhVHz+x4nH32Vmz9DWeshyf0ei/yQcMD1h/Jo05Z0vE="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -2051,8 +2051,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "f74a01b7c6425d7459cf53e0e50c914b59ceed6b",
-      "hash": "sha256-MthGtmgxFebYoPgtz+TyKB34Y0Y7KtmyqLInlafHe48="
+      "rev": "f598a8d0f65905094cc3518a30f54e121b2faa8e",
+      "hash": "sha256-G+xO24jw9asg8O+XPXngaq1swCi+YrobPHU8vowmQb4="
     },
     "ipkgJson": {
       "name": "nested",
