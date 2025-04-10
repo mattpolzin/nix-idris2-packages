@@ -658,13 +658,13 @@
     "ipkgName": "decord",
     "src": {
       "url": "https://github.com/jcranch/idris-decord",
-      "rev": "6bad8b28de454f9119316c522cc0710b41292adb",
-      "hash": "sha256-RvEFr2qkS4BKEfDWI5V6eg2S+BWjUKThuQgTaRO4zsw="
+      "rev": "5ccae2e639f13598bdd9a34b16c72d51bcaa4350",
+      "hash": "sha256-r1arGnzw5C2eEvxWWMMz7NrfaJO7ytoscyPGv053N9s="
     },
     "ipkgJson": {
       "name": "decord",
       "depends": [],
-      "version": "0.1.0",
+      "version": "0.2.0",
       "authors": "James Cranch <cranch@cantab.net>",
       "license": "BSD3",
       "brief": "Support for decidable orderings, equalities (and relations with Eq and Ord)",
@@ -1454,8 +1454,8 @@
     "ipkgName": "i-hate-parens",
     "src": {
       "url": "https://github.com/buzden/idris2-i-hate-parens",
-      "rev": "6127b46e799405e025194f6606dd5e949f5b7092",
-      "hash": "sha256-gU3b3TdU8lwZamBtMTdhv2VdWn0OWxrG3mTgfZszhtQ="
+      "rev": "c1ef924566319a9fec0ed8033c78f4b76798446b",
+      "hash": "sha256-XsUh2aA7ZdX6UxmTB9Xo3bpn5gR3DBm2ENq2Y5Q9DEA="
     },
     "ipkgJson": {
       "name": "i-hate-parens",
@@ -3268,6 +3268,39 @@
       "brief": "Swirls, streams of monadic actions",
       "sourcedir": "src",
       "builddir": ".build"
+    }
+  },
+  "systemd": {
+    "packName": "systemd",
+    "ipkgName": "idris2-systemd",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-systemd",
+      "rev": "ba0b33da22efde16ced69d6685ac9acac5659a51",
+      "hash": "sha256-0PUZpF1jkxR+JyNFiqtBjRm/HFsVB1y+ZUHUcie0laQ="
+    },
+    "ipkgJson": {
+      "name": "idris2-systemd",
+      "depends": [
+        "base",
+        "elin",
+        "posix"
+      ],
+      "version": "0.1.0",
+      "langversion": {
+        "lowerInclusive": true,
+        "lowerBound": "0.7.0",
+        "upperInclusive": true,
+        "upperBound": "*"
+      },
+      "authors": "Matthew Mosior",
+      "maintainers": "Matthew Mosior",
+      "brief": "A systemd library.",
+      "homepage": "https://github.com/Matthew-Mosior/idris2-systemd",
+      "sourceloc": "https://github.com/Matthew-Mosior/idris2-systemd/tree/main/src",
+      "bugtracker": "https://github.com/Matthew-Mosior/idris2-systemd/issues",
+      "sourcedir": "src",
+      "prebuild": "make -C support",
+      "preinstall": "make -C support install"
     }
   },
   "tailrec": {
