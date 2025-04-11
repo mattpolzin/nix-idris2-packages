@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "a9b233e6a26d6388347066ead8cda40782183261",
-      "hash": "sha256-NhTkr6khfi4eqKyJ8ynJcZ8CmH+c6BvJ03K+lt32c/I="
+      "rev": "20c7f089aadf68c9a55a87d7c97cef11bf220784",
+      "hash": "sha256-V61jYAjNstxUeTA8dzEknLTydHGuni9a5yPjzCVe9sE="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "a9b233e6a26d6388347066ead8cda40782183261",
-      "hash": "sha256-NhTkr6khfi4eqKyJ8ynJcZ8CmH+c6BvJ03K+lt32c/I="
+      "rev": "20c7f089aadf68c9a55a87d7c97cef11bf220784",
+      "hash": "sha256-V61jYAjNstxUeTA8dzEknLTydHGuni9a5yPjzCVe9sE="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "a9b233e6a26d6388347066ead8cda40782183261",
-      "hash": "sha256-NhTkr6khfi4eqKyJ8ynJcZ8CmH+c6BvJ03K+lt32c/I="
+      "rev": "20c7f089aadf68c9a55a87d7c97cef11bf220784",
+      "hash": "sha256-V61jYAjNstxUeTA8dzEknLTydHGuni9a5yPjzCVe9sE="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -725,8 +725,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "8565949be0b0043016760b7a6f5c6305840c4278",
-      "hash": "sha256-g0bndGn6E5YkyALP5WxM3m+QUMnqQDijhGxy7GAG0A8="
+      "rev": "d5430a1c7d27e3596bf7956a3b3072d1b38e4bbc",
+      "hash": "sha256-mSz0QBTj/VCPb+PtxKBk7ytMQfWVPgY5HuzZixqM/fg="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -3275,8 +3275,8 @@
     "ipkgName": "idris2-systemd",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-systemd",
-      "rev": "ba0b33da22efde16ced69d6685ac9acac5659a51",
-      "hash": "sha256-0PUZpF1jkxR+JyNFiqtBjRm/HFsVB1y+ZUHUcie0laQ="
+      "rev": "629965771973a0b72810934ffa8cf37c3b86523c",
+      "hash": "sha256-wLxVHlxjT6K/itgleIb8wAFfQRDukJh9bnMzidms6kY="
     },
     "ipkgJson": {
       "name": "idris2-systemd",
@@ -3294,7 +3294,7 @@
       },
       "authors": "Matthew Mosior",
       "maintainers": "Matthew Mosior",
-      "brief": "A systemd library.",
+      "brief": "A systemd library",
       "homepage": "https://github.com/Matthew-Mosior/idris2-systemd",
       "sourceloc": "https://github.com/Matthew-Mosior/idris2-systemd/tree/main/src",
       "bugtracker": "https://github.com/Matthew-Mosior/idris2-systemd/issues",
