@@ -582,8 +582,8 @@
     "ipkgName": "cptr",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
-      "rev": "811cd3089aa6c1698c9cad4a6e83890851ed7225",
-      "hash": "sha256-rW9cWvr82oTlqEcLu6y8xSY4xmdMdcKIXpOGluUL+OE="
+      "rev": "18e6bd3d97228b231f9de47e9e9dc0793aa4f8ca",
+      "hash": "sha256-KHQLHtJ/oPPX8Av0lhKSifQ8O9KeJweA0eG8B9ImIDU="
     },
     "ipkgJson": {
       "name": "cptr",
