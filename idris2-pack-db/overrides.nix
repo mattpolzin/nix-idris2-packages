@@ -163,7 +163,7 @@
   };
 
   pg-idris = {
-    buildInputs = [ postgresql.dev ];
+    buildInputs = [ postgresql.dev postgresql.pg_config ];
   };
 
   posix = {
