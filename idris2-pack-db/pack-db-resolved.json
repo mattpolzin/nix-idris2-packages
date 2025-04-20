@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "c2a5d6b42e2e63abda8f20894516e398d36c40b1",
-      "hash": "sha256-GW2z4ZHs0ZREy6ydx5fYnUosoJ8/mCex/tQUZpZ0N6w="
+      "rev": "459d0b3986233c083bcb002c81cb6b41089328e5",
+      "hash": "sha256-2GDe6TIPlorHIS7NQY2E7HkkUHw1KuYCwJscBSIMihw="
     },
     "ipkgJson": {
       "name": "array",
@@ -2051,8 +2051,8 @@
     "ipkgName": "nested",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
-      "rev": "05d681498c92495826b35c5189f5ecc350b10f06",
-      "hash": "sha256-TS8/sHKZcuAZ5fyI41dI36QWeXcLwwIexxLUzJri94s="
+      "rev": "31f74ced9067ff04b80fbe22ab5b5f153436f6ea",
+      "hash": "sha256-OIKlj1medYZqh+Js7ZYly1NB+8jNBqnDgFZj3kQ9txc="
     },
     "ipkgJson": {
       "name": "nested",
