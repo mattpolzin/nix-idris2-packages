@@ -3098,8 +3098,8 @@
     "ipkgName": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "9e0071de3cff7e54245c9e2696be5e5c296e64c2",
-      "hash": "sha256-8+XzcJNm+FbXV8OT0308DpSDza2ctDarS7ejYD5Xq+U="
+      "rev": "2f3d66f058b6db51a272f3e19f59c28ad4cd27f8",
+      "hash": "sha256-3kqvTPz0yV/d0FZ5tLxFqtgvOorkjh79gGTO1ti5wZw="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3120,8 +3120,8 @@
     "ipkgName": "posix/streams-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "9e0071de3cff7e54245c9e2696be5e5c296e64c2",
-      "hash": "sha256-8+XzcJNm+FbXV8OT0308DpSDza2ctDarS7ejYD5Xq+U="
+      "rev": "2f3d66f058b6db51a272f3e19f59c28ad4cd27f8",
+      "hash": "sha256-3kqvTPz0yV/d0FZ5tLxFqtgvOorkjh79gGTO1ti5wZw="
     },
     "ipkgJson": {
       "name": "streams-posix",
@@ -3275,8 +3275,8 @@
     "ipkgName": "idris2-systemd",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-systemd",
-      "rev": "629965771973a0b72810934ffa8cf37c3b86523c",
-      "hash": "sha256-wLxVHlxjT6K/itgleIb8wAFfQRDukJh9bnMzidms6kY="
+      "rev": "3d37ae749d175598d8c99f5dd520154eb3b918e7",
+      "hash": "sha256-vY7//hp0zHWaR9Do7S9XihjjHuJI6OSOmasE0hpPBas="
     },
     "ipkgJson": {
       "name": "idris2-systemd",
@@ -3294,6 +3294,7 @@
       },
       "authors": "Matthew Mosior",
       "maintainers": "Matthew Mosior",
+      "license": "BSD-3 Clause",
       "brief": "A systemd library",
       "homepage": "https://github.com/Matthew-Mosior/idris2-systemd",
       "sourceloc": "https://github.com/Matthew-Mosior/idris2-systemd/tree/main/src",
