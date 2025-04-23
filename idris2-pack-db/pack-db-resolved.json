@@ -2415,8 +2415,8 @@
     "ipkgName": "pipelines",
     "src": {
       "url": "https://gitlab.com/glaive-research/pipelines.git",
-      "rev": "fd8cd6dd6a4c1e7d4f595013adb0e0b0b00ac676",
-      "hash": "sha256-t5W3W5Y4GCvn21ou7HhZh/6zFvWNSPRHWL/gTQZbaq8="
+      "rev": "a931a12b0fc3656ad279368deb4428cb2b38c144",
+      "hash": "sha256-DXY3HrcBXLQjLoC5Q+uWZB9LkvXggT7cqw5Rd3z5iqA="
     },
     "ipkgJson": {
       "name": "pipelines",
