@@ -4,8 +4,8 @@
     "ipkgName": "algdata",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
-      "rev": "edd0d78b88a27de39008ab53de1bcb61f3125505",
-      "hash": "sha256-HR/ooE1DRo29uwDljG/n4JsBAQgtEResxUPK60xzL8k="
+      "rev": "0511b16015f3ebbeb6b9cc87508d30930c0efc98",
+      "hash": "sha256-MlXQePqG33BzQQ4Y/ccas+SbXHiJthJB6p576dfCslA="
     },
     "ipkgJson": {
       "name": "algdata",
@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "459d0b3986233c083bcb002c81cb6b41089328e5",
-      "hash": "sha256-2GDe6TIPlorHIS7NQY2E7HkkUHw1KuYCwJscBSIMihw="
+      "rev": "b0b96a7ae56d0c13ec646a16c1067280b3d0d7ab",
+      "hash": "sha256-/up+YlX7bAXMCNIRj3JkVknKUFHh5zTmprNrTQfp+x4="
     },
     "ipkgJson": {
       "name": "array",
@@ -725,8 +725,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "5a5174527beb28cc69a19140fc148d682f37ff6f",
-      "hash": "sha256-2siZHocP/XGvYDLZI/ds5OXoTlxStJHS8Z2w7i+wAOk="
+      "rev": "fcbbd29c8458581999b102165f3008b9d78215d0",
+      "hash": "sha256-eCzugKe83a9S0FVRUimE/LLUhQo8GuYHveYmcFTDh+Y="
     },
     "ipkgJson": {
       "name": "deptycheck",
