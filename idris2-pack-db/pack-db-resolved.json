@@ -288,8 +288,8 @@
     "ipkgName": "bytestring",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
-      "rev": "4317a13d53fd67c3099a615e7b34bdf3cd219601",
-      "hash": "sha256-ns41otNriWvarc8P/gy4TSXucrhZlyWUetHBqB1g3Ck="
+      "rev": "e4459e5bfcfd9c7badf269d98f1f2c81908128e4",
+      "hash": "sha256-WRpXfsamktxjL3iWkoJWhudaic3A/MG3FBtsQg5PgIA="
     },
     "ipkgJson": {
       "name": "bytestring",
