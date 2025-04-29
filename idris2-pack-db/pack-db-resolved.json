@@ -4,8 +4,8 @@
     "ipkgName": "algdata",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
-      "rev": "0511b16015f3ebbeb6b9cc87508d30930c0efc98",
-      "hash": "sha256-MlXQePqG33BzQQ4Y/ccas+SbXHiJthJB6p576dfCslA="
+      "rev": "f33b6a18183785e8667e0a6dfba8b2c575f56082",
+      "hash": "sha256-N49TC7QbLNHmk1I8mimJwsGDyDivZeGvarCBIazXRdk="
     },
     "ipkgJson": {
       "name": "algdata",
@@ -634,8 +634,8 @@
     "ipkgName": "cyby-draw",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "445e1f3111e64d8f6e2aa06742230aba54267131",
-      "hash": "sha256-q0mXzmDKl+kT8RD4ccnxQtqKJetda1mW0YhV5+XjE1c="
+      "rev": "ab55ef2a41a64c35864c147208e8822a82d6b852",
+      "hash": "sha256-u3Os0UD6BjAYooAmHvY4n6oQWfIFFYrTJs3R2eD7aHU="
     },
     "ipkgJson": {
       "name": "cyby-draw",
