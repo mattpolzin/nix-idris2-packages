@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "b0b96a7ae56d0c13ec646a16c1067280b3d0d7ab",
-      "hash": "sha256-/up+YlX7bAXMCNIRj3JkVknKUFHh5zTmprNrTQfp+x4="
+      "rev": "b067f8126619c5443b3fd7e410fd76615a56cbbc",
+      "hash": "sha256-Jlmk50cILU1Vpe/N1XyTfdB5LR8XRGnvCs+B1KaX6Kk="
     },
     "ipkgJson": {
       "name": "array",
@@ -101,8 +101,8 @@
     "ipkgName": "async",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "0be6f4df227adc7518ad2e938a0bc9cb51d9df89",
-      "hash": "sha256-puKyZxtbBMjbY5Ig6VPcoL8Ltjdg9ZOmNdHEW6z2HEw="
+      "rev": "cb6ab74d88e1922cdc9a4058bd206650dbc2a1d6",
+      "hash": "sha256-q5UNKGSM1hpb9JwjJkJY7hvqNkOSypjpsIPh5VxtCUA="
     },
     "ipkgJson": {
       "name": "async",
@@ -124,8 +124,8 @@
     "ipkgName": "async-epoll/async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "0be6f4df227adc7518ad2e938a0bc9cb51d9df89",
-      "hash": "sha256-puKyZxtbBMjbY5Ig6VPcoL8Ltjdg9ZOmNdHEW6z2HEw="
+      "rev": "cb6ab74d88e1922cdc9a4058bd206650dbc2a1d6",
+      "hash": "sha256-q5UNKGSM1hpb9JwjJkJY7hvqNkOSypjpsIPh5VxtCUA="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -144,8 +144,8 @@
     "ipkgName": "async-posix/async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "0be6f4df227adc7518ad2e938a0bc9cb51d9df89",
-      "hash": "sha256-puKyZxtbBMjbY5Ig6VPcoL8Ltjdg9ZOmNdHEW6z2HEw="
+      "rev": "cb6ab74d88e1922cdc9a4058bd206650dbc2a1d6",
+      "hash": "sha256-q5UNKGSM1hpb9JwjJkJY7hvqNkOSypjpsIPh5VxtCUA="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -1962,8 +1962,8 @@
     "ipkgName": "monocle",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-monocle",
-      "rev": "7d93ec5b100596d1b79475a0f63cfff14845f697",
-      "hash": "sha256-yNZDLm8E+2DszvbpAJ4GXMJfSL1tufaxto89Cj6m9nc="
+      "rev": "dd0ac6256ff80c11e112b9e4134669f44b042a51",
+      "hash": "sha256-c+haIeJbJ8dRHvgHO4K8I35SsDFM/jvvx2PDX+jpl7g="
     },
     "ipkgJson": {
       "name": "monocle",
