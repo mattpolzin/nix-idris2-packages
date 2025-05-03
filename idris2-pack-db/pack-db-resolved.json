@@ -3495,15 +3495,14 @@
     "ipkgName": "tyttp",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
-      "rev": "ede05cbef5c662132f201f9a9408c82c0673a16f",
-      "hash": "sha256-HKIg0kldTPKCMRXrUoK8kdsMmfaCx1XD5jTuUzmPZ38="
+      "rev": "1e1c74a3883ecca87e02959f5c94d278a176fdfe",
+      "hash": "sha256-ORNIRxviX7b0jk2rqpR3Tz7peRAQ5snGOTyoc4Sr/n4="
     },
     "ipkgJson": {
       "name": "tyttp",
       "depends": [
         "base",
         "apache-mime-types",
-        "contrib",
         "promise"
       ],
       "brief": "An experimental web server framework targeting NodeJS",
@@ -3515,8 +3514,8 @@
     "ipkgName": "adapter-node/tyttp-adapter-node",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
-      "rev": "ede05cbef5c662132f201f9a9408c82c0673a16f",
-      "hash": "sha256-HKIg0kldTPKCMRXrUoK8kdsMmfaCx1XD5jTuUzmPZ38="
+      "rev": "1e1c74a3883ecca87e02959f5c94d278a176fdfe",
+      "hash": "sha256-ORNIRxviX7b0jk2rqpR3Tz7peRAQ5snGOTyoc4Sr/n4="
     },
     "ipkgJson": {
       "name": "tyttp-adapter-node",
@@ -3538,15 +3537,14 @@
     "ipkgName": "json/tyttp-json",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
-      "rev": "ede05cbef5c662132f201f9a9408c82c0673a16f",
-      "hash": "sha256-HKIg0kldTPKCMRXrUoK8kdsMmfaCx1XD5jTuUzmPZ38="
+      "rev": "1e1c74a3883ecca87e02959f5c94d278a176fdfe",
+      "hash": "sha256-ORNIRxviX7b0jk2rqpR3Tz7peRAQ5snGOTyoc4Sr/n4="
     },
     "ipkgJson": {
       "name": "tyttp-json",
       "depends": [
         "tyttp",
         "promise",
-        "contrib",
         "json",
         "sop",
         "elab-util",
