@@ -1594,6 +1594,35 @@
       "builddir": ".build"
     }
   },
+  "ilex": {
+    "packName": "ilex",
+    "ipkgName": "ilex",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-ilex",
+      "rev": "a32505966f65c77378ef4590e87e2d2406d3c2c8",
+      "hash": "sha256-wpuXe+tkNK6zhLZyHy7VQsz+2DVclG1E+gYpcuMzxuc="
+    },
+    "ipkgJson": {
+      "name": "ilex",
+      "depends": [
+        "elab-util",
+        "elab-pretty",
+        "array",
+        "bytestring",
+        "refined"
+      ],
+      "version": "0.1.0",
+      "langversion": {
+        "lowerInclusive": true,
+        "lowerBound": "0.7",
+        "upperInclusive": true,
+        "upperBound": "*"
+      },
+      "authors": "stefan-hoeck",
+      "brief": "Generating fast Lexers from an Idris2 DSL",
+      "sourcedir": "src"
+    }
+  },
   "indexed": {
     "packName": "indexed",
     "ipkgName": "indexed",
