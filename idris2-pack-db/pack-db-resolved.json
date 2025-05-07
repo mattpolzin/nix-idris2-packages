@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "57dbd92646c99280b7f9709cf586b05c0ba5e325",
-      "hash": "sha256-wr6a8L/lselVUOb7bKH1080P7oVf+7yJ9RpddEjTpOo="
+      "rev": "82ef85de3a54db7aec424d7b5eef28d8b5842c44",
+      "hash": "sha256-UqpcT4d+RMVX7rsSSeSFLXUWND5RW9BTIktOS7WTvv0="
     },
     "ipkgJson": {
       "name": "array",
@@ -1599,8 +1599,8 @@
     "ipkgName": "ilex",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "a32505966f65c77378ef4590e87e2d2406d3c2c8",
-      "hash": "sha256-wpuXe+tkNK6zhLZyHy7VQsz+2DVclG1E+gYpcuMzxuc="
+      "rev": "9b0cf03d0ef1b7bbae48f07e67d293bcc808d7f8",
+      "hash": "sha256-Z9iS/1LH3yqrbmy0JUxFDE7MHc2WwWQ/UWa5tEa5/xA="
     },
     "ipkgJson": {
       "name": "ilex",
