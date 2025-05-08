@@ -1599,8 +1599,8 @@
     "ipkgName": "ilex",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "9b0cf03d0ef1b7bbae48f07e67d293bcc808d7f8",
-      "hash": "sha256-Z9iS/1LH3yqrbmy0JUxFDE7MHc2WwWQ/UWa5tEa5/xA="
+      "rev": "5809bbffed001c9b45b56a74471f00c6a75b4267",
+      "hash": "sha256-8iXf+xRptRWTI2H4spTL/vLG+SXPX1/KXeL+zVbKpYE="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -2508,8 +2508,8 @@
     "ipkgName": "prettier",
     "src": {
       "url": "https://github.com/Z-snails/prettier",
-      "rev": "448d95c8b55fdf5b98befa5ff0b167d07a1064c9",
-      "hash": "sha256-Xvz9ohGEhaUkP4GGNLn9QkM3GAztcQcKI6+LBn5V2V4="
+      "rev": "666b4e6ba397e332deb4076d56ce745c8fb542a0",
+      "hash": "sha256-hTJyfUJ6+Q32CDNJsByG7P6eP1bAJStEERLRGauStdA="
     },
     "ipkgJson": {
       "name": "prettier",
