@@ -725,20 +725,16 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "fcbbd29c8458581999b102165f3008b9d78215d0",
-      "hash": "sha256-eCzugKe83a9S0FVRUimE/LLUhQo8GuYHveYmcFTDh+Y="
+      "rev": "b2cbf83e346d0e27111e1fc6a44334a252af93cf",
+      "hash": "sha256-Yi7NLWd7nEeGl86FyjlpWRnkylzJLflt6V7ePDOCmy4="
     },
     "ipkgJson": {
       "name": "deptycheck",
       "depends": [
         "ansi",
         "best-alternative",
-        "collection-utils",
-        "cozippable",
         "dependent-vect",
-        "elab-pretty",
-        "elab-util",
-        "fin-lizzie",
+        "elab-util-extra",
         "i-hate-parens",
         "if-unsolved-implicit",
         "mtl-tuple-impls",
@@ -746,7 +742,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.250319",
+      "version": "0.0.250511",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -983,6 +979,30 @@
       "brief": "Utilities and documentation for working with elaborator reflection",
       "readme": "README.md",
       "sourcedir": "src"
+    }
+  },
+  "elab-util-extra": {
+    "packName": "elab-util-extra",
+    "ipkgName": "elab-util-extra/elab-util-extra",
+    "src": {
+      "url": "https://github.com/buzden/deptycheck",
+      "rev": "b2cbf83e346d0e27111e1fc6a44334a252af93cf",
+      "hash": "sha256-Yi7NLWd7nEeGl86FyjlpWRnkylzJLflt6V7ePDOCmy4="
+    },
+    "ipkgJson": {
+      "name": "elab-util-extra",
+      "depends": [
+        "collection-utils",
+        "cozippable",
+        "elab-pretty",
+        "elab-util",
+        "fin-lizzie"
+      ],
+      "authors": "Denis Buzdalov",
+      "license": "Apache-2.0",
+      "brief": "Additional utilities for elaborator reflection",
+      "sourcedir": "src",
+      "builddir": ".build"
     }
   },
   "elin": {
@@ -3608,8 +3628,8 @@
     "ipkgName": "url",
     "src": {
       "url": "https://github.com/running-grass/idris2-url",
-      "rev": "4587b14fbe7752c4aad5aac045e19088ec2e4108",
-      "hash": "sha256-xcYZsMzWyohyAX3TIE4wBQkvpaKxHXjQN9W7mFetUQQ="
+      "rev": "7198814cb1493691254f548e7bff93052b87dd84",
+      "hash": "sha256-YHqdpoer56mZQsvG9a+FLDKDZzutFL6hje0h5VAOMyU="
     },
     "ipkgJson": {
       "name": "url",
