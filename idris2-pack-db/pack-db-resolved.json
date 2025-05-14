@@ -634,8 +634,8 @@
     "ipkgName": "cyby-draw",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "ab55ef2a41a64c35864c147208e8822a82d6b852",
-      "hash": "sha256-u3Os0UD6BjAYooAmHvY4n6oQWfIFFYrTJs3R2eD7aHU="
+      "rev": "e89f3bdf710232d9f9dd94ab7190c6f39b4d8bbc",
+      "hash": "sha256-O2z8u0Q8doBvRos+RRPmUqslVMU9u0dKgI76aqRink8="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -725,8 +725,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b2cbf83e346d0e27111e1fc6a44334a252af93cf",
-      "hash": "sha256-Yi7NLWd7nEeGl86FyjlpWRnkylzJLflt6V7ePDOCmy4="
+      "rev": "2049060e5f83de3eaedb042ea92c4332bb0e697e",
+      "hash": "sha256-IDm4sPeUVCgq6i2i5vap2JS8OfGkGD9Tq+7mWDZm3Q4="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -986,8 +986,8 @@
     "ipkgName": "elab-util-extra/elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b2cbf83e346d0e27111e1fc6a44334a252af93cf",
-      "hash": "sha256-Yi7NLWd7nEeGl86FyjlpWRnkylzJLflt6V7ePDOCmy4="
+      "rev": "2049060e5f83de3eaedb042ea92c4332bb0e697e",
+      "hash": "sha256-IDm4sPeUVCgq6i2i5vap2JS8OfGkGD9Tq+7mWDZm3Q4="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
