@@ -398,8 +398,8 @@
     "ipkgName": "collection-utils",
     "src": {
       "url": "https://github.com/buzden/idris2-collection-utils",
-      "rev": "b833ecb610aaba691d3208bcfcd9d36ef84d648d",
-      "hash": "sha256-vb3KBgJ5DYFsnJ9bl8SnSgiUtrpkrwKvTFQ7ic76zP8="
+      "rev": "33e2433c5cfc420a6852ecc740b8f5c5807fafa4",
+      "hash": "sha256-nQmtTcW7kSdxXh7kkuPX5m5VINRtQZ2sWvou/FLLKlo="
     },
     "ipkgJson": {
       "name": "collection-utils",
@@ -705,8 +705,8 @@
     "ipkgName": "dependent-vect",
     "src": {
       "url": "https://github.com/buzden/idris2-dependent-vect",
-      "rev": "75e7d157e2d450eeecf7d630989b0e10fb12ede6",
-      "hash": "sha256-PRo2NoWnCiTcT8ipyVGYw0ZPmNN3jZdDygkpH6CXBqc="
+      "rev": "bd955c80acb46f9ed92101d7bd6c9090d2d7041d",
+      "hash": "sha256-O0r4CyWggt0lnPYaMCyznEs6I+0U7SMrzWYdp4EupSg="
     },
     "ipkgJson": {
       "name": "dependent-vect",
@@ -725,8 +725,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "2049060e5f83de3eaedb042ea92c4332bb0e697e",
-      "hash": "sha256-IDm4sPeUVCgq6i2i5vap2JS8OfGkGD9Tq+7mWDZm3Q4="
+      "rev": "57f50881f9205e8421e44c86209d17c90bd9697b",
+      "hash": "sha256-KZMIIxpHnQNizuv/uVrywNGg21TvUZQ504Dstf+NPbE="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -986,8 +986,8 @@
     "ipkgName": "elab-util-extra/elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "2049060e5f83de3eaedb042ea92c4332bb0e697e",
-      "hash": "sha256-IDm4sPeUVCgq6i2i5vap2JS8OfGkGD9Tq+7mWDZm3Q4="
+      "rev": "57f50881f9205e8421e44c86209d17c90bd9697b",
+      "hash": "sha256-KZMIIxpHnQNizuv/uVrywNGg21TvUZQ504Dstf+NPbE="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1063,15 +1063,15 @@
     "ipkgName": "extrafun",
     "src": {
       "url": "https://github.com/jcranch/extrafun",
-      "rev": "885b6437e5a14ebfb635771e1ef7fe4a90798556",
-      "hash": "sha256-LwEqDNaNBKVCxe9cIq20pdcvqAclAYwwiuDBhol0ELM="
+      "rev": "86cca4e39180fce2497880fcefe6943ec2396670",
+      "hash": "sha256-6hEAhZZBeNzy/4djnCGEWEo/Xytc8QEmfpehCj8eL8A="
     },
     "ipkgJson": {
       "name": "extrafun",
       "depends": [
         "contrib"
       ],
-      "version": "0.1.0",
+      "version": "0.2.0",
       "authors": "James Cranch <cranch@cantab.net>",
       "license": "BSD3",
       "brief": "Various extra category theory classes",
@@ -1780,8 +1780,8 @@
     "ipkgName": "katla",
     "src": {
       "url": "https://github.com/idris-community/katla",
-      "rev": "53b0e47102805973371b6697383db70e8c3d6868",
-      "hash": "sha256-z+n4cb3DOkQYMeHjWXFrmaa4S1ZnpIeyBnK1pEt7hco="
+      "rev": "b28e5be98819e0516cc799bf57de1d6f56f70034",
+      "hash": "sha256-+7EMUS2RiuAwb+TGH1FCssV89Ib6ZI1LRIKCK916im8="
     },
     "ipkgJson": {
       "name": "katla",
@@ -1802,8 +1802,8 @@
     "ipkgName": "katla-pandoc",
     "src": {
       "url": "https://github.com/idris-community/katla",
-      "rev": "53b0e47102805973371b6697383db70e8c3d6868",
-      "hash": "sha256-z+n4cb3DOkQYMeHjWXFrmaa4S1ZnpIeyBnK1pEt7hco="
+      "rev": "b28e5be98819e0516cc799bf57de1d6f56f70034",
+      "hash": "sha256-+7EMUS2RiuAwb+TGH1FCssV89Ib6ZI1LRIKCK916im8="
     },
     "ipkgJson": {
       "name": "katla-pandoc",
@@ -3017,8 +3017,8 @@
     "ipkgName": "sop",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sop",
-      "rev": "050dc401257bc521bd171dbdff9728f32909e0d4",
-      "hash": "sha256-ThB8b2fjD4tJ2MofmoWv79HSrGm7CPuX2du0XR9NjRo="
+      "rev": "3135f728b44c1ff7cea01e1c5594cd09513c2d81",
+      "hash": "sha256-Hri8vOptxj3qBldPsVuhXdL7O/Y7IzYj5rRNVm+ygcs="
     },
     "ipkgJson": {
       "name": "sop",
@@ -3087,8 +3087,8 @@
     "ipkgName": "api/stellar-api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "d2272a31b6d3afa5c99ddbeeb09ef389b9b91382",
-      "hash": "sha256-EEF96h7g0E4OZz6Pu5CoUBrJPOKWEfp36QZ73cT+0k0="
+      "rev": "51ed2b24816b08edcd15a2c2ca6d70908abe2f5f",
+      "hash": "sha256-F2Y+WUd2AkCXrQlDP9cbiFc/oT8hH9plZWDgYUD1dEE="
     },
     "ipkgJson": {
       "name": "stellar-api",
@@ -3096,6 +3096,7 @@
         "algdata",
         "contrib"
       ],
+      "version": "0.1",
       "authors": "Andre Videla",
       "opts": "--total",
       "sourcedir": "src"
@@ -3106,8 +3107,8 @@
     "ipkgName": "http/stellar-http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "d2272a31b6d3afa5c99ddbeeb09ef389b9b91382",
-      "hash": "sha256-EEF96h7g0E4OZz6Pu5CoUBrJPOKWEfp36QZ73cT+0k0="
+      "rev": "51ed2b24816b08edcd15a2c2ca6d70908abe2f5f",
+      "hash": "sha256-F2Y+WUd2AkCXrQlDP9cbiFc/oT8hH9plZWDgYUD1dEE="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -3117,6 +3118,7 @@
         "node",
         "tyttp-adapter-node"
       ],
+      "version": "0.1",
       "sourcedir": "src"
     }
   },
@@ -3125,8 +3127,8 @@
     "ipkgName": "sql/stellar-sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "d2272a31b6d3afa5c99ddbeeb09ef389b9b91382",
-      "hash": "sha256-EEF96h7g0E4OZz6Pu5CoUBrJPOKWEfp36QZ73cT+0k0="
+      "rev": "51ed2b24816b08edcd15a2c2ca6d70908abe2f5f",
+      "hash": "sha256-F2Y+WUd2AkCXrQlDP9cbiFc/oT8hH9plZWDgYUD1dEE="
     },
     "ipkgJson": {
       "name": "stellar-sql",
@@ -3138,6 +3140,7 @@
         "contrib",
         "json"
       ],
+      "version": "0.1",
       "opts": "--total",
       "sourcedir": "src"
     }
@@ -3324,8 +3327,8 @@
     "ipkgName": "idris2-systemd",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-systemd",
-      "rev": "3d37ae749d175598d8c99f5dd520154eb3b918e7",
-      "hash": "sha256-vY7//hp0zHWaR9Do7S9XihjjHuJI6OSOmasE0hpPBas="
+      "rev": "c87321c36391d21043faecaf0fa8ff002eac2611",
+      "hash": "sha256-HIn29jh8cw0cRzMnQR/giQnXWDamjYaMa6vKXc1eHJs="
     },
     "ipkgJson": {
       "name": "idris2-systemd",
