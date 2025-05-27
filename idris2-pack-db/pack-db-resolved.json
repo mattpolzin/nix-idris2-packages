@@ -80,8 +80,8 @@
     "ipkgName": "array",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "4409788bb533687e16e6d8af3444e5f55fba30e9",
-      "hash": "sha256-TRjpt1dl20hJ8cxXsl1HcMc/9uG6eZlCLklgiFdtXNI="
+      "rev": "515fa5072ab7667dfd8c4b7ec740b7ed6f23d58d",
+      "hash": "sha256-SFwwqTqx+XopdATptr48Jn5eM1gsA8FA34rkihr3QUA="
     },
     "ipkgJson": {
       "name": "array",
@@ -288,8 +288,8 @@
     "ipkgName": "bytestring",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
-      "rev": "5e7cd7b645ac4f849ebae2f4d70cb61c199dbbb3",
-      "hash": "sha256-XU34b+HmWZKUAg877JdUH0lIqSZ0CXFGOhpyH7QadqI="
+      "rev": "71b399fcb480869f85e76b725eecc150af7484f7",
+      "hash": "sha256-BB6B1ExPkV8uFN01lQm1TonetPJuaiaTNHqUDZ8XxSg="
     },
     "ipkgJson": {
       "name": "bytestring",
@@ -322,29 +322,6 @@
       "sourcedir": "src",
       "postbuild": "./postbuild.sh",
       "postinstall": "./postinstall.sh"
-    }
-  },
-  "cheerio": {
-    "packName": "cheerio",
-    "ipkgName": "cheerio/cheerio",
-    "src": {
-      "url": "https://github.com/running-grass/idris2-playground",
-      "rev": "0dacfd81b49749d68a5fd905e95c860fdab072ab",
-      "hash": "sha256-VKloJeH7Mc00eZvNOzheYKGIBkfbxHTfQ4iCV6zLlqU="
-    },
-    "ipkgJson": {
-      "name": "cheerio",
-      "depends": [
-        "base",
-        "contrib"
-      ],
-      "version": "0.1.0",
-      "authors": "Leo Liu",
-      "brief": "A cheerio binding for nodejs. provide css selector and attr getter.",
-      "main": "Cheerio",
-      "executable": "cheerio",
-      "opts": "--codegen node",
-      "sourcedir": "src"
     }
   },
   "chem": {
@@ -634,8 +611,8 @@
     "ipkgName": "cyby-draw",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "e89f3bdf710232d9f9dd94ab7190c6f39b4d8bbc",
-      "hash": "sha256-O2z8u0Q8doBvRos+RRPmUqslVMU9u0dKgI76aqRink8="
+      "rev": "c1a031abe09bcd436be330990b39c303203f8f31",
+      "hash": "sha256-7qQTgjtkWdntdsamZOODqNBnZItT1A8R0WTlsvwqoQw="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -725,8 +702,8 @@
     "ipkgName": "deptycheck",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "77a96e2ca170d9a3912d4e4d08010507cfef3579",
-      "hash": "sha256-LwxHN1AIh44oxLLBRidQribNHEbqmUCHd/syv3o42VY="
+      "rev": "19eb1ef90a10621852fc23466d9a2800a739acb5",
+      "hash": "sha256-N8vYxYYhOqO6TTPMm/TZNia5QpnJCcSgKBMuNAqXIqo="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -742,7 +719,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.250511",
+      "version": "0.0.250524",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -986,8 +963,8 @@
     "ipkgName": "elab-util-extra/elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "77a96e2ca170d9a3912d4e4d08010507cfef3579",
-      "hash": "sha256-LwxHN1AIh44oxLLBRidQribNHEbqmUCHd/syv3o42VY="
+      "rev": "19eb1ef90a10621852fc23466d9a2800a739acb5",
+      "hash": "sha256-N8vYxYYhOqO6TTPMm/TZNia5QpnJCcSgKBMuNAqXIqo="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1223,28 +1200,6 @@
       "authors": "Mathew Polzin",
       "license": "MIT",
       "sourceloc": "https://github.com/mattpolzin/idris-fvect",
-      "sourcedir": "src"
-    }
-  },
-  "game-2048": {
-    "packName": "game-2048",
-    "ipkgName": "game-2048/game-2048",
-    "src": {
-      "url": "https://github.com/running-grass/idris2-playground",
-      "rev": "0dacfd81b49749d68a5fd905e95c860fdab072ab",
-      "hash": "sha256-VKloJeH7Mc00eZvNOzheYKGIBkfbxHTfQ4iCV6zLlqU="
-    },
-    "ipkgJson": {
-      "name": "game-2048",
-      "depends": [
-        "base",
-        "contrib",
-        "matrix"
-      ],
-      "version": "0.1.0",
-      "authors": "grass",
-      "main": "Main",
-      "executable": "game-2048",
       "sourcedir": "src"
     }
   },
@@ -1963,23 +1918,6 @@
       "homepage": "https://github.com/running-grass/idris2-markdown",
       "sourceloc": "https://github.com/running-grass/idris2-markdown",
       "bugtracker": "https://github.com/running-grass/idris2-markdown/issues",
-      "sourcedir": "src"
-    }
-  },
-  "matrix": {
-    "packName": "matrix",
-    "ipkgName": "matrix/matrix",
-    "src": {
-      "url": "https://github.com/running-grass/idris2-playground",
-      "rev": "0dacfd81b49749d68a5fd905e95c860fdab072ab",
-      "hash": "sha256-VKloJeH7Mc00eZvNOzheYKGIBkfbxHTfQ4iCV6zLlqU="
-    },
-    "ipkgJson": {
-      "name": "matrix",
-      "depends": [],
-      "version": "0.1.0",
-      "authors": "grass",
-      "brief": "Matrix operation library.",
       "sourcedir": "src"
     }
   },
@@ -3087,8 +3025,8 @@
     "ipkgName": "api/stellar-api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "51ed2b24816b08edcd15a2c2ca6d70908abe2f5f",
-      "hash": "sha256-F2Y+WUd2AkCXrQlDP9cbiFc/oT8hH9plZWDgYUD1dEE="
+      "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
+      "hash": "sha256-tNuFhLkACdpwTZNrLlEXYkBO2z0JuOdY8wLusLAj6JI="
     },
     "ipkgJson": {
       "name": "stellar-api",
@@ -3107,8 +3045,8 @@
     "ipkgName": "http/stellar-http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "51ed2b24816b08edcd15a2c2ca6d70908abe2f5f",
-      "hash": "sha256-F2Y+WUd2AkCXrQlDP9cbiFc/oT8hH9plZWDgYUD1dEE="
+      "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
+      "hash": "sha256-tNuFhLkACdpwTZNrLlEXYkBO2z0JuOdY8wLusLAj6JI="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -3127,8 +3065,8 @@
     "ipkgName": "sql/stellar-sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "51ed2b24816b08edcd15a2c2ca6d70908abe2f5f",
-      "hash": "sha256-F2Y+WUd2AkCXrQlDP9cbiFc/oT8hH9plZWDgYUD1dEE="
+      "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
+      "hash": "sha256-tNuFhLkACdpwTZNrLlEXYkBO2z0JuOdY8wLusLAj6JI="
     },
     "ipkgJson": {
       "name": "stellar-sql",
