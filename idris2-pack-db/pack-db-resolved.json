@@ -2708,6 +2708,24 @@
       "sourcedir": "src"
     }
   },
+  "records": {
+    "packName": "records",
+    "ipkgName": "records",
+    "src": {
+      "url": "https://github.com/kuribas/idris-records",
+      "rev": "4a5784648d3f8b544e7a375431fa70698e8ed6fc",
+      "hash": "sha256-jW6FY48j/NN9BI6KQ/ZG5ArvMzzQhsQsNLoWKiZBwxw="
+    },
+    "ipkgJson": {
+      "name": "records",
+      "depends": [],
+      "version": "0.0.2",
+      "authors": "Kristof Bastiaensen",
+      "license": "BSD3",
+      "brief": "extensible, specification based records",
+      "sourcedir": "src"
+    }
+  },
   "ref1": {
     "packName": "ref1",
     "ipkgName": "ref1",
