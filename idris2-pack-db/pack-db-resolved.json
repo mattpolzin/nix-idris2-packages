@@ -4,8 +4,8 @@
     "ipkgName": "algdata",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
-      "rev": "f33b6a18183785e8667e0a6dfba8b2c575f56082",
-      "hash": "sha256-N49TC7QbLNHmk1I8mimJwsGDyDivZeGvarCBIazXRdk="
+      "rev": "dffa674d454c30128a46b68338d71fd942111259",
+      "hash": "sha256-I/CCqTm2DLfTZABYvSZKaAcx6W1pYPGc0SLD+IaSwVE="
     },
     "ipkgJson": {
       "name": "algdata",
@@ -2186,6 +2186,94 @@
       "sourcedir": "src"
     }
   },
+  "pact-api": {
+    "packName": "pact-api",
+    "ipkgName": "api/pact-api",
+    "src": {
+      "url": "https://github.com/running-grass/idris2-pact",
+      "rev": "87520a78766a0d977b1cd10857d21039bb988eb0",
+      "hash": "sha256-L4WgggvnS7OTCjNlfHXgbqu3ogAXhygFGx4BptilIiY="
+    },
+    "ipkgJson": {
+      "name": "pact-api",
+      "depends": [
+        "json",
+        "pact-wai",
+        "apache-mime-types"
+      ],
+      "version": "0.1.0",
+      "authors": "running-grass",
+      "brief": "A Type-safe REST API framework inspired by Servant",
+      "sourcedir": "src"
+    }
+  },
+  "pact-server": {
+    "packName": "pact-server",
+    "ipkgName": "server/pact-server",
+    "src": {
+      "url": "https://github.com/running-grass/idris2-pact",
+      "rev": "87520a78766a0d977b1cd10857d21039bb988eb0",
+      "hash": "sha256-L4WgggvnS7OTCjNlfHXgbqu3ogAXhygFGx4BptilIiY="
+    },
+    "ipkgJson": {
+      "name": "pact-server",
+      "depends": [
+        "pact-wai",
+        "pact-api"
+      ],
+      "version": "0.1.0",
+      "authors": "running-grass",
+      "brief": "HTTP Server for Pact API",
+      "sourcedir": "src"
+    }
+  },
+  "pact-todomvc": {
+    "packName": "pact-todomvc",
+    "ipkgName": "todomvc/pact-todomvc",
+    "src": {
+      "url": "https://github.com/running-grass/idris2-pact",
+      "rev": "87520a78766a0d977b1cd10857d21039bb988eb0",
+      "hash": "sha256-L4WgggvnS7OTCjNlfHXgbqu3ogAXhygFGx4BptilIiY="
+    },
+    "ipkgJson": {
+      "name": "pact-todomvc",
+      "depends": [
+        "streams-posix",
+        "async-epoll",
+        "json",
+        "pact-api",
+        "pact-wai",
+        "pact-server"
+      ],
+      "version": "0.1.0",
+      "authors": "running-grass",
+      "brief": "A TodoMVC Example built with Pact API",
+      "main": "TodoMVC.Main",
+      "executable": "pact-todomvc",
+      "sourcedir": "src"
+    }
+  },
+  "pact-wai": {
+    "packName": "pact-wai",
+    "ipkgName": "wai/pact-wai",
+    "src": {
+      "url": "https://github.com/running-grass/idris2-pact",
+      "rev": "87520a78766a0d977b1cd10857d21039bb988eb0",
+      "hash": "sha256-L4WgggvnS7OTCjNlfHXgbqu3ogAXhygFGx4BptilIiY="
+    },
+    "ipkgJson": {
+      "name": "pact-wai",
+      "depends": [
+        "streams-posix",
+        "async-epoll",
+        "json"
+      ],
+      "version": "0.1.0",
+      "authors": "running-grass",
+      "brief": "Web Application Interface for Pact API",
+      "sourcedir": "src"
+    }
+  },
   "park_bench": {
     "packName": "park_bench",
     "ipkgName": "park_bench",
@@ -2607,8 +2695,8 @@
     "ipkgName": "quantifiers-extra",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-quantifiers-extra",
-      "rev": "cd788c0810a0ed35a99bb23268a1fe803ffb57c5",
-      "hash": "sha256-ub2Rn3wRngjHv6QL8HlWvzFL+r0gAddGn7E5SfOTIvo="
+      "rev": "5e368c5dcc7724e19b1e9eb3baf8e206cf79d2a1",
+      "hash": "sha256-nqHQXS4wJQKB5VIGjkiAN4QaVUcGGeWOW6NpF0oUluo="
     },
     "ipkgJson": {
       "name": "quantifiers-extra",
