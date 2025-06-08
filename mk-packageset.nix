@@ -30,8 +30,9 @@ let
           })
         else
           p.library { inherit withSource; };
-      idrisPackageAttrs = {
+      idrisPackageAttrs = rec {
         inherit (attrs) ipkgName;
+        sourceRoot = lib.optionalString (attrs.ipkgDir != "") "${src.name}/${attrs.ipkgDir}";
         version = attrs.ipkgJson.version or "unversioned";
         src = fetchgit (attrs.src // { fetchSubmodules = false; });
         idrisLibraries = map (

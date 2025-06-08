@@ -43,15 +43,6 @@
     meta.platforms = lib.platforms.linux;
   };
 
-  cheerio = {
-    preInstall = ''
-      mv ./cheerio/build ./
-    '';
-    # would need to figure out pnpm dependencies to fix.
-    # for now, it will build ok but cannot be executed.
-    meta.broken = true;
-  };
-
   cptr = {
     preBuild = ''
       patchShebangs --build gencode.sh
@@ -72,12 +63,6 @@
 
   epoll = {
     meta.platforms = lib.platforms.linux;
-  };
-
-  game-2048 = {
-    preInstall = ''
-      mv ./game-2048/build ./
-    '';
   };
 
   idris2-go = {
@@ -121,12 +106,11 @@
 
   linux = {
     preBuild = ''
-      patchShebangs --build linux/gencode.sh
+      patchShebangs --build gencode.sh
     '';
 
     preInstall = ''
-      make -C linux/support install
-      mv ./linux/lib ./lib
+      make -C support install
     '';
 
     meta.platforms = lib.platforms.linux;
@@ -168,12 +152,11 @@
 
   posix = {
     preBuild = ''
-      patchShebangs --build posix/gencode.sh
+      patchShebangs --build gencode.sh
     '';
 
     preInstall = ''
-      make -C posix/support install
-      mv ./posix/lib ./lib
+      make -C support install
     '';
   };
 
@@ -208,12 +191,6 @@
     ];
   };
 
-  tyttp-adapter-node = {
-    preInstall = ''
-      mv ./adapter-node/build ./
-    '';
-  };
-
   uv = {
     buildInputs = [
       libuv.dev
@@ -223,8 +200,8 @@
   uv-data = {
 
     preBuild = ''
-      patchShebangs --build data/gencode.sh
-      patchShebangs --build data/cleanup.sh
+      patchShebangs --build gencode.sh
+      patchShebangs --build cleanup.sh
     '';
 
     buildInputs = [

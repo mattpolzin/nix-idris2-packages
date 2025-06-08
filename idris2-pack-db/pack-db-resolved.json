@@ -2,6 +2,7 @@
   "algdata": {
     "packName": "algdata",
     "ipkgName": "algdata",
+    "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
       "rev": "dffa674d454c30128a46b68338d71fd942111259",
@@ -19,6 +20,7 @@
   "algebra": {
     "packName": "algebra",
     "ipkgName": "algebra",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-algebra",
       "rev": "829f44b7fd961e3f0a7ad9174b395f97ebc33336",
@@ -40,6 +42,7 @@
   "ansi": {
     "packName": "ansi",
     "ipkgName": "ansi",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-ansi",
       "rev": "c099ebb827607e89e0e43034f03e8808e0078c47",
@@ -61,6 +64,7 @@
   "apache-mime-types": {
     "packName": "apache-mime-types",
     "ipkgName": "apache-mime-types",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kbertalan/idris2-apache-mime-types",
       "rev": "6c6ff58b6dd9446bf2f4ad7ca7a4e741d367a164",
@@ -78,6 +82,7 @@
   "array": {
     "packName": "array",
     "ipkgName": "array",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
       "rev": "2851c873fc3033d6861b7a5b46f1450bb3e227bc",
@@ -99,6 +104,7 @@
   "async": {
     "packName": "async",
     "ipkgName": "async",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
       "rev": "cb6ab74d88e1922cdc9a4058bd206650dbc2a1d6",
@@ -121,7 +127,8 @@
   },
   "async-epoll": {
     "packName": "async-epoll",
-    "ipkgName": "async-epoll/async-epoll",
+    "ipkgName": "async-epoll",
+    "ipkgDir": "async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
       "rev": "cb6ab74d88e1922cdc9a4058bd206650dbc2a1d6",
@@ -141,7 +148,8 @@
   },
   "async-posix": {
     "packName": "async-posix",
-    "ipkgName": "async-posix/async-posix",
+    "ipkgName": "async-posix",
+    "ipkgDir": "async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
       "rev": "cb6ab74d88e1922cdc9a4058bd206650dbc2a1d6",
@@ -162,6 +170,7 @@
   "barbies": {
     "packName": "barbies",
     "ipkgName": "barbies",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-barbies",
       "rev": "6658c097288bb22c01cead6713f57c03a2ba47a1",
@@ -183,6 +192,7 @@
   "base64": {
     "packName": "base64",
     "ipkgName": "base64",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/base64",
       "rev": "64bcfdf2371d49cefb4040439fc1383fbf7b6680",
@@ -207,6 +217,7 @@
   "best-alternative": {
     "packName": "best-alternative",
     "ipkgName": "best-alternative",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-best-alternative",
       "rev": "c90c3f054ca5999aad29c1524f09547b66f01db1",
@@ -225,6 +236,7 @@
   "bounded-doubles": {
     "packName": "bounded-doubles",
     "ipkgName": "bounded-doubles",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-bounded-doubles",
       "rev": "078934f6ba4bf69284c9cbc365840e645e71f22d",
@@ -244,6 +256,7 @@
   "bounded-doubles-hedgehog-generators": {
     "packName": "bounded-doubles-hedgehog-generators",
     "ipkgName": "hedgehog-generators",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-bounded-doubles",
       "rev": "078934f6ba4bf69284c9cbc365840e645e71f22d",
@@ -266,6 +279,7 @@
   "buf-conn": {
     "packName": "buf-conn",
     "ipkgName": "buf-conn",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/buf-conn",
       "rev": "7fca8ab3e57bd8c743ad0682c5b7c5206845b067",
@@ -286,6 +300,7 @@
   "bytestring": {
     "packName": "bytestring",
     "ipkgName": "bytestring",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
       "rev": "71b399fcb480869f85e76b725eecc150af7484f7",
@@ -308,6 +323,7 @@
   "c-ffi": {
     "packName": "c-ffi",
     "ipkgName": "c-ffi",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/joelberkeley/c-ffi",
       "rev": "6c54ca867a124b3fa291b2ac3acdf54cd0f30110",
@@ -327,6 +343,7 @@
   "chem": {
     "packName": "chem",
     "ipkgName": "chem",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
       "rev": "c7742ed55b8d67a0fb7c2246a6663a1062fbf334",
@@ -351,7 +368,8 @@
   },
   "chem-generators": {
     "packName": "chem-generators",
-    "ipkgName": "chem-generators/chem-generators",
+    "ipkgName": "chem-generators",
+    "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
       "rev": "c7742ed55b8d67a0fb7c2246a6663a1062fbf334",
@@ -373,6 +391,7 @@
   "collection-utils": {
     "packName": "collection-utils",
     "ipkgName": "collection-utils",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-collection-utils",
       "rev": "33e2433c5cfc420a6852ecc740b8f5c5807fafa4",
@@ -395,6 +414,7 @@
   "collie": {
     "packName": "collie",
     "ipkgName": "collie",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/ohad/collie",
       "rev": "a35498d8d5d24ae677458aa0b54afeea0c8b7198",
@@ -412,6 +432,7 @@
   "comonad": {
     "packName": "comonad",
     "ipkgName": "comonad",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-comonad",
       "rev": "154292a389edd7496bd4f41465bcba6844cede52",
@@ -431,6 +452,7 @@
   "cont": {
     "packName": "cont",
     "ipkgName": "cont",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/cont",
       "rev": "4b82cfbbd3f94fc6c6fefd645c064976b960eb27",
@@ -451,6 +473,7 @@
   "containers": {
     "packName": "containers",
     "ipkgName": "containers",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
       "rev": "b16ed61dee64374cce9181cf563f62ae3813d242",
@@ -473,6 +496,7 @@
   "continuation-monad": {
     "packName": "continuation-monad",
     "ipkgName": "continuation-monad",
+    "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/continuation-monad",
       "rev": "b10412f6081a5ab765d2f0fbf573feca7a318c45",
@@ -488,7 +512,8 @@
   },
   "control-flow": {
     "packName": "control-flow",
-    "ipkgName": "control-flow/control-flow",
+    "ipkgName": "control-flow",
+    "ipkgDir": "control-flow",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-compiler-tools",
       "rev": "e323d4707231ea0fb57b6b4015a35a6440cdc42a",
@@ -509,6 +534,7 @@
   "control-spec": {
     "packName": "control-spec",
     "ipkgName": "control-spec",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/dannypsnl/control-spec",
       "rev": "1aa5c4b00d2409fabd9ac716a2f9afd570fa6968",
@@ -533,6 +559,7 @@
   "coop": {
     "packName": "coop",
     "ipkgName": "coop",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-coop",
       "rev": "96e845c82045e01092a85a920c96f0386f5e6b4d",
@@ -555,6 +582,7 @@
   "cozippable": {
     "packName": "cozippable",
     "ipkgName": "cozippable",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-cozippable",
       "rev": "157960afd73f8f30a9521f936945991dd8369a35",
@@ -573,6 +601,7 @@
   "cptr": {
     "packName": "cptr",
     "ipkgName": "cptr",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
       "rev": "18e6bd3d97228b231f9de47e9e9dc0793aa4f8ca",
@@ -596,6 +625,7 @@
   "crypt": {
     "packName": "crypt",
     "ipkgName": "crypt",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-crypt",
       "rev": "15866ef4869d29873fa734a2732805ca415aad3e",
@@ -625,6 +655,7 @@
   "cyby-draw": {
     "packName": "cyby-draw",
     "ipkgName": "cyby-draw",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
       "rev": "b7e469eda10ad5e64035d38eda2bd35944d0545f",
@@ -649,6 +680,7 @@
   "decord": {
     "packName": "decord",
     "ipkgName": "decord",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/jcranch/idris-decord",
       "rev": "5ccae2e639f13598bdd9a34b16c72d51bcaa4350",
@@ -668,6 +700,7 @@
   "dependent-map": {
     "packName": "dependent-map",
     "ipkgName": "dependent-map",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dependent-map",
       "rev": "19718e6df489aeb42d5084da01013eed9acd7ffc",
@@ -696,6 +729,7 @@
   "dependent-vect": {
     "packName": "dependent-vect",
     "ipkgName": "dependent-vect",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-dependent-vect",
       "rev": "bd955c80acb46f9ed92101d7bd6c9090d2d7041d",
@@ -716,6 +750,7 @@
   "deptycheck": {
     "packName": "deptycheck",
     "ipkgName": "deptycheck",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
       "rev": "19eb1ef90a10621852fc23466d9a2800a739acb5",
@@ -746,6 +781,7 @@
   "dinwiddy": {
     "packName": "dinwiddy",
     "ipkgName": "dinwiddy",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/bobbbay/dinwiddy",
       "rev": "61a81c55e48e4b7b551fb7493d623cb7659a37ce",
@@ -762,6 +798,7 @@
   "distribution": {
     "packName": "distribution",
     "ipkgName": "distribution",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-bayes/distribution",
       "rev": "bced45ab5367184c8a4d88ce695c9a4714c34c98",
@@ -782,6 +819,7 @@
   "dom": {
     "packName": "dom",
     "ipkgName": "dom",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom",
       "rev": "67d0047557fa41a654d14b2f9d5f2f1353e07458",
@@ -803,6 +841,7 @@
   "dom-mvc": {
     "packName": "dom-mvc",
     "ipkgName": "dom-mvc",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom-mvc",
       "rev": "aa13b5cb074b9f1537cc55cac365cf1f5d76c8b3",
@@ -826,7 +865,8 @@
   },
   "dom-mvc-extra": {
     "packName": "dom-mvc-extra",
-    "ipkgName": "extra/dom-mvc-extra",
+    "ipkgName": "dom-mvc-extra",
+    "ipkgDir": "extra",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom-mvc",
       "rev": "aa13b5cb074b9f1537cc55cac365cf1f5d76c8b3",
@@ -849,6 +889,7 @@
   "dot-gv": {
     "packName": "dot-gv",
     "ipkgName": "dot-parse",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/CodingCellist/idris2-dot-parse",
       "rev": "369fe32ed8d716cee6a07969b7b31e6d2cf046ae",
@@ -873,6 +914,7 @@
   "dtypes": {
     "packName": "dtypes",
     "ipkgName": "dtypes",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-dtypes",
       "rev": "028eb21c8f157037b2fa75e3f911cb33471e2774",
@@ -891,6 +933,7 @@
   "eff": {
     "packName": "eff",
     "ipkgName": "eff",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-eff",
       "rev": "69f02c0209c2d92215557b73df76507933588a91",
@@ -915,6 +958,7 @@
   "effect": {
     "packName": "effect",
     "ipkgName": "effect",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Russoul/Idris2-Effect",
       "rev": "b76dce14b79a5f743243a294c3474c6f113f8e3a",
@@ -934,6 +978,7 @@
   "elab-pretty": {
     "packName": "elab-pretty",
     "ipkgName": "elab-pretty",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elab-util",
       "rev": "ffbfe4f50900f45722035a16e6285f580047e846",
@@ -956,6 +1001,7 @@
   "elab-util": {
     "packName": "elab-util",
     "ipkgName": "elab-util",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elab-util",
       "rev": "ffbfe4f50900f45722035a16e6285f580047e846",
@@ -976,7 +1022,8 @@
   },
   "elab-util-extra": {
     "packName": "elab-util-extra",
-    "ipkgName": "elab-util-extra/elab-util-extra",
+    "ipkgName": "elab-util-extra",
+    "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
       "rev": "19eb1ef90a10621852fc23466d9a2800a739acb5",
@@ -1001,6 +1048,7 @@
   "elin": {
     "packName": "elin",
     "ipkgName": "elin",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elin",
       "rev": "7c8572b9a10c2885c2842a0d26006a1cc6891a8c",
@@ -1022,6 +1070,7 @@
   "epoll": {
     "packName": "epoll",
     "ipkgName": "epoll",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-epoll",
       "rev": "d136549ddf1aa1d8aa8e3c18907c11db85c88781",
@@ -1054,6 +1103,7 @@
   "extrafun": {
     "packName": "extrafun",
     "ipkgName": "extrafun",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/jcranch/extrafun",
       "rev": "86cca4e39180fce2497880fcefe6943ec2396670",
@@ -1075,6 +1125,7 @@
   "filepath": {
     "packName": "filepath",
     "ipkgName": "filepath",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-filepath",
       "rev": "0441eaee9ff1d921fc3f4619c2a8d542588c0e99",
@@ -1102,6 +1153,7 @@
   "fin-lizzie": {
     "packName": "fin-lizzie",
     "ipkgName": "fin-lizzie",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
       "rev": "1a6e59b988f1f4cdbb1ff49a1395057089dc2c97",
@@ -1120,6 +1172,7 @@
   "finite": {
     "packName": "finite",
     "ipkgName": "finite",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-finite",
       "rev": "5d9a9de5466030f3ffc5a0c2ad4ef647bc882a30",
@@ -1140,6 +1193,7 @@
   "fix-whitespace": {
     "packName": "fix-whitespace",
     "ipkgName": "fix-whitespace",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris-fix-whitespace",
       "rev": "ec8d82a88cc12a787e0c81b9ce4d85d90f6291ee",
@@ -1165,6 +1219,7 @@
   "free": {
     "packName": "free",
     "ipkgName": "free",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-bayes/free",
       "rev": "809e1450094eab85a64f926967f8b056402291d6",
@@ -1182,6 +1237,7 @@
   "freer": {
     "packName": "freer",
     "ipkgName": "freer",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-freer",
       "rev": "180e2066f8c20b4f2197ae46fdb5c09a4fcb9ed2",
@@ -1204,6 +1260,7 @@
   "fvect": {
     "packName": "fvect",
     "ipkgName": "fvect",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/idris-fvect",
       "rev": "005f989a75bf25c383d4b5fb956c84f08d98f74a",
@@ -1222,6 +1279,7 @@
   "getopts": {
     "packName": "getopts",
     "ipkgName": "getopts",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-getopts",
       "rev": "0d41b98f83f3707deb0ffbc595ef36b7d9cb9eab",
@@ -1243,6 +1301,7 @@
   "golden-runner-helper": {
     "packName": "golden-runner-helper",
     "ipkgName": "golden-runner-helper",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-golden-runner-helper",
       "rev": "7178ee86f2dde575e2c2bfb2ed4a69a1724eefa2",
@@ -1264,6 +1323,7 @@
   "graph": {
     "packName": "graph",
     "ipkgName": "graph",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-graph",
       "rev": "e3fea89ac3e2edc371966f5540deac690f85e31a",
@@ -1286,6 +1346,7 @@
   "hash": {
     "packName": "hash",
     "ipkgName": "hash",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/hash",
       "rev": "8e2ea1bcba720a47fca30fb81c896f7464633149",
@@ -1306,6 +1367,7 @@
   "hashable": {
     "packName": "hashable",
     "ipkgName": "hashable",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/Idris2-hashable",
       "rev": "0eb2bf20f677302209b8cd9d1bae426915baf5ef",
@@ -1323,6 +1385,7 @@
   "hashmap": {
     "packName": "hashmap",
     "ipkgName": "hashmap",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/idris2-hashmap",
       "rev": "5c3e42ce1a85b04dca1105c2513299404c8427e3",
@@ -1340,6 +1403,7 @@
   "hedgehog": {
     "packName": "hedgehog",
     "ipkgName": "hedgehog",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-hedgehog",
       "rev": "3dd9beb4e6c569ec21fac034991ef8dd49971d5e",
@@ -1368,6 +1432,7 @@
   "hmac": {
     "packName": "hmac",
     "ipkgName": "hmac",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/hmac",
       "rev": "5c754a914294b389a8cec2b5da4d7602bcc7b3b4",
@@ -1389,6 +1454,7 @@
   "http": {
     "packName": "http",
     "ipkgName": "http",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-http",
       "rev": "0ff06cf2c831cc9283d2e539978fedf599df2b17",
@@ -1417,6 +1483,7 @@
   "http2": {
     "packName": "http2",
     "ipkgName": "http2",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/http2",
       "rev": "ce3e72a7843c6c42b7b30d62699b675001fa1e6c",
@@ -1443,6 +1510,7 @@
   "i-hate-parens": {
     "packName": "i-hate-parens",
     "ipkgName": "i-hate-parens",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-i-hate-parens",
       "rev": "c1ef924566319a9fec0ed8033c78f4b76798446b",
@@ -1463,6 +1531,7 @@
   "idrall": {
     "packName": "idrall",
     "ipkgName": "idrall",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/alexhumphreys/idrall",
       "rev": "86d84e44f7e2d07e597ca10b7d0a3451992b5605",
@@ -1481,6 +1550,7 @@
   "idris2-go": {
     "packName": "idris2-go",
     "ipkgName": "idris2-go",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kbertalan/idris2-go",
       "rev": "070087e7f216bd651df6f4491f71a6d812631dd7",
@@ -1503,6 +1573,7 @@
   "idris2-go-lib": {
     "packName": "idris2-go-lib",
     "ipkgName": "idris2-go-lib",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kbertalan/idris2-go",
       "rev": "070087e7f216bd651df6f4491f71a6d812631dd7",
@@ -1519,6 +1590,7 @@
   "idris2-lsp": {
     "packName": "idris2-lsp",
     "ipkgName": "idris2-lsp",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
       "rev": "2736cd1a80779b7b90abd229f58d40e5ed23b530",
@@ -1548,6 +1620,7 @@
   "idrisGL": {
     "packName": "idrisGL",
     "ipkgName": "idrisGL",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/ECburx/Idris2GL",
       "rev": "44da0855bc8b2cfdf796ba9557e8c500395a8c41",
@@ -1569,6 +1642,7 @@
   "if-unsolved-implicit": {
     "packName": "if-unsolved-implicit",
     "ipkgName": "if-unsolved-implicit",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-if-unsolved-implicit",
       "rev": "ee673701d62dcc18132e9bb6b1525dabf7b71139",
@@ -1588,6 +1662,7 @@
   "ilex": {
     "packName": "ilex",
     "ipkgName": "ilex",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
       "rev": "5809bbffed001c9b45b56a74471f00c6a75b4267",
@@ -1617,6 +1692,7 @@
   "indexed": {
     "packName": "indexed",
     "ipkgName": "indexed",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/idris-indexed",
       "rev": "c99707f1db2efa2e97c465b16b525cb79b28f349",
@@ -1638,6 +1714,7 @@
   "indexed-graph": {
     "packName": "indexed-graph",
     "ipkgName": "indexed-graph",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
       "rev": "1be09c4c943e859b7435d4d3a9d989fdf7e73d05",
@@ -1660,7 +1737,8 @@
   },
   "js": {
     "packName": "js",
-    "ipkgName": "js/js",
+    "ipkgName": "js",
+    "ipkgDir": "js",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom",
       "rev": "67d0047557fa41a654d14b2f9d5f2f1353e07458",
@@ -1682,6 +1760,7 @@
   "json": {
     "packName": "json",
     "ipkgName": "json",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
       "rev": "6fc9c0dc083ebf9b3caab5b179f50a5c8f1b4166",
@@ -1703,7 +1782,8 @@
   },
   "json-simple": {
     "packName": "json-simple",
-    "ipkgName": "simple/json-simple",
+    "ipkgName": "json-simple",
+    "ipkgDir": "simple",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
       "rev": "6fc9c0dc083ebf9b3caab5b179f50a5c8f1b4166",
@@ -1725,6 +1805,7 @@
   "just-a-monad": {
     "packName": "just-a-monad",
     "ipkgName": "just-a-monad",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Russoul/Just-a-Monad",
       "rev": "4a69d28651c6edefd30d313d6defd5914cb44931",
@@ -1749,6 +1830,7 @@
   "katla": {
     "packName": "katla",
     "ipkgName": "katla",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/katla",
       "rev": "b28e5be98819e0516cc799bf57de1d6f56f70034",
@@ -1771,6 +1853,7 @@
   "katla-pandoc": {
     "packName": "katla-pandoc",
     "ipkgName": "katla-pandoc",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/katla",
       "rev": "b28e5be98819e0516cc799bf57de1d6f56f70034",
@@ -1790,6 +1873,7 @@
   "lana": {
     "packName": "lana",
     "ipkgName": "lana",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/lana",
       "rev": "63964db7d4b8d941445d4fd9aa3c453102b3632f",
@@ -1817,6 +1901,7 @@
   "lens": {
     "packName": "lens",
     "ipkgName": "lens",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kiana-S/idris2-lens",
       "rev": "d6bae26222a0b2290bf4146279bdc31bb900d527",
@@ -1844,7 +1929,8 @@
   },
   "linux": {
     "packName": "linux",
-    "ipkgName": "linux/linux",
+    "ipkgName": "linux",
+    "ipkgDir": "linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
       "rev": "fdac24f5cda73a55439527d52774c7765951cbdb",
@@ -1867,6 +1953,7 @@
   "log-domain": {
     "packName": "log-domain",
     "ipkgName": "log-domain",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-bayes/log-domain",
       "rev": "7eb33c36fb411b3e9dc43e0c5ad5d8f2f3dae80e",
@@ -1885,6 +1972,7 @@
   "lsp-lib": {
     "packName": "lsp-lib",
     "ipkgName": "lsp-lib",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/lsp-lib",
       "rev": "8ff3a886c0dc41a9eebea6ec5956349752d29714",
@@ -1909,6 +1997,7 @@
   "markdown": {
     "packName": "markdown",
     "ipkgName": "markdown",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/running-grass/idris2-markdown",
       "rev": "38334267cbbe0ed067320d2e8bec36b08f475f5a",
@@ -1940,6 +2029,7 @@
   "monad-bayes": {
     "packName": "monad-bayes",
     "ipkgName": "monad-bayes",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-bayes/monad-bayes",
       "rev": "6b8d3015a2317ab11e4a9205924d61094f570665",
@@ -1963,6 +2053,7 @@
   "monocle": {
     "packName": "monocle",
     "ipkgName": "monocle",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-monocle",
       "rev": "dd0ac6256ff80c11e112b9e4134669f44b042a51",
@@ -1984,6 +2075,7 @@
   "mtl-tuple-impls": {
     "packName": "mtl-tuple-impls",
     "ipkgName": "mtl-tuple-impls",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-mtl-tuple-impls",
       "rev": "f25d3f8aba26da82be089f8c0e9f1865b31b28e8",
@@ -2003,6 +2095,7 @@
   "multiplate": {
     "packName": "multiplate",
     "ipkgName": "multiplate",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/multiplate-idr",
       "rev": "601d865f1fc74b783879b50d17ffd2a949def902",
@@ -2022,6 +2115,7 @@
   "ncurses-idris": {
     "packName": "ncurses-idris",
     "ipkgName": "ncurses-idris",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/ncurses-idris",
       "rev": "9f1e575d48cb2acb837f9713e003fbb6ddbf8f44",
@@ -2052,6 +2146,7 @@
   "nested": {
     "packName": "nested",
     "ipkgName": "nested",
+    "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/bss03/nested",
       "rev": "31f74ced9067ff04b80fbe22ab5b5f153436f6ea",
@@ -2076,6 +2171,7 @@
   "node": {
     "packName": "node",
     "ipkgName": "node",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kbertalan/idris2-node",
       "rev": "03a7a070d2063122190a580341e6c57017be5554",
@@ -2092,6 +2188,7 @@
   "numidr": {
     "packName": "numidr",
     "ipkgName": "numidr",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kiana-S/numidr",
       "rev": "bd1eee136662ef638628bca9907ae64f1b7538f9",
@@ -2117,6 +2214,7 @@
   "okasaki-pfds": {
     "packName": "okasaki-pfds",
     "ipkgName": "okasaki-pfds",
+    "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/bss03/idris2-okasaki-pfds",
       "rev": "a8dd0b89dc307ef621f35e59216b11aadb128ade",
@@ -2139,6 +2237,7 @@
   "pack": {
     "packName": "pack",
     "ipkgName": "pack",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
       "rev": "12f5a13977c6682f269e5f03758cea1c8e61ac77",
@@ -2173,6 +2272,7 @@
   "pack-admin": {
     "packName": "pack-admin",
     "ipkgName": "pack-admin",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
       "rev": "12f5a13977c6682f269e5f03758cea1c8e61ac77",
@@ -2204,7 +2304,8 @@
   },
   "pact-api": {
     "packName": "pact-api",
-    "ipkgName": "api/pact-api",
+    "ipkgName": "pact-api",
+    "ipkgDir": "api",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
       "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
@@ -2225,7 +2326,8 @@
   },
   "pact-client": {
     "packName": "pact-client",
-    "ipkgName": "client/pact-client",
+    "ipkgName": "pact-client",
+    "ipkgDir": "client",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
       "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
@@ -2247,7 +2349,8 @@
   },
   "pact-server": {
     "packName": "pact-server",
-    "ipkgName": "server/pact-server",
+    "ipkgName": "pact-server",
+    "ipkgDir": "server",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
       "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
@@ -2267,7 +2370,8 @@
   },
   "pact-todomvc": {
     "packName": "pact-todomvc",
-    "ipkgName": "todomvc/pact-todomvc",
+    "ipkgName": "pact-todomvc",
+    "ipkgDir": "todomvc",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
       "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
@@ -2294,7 +2398,8 @@
   },
   "pact-wai": {
     "packName": "pact-wai",
-    "ipkgName": "wai/pact-wai",
+    "ipkgName": "pact-wai",
+    "ipkgDir": "wai",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
       "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
@@ -2316,6 +2421,7 @@
   "park_bench": {
     "packName": "park_bench",
     "ipkgName": "park_bench",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/park_bench",
       "rev": "c9a212e4873cc533dee361e1614189c95a56c873",
@@ -2332,6 +2438,7 @@
   "parser": {
     "packName": "parser",
     "ipkgName": "parser",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-parser",
       "rev": "dd950e671f06bd936e48c95d33117ee042d35134",
@@ -2350,7 +2457,8 @@
   },
   "parser-json": {
     "packName": "parser-json",
-    "ipkgName": "json/parser-json",
+    "ipkgName": "parser-json",
+    "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-parser",
       "rev": "dd950e671f06bd936e48c95d33117ee042d35134",
@@ -2369,7 +2477,8 @@
   },
   "parser-show": {
     "packName": "parser-show",
-    "ipkgName": "show/parser-show",
+    "ipkgName": "parser-show",
+    "ipkgDir": "show",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-parser",
       "rev": "dd950e671f06bd936e48c95d33117ee042d35134",
@@ -2389,7 +2498,8 @@
   },
   "parser-toml": {
     "packName": "parser-toml",
-    "ipkgName": "toml/parser-toml",
+    "ipkgName": "parser-toml",
+    "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-parser",
       "rev": "dd950e671f06bd936e48c95d33117ee042d35134",
@@ -2409,7 +2519,8 @@
   },
   "parser-tsv": {
     "packName": "parser-tsv",
-    "ipkgName": "tsv/parser-tsv",
+    "ipkgName": "parser-tsv",
+    "ipkgDir": "tsv",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-parser",
       "rev": "dd950e671f06bd936e48c95d33117ee042d35134",
@@ -2429,7 +2540,8 @@
   },
   "parser-webidl": {
     "packName": "parser-webidl",
-    "ipkgName": "webidl/parser-webidl",
+    "ipkgName": "parser-webidl",
+    "ipkgDir": "webidl",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-parser",
       "rev": "dd950e671f06bd936e48c95d33117ee042d35134",
@@ -2451,6 +2563,7 @@
   "pg": {
     "packName": "pg",
     "ipkgName": "pg",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/pg",
       "rev": "344fd9240b24b1e18cc4c619ebf07152f316ee95",
@@ -2478,6 +2591,7 @@
   "pg-idris": {
     "packName": "pg-idris",
     "ipkgName": "pg-idris",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/pg-idris",
       "rev": "3f0e40ffa3da3a751cea9b2f0962446308f0c918",
@@ -2508,6 +2622,7 @@
   "pg-types": {
     "packName": "pg-types",
     "ipkgName": "pg-types",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/pg-types",
       "rev": "c1485829928f18d2b652b565db9cc384da087513",
@@ -2527,6 +2642,7 @@
   "pipelines": {
     "packName": "pipelines",
     "ipkgName": "pipelines",
+    "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/glaive-research/pipelines.git",
       "rev": "a931a12b0fc3656ad279368deb4428cb2b38c144",
@@ -2545,6 +2661,7 @@
   "positive-nat": {
     "packName": "positive-nat",
     "ipkgName": "positive-nat",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-positive-nat",
       "rev": "6f0858bc2158059231110babd02fa40b6ea3ff21",
@@ -2564,7 +2681,8 @@
   },
   "posix": {
     "packName": "posix",
-    "ipkgName": "posix/posix",
+    "ipkgName": "posix",
+    "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
       "rev": "fdac24f5cda73a55439527d52774c7765951cbdb",
@@ -2591,6 +2709,7 @@
   "prettier": {
     "packName": "prettier",
     "ipkgName": "prettier",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/prettier",
       "rev": "666b4e6ba397e332deb4076d56ce745c8fb542a0",
@@ -2604,7 +2723,8 @@
   },
   "prettier-ansi": {
     "packName": "prettier-ansi",
-    "ipkgName": "prettier/prettier-ansi",
+    "ipkgName": "prettier-ansi",
+    "ipkgDir": "prettier",
     "src": {
       "url": "https://github.com/idris-community/idris2-ansi",
       "rev": "c099ebb827607e89e0e43034f03e8808e0078c47",
@@ -2627,6 +2747,7 @@
   "pretty-show": {
     "packName": "pretty-show",
     "ipkgName": "pretty-show",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pretty-show",
       "rev": "a739e838047327dd75b98715f65a755961f79dd8",
@@ -2648,6 +2769,7 @@
   "prim": {
     "packName": "prim",
     "ipkgName": "prim",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-prim",
       "rev": "a875bbe1f11638946383b80eaf27bc471e56e341",
@@ -2669,6 +2791,7 @@
   "profiler": {
     "packName": "profiler",
     "ipkgName": "profiler",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-profiler",
       "rev": "2f7982cb061e9b8807fc5dba90a462b97d5d3ad6",
@@ -2691,6 +2814,7 @@
   "profunctors": {
     "packName": "profunctors",
     "ipkgName": "profunctors",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kiana-S/idris2-profunctors",
       "rev": "e862ef887f9dcdf90eacb1ca1c0a997d7a251135",
@@ -2715,6 +2839,7 @@
   "promise": {
     "packName": "promise",
     "ipkgName": "promise",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kbertalan/idris2-promise",
       "rev": "0b1716525ee10ed3a4f0d7132107c83e88f8eb99",
@@ -2732,6 +2857,7 @@
   "quantifiers-extra": {
     "packName": "quantifiers-extra",
     "ipkgName": "quantifiers-extra",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-quantifiers-extra",
       "rev": "5e368c5dcc7724e19b1e9eb3baf8e206cf79d2a1",
@@ -2753,6 +2879,7 @@
   "qutescript": {
     "packName": "qutescript",
     "ipkgName": "qutescript",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-qutescript",
       "rev": "0c52c5edaddd6fca7006c3cc50df5ccca330f134",
@@ -2775,6 +2902,7 @@
   "racket-tcp": {
     "packName": "racket-tcp",
     "ipkgName": "racket-tcp",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/racket-tcp",
       "rev": "1fb135821a0fad9770393473e1dc4dee0d26e1e5",
@@ -2797,6 +2925,7 @@
   "random-pure": {
     "packName": "random-pure",
     "ipkgName": "random-pure",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-random-pure",
       "rev": "e5aad147d41ccea7fd5265d61160ff7a48ffba10",
@@ -2819,6 +2948,7 @@
   "ratio": {
     "packName": "ratio",
     "ipkgName": "ratio",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kiana-S/idris2-ratio",
       "rev": "1bdfde80d70c1dc63df186e32f7c86ba6545dff2",
@@ -2838,6 +2968,7 @@
   "records": {
     "packName": "records",
     "ipkgName": "records",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kuribas/idris-records",
       "rev": "4a5784648d3f8b544e7a375431fa70698e8ed6fc",
@@ -2856,6 +2987,7 @@
   "ref1": {
     "packName": "ref1",
     "ipkgName": "ref1",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
       "rev": "0780eca4faa0523366fb8e2900d4cde1a739ce1c",
@@ -2876,6 +3008,7 @@
   "refined": {
     "packName": "refined",
     "ipkgName": "refined",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-refined",
       "rev": "c585013c33ad5398c91beed71fec61a5b721a8da",
@@ -2896,7 +3029,8 @@
   },
   "refined-json": {
     "packName": "refined-json",
-    "ipkgName": "json/refined-json",
+    "ipkgName": "refined-json",
+    "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-refined",
       "rev": "c585013c33ad5398c91beed71fec61a5b721a8da",
@@ -2917,7 +3051,8 @@
   },
   "refined-tsv": {
     "packName": "refined-tsv",
-    "ipkgName": "tsv/refined-tsv",
+    "ipkgName": "refined-tsv",
+    "ipkgDir": "tsv",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-refined",
       "rev": "c585013c33ad5398c91beed71fec61a5b721a8da",
@@ -2939,6 +3074,7 @@
   "rhone": {
     "packName": "rhone",
     "ipkgName": "rhone",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-rhone",
       "rev": "e652d56901ebfea588dbdc3316df85200f232d57",
@@ -2959,6 +3095,7 @@
   "rhone-js": {
     "packName": "rhone-js",
     "ipkgName": "rhone-js",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-rhone-js",
       "rev": "543fa513206018ab152791e090746f09df551d76",
@@ -2983,6 +3120,7 @@
   "rio": {
     "packName": "rio",
     "ipkgName": "rio",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-rio",
       "rev": "ba17bcbaecedbfe8bccd640c5769f2f85347386f",
@@ -3013,6 +3151,7 @@
   "rtlsdr": {
     "packName": "rtlsdr",
     "ipkgName": "rtlsdr",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/victoredwardocallaghan/idris2-rtlsdr",
       "rev": "5ee5a09b04b89de4d5fb4e347a136ec158558032",
@@ -3033,6 +3172,7 @@
   "scram": {
     "packName": "scram",
     "ipkgName": "scram",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/scram",
       "rev": "06023bed57d62d5ac0c3f991d6229305fa45eea0",
@@ -3057,6 +3197,7 @@
   "sha": {
     "packName": "sha",
     "ipkgName": "sha",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/sha",
       "rev": "54729a52f9462f3155a11961eaca4373691575ff",
@@ -3080,6 +3221,7 @@
   "snocvect": {
     "packName": "snocvect",
     "ipkgName": "snocvect",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/idris-snocvect",
       "rev": "dc2492be7e1d471c9b4d21e30339ea1ad8d24afa",
@@ -3098,6 +3240,7 @@
   "sop": {
     "packName": "sop",
     "ipkgName": "sop",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sop",
       "rev": "3135f728b44c1ff7cea01e1c5594cd09513c2d81",
@@ -3120,6 +3263,7 @@
   "sqlite3": {
     "packName": "sqlite3",
     "ipkgName": "sqlite3",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
       "rev": "e0600f19921a7636964c842728f6281353827a9f",
@@ -3145,7 +3289,8 @@
   },
   "sqlite3-rio": {
     "packName": "sqlite3-rio",
-    "ipkgName": "sqlite3-rio/sqlite3-rio",
+    "ipkgName": "sqlite3-rio",
+    "ipkgDir": "sqlite3-rio",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
       "rev": "e0600f19921a7636964c842728f6281353827a9f",
@@ -3167,7 +3312,8 @@
   },
   "stellar-api": {
     "packName": "stellar-api",
-    "ipkgName": "api/stellar-api",
+    "ipkgName": "stellar-api",
+    "ipkgDir": "api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
       "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
@@ -3187,7 +3333,8 @@
   },
   "stellar-http": {
     "packName": "stellar-http",
-    "ipkgName": "http/stellar-http",
+    "ipkgName": "stellar-http",
+    "ipkgDir": "http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
       "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
@@ -3207,7 +3354,8 @@
   },
   "stellar-sql": {
     "packName": "stellar-sql",
-    "ipkgName": "sql/stellar-sql",
+    "ipkgName": "stellar-sql",
+    "ipkgDir": "sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
       "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
@@ -3231,6 +3379,7 @@
   "streams": {
     "packName": "streams",
     "ipkgName": "streams",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
       "rev": "2f3d66f058b6db51a272f3e19f59c28ad4cd27f8",
@@ -3252,7 +3401,8 @@
   },
   "streams-posix": {
     "packName": "streams-posix",
-    "ipkgName": "posix/streams-posix",
+    "ipkgName": "streams-posix",
+    "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
       "rev": "2f3d66f058b6db51a272f3e19f59c28ad4cd27f8",
@@ -3275,6 +3425,7 @@
   "string-builder": {
     "packName": "string-builder",
     "ipkgName": "string-builder",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/string-builder",
       "rev": "6dfb5e0070274ead1b8fd4e1229b5254da7ddd15",
@@ -3292,6 +3443,7 @@
   "string-search": {
     "packName": "string-search",
     "ipkgName": "string-search",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/string-search",
       "rev": "519de6bcc6a8e9c66941ed7d72bcce3bbdb17045",
@@ -3314,6 +3466,7 @@
   "structures": {
     "packName": "structures",
     "ipkgName": "structures",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~thatonelutenist/Structures",
       "rev": "cd11a19794a139ccb14441c4d522de3d2b201083",
@@ -3337,6 +3490,7 @@
   "summary-stat": {
     "packName": "summary-stat",
     "ipkgName": "summary-stat",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-summary-stat",
       "rev": "041ceabb30deff4eb67eb98256e24173b9b8f111",
@@ -3365,6 +3519,7 @@
   "svg": {
     "packName": "svg",
     "ipkgName": "svg",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-svg",
       "rev": "dc4784fe70f45cc25f9bdd212df0dd6a0e9a67eb",
@@ -3386,6 +3541,7 @@
   "swirl": {
     "packName": "swirl",
     "ipkgName": "swirl",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-swirl",
       "rev": "94b6eb18d9b68cba885090b2866091d97d7b1602",
@@ -3408,6 +3564,7 @@
   "systemd": {
     "packName": "systemd",
     "ipkgName": "idris2-systemd",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-systemd",
       "rev": "c87321c36391d21043faecaf0fa8ff002eac2611",
@@ -3442,6 +3599,7 @@
   "tailrec": {
     "packName": "tailrec",
     "ipkgName": "tailrec",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-tailrec",
       "rev": "2734dfdac3dedafcc0140b5388af760d0729b62f",
@@ -3463,6 +3621,7 @@
   "telescope": {
     "packName": "telescope",
     "ipkgName": "telescope",
+    "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/idris2-telescope.git",
       "rev": "26003bd3b0ff2d63b6c811d6e57228e08e80d0e8",
@@ -3480,6 +3639,7 @@
   "tester": {
     "packName": "tester",
     "ipkgName": "tester",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/cuddlefishie/tester-idr",
       "rev": "3dcdb54ed578a14597a17cb93c926734a9da69ca",
@@ -3497,6 +3657,7 @@
   "theory": {
     "packName": "theory",
     "ipkgName": "theory",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/JankaGramofonomanka/idris-theory",
       "rev": "ff2ec3487bfb70746173cdafda09ee55418a63f0",
@@ -3515,6 +3676,7 @@
   "time-for-sleep": {
     "packName": "time-for-sleep",
     "ipkgName": "time-for-sleep",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-time-for-sleep",
       "rev": "8e50060df0d6ff19d6049b90bd26906a6b4aae5f",
@@ -3534,6 +3696,7 @@
   "timeit": {
     "packName": "timeit",
     "ipkgName": "timeit",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/MarcelineVQ/idris2-timeit",
       "rev": "9566f71e9e7a68e8da4a30b8318f40099dda5c11",
@@ -3558,6 +3721,7 @@
   "tls": {
     "packName": "tls",
     "ipkgName": "tls",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-tls",
       "rev": "29e9ccb1510a8e26c6434712f55daf240a627feb",
@@ -3589,6 +3753,7 @@
   "toml": {
     "packName": "toml",
     "ipkgName": "toml",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/cuddlefishie/toml-idr",
       "rev": "7e5c4f3cc2ff028f665653b43c4c1f9b0a8211e2",
@@ -3606,6 +3771,7 @@
   "typelevel-emptiness-collections": {
     "packName": "typelevel-emptiness-collections",
     "ipkgName": "typelevel-emptiness-collections",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-typelevel-emptiness-collections",
       "rev": "bfb00b9ee20abbeea0254fc93ca51765fb2ec851",
@@ -3627,6 +3793,7 @@
   "tyre": {
     "packName": "tyre",
     "ipkgName": "tyre",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kasiaMarek/TyRE",
       "rev": "5ad08fedd515d42058387a73c513abe996677c39",
@@ -3645,6 +3812,7 @@
   "tyttp": {
     "packName": "tyttp",
     "ipkgName": "tyttp",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
       "rev": "8af0a3d6f37191dd36cc7f30a82af28bbcd82a9e",
@@ -3663,7 +3831,8 @@
   },
   "tyttp-adapter-node": {
     "packName": "tyttp-adapter-node",
-    "ipkgName": "adapter-node/tyttp-adapter-node",
+    "ipkgName": "tyttp-adapter-node",
+    "ipkgDir": "adapter-node",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
       "rev": "8af0a3d6f37191dd36cc7f30a82af28bbcd82a9e",
@@ -3686,7 +3855,8 @@
   },
   "tyttp-json": {
     "packName": "tyttp-json",
-    "ipkgName": "json/tyttp-json",
+    "ipkgName": "tyttp-json",
+    "ipkgDir": "json",
     "src": {
       "url": "https://github.com/kbertalan/tyttp",
       "rev": "8af0a3d6f37191dd36cc7f30a82af28bbcd82a9e",
@@ -3711,6 +3881,7 @@
   "uniplate": {
     "packName": "uniplate",
     "ipkgName": "uniplate",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/uniplate-idr",
       "rev": "caac354759a62a52596b6f77971327e17ff81c0f",
@@ -3729,6 +3900,7 @@
   "url": {
     "packName": "url",
     "ipkgName": "url",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/running-grass/idris2-url",
       "rev": "7198814cb1493691254f548e7bff93052b87dd84",
@@ -3760,6 +3932,7 @@
   "utf8": {
     "packName": "utf8",
     "ipkgName": "utf8",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/utf8",
       "rev": "f3584f3cf7ac09bd566b5cc5301192db272d03c9",
@@ -3781,6 +3954,7 @@
   "uv": {
     "packName": "uv",
     "ipkgName": "uv",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-uv",
       "rev": "b3b16c17d89ad78cf7f3287511689bd4bf333344",
@@ -3806,7 +3980,8 @@
   },
   "uv-data": {
     "packName": "uv-data",
-    "ipkgName": "data/uv-data",
+    "ipkgName": "uv-data",
+    "ipkgDir": "data",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-uv",
       "rev": "b3b16c17d89ad78cf7f3287511689bd4bf333344",
@@ -3829,6 +4004,7 @@
   "weaker-traversals": {
     "packName": "weaker-traversals",
     "ipkgName": "weaker-traversals",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-weaker-traversals",
       "rev": "ad37eecdc705951da22369fbe255174c0423b0b7",
@@ -3847,6 +4023,7 @@
   "web-server-racket": {
     "packName": "web-server-racket",
     "ipkgName": "web-server-racket",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/web-server-racket",
       "rev": "0d67bc5ef7c0ae112d6a61dbd011944cdfb15ccc",
@@ -3872,6 +4049,7 @@
   "web-server-racket-hello-world": {
     "packName": "web-server-racket-hello-world",
     "ipkgName": "web-server-racket-hello-world",
+    "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/web-server-racket-hello-world",
       "rev": "afa3aa1e8b8e7367802731cb5e239ecfeed63aad",
@@ -3897,6 +4075,7 @@
   "webidl": {
     "packName": "webidl",
     "ipkgName": "webidl",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-webidl",
       "rev": "eaf66e8247dac112fd535cb3371a300d5a220fd7",
@@ -3920,6 +4099,7 @@
   "xml": {
     "packName": "xml",
     "ipkgName": "xml",
+    "ipkgDir": "",
     "src": {
       "url": "https://github.com/madman-bob/idris2-xml",
       "rev": "bfb02ff5c195218de7d33ed0ee9e6a26c60c0f0b",
