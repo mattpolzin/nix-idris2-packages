@@ -470,6 +470,22 @@
       "sourcedir": "src"
     }
   },
+  "continuation-monad": {
+    "packName": "continuation-monad",
+    "ipkgName": "continuation-monad",
+    "src": {
+      "url": "https://gitlab.com/avidela/continuation-monad",
+      "rev": "b10412f6081a5ab765d2f0fbf573feca7a318c45",
+      "hash": "sha256-tP/00pxGxmARUv2xC5ZM6Umo0USi/V8DJATyhCIDeAo="
+    },
+    "ipkgJson": {
+      "name": "continuation-monad",
+      "depends": [],
+      "version": "0.0.1",
+      "authors": "Andre Videla",
+      "sourcedir": "src"
+    }
+  },
   "control-flow": {
     "packName": "control-flow",
     "ipkgName": "control-flow/control-flow",
@@ -2191,8 +2207,8 @@
     "ipkgName": "api/pact-api",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
-      "rev": "b0faa90e9b6ed81a58256087c597b378033a09ae",
-      "hash": "sha256-ueI32RFx2/jCkZ24HHMmOhbK3MyYogQMWE+oTp7Am/U="
+      "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
+      "hash": "sha256-NkbLGtY0lAai/NilcXGt65iK82guQI4CYvdprHtKaaY="
     },
     "ipkgJson": {
       "name": "pact-api",
@@ -2207,13 +2223,35 @@
       "sourcedir": "src"
     }
   },
+  "pact-client": {
+    "packName": "pact-client",
+    "ipkgName": "client/pact-client",
+    "src": {
+      "url": "https://github.com/running-grass/idris2-pact",
+      "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
+      "hash": "sha256-NkbLGtY0lAai/NilcXGt65iK82guQI4CYvdprHtKaaY="
+    },
+    "ipkgJson": {
+      "name": "pact-client",
+      "depends": [
+        "pact-api",
+        "http"
+      ],
+      "version": "0.1.0",
+      "authors": "running-grass",
+      "brief": "Client generated for Pact API",
+      "main": "Pact.Client",
+      "executable": "pact-client",
+      "sourcedir": "src"
+    }
+  },
   "pact-server": {
     "packName": "pact-server",
     "ipkgName": "server/pact-server",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
-      "rev": "b0faa90e9b6ed81a58256087c597b378033a09ae",
-      "hash": "sha256-ueI32RFx2/jCkZ24HHMmOhbK3MyYogQMWE+oTp7Am/U="
+      "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
+      "hash": "sha256-NkbLGtY0lAai/NilcXGt65iK82guQI4CYvdprHtKaaY="
     },
     "ipkgJson": {
       "name": "pact-server",
@@ -2232,8 +2270,8 @@
     "ipkgName": "todomvc/pact-todomvc",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
-      "rev": "b0faa90e9b6ed81a58256087c597b378033a09ae",
-      "hash": "sha256-ueI32RFx2/jCkZ24HHMmOhbK3MyYogQMWE+oTp7Am/U="
+      "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
+      "hash": "sha256-NkbLGtY0lAai/NilcXGt65iK82guQI4CYvdprHtKaaY="
     },
     "ipkgJson": {
       "name": "pact-todomvc",
@@ -2243,7 +2281,8 @@
         "json",
         "pact-api",
         "pact-wai",
-        "pact-server"
+        "pact-server",
+        "pact-client"
       ],
       "version": "0.1.0",
       "authors": "running-grass",
@@ -2258,8 +2297,8 @@
     "ipkgName": "wai/pact-wai",
     "src": {
       "url": "https://github.com/running-grass/idris2-pact",
-      "rev": "b0faa90e9b6ed81a58256087c597b378033a09ae",
-      "hash": "sha256-ueI32RFx2/jCkZ24HHMmOhbK3MyYogQMWE+oTp7Am/U="
+      "rev": "a37470d35a9abe73114035ca56bd735422fbbab6",
+      "hash": "sha256-NkbLGtY0lAai/NilcXGt65iK82guQI4CYvdprHtKaaY="
     },
     "ipkgJson": {
       "name": "pact-wai",
@@ -3418,6 +3457,23 @@
       "license": "BSD-3 Clause",
       "brief": "Provably total, stack-safe monadic recursion in Idris2",
       "readme": "README.md",
+      "sourcedir": "src"
+    }
+  },
+  "telescope": {
+    "packName": "telescope",
+    "ipkgName": "telescope",
+    "src": {
+      "url": "https://gitlab.com/avidela/idris2-telescope.git",
+      "rev": "26003bd3b0ff2d63b6c811d6e57228e08e80d0e8",
+      "hash": "sha256-uSPjpftua3VGaoXNv8UoqVTKKCUqC/GfohMH1VF9bYo="
+    },
+    "ipkgJson": {
+      "name": "telescope",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Andre Videla",
+      "opts": "-Werror",
       "sourcedir": "src"
     }
   },
