@@ -16,11 +16,15 @@ let
   packages = lib.filterAttrs (
     n: p: (lib.isDerivation p) && !p.meta.broken && !(depsBroken p) && supportedPlatform p
   ) idris2Packages.packdb;
+
+    packageNames = builtins.attrNames packages;
 in
 pkgs.runCommand "all-packages"
   {
     nativeBuildInputs = lib.attrValues packages;
+
+    passthru = { inherit packages packageNames; };
   }
   ''
-    echo ${toString (builtins.attrNames packages)} > $out
+    echo ${toString packageNames} > $out
   ''
