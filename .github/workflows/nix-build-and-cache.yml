@@ -89,6 +89,8 @@ jobs:
           nix build .#idris2
           nix build .#idris2Api
           nix build .#idris2Lsp
+      - name: Name packages to be built
+        run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --eval -A passthru.packageNames ./build-all.nix
       - name: Build All Packages
         run: NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 nix-build --no-out-link --keep-going ./build-all.nix
       - name: Build Example 1

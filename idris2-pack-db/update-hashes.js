@@ -41,14 +41,18 @@ for (packageName in obj) {
   const tag = 'latest:'
   const commit = package.commit.startsWith(tag) ? package.commit.slice(tag.length) : package.commit
   const ipkgExt = '.ipkg'
-  const ipkgName = package.ipkg.endsWith(ipkgExt) ? package.ipkg.slice(0, -ipkgExt.length) : package.ipkg
+  const ipkgPath = package.ipkg.split("/")
+  const ipkgDir = ipkgPath.slice(0,-1).join("/")
+  const ipkgFilename = ipkgPath.slice(-1).join("/")
+  const ipkgName = ipkgFilename.endsWith(ipkgExt) ? ipkgFilename.slice(0, -ipkgExt.length) : ipkgFilename
   const {hash, path} = prefetch(package.url, commit)
-  const ipkg = execSync(`idris2 --dump-ipkg-json ${path}/${ipkgName}.ipkg`)
+  const ipkg = execSync(`idris2 --dump-ipkg-json ${path}/${ipkgDir}/${ipkgName}.ipkg`)
   const ipkgJson = JSON.parse(ipkg)
   ipkgJson.depends = ipkgJson.depends.flatMap((d) => Object.keys(d))
   out[packageName] = { 
     packName: packageName, 
     ipkgName, 
+    ipkgDir,
     src: { url: package.url, rev: commit, hash },
     ipkgJson
   }
