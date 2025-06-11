@@ -5,8 +5,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
-      "rev": "dffa674d454c30128a46b68338d71fd942111259",
-      "hash": "sha256-I/CCqTm2DLfTZABYvSZKaAcx6W1pYPGc0SLD+IaSwVE="
+      "rev": "8fe9ec5c56ee043046df9a50d4280602ac352b88",
+      "hash": "sha256-b2ofl4FdcUXa2PpiSKtYHsLLDsdq5d1i/j2/TSX6zP0="
     },
     "ipkgJson": {
       "name": "algdata",
@@ -14,6 +14,10 @@
         "base"
       ],
       "version": "0.2",
+      "authors": "Andre Videla",
+      "maintainers": "Andre Videla",
+      "license": "MIT",
+      "brief": "Basic data types as algebraic operators",
       "sourcedir": "src"
     }
   },
@@ -499,14 +503,18 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/continuation-monad",
-      "rev": "b10412f6081a5ab765d2f0fbf573feca7a318c45",
-      "hash": "sha256-tP/00pxGxmARUv2xC5ZM6Umo0USi/V8DJATyhCIDeAo="
+      "rev": "76ad994491b3bb5b890a84fa9b320b64dd5370fd",
+      "hash": "sha256-u44dUVs4juN/UXd7PZe6gVjQGNGaDWz/tMMRxsONANw="
     },
     "ipkgJson": {
       "name": "continuation-monad",
       "depends": [],
       "version": "0.0.1",
       "authors": "Andre Videla",
+      "maintainers": "Andre Videla",
+      "license": "MIT",
+      "brief": "Continuation monad & its transformer",
+      "readme": "README.md",
       "sourcedir": "src"
     }
   },
