@@ -1673,8 +1673,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "5809bbffed001c9b45b56a74471f00c6a75b4267",
-      "hash": "sha256-8iXf+xRptRWTI2H4spTL/vLG+SXPX1/KXeL+zVbKpYE="
+      "rev": "83f7e6741339c73da02a31d33abd9faaace3c654",
+      "hash": "sha256-zRobA8lLB7DIt4pL4O6RZj63iVV3CMRjzgMy9Xc9EHo="
     },
     "ipkgJson": {
       "name": "ilex",
