@@ -480,8 +480,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "b16ed61dee64374cce9181cf563f62ae3813d242",
-      "hash": "sha256-Ggs8AKhxdX2gkk+mVHVQlmAJwexBh2QV2FVeqQgiA3Q="
+      "rev": "45c5341e8a1290c497fa2e01555d291902e9ea26",
+      "hash": "sha256-ETNhy4AnDC///QaXVJmtBjQE3MnLPGRwab3WQxjnkGk="
     },
     "ipkgJson": {
       "name": "containers",
@@ -489,7 +489,8 @@
         "base",
         "array",
         "elab-util",
-        "hashable"
+        "hashable",
+        "ref1"
       ],
       "version": "0.6.0",
       "authors": "stefan-hoeck and matthew-mosior",
