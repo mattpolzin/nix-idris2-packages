@@ -224,8 +224,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-best-alternative",
-      "rev": "c90c3f054ca5999aad29c1524f09547b66f01db1",
-      "hash": "sha256-6HbuMGnn2fuBriJQfAu7+ELNFMD/fXTit6J/uV16AfA="
+      "rev": "7b084aa829c7eaa5ce608ceca6b486256436fdda",
+      "hash": "sha256-eTVX+sQb1J4ExapVHqG65OUij1Peg5glsrnqq08jtoo="
     },
     "ipkgJson": {
       "name": "best-alternative",
@@ -480,8 +480,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "45c5341e8a1290c497fa2e01555d291902e9ea26",
-      "hash": "sha256-ETNhy4AnDC///QaXVJmtBjQE3MnLPGRwab3WQxjnkGk="
+      "rev": "6ba1c0b11a67beb9cd784ad88f0c54316a5f5706",
+      "hash": "sha256-tjqARiP1Kq3q0H+qbdaQV0QX3M3y57cRnNwWv0vYb6U="
     },
     "ipkgJson": {
       "name": "containers",
