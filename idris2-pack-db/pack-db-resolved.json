@@ -3352,8 +3352,8 @@
     "ipkgDir": "api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
-      "hash": "sha256-tNuFhLkACdpwTZNrLlEXYkBO2z0JuOdY8wLusLAj6JI="
+      "rev": "a1d6a0040a8f2f91559cda6ec6b60d46d61d5af9",
+      "hash": "sha256-HMkhpDe+PEsDVUjoc8lcnkzMDZqtbGiiCvc08sFoIJE="
     },
     "ipkgJson": {
       "name": "stellar-api",
@@ -3363,6 +3363,10 @@
       ],
       "version": "0.1",
       "authors": "Andre Videla",
+      "maintainers": "Andre Videla",
+      "license": "MIT",
+      "brief": "Base Stellar library for API programming",
+      "readme": "README.md",
       "opts": "--total",
       "sourcedir": "src"
     }
@@ -3373,8 +3377,8 @@
     "ipkgDir": "http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
-      "hash": "sha256-tNuFhLkACdpwTZNrLlEXYkBO2z0JuOdY8wLusLAj6JI="
+      "rev": "a1d6a0040a8f2f91559cda6ec6b60d46d61d5af9",
+      "hash": "sha256-HMkhpDe+PEsDVUjoc8lcnkzMDZqtbGiiCvc08sFoIJE="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -3382,9 +3386,16 @@
         "stellar-api",
         "tyttp",
         "node",
-        "tyttp-adapter-node"
+        "tyttp-adapter-node",
+        "continuation-monad",
+        "json-simple"
       ],
       "version": "0.1",
+      "authors": "Andre Videla",
+      "maintainers": "Andre Videla",
+      "license": "MIT",
+      "brief": "Node server bindings for Stellar",
+      "readme": "README.md",
       "sourcedir": "src"
     }
   },
@@ -3394,8 +3405,8 @@
     "ipkgDir": "sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "70670018ae6abdd4e83757d328d37d8d0d6db697",
-      "hash": "sha256-tNuFhLkACdpwTZNrLlEXYkBO2z0JuOdY8wLusLAj6JI="
+      "rev": "a1d6a0040a8f2f91559cda6ec6b60d46d61d5af9",
+      "hash": "sha256-HMkhpDe+PEsDVUjoc8lcnkzMDZqtbGiiCvc08sFoIJE="
     },
     "ipkgJson": {
       "name": "stellar-sql",
@@ -3408,6 +3419,11 @@
         "json"
       ],
       "version": "0.1",
+      "authors": "Andre Videla",
+      "maintainers": "Andre Videla",
+      "license": "MIT",
+      "brief": "SQL Binding for Stellar",
+      "readme": "README.md",
       "opts": "--total",
       "sourcedir": "src"
     }
