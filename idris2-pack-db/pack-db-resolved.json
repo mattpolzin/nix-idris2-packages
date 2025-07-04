@@ -480,8 +480,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "6ba1c0b11a67beb9cd784ad88f0c54316a5f5706",
-      "hash": "sha256-tjqARiP1Kq3q0H+qbdaQV0QX3M3y57cRnNwWv0vYb6U="
+      "rev": "041223a5f8c3a6dec2892faef21b167079bcd54e",
+      "hash": "sha256-sZeTo+nCdnbVR8C6rB+OBS+SVSKQtmq7rJ5pcnxP0hQ="
     },
     "ipkgJson": {
       "name": "containers",
@@ -3105,6 +3105,30 @@
       "license": "BSD-3",
       "brief": "Deriving TSV marshallers for refinement types",
       "sourcedir": "src"
+    }
+  },
+  "regex": {
+    "packName": "regex",
+    "ipkgName": "regex",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/buzden/idris2-regex",
+      "rev": "2c8dcb569f619a579906edce15eb5f8757868ff8",
+      "hash": "sha256-taHCWT1+J0pJEeCM+8sNDGtkQc9nimgZG0yBo3ADRpc="
+    },
+    "ipkgJson": {
+      "name": "regex",
+      "depends": [
+        "best-alternative",
+        "collection-utils",
+        "elab-util",
+        "i-hate-parens"
+      ],
+      "authors": "Denis Buzdalov",
+      "license": "Apache-2.0",
+      "brief": "Interfaces for building, matching, parsing and printing regular expressions with a naive implementation",
+      "sourcedir": "src",
+      "builddir": ".build"
     }
   },
   "rhone": {
