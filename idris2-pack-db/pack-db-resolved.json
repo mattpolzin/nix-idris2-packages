@@ -2630,8 +2630,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/pg-idris",
-      "rev": "dd9b3ba42e84ecbc53e6dd4c47adf2ed580a3acb",
-      "hash": "sha256-hgJ2fpIEXm82F7m+w4VIx01hZdG2T9Lf4g7hvp1YzvQ="
+      "rev": "9cfeb62b5b466323d0cdb3d79c326b28cb4d6c11",
+      "hash": "sha256-OhDlWDB4JulQ7S+qZ5wb0iUf7o5H5UtLiCvQ5OGy2jc="
     },
     "ipkgJson": {
       "name": "pg-idris",
