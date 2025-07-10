@@ -2694,6 +2694,48 @@
       "sourcedir": "src"
     }
   },
+  "pjrt-plugin-xla-cpu": {
+    "packName": "pjrt-plugin-xla-cpu",
+    "ipkgName": "pjrt-plugin-xla-cpu",
+    "ipkgDir": "pjrt-plugins/xla-cpu",
+    "src": {
+      "url": "https://github.com/joelberkeley/spidr",
+      "rev": "7f48e3927d0cfa10fee67b2ca1cbb2d7e8a636ba",
+      "hash": "sha256-0Q3GYptH6B9uwYmyo5B4r0lKm44tsJFhhzb13qKd5gs="
+    },
+    "ipkgJson": {
+      "name": "pjrt-plugin-xla-cpu",
+      "depends": [
+        "spidr"
+      ],
+      "version": "0.0.2",
+      "license": "AGPL-3.0-or-later",
+      "brief": "XLA PJRT plugin for CPU.",
+      "readme": "README.md",
+      "postinstall": "./postinstall.sh"
+    }
+  },
+  "pjrt-plugin-xla-cuda": {
+    "packName": "pjrt-plugin-xla-cuda",
+    "ipkgName": "pjrt-plugin-xla-cuda",
+    "ipkgDir": "pjrt-plugins/xla-cuda",
+    "src": {
+      "url": "https://github.com/joelberkeley/spidr",
+      "rev": "7f48e3927d0cfa10fee67b2ca1cbb2d7e8a636ba",
+      "hash": "sha256-0Q3GYptH6B9uwYmyo5B4r0lKm44tsJFhhzb13qKd5gs="
+    },
+    "ipkgJson": {
+      "name": "pjrt-plugin-xla-cuda",
+      "depends": [
+        "spidr"
+      ],
+      "version": "0.0.2",
+      "license": "AGPL-3.0-or-later",
+      "brief": "XLA PJRT plugin for CUDA-enabled GPUs.",
+      "readme": "README.md",
+      "postinstall": "./postinstall.sh"
+    }
+  },
   "positive-nat": {
     "packName": "positive-nat",
     "ipkgName": "positive-nat",
@@ -3318,6 +3360,29 @@
       "brief": "Generic representation of data types as sums of products",
       "readme": "README.md",
       "sourcedir": "src"
+    }
+  },
+  "spidr": {
+    "packName": "spidr",
+    "ipkgName": "spidr",
+    "ipkgDir": "spidr",
+    "src": {
+      "url": "https://github.com/joelberkeley/spidr",
+      "rev": "7f48e3927d0cfa10fee67b2ca1cbb2d7e8a636ba",
+      "hash": "sha256-0Q3GYptH6B9uwYmyo5B4r0lKm44tsJFhhzb13qKd5gs="
+    },
+    "ipkgJson": {
+      "name": "spidr",
+      "depends": [
+        "elab-util"
+      ],
+      "version": "0.0.7",
+      "license": "AGPL-3.0-or-later",
+      "brief": "Hardware-accelerated machine learning with dependent types.",
+      "readme": "README.md",
+      "opts": "--total",
+      "sourcedir": "src",
+      "postinstall": "./postinstall.sh"
     }
   },
   "sqlite3": {
