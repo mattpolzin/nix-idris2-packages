@@ -3441,8 +3441,8 @@
     "ipkgDir": "api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "a1d6a0040a8f2f91559cda6ec6b60d46d61d5af9",
-      "hash": "sha256-HMkhpDe+PEsDVUjoc8lcnkzMDZqtbGiiCvc08sFoIJE="
+      "rev": "f6c9ce257bba5a19d1ca38b24e0c81ecec21c38d",
+      "hash": "sha256-xDV2i6oQp7DN8njN+ryamYCqupJYWTu/zU4PTkpHKSM="
     },
     "ipkgJson": {
       "name": "stellar-api",
@@ -3466,8 +3466,8 @@
     "ipkgDir": "http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "a1d6a0040a8f2f91559cda6ec6b60d46d61d5af9",
-      "hash": "sha256-HMkhpDe+PEsDVUjoc8lcnkzMDZqtbGiiCvc08sFoIJE="
+      "rev": "f6c9ce257bba5a19d1ca38b24e0c81ecec21c38d",
+      "hash": "sha256-xDV2i6oQp7DN8njN+ryamYCqupJYWTu/zU4PTkpHKSM="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -3494,8 +3494,8 @@
     "ipkgDir": "sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "a1d6a0040a8f2f91559cda6ec6b60d46d61d5af9",
-      "hash": "sha256-HMkhpDe+PEsDVUjoc8lcnkzMDZqtbGiiCvc08sFoIJE="
+      "rev": "f6c9ce257bba5a19d1ca38b24e0c81ecec21c38d",
+      "hash": "sha256-xDV2i6oQp7DN8njN+ryamYCqupJYWTu/zU4PTkpHKSM="
     },
     "ipkgJson": {
       "name": "stellar-sql",
