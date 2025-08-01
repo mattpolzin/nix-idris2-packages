@@ -480,8 +480,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "a403a42d5ee2409bcba403adf4098390d3777e65",
-      "hash": "sha256-P/XULFPVviH1R9BetFZ/TIqKe8kQp9FoYn7ABrB9JYw="
+      "rev": "542cf0f59ffb33db7e7c337f222b1c550fbdc1f0",
+      "hash": "sha256-KYaVV4ZylK6shTV54a6WUAQKFuxaZQiRqnpf7uDlA78="
     },
     "ipkgJson": {
       "name": "containers",
