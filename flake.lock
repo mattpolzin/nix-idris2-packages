@@ -796,11 +796,11 @@
     "idris2PackDbSrc": {
       "flake": false,
       "locked": {
-        "lastModified": 1754258609,
-        "narHash": "sha256-+7rNqTcUUZ9NV7YJW4YfFp5MsuqB2gSmTDXqiGYnJpE=",
+        "lastModified": 1754345027,
+        "narHash": "sha256-kqp/JphoCW6YttZqlMWWoQ8dWL7iOIfYreuLgWFayjM=",
         "owner": "stefan-hoeck",
         "repo": "idris2-pack-db",
-        "rev": "b5a56dcf12f2333f743c4b3300f117ad15fc1a83",
+        "rev": "99fa273d78c50237caf941e9cdef7b6a6c9d4774",
         "type": "github"
       },
       "original": {
@@ -1357,11 +1357,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1754248685,
-        "narHash": "sha256-IUGNakaPUF8JOBZlO8ISQzIC4ZSpowzZgcCw9Co8eqk=",
+        "lastModified": 1754278406,
+        "narHash": "sha256-jvIQTMN5EzoOP5RaGztpVese8a3wqy0M/h6tNzycW28=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "bf9fa86a9b1005d932f842edf2c38eeecc98eef3",
+        "rev": "6a489c9482ca676ce23c0bcd7f2e1795383325fa",
         "type": "github"
       },
       "original": {
