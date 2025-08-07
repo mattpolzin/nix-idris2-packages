@@ -2276,8 +2276,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "12f5a13977c6682f269e5f03758cea1c8e61ac77",
-      "hash": "sha256-cFvADSKCKY70z6HBtir4xsGdEcfhV+ZZJy+OJkodrQg="
+      "rev": "7776ae399bb0406fb1e5cbca434b558a81759a86",
+      "hash": "sha256-xnwAhf7+KRrTE+IYM1djMX4iyHshWIKx+mUP/uX3m40="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2311,8 +2311,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "12f5a13977c6682f269e5f03758cea1c8e61ac77",
-      "hash": "sha256-cFvADSKCKY70z6HBtir4xsGdEcfhV+ZZJy+OJkodrQg="
+      "rev": "7776ae399bb0406fb1e5cbca434b558a81759a86",
+      "hash": "sha256-xnwAhf7+KRrTE+IYM1djMX4iyHshWIKx+mUP/uX3m40="
     },
     "ipkgJson": {
       "name": "pack-admin",
