@@ -1674,8 +1674,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "785323d58e4ffc5e4756898d84a4ee772e606b35",
-      "hash": "sha256-z2I/jn8bE29AYBkOTcJilfHgskNvyOZccBzcAG7g06o="
+      "rev": "6ff962347ed48e599b33d29a48668050c71ef3c3",
+      "hash": "sha256-ZK0QtWbrt+HnfXJfRxHdxzFHmAm9QMN411aZd4U8x2g="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -1683,8 +1683,7 @@
         "elab-util",
         "elab-pretty",
         "array",
-        "bytestring",
-        "refined"
+        "bytestring"
       ],
       "version": "0.1.0",
       "langversion": {
@@ -1698,20 +1697,41 @@
       "sourcedir": "src"
     }
   },
+  "ilex-json": {
+    "packName": "ilex-json",
+    "ipkgName": "ilex-json",
+    "ipkgDir": "json",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-ilex",
+      "rev": "6ff962347ed48e599b33d29a48668050c71ef3c3",
+      "hash": "sha256-ZK0QtWbrt+HnfXJfRxHdxzFHmAm9QMN411aZd4U8x2g="
+    },
+    "ipkgJson": {
+      "name": "ilex-json",
+      "depends": [
+        "ilex"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "Total and efficient parser and lexer for the JSON file format",
+      "sourcedir": "src"
+    }
+  },
   "ilex-streams": {
     "packName": "ilex-streams",
     "ipkgName": "ilex-streams",
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "785323d58e4ffc5e4756898d84a4ee772e606b35",
-      "hash": "sha256-z2I/jn8bE29AYBkOTcJilfHgskNvyOZccBzcAG7g06o="
+      "rev": "6ff962347ed48e599b33d29a48668050c71ef3c3",
+      "hash": "sha256-ZK0QtWbrt+HnfXJfRxHdxzFHmAm9QMN411aZd4U8x2g="
     },
     "ipkgJson": {
       "name": "ilex-streams",
       "depends": [
         "ilex",
-        "streams"
+        "streams",
+        "elin"
       ],
       "version": "0.1.0",
       "langversion": {
