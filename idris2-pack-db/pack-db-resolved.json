@@ -1415,8 +1415,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-hedgehog",
-      "rev": "3dd9beb4e6c569ec21fac034991ef8dd49971d5e",
-      "hash": "sha256-Rsj0GRHEvd1cQW+/N9HDPY8WU/JL/cH9LCP7hSdLVHI="
+      "rev": "528c4fa370da3145e958869fe41325bf844240fa",
+      "hash": "sha256-xIIeM4UsNUtnWrrfeCuLFf2wFMK9kITn3NlPtzRLrmo="
     },
     "ipkgJson": {
       "name": "hedgehog",
@@ -1602,8 +1602,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "eba489fbde228a4e7ef423d19236813f7ca7cbac",
-      "hash": "sha256-wN7wcph+xUaq3r1QtNnkZ+zPqsRrSPY8DqbMJvf1MR8="
+      "rev": "2e38e3ee05894c42ac581fddda2a90f3be8a664d",
+      "hash": "sha256-kP2Js3l6KBzsMPH0rBhR6oddc/xy2v/HsibF64WWVWI="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
@@ -1674,8 +1674,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "6ff962347ed48e599b33d29a48668050c71ef3c3",
-      "hash": "sha256-ZK0QtWbrt+HnfXJfRxHdxzFHmAm9QMN411aZd4U8x2g="
+      "rev": "762f879046a067f723407c4f25d16c748bc45bf0",
+      "hash": "sha256-3DIHf6TXzDfENQlZPXarKLTTwxBTU0VnB40Wqa4zfis="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -1703,8 +1703,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "6ff962347ed48e599b33d29a48668050c71ef3c3",
-      "hash": "sha256-ZK0QtWbrt+HnfXJfRxHdxzFHmAm9QMN411aZd4U8x2g="
+      "rev": "762f879046a067f723407c4f25d16c748bc45bf0",
+      "hash": "sha256-3DIHf6TXzDfENQlZPXarKLTTwxBTU0VnB40Wqa4zfis="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -1723,8 +1723,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "6ff962347ed48e599b33d29a48668050c71ef3c3",
-      "hash": "sha256-ZK0QtWbrt+HnfXJfRxHdxzFHmAm9QMN411aZd4U8x2g="
+      "rev": "762f879046a067f723407c4f25d16c748bc45bf0",
+      "hash": "sha256-3DIHf6TXzDfENQlZPXarKLTTwxBTU0VnB40Wqa4zfis="
     },
     "ipkgJson": {
       "name": "ilex-streams",
