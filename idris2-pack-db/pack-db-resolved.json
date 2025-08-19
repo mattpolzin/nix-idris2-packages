@@ -1654,8 +1654,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-if-unsolved-implicit",
-      "rev": "ee673701d62dcc18132e9bb6b1525dabf7b71139",
-      "hash": "sha256-swGsZzuyzqKolFPFCXCQow2vIb/T6Hqw4ZnKVbCj+LY="
+      "rev": "fd110417e84335646aabffd187a465ad854448e7",
+      "hash": "sha256-I1oibKF68kjgf2UgCMR8xrCh0kwTjGiHMMNakQhaG/I="
     },
     "ipkgJson": {
       "name": "if-unsolved-implicit",
@@ -3175,8 +3175,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-regex",
-      "rev": "2c8dcb569f619a579906edce15eb5f8757868ff8",
-      "hash": "sha256-taHCWT1+J0pJEeCM+8sNDGtkQc9nimgZG0yBo3ADRpc="
+      "rev": "ed1944999197151fbac20a2cd1901b2ee061e84b",
+      "hash": "sha256-j/YX6HgpME95OGkQ0YwD9fn+Uttn7U5y+a+5HyGfIFk="
     },
     "ipkgJson": {
       "name": "regex",
