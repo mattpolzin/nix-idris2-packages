@@ -3175,8 +3175,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-regex",
-      "rev": "ed1944999197151fbac20a2cd1901b2ee061e84b",
-      "hash": "sha256-j/YX6HgpME95OGkQ0YwD9fn+Uttn7U5y+a+5HyGfIFk="
+      "rev": "41b0244a60451d37b168bb807fdb60d5ffcfdaa2",
+      "hash": "sha256-AKdBFyquLb1R+KwdYqEyIpgyxZQ7PsGrtAb/3Tuazo4="
     },
     "ipkgJson": {
       "name": "regex",
