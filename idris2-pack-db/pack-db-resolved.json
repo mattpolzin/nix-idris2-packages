@@ -301,6 +301,27 @@
       "sourcedir": "src"
     }
   },
+  "byteorder": {
+    "packName": "byteorder",
+    "ipkgName": "byteorder",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://git.sr.ht/~stygianentity/byteorder-idr",
+      "rev": "d35bba89c4fc44b244399fb6e106ddf01faba2c5",
+      "hash": "sha256-+5aplGkeB4/nqbtCV3UHChjLk8vsbSEZT/CRb0U73+o="
+    },
+    "ipkgJson": {
+      "name": "byteorder",
+      "depends": [
+        "base"
+      ],
+      "version": "0.0.1",
+      "authors": "Lena Hellström",
+      "license": "BBHL",
+      "brief": "Convert Numbers to and from collections of bytes",
+      "sourcedir": "src"
+    }
+  },
   "bytestring": {
     "packName": "bytestring",
     "ipkgName": "bytestring",
@@ -3175,8 +3196,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-regex",
-      "rev": "41b0244a60451d37b168bb807fdb60d5ffcfdaa2",
-      "hash": "sha256-AKdBFyquLb1R+KwdYqEyIpgyxZQ7PsGrtAb/3Tuazo4="
+      "rev": "0afbdb316ff05cdfeff1fad079431a6a8bfcb713",
+      "hash": "sha256-srR0MdS+qGCqlZuYzzdLHPC+vdbPY36dUWGlBsCfgjU="
     },
     "ipkgJson": {
       "name": "regex",
