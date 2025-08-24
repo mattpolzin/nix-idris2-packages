@@ -307,8 +307,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~stygianentity/byteorder-idr",
-      "rev": "d35bba89c4fc44b244399fb6e106ddf01faba2c5",
-      "hash": "sha256-+5aplGkeB4/nqbtCV3UHChjLk8vsbSEZT/CRb0U73+o="
+      "rev": "0532a1f51df4d34c70591ffe7e172a6e575b97c0",
+      "hash": "sha256-s62oOUhhhnJBsevYvV7Mggxdqb6qDqvCiUgGMKDl0vo="
     },
     "ipkgJson": {
       "name": "byteorder",
@@ -3196,8 +3196,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-regex",
-      "rev": "0afbdb316ff05cdfeff1fad079431a6a8bfcb713",
-      "hash": "sha256-srR0MdS+qGCqlZuYzzdLHPC+vdbPY36dUWGlBsCfgjU="
+      "rev": "b5b683dc185585ca17c8d92ceb529615984f9150",
+      "hash": "sha256-jerVahlLkF19Wwmw7c2sPi8zOc74zm/mN51HX09qQ34="
     },
     "ipkgJson": {
       "name": "regex",
