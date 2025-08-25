@@ -307,8 +307,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~stygianentity/byteorder-idr",
-      "rev": "0532a1f51df4d34c70591ffe7e172a6e575b97c0",
-      "hash": "sha256-s62oOUhhhnJBsevYvV7Mggxdqb6qDqvCiUgGMKDl0vo="
+      "rev": "11e68f3c5aef706643e33267f0207f24512f73d3",
+      "hash": "sha256-mw/qzDvQaTy2gqxzN4livZFRrvTwQDYCqYeGiozw638="
     },
     "ipkgJson": {
       "name": "byteorder",
@@ -1840,8 +1840,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
-      "rev": "4e90c1079e94b2f1f001505d61add2a40b8b1797",
-      "hash": "sha256-J0KVfRJP76zDaETnXSoQg7QOsKIAV9mTCEazpGJGAn0="
+      "rev": "3e696e3bc38cbe33311ecda2fdaf5fae9134f495",
+      "hash": "sha256-z+Cgx7Ne/OW5AqXjOp1+R4aRo/ggboYAMjDSbvkzY5A="
     },
     "ipkgJson": {
       "name": "json",
@@ -1863,8 +1863,8 @@
     "ipkgDir": "simple",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
-      "rev": "4e90c1079e94b2f1f001505d61add2a40b8b1797",
-      "hash": "sha256-J0KVfRJP76zDaETnXSoQg7QOsKIAV9mTCEazpGJGAn0="
+      "rev": "3e696e3bc38cbe33311ecda2fdaf5fae9134f495",
+      "hash": "sha256-z+Cgx7Ne/OW5AqXjOp1+R4aRo/ggboYAMjDSbvkzY5A="
     },
     "ipkgJson": {
       "name": "json-simple",
