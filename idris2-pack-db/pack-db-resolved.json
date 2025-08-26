@@ -783,8 +783,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ddab5346d750dec681a63ad0816acdb74d83168c",
-      "hash": "sha256-dC/tTtbI0uwItQtAX09jvg4ePsqYG4gTweaaXGU7Mtg="
+      "rev": "82a602d6bf89b4656bd2caa23457d4d2b94741b3",
+      "hash": "sha256-Ob27zSp+HdDzVQ3U6mlsixTeIAjaE2DbtUGcYJHy5mU="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -800,7 +800,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.250802",
+      "version": "0.0.250824",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1056,8 +1056,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ddab5346d750dec681a63ad0816acdb74d83168c",
-      "hash": "sha256-dC/tTtbI0uwItQtAX09jvg4ePsqYG4gTweaaXGU7Mtg="
+      "rev": "82a602d6bf89b4656bd2caa23457d4d2b94741b3",
+      "hash": "sha256-Ob27zSp+HdDzVQ3U6mlsixTeIAjaE2DbtUGcYJHy5mU="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1840,8 +1840,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
-      "rev": "3e696e3bc38cbe33311ecda2fdaf5fae9134f495",
-      "hash": "sha256-z+Cgx7Ne/OW5AqXjOp1+R4aRo/ggboYAMjDSbvkzY5A="
+      "rev": "30e3608f8adf3f5c70f2f318bb3b6042d8b2f599",
+      "hash": "sha256-hnILWqM3EoxC5EbHku3UOEiy0EuKdjvAleRl/qlt6ho="
     },
     "ipkgJson": {
       "name": "json",
@@ -1863,8 +1863,8 @@
     "ipkgDir": "simple",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
-      "rev": "3e696e3bc38cbe33311ecda2fdaf5fae9134f495",
-      "hash": "sha256-z+Cgx7Ne/OW5AqXjOp1+R4aRo/ggboYAMjDSbvkzY5A="
+      "rev": "30e3608f8adf3f5c70f2f318bb3b6042d8b2f599",
+      "hash": "sha256-hnILWqM3EoxC5EbHku3UOEiy0EuKdjvAleRl/qlt6ho="
     },
     "ipkgJson": {
       "name": "json-simple",
