@@ -307,8 +307,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~stygianentity/byteorder-idr",
-      "rev": "11e68f3c5aef706643e33267f0207f24512f73d3",
-      "hash": "sha256-mw/qzDvQaTy2gqxzN4livZFRrvTwQDYCqYeGiozw638="
+      "rev": "8432cdd74a4129f95895586cbec203b15e89c91a",
+      "hash": "sha256-98Gu+IaWwknuYYNFb8/uRGqpgKWBJzGGCVlZJiaGieA="
     },
     "ipkgJson": {
       "name": "byteorder",
