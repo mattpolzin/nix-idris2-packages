@@ -3806,8 +3806,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/idris2-telescope.git",
-      "rev": "26003bd3b0ff2d63b6c811d6e57228e08e80d0e8",
-      "hash": "sha256-uSPjpftua3VGaoXNv8UoqVTKKCUqC/GfohMH1VF9bYo="
+      "rev": "e20f473ddd18f1104c0a2a8bc17b36b2ea9fad03",
+      "hash": "sha256-GB5nFcTFJhihkUNhYzk0+PMDJ+wC22PzVCsasHXRtKY="
     },
     "ipkgJson": {
       "name": "telescope",
