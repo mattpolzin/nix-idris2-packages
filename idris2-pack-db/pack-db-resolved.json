@@ -49,8 +49,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-ansi",
-      "rev": "c099ebb827607e89e0e43034f03e8808e0078c47",
-      "hash": "sha256-k52GskgvL97Fzk4hR33yfDkhzVUPhfh8sGuZp+fxP/o="
+      "rev": "90f80ac513572877a3de818b43f837fa59265fec",
+      "hash": "sha256-4aD8bNxw6SEEjowAYbRUWdv8d8Uql463rBL8GW8YJvU="
     },
     "ipkgJson": {
       "name": "ansi",
@@ -1695,13 +1695,14 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "36589a7e63cf72f083afdfbaac568a120ef7c054",
-      "hash": "sha256-+fUC+HeBeLQ5bZt9NonrNrygAECYraJWGXPYpeQb0qc="
+      "rev": "f2ea662a1d0f15bbfeb09d6afa42c6957da59e4a",
+      "hash": "sha256-pg4r1knK/se3WH65OKtWtWkyWBl7sjZQW4rirpIKpKk="
     },
     "ipkgJson": {
       "name": "ilex",
       "depends": [
         "elab-util",
+        "algebra",
         "elab-pretty",
         "array",
         "bytestring"
@@ -1724,8 +1725,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "36589a7e63cf72f083afdfbaac568a120ef7c054",
-      "hash": "sha256-+fUC+HeBeLQ5bZt9NonrNrygAECYraJWGXPYpeQb0qc="
+      "rev": "f2ea662a1d0f15bbfeb09d6afa42c6957da59e4a",
+      "hash": "sha256-pg4r1knK/se3WH65OKtWtWkyWBl7sjZQW4rirpIKpKk="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -1744,8 +1745,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "36589a7e63cf72f083afdfbaac568a120ef7c054",
-      "hash": "sha256-+fUC+HeBeLQ5bZt9NonrNrygAECYraJWGXPYpeQb0qc="
+      "rev": "f2ea662a1d0f15bbfeb09d6afa42c6957da59e4a",
+      "hash": "sha256-pg4r1knK/se3WH65OKtWtWkyWBl7sjZQW4rirpIKpKk="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -2846,8 +2847,8 @@
     "ipkgDir": "prettier",
     "src": {
       "url": "https://github.com/idris-community/idris2-ansi",
-      "rev": "c099ebb827607e89e0e43034f03e8808e0078c47",
-      "hash": "sha256-k52GskgvL97Fzk4hR33yfDkhzVUPhfh8sGuZp+fxP/o="
+      "rev": "90f80ac513572877a3de818b43f837fa59265fec",
+      "hash": "sha256-4aD8bNxw6SEEjowAYbRUWdv8d8Uql463rBL8GW8YJvU="
     },
     "ipkgJson": {
       "name": "prettier-ansi",
