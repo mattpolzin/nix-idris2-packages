@@ -1246,6 +1246,26 @@
       "sourcedir": "src"
     }
   },
+  "fixed": {
+    "packName": "fixed",
+    "ipkgName": "idris2-fixed",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-fixed",
+      "rev": "98b18c3c1d9cb26f6c50e7d2c83f3e65ff3647fa",
+      "hash": "sha256-NZCUvcyprkm/DSgqrzLM8VNHpHe6J698RwnRZVD+ZNs="
+    },
+    "ipkgJson": {
+      "name": "idris2-fixed",
+      "depends": [
+        "base"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew-Mosior",
+      "brief": "Fixed dependent type for working with fixed-point arithmetic",
+      "sourcedir": "src"
+    }
+  },
   "free": {
     "packName": "free",
     "ipkgName": "free",
@@ -1695,8 +1715,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "3c9c56dcf79fd3638d4e7e715b934a2b7018d48f",
-      "hash": "sha256-AHz6fEhK8jQEGvw7ytbYGtdHL/Tf1+f4gINt+soeZIQ="
+      "rev": "cd7634fcc6a4fc5201fafb41c61a1c8dbffc51c9",
+      "hash": "sha256-NylYmVbv+IpExMSlFcJ1pSFNLsBzNLyche54k/qSvQw="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -1725,8 +1745,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "3c9c56dcf79fd3638d4e7e715b934a2b7018d48f",
-      "hash": "sha256-AHz6fEhK8jQEGvw7ytbYGtdHL/Tf1+f4gINt+soeZIQ="
+      "rev": "cd7634fcc6a4fc5201fafb41c61a1c8dbffc51c9",
+      "hash": "sha256-NylYmVbv+IpExMSlFcJ1pSFNLsBzNLyche54k/qSvQw="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -1745,8 +1765,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "3c9c56dcf79fd3638d4e7e715b934a2b7018d48f",
-      "hash": "sha256-AHz6fEhK8jQEGvw7ytbYGtdHL/Tf1+f4gINt+soeZIQ="
+      "rev": "cd7634fcc6a4fc5201fafb41c61a1c8dbffc51c9",
+      "hash": "sha256-NylYmVbv+IpExMSlFcJ1pSFNLsBzNLyche54k/qSvQw="
     },
     "ipkgJson": {
       "name": "ilex-streams",
