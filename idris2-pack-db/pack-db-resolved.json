@@ -1252,8 +1252,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-fixed",
-      "rev": "98b18c3c1d9cb26f6c50e7d2c83f3e65ff3647fa",
-      "hash": "sha256-NZCUvcyprkm/DSgqrzLM8VNHpHe6J698RwnRZVD+ZNs="
+      "rev": "8f25b1858f869e3a2495ffc609af0c222bab944e",
+      "hash": "sha256-Vah4LiKcD8gzCG9g9/jF3CeUrC/EfBi1FVFFh34YA8U="
     },
     "ipkgJson": {
       "name": "idris2-fixed",
@@ -1261,7 +1261,7 @@
         "base"
       ],
       "version": "0.1.0",
-      "authors": "Matthew-Mosior",
+      "authors": "Matthew Mosior",
       "brief": "Fixed dependent type for working with fixed-point arithmetic",
       "sourcedir": "src"
     }
