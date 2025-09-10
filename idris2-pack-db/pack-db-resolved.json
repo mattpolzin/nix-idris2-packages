@@ -1715,8 +1715,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "be7d2797891287de18e6de776536175cecdb6d11",
-      "hash": "sha256-wAuHV/0hmydC7yqp85h3s25hJK67iRLlHI/wptRYYz0="
+      "rev": "e096556780a0c27076d96f216847e5ec086f3b28",
+      "hash": "sha256-JcmKdNPIyXieAT2KiUjeb98USV+peqwuZSSI5kPRw98="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -1745,8 +1745,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "be7d2797891287de18e6de776536175cecdb6d11",
-      "hash": "sha256-wAuHV/0hmydC7yqp85h3s25hJK67iRLlHI/wptRYYz0="
+      "rev": "e096556780a0c27076d96f216847e5ec086f3b28",
+      "hash": "sha256-JcmKdNPIyXieAT2KiUjeb98USV+peqwuZSSI5kPRw98="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -1765,8 +1765,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "be7d2797891287de18e6de776536175cecdb6d11",
-      "hash": "sha256-wAuHV/0hmydC7yqp85h3s25hJK67iRLlHI/wptRYYz0="
+      "rev": "e096556780a0c27076d96f216847e5ec086f3b28",
+      "hash": "sha256-JcmKdNPIyXieAT2KiUjeb98USV+peqwuZSSI5kPRw98="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -3557,8 +3557,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "f30265690808c0f432d8910b6c7402650745d8eb",
-      "hash": "sha256-ELJS1dLp1YIS4sZSDWNHWLYWb9yeYVewcoZu47h59Ys="
+      "rev": "eb85259823e119a663bcd80cfb9dd8633bdb0fbc",
+      "hash": "sha256-+wZTvbJgcJiqIlQoN1GY1ug/0KJNJ0ltp+8StCupU8A="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3580,8 +3580,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "f30265690808c0f432d8910b6c7402650745d8eb",
-      "hash": "sha256-ELJS1dLp1YIS4sZSDWNHWLYWb9yeYVewcoZu47h59Ys="
+      "rev": "eb85259823e119a663bcd80cfb9dd8633bdb0fbc",
+      "hash": "sha256-+wZTvbJgcJiqIlQoN1GY1ug/0KJNJ0ltp+8StCupU8A="
     },
     "ipkgJson": {
       "name": "streams-posix",
