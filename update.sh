@@ -1,5 +1,5 @@
 #! /usr/bin/env nix
-#! nix shell nixpkgs#jq nixpkgs#nodejs nixpkgs#nix-prefetch-git nixpkgs#gnused --command bash
+#! nix shell nixpkgs#nixVersions.nix_2_30 nixpkgs#jq nixpkgs#nodejs nixpkgs#nix-prefetch-git nixpkgs#gnused --command bash
 
 function header() {
   echo "-------- $1 --------"
