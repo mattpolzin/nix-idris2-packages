@@ -1643,8 +1643,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "10d7b1357be56e00c1be2cb3fdb78270a8172f50",
-      "hash": "sha256-/DNfM6EyxsksvgerJLB4uFgKANGgYe60sNuDeWlDqqQ="
+      "rev": "81344545c134c8e7105ecf1fdd7a1caae6647035",
+      "hash": "sha256-uYmg9Jd98RiO5SpRFox2xNAxY4nocPuK//zxuaIi/DM="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
