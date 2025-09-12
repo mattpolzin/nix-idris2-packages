@@ -592,8 +592,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-coop",
-      "rev": "96e845c82045e01092a85a920c96f0386f5e6b4d",
-      "hash": "sha256-3frTdJB6vdVvGmIgR370MshzDD8BCmir4BpPaBk6QPw="
+      "rev": "dd41cc8dc9d9d0757a23399f0a15df3e230a6695",
+      "hash": "sha256-MuP583CEKeGXnQABOZUC54fG8NTjnLoXskEq8t0TqfE="
     },
     "ipkgJson": {
       "name": "coop",
