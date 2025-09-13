@@ -328,8 +328,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
-      "rev": "5fa08182935961eb45152d48252f06c7b4b7046a",
-      "hash": "sha256-pVBmxEqhpr/8ex0KMBU4SC7mE2tOSepcOh4/rTWqxq0="
+      "rev": "e37937c31e4425c12a1bdd83b8f657fb51f08143",
+      "hash": "sha256-n9Pefsz0pV+9MrtfzU2u4sGBLC/fWd6VXtMybr+Lndg="
     },
     "ipkgJson": {
       "name": "bytestring",
@@ -1252,8 +1252,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-fixed",
-      "rev": "c4d8fc2522a853a15d636a1abf6ce885916ac372",
-      "hash": "sha256-OerIDct93tMnjLrzxKG7rUmvWzyJUGEAGFsFPM/OgA8="
+      "rev": "4429f9c1eb9731737bc77fa4e89f3f5b872df633",
+      "hash": "sha256-hWJr0OgZVZwzalZLMJfxyS4yuSX4U9OhuhR1hSk0+PM="
     },
     "ipkgJson": {
       "name": "idris2-fixed",
@@ -3102,8 +3102,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "0780eca4faa0523366fb8e2900d4cde1a739ce1c",
-      "hash": "sha256-flfR2ppi4cAtF8I5g7UbhFwEFA834TO9PdUAESrczSk="
+      "rev": "efff48bdfde908fd1b6197be89aa08b0b8ab77ba",
+      "hash": "sha256-ObyQt846We1ouZ4qoAxhda40DENDCeXzeeMKIZHq6Ks="
     },
     "ipkgJson": {
       "name": "ref1",
