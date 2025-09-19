@@ -164,17 +164,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1758112629,
-        "narHash": "sha256-6W+A7J23Z07UBQdzEu5YH2FH2PQzUlApn0+T0s9qOm8=",
+        "lastModified": 1758182787,
+        "narHash": "sha256-TxUNsGgnw4XPayXp0Idsz6IgRVJsBG4bCv/nF8GK3tM=",
         "owner": "idris-lang",
         "repo": "idris2",
-        "rev": "b5398ab10057e9aedca2c72ba46c1cd5d3d72705",
+        "rev": "8695f06c6250ee948d53e97094e93a7738a79c2c",
         "type": "github"
       },
       "original": {
         "owner": "idris-lang",
         "repo": "idris2",
-        "rev": "b5398ab10057e9aedca2c72ba46c1cd5d3d72705",
+        "rev": "8695f06c6250ee948d53e97094e93a7738a79c2c",
         "type": "github"
       }
     },
@@ -273,11 +273,11 @@
     "idris2PackDbSrc": {
       "flake": false,
       "locked": {
-        "lastModified": 1758146932,
-        "narHash": "sha256-Gxs50+pzWVTHsHntqoo6/cv8bxZvZELy+Ev35wHGTaU=",
+        "lastModified": 1758233351,
+        "narHash": "sha256-rNLxWf0Q+oMgKoX405Depe58XM/p4lGR2aBuvOe6/U8=",
         "owner": "stefan-hoeck",
         "repo": "idris2-pack-db",
-        "rev": "109ae0106eefdd4a81fa3e75ca9143b3332173bb",
+        "rev": "21c871c776604ce0d675adb5d0c67f4981e92c36",
         "type": "github"
       },
       "original": {
