@@ -1887,8 +1887,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "d4e2e590b8db779afdbf400f01f4cb904a8e90d9",
-      "hash": "sha256-Y1C+B5OrbTihmFfQt3MzesCFElgSbM70KCTBR+K51Hw="
+      "rev": "8afc288617a9ceb0891c2951ef27cb2cbae9d5a9",
+      "hash": "sha256-XuHflIjBjvGNRx8VqQdoGfbtHUHQIGKdfCiEXwbmZH4="
     },
     "ipkgJson": {
       "name": "indexed-graph",
@@ -2738,8 +2738,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/pg-idris",
-      "rev": "3428abe384a3978fe4a05c28faa718ed9c6f1698",
-      "hash": "sha256-vBzm0F+KRV1+CnCV61GXZi3tkUFF1syRkUbqXQv6Y08="
+      "rev": "4cf32529b67ac1a32ff3523955b134926e0ed53e",
+      "hash": "sha256-I4mtkdwi6pnkculQDHn6EhvocyjK35LX56DLUCor/ZM="
     },
     "ipkgJson": {
       "name": "pg-idris",
