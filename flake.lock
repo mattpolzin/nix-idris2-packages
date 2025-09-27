@@ -273,11 +273,11 @@
     "idris2PackDbSrc": {
       "flake": false,
       "locked": {
-        "lastModified": 1758837833,
-        "narHash": "sha256-XSt6eB2na6ugpo3+xMm3UBmL9qDi7d24MyF00j11VFM=",
+        "lastModified": 1758924232,
+        "narHash": "sha256-5szGKrqOPk3ZsPMb2pLpXaPxP22olAySEkB1EjLMQm8=",
         "owner": "stefan-hoeck",
         "repo": "idris2-pack-db",
-        "rev": "8b46a83b0ae6c304a90f59594f9887250a1f6d03",
+        "rev": "edab9b4b9801a7bf1096f32c20f90a6758298297",
         "type": "github"
       },
       "original": {

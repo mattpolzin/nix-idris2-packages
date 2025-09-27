@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "c843d00fa94d6d86ad1d00dc774fcb30e50520ca",
-      "hash": "sha256-Xw68CeCIEuv2ijkMBUcGpbdFFogvIj2EKSRS0G90R9Q="
+      "rev": "ade828a681038f9bcdb5ae386d516ed50b7fe66d",
+      "hash": "sha256-ctm7b/KN45AMtRrL7L15UOq9lKs68CS9FEnE/hrKsGg="
     },
     "ipkgJson": {
       "name": "array",
@@ -503,8 +503,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "cacceb2a76ea3d82317b66253ae5a38539775471",
-      "hash": "sha256-N+Qn3fC8fTN77fYLmysfsmcngV3Yl212RJelUZtfvao="
+      "rev": "60aaab361369648ae5ea85c57bb747cb0a61dcb7",
+      "hash": "sha256-rCSEwgxV4p6bBSHrkyg5FCkbZmB3QEgVo46qmx6xaoY="
     },
     "ipkgJson": {
       "name": "containers",
@@ -1887,8 +1887,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "8afc288617a9ceb0891c2951ef27cb2cbae9d5a9",
-      "hash": "sha256-XuHflIjBjvGNRx8VqQdoGfbtHUHQIGKdfCiEXwbmZH4="
+      "rev": "becc89fb8084b5ca27a92f557363348ef2b90c6c",
+      "hash": "sha256-Y2bzoii67sXGV6/09K5hs6lYGTiAYbUW6g5y7VXUK9s="
     },
     "ipkgJson": {
       "name": "indexed-graph",
