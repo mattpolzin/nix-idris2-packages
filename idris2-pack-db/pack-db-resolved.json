@@ -372,8 +372,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "85a7d9e953b6f2fa4562e778dd9841ca72de14bc",
-      "hash": "sha256-GYVNgz8DLOb4YhH65sOfz+JNzExdvpvgBkl19G1pcyA="
+      "rev": "730f6b589561c5154d1534a556532da0a76dc9ae",
+      "hash": "sha256-ReT8KdOBnrBLnl5F62w0oGn3bKXEAhXve3j6aEMKwnw="
     },
     "ipkgJson": {
       "name": "chem",
@@ -399,8 +399,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "85a7d9e953b6f2fa4562e778dd9841ca72de14bc",
-      "hash": "sha256-GYVNgz8DLOb4YhH65sOfz+JNzExdvpvgBkl19G1pcyA="
+      "rev": "730f6b589561c5154d1534a556532da0a76dc9ae",
+      "hash": "sha256-ReT8KdOBnrBLnl5F62w0oGn3bKXEAhXve3j6aEMKwnw="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -690,8 +690,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "c13420687f60dec80ece1f703360c9a694047574",
-      "hash": "sha256-SceZW9Zm6DGR2LGd2nRurc1rbNpmk3e9eItP1Wi9VOc="
+      "rev": "7102695d8fc908189723cf2d2d91b1862d4b94e0",
+      "hash": "sha256-dbSCoaCYnklbkY83fwYRd5sM3G1rvZxkHTOUSVSuvv8="
     },
     "ipkgJson": {
       "name": "cyby-draw",
