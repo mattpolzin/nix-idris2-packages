@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "ade828a681038f9bcdb5ae386d516ed50b7fe66d",
-      "hash": "sha256-ctm7b/KN45AMtRrL7L15UOq9lKs68CS9FEnE/hrKsGg="
+      "rev": "db2793baf1e01abea0cdc289e9c8a767b9a81cae",
+      "hash": "sha256-KeV2HsDCVU7AcxAaNsXuVAF8a8XVNrGtGRYo1/BpwoM="
     },
     "ipkgJson": {
       "name": "array",
@@ -503,8 +503,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "60aaab361369648ae5ea85c57bb747cb0a61dcb7",
-      "hash": "sha256-rCSEwgxV4p6bBSHrkyg5FCkbZmB3QEgVo46qmx6xaoY="
+      "rev": "1e92a94bea542139ef75304732882883624a4a6f",
+      "hash": "sha256-akDuGlZemRKirkc1O7xLZvPOQ7I+dTsfF6EM1LwxFZw="
     },
     "ipkgJson": {
       "name": "containers",
@@ -1717,8 +1717,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "bdc95c670cbff5dd7e25a90b3b592b6247c5ecb9",
-      "hash": "sha256-JYbJWX2A/cRKHVY+sVYOE0cQzQFwIpYcbDBVe2EGHxg="
+      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
+      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -1748,8 +1748,8 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "bdc95c670cbff5dd7e25a90b3b592b6247c5ecb9",
-      "hash": "sha256-JYbJWX2A/cRKHVY+sVYOE0cQzQFwIpYcbDBVe2EGHxg="
+      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
+      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
     },
     "ipkgJson": {
       "name": "ilex-core",
@@ -1775,8 +1775,8 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "bdc95c670cbff5dd7e25a90b3b592b6247c5ecb9",
-      "hash": "sha256-JYbJWX2A/cRKHVY+sVYOE0cQzQFwIpYcbDBVe2EGHxg="
+      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
+      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
     },
     "ipkgJson": {
       "name": "ilex-debug",
@@ -1796,8 +1796,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "bdc95c670cbff5dd7e25a90b3b592b6247c5ecb9",
-      "hash": "sha256-JYbJWX2A/cRKHVY+sVYOE0cQzQFwIpYcbDBVe2EGHxg="
+      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
+      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -1816,8 +1816,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "bdc95c670cbff5dd7e25a90b3b592b6247c5ecb9",
-      "hash": "sha256-JYbJWX2A/cRKHVY+sVYOE0cQzQFwIpYcbDBVe2EGHxg="
+      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
+      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -1844,8 +1844,8 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "bdc95c670cbff5dd7e25a90b3b592b6247c5ecb9",
-      "hash": "sha256-JYbJWX2A/cRKHVY+sVYOE0cQzQFwIpYcbDBVe2EGHxg="
+      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
+      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
     },
     "ipkgJson": {
       "name": "ilex-toml",
@@ -2166,6 +2166,26 @@
       "sourceloc": "https://github.com/running-grass/idris2-markdown",
       "bugtracker": "https://github.com/running-grass/idris2-markdown/issues",
       "sourcedir": "src"
+    }
+  },
+  "mk": {
+    "packName": "mk",
+    "ipkgName": "mk",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/buzden/idris2-mk",
+      "rev": "0df0651b12ecc574d5083a361333f80aaaa912ad",
+      "hash": "sha256-GwgdbLc6+iPjU4T7h8/SJIaNoEq7fQQK1wrs1xv53sY="
+    },
+    "ipkgJson": {
+      "name": "mk",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Denis Buzdalov",
+      "license": "Apache-2.0",
+      "brief": "A macro for accessing constructors of records or implementations, even unnamed",
+      "sourcedir": "src",
+      "builddir": ".build"
     }
   },
   "monad-bayes": {
@@ -2980,8 +3000,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-profiler",
-      "rev": "2f7982cb061e9b8807fc5dba90a462b97d5d3ad6",
-      "hash": "sha256-Uf0jgjTTGBPs3tzFWiPFQjTtqyUlBD0x8kiBX3lh+20="
+      "rev": "4cc28b478991d2d13d8505492e044006c5289720",
+      "hash": "sha256-mr/ExJ4lKss8SJqNto0c5Todjvh6Dxv74z6ZducTu08="
     },
     "ipkgJson": {
       "name": "profiler",
@@ -3176,8 +3196,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "f108793eafcce75cc2b1ab8df78bb79f97aa6a74",
-      "hash": "sha256-euroOfvROmOt0S1+iECN275Z88igu5/Zpm5O7vzTap0="
+      "rev": "00e9c5717ad1ae0a09b0dd9f09d649b3744b5284",
+      "hash": "sha256-q05Eg1cDCkROHyKAvFq7UuC8Zf5p9/CkYHyJALOHQnY="
     },
     "ipkgJson": {
       "name": "ref1",
@@ -3882,6 +3902,25 @@
       "version": "0.1.0",
       "authors": "Andre Videla",
       "opts": "-Werror",
+      "sourcedir": "src"
+    }
+  },
+  "tensortype": {
+    "packName": "tensortype",
+    "ipkgName": "tensortype",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/bgavran/TensorType",
+      "rev": "5820f6453eb946c430a7c767aa2be9e2dae5f030",
+      "hash": "sha256-qMJE/pfJ2SPGhCeTz75ArOu6mVKX5zDaUKeUPgm5KbQ="
+    },
+    "ipkgJson": {
+      "name": "tensortype",
+      "depends": [
+        "contrib",
+        "elab-util"
+      ],
+      "authors": "Bruno Gavranovic",
       "sourcedir": "src"
     }
   },
