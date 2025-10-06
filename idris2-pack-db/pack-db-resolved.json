@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "db2793baf1e01abea0cdc289e9c8a767b9a81cae",
-      "hash": "sha256-KeV2HsDCVU7AcxAaNsXuVAF8a8XVNrGtGRYo1/BpwoM="
+      "rev": "b5b88a3fe1680ba377543ab2ff9f265f8a79e188",
+      "hash": "sha256-FmvyaosA+Cf4dXJ0B371ASBhmMvmpgvyN/YAADQVDfo="
     },
     "ipkgJson": {
       "name": "array",
@@ -372,8 +372,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "730f6b589561c5154d1534a556532da0a76dc9ae",
-      "hash": "sha256-ReT8KdOBnrBLnl5F62w0oGn3bKXEAhXve3j6aEMKwnw="
+      "rev": "cb3410eeb998c831a047266402819c4f7e5cf081",
+      "hash": "sha256-TXWzZuj2E0DUfmaAvFj9y/Pm7FVqFsjxr+FpXJyjFmw="
     },
     "ipkgJson": {
       "name": "chem",
@@ -399,8 +399,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "730f6b589561c5154d1534a556532da0a76dc9ae",
-      "hash": "sha256-ReT8KdOBnrBLnl5F62w0oGn3bKXEAhXve3j6aEMKwnw="
+      "rev": "cb3410eeb998c831a047266402819c4f7e5cf081",
+      "hash": "sha256-TXWzZuj2E0DUfmaAvFj9y/Pm7FVqFsjxr+FpXJyjFmw="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -690,8 +690,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "7102695d8fc908189723cf2d2d91b1862d4b94e0",
-      "hash": "sha256-dbSCoaCYnklbkY83fwYRd5sM3G1rvZxkHTOUSVSuvv8="
+      "rev": "89b77c9c27aaa86d6d85cf72e0a2c30c47c0a10a",
+      "hash": "sha256-vqjVWWd1mdLrae0AnzQ/P3hZVuYyJV/1D9HufTQNof4="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -1887,8 +1887,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "becc89fb8084b5ca27a92f557363348ef2b90c6c",
-      "hash": "sha256-Y2bzoii67sXGV6/09K5hs6lYGTiAYbUW6g5y7VXUK9s="
+      "rev": "aa587333437d7b70f274b36cb3f7cd5c094da299",
+      "hash": "sha256-9Eq5AvwJvmBxMHxK39h0oYhz08LVC0bj+DchN0Rxp7Q="
     },
     "ipkgJson": {
       "name": "indexed-graph",
@@ -3196,8 +3196,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "00e9c5717ad1ae0a09b0dd9f09d649b3744b5284",
-      "hash": "sha256-q05Eg1cDCkROHyKAvFq7UuC8Zf5p9/CkYHyJALOHQnY="
+      "rev": "4c03244b172a9e0a632eaa257866b842c403bbaa",
+      "hash": "sha256-Wy5LgyJcieykcXmi6vIlvIxN72dU2yBXW6i3JhJ7VjQ="
     },
     "ipkgJson": {
       "name": "ref1",
@@ -3911,8 +3911,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "5820f6453eb946c430a7c767aa2be9e2dae5f030",
-      "hash": "sha256-qMJE/pfJ2SPGhCeTz75ArOu6mVKX5zDaUKeUPgm5KbQ="
+      "rev": "c266f6bbb57d869e695ad1896079b0061f23701d",
+      "hash": "sha256-/NGN2Zd4IhNBVirEnqwqEJ7rHCvFxlOc4JUb1Yo6/kM="
     },
     "ipkgJson": {
       "name": "tensortype",
@@ -3921,6 +3921,8 @@
         "elab-util"
       ],
       "authors": "Bruno Gavranovic",
+      "license": "AGPL-3.0",
+      "brief": "Type-safe pure functional tensor processing framework, supporting non-cubical tensors",
       "sourcedir": "src"
     }
   },
