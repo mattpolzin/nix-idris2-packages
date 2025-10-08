@@ -785,8 +785,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "f60a204e15dabf2b88c012aba224103aea7eb010",
-      "hash": "sha256-1vWJyz3lU0tlEO1BkK/1CeanFymoskO8wP3jIUvu294="
+      "rev": "ee6c1844a0ee3bed13ea949f5da4fdb60636f0e7",
+      "hash": "sha256-+j5YAZAradj/pl9Vu8WoVDYPR1zDNFTP407V/bO0c7g="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1058,8 +1058,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "f60a204e15dabf2b88c012aba224103aea7eb010",
-      "hash": "sha256-1vWJyz3lU0tlEO1BkK/1CeanFymoskO8wP3jIUvu294="
+      "rev": "ee6c1844a0ee3bed13ea949f5da4fdb60636f0e7",
+      "hash": "sha256-+j5YAZAradj/pl9Vu8WoVDYPR1zDNFTP407V/bO0c7g="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1188,8 +1188,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
-      "rev": "1a6e59b988f1f4cdbb1ff49a1395057089dc2c97",
-      "hash": "sha256-ZqQ0FGzoOdtm0HMOgbfTaGxrQSPfcmci2Mkofk/dzYY="
+      "rev": "d811f6e1eb1a9a509ba2dfdcec5cd90d5c4ffaff",
+      "hash": "sha256-gB4vb+CQiIhlJVt6iu0TBmMFy58iVsQCcywFaEKtKss="
     },
     "ipkgJson": {
       "name": "fin-lizzie",
