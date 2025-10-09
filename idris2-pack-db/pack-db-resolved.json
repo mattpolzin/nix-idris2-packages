@@ -421,15 +421,16 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-collection-utils",
-      "rev": "70b234f863078c976252274142d696af0632d763",
-      "hash": "sha256-3nBBYEE+acDh3GQFT2TRJ6igsfaOe5n0Z3YWj4xrJ4E="
+      "rev": "a28049d66507605e06ad314c52e40166373178cf",
+      "hash": "sha256-KzERxeQ5z0I4blH9Rh5r4NgVXBbRf0xY8oqFWHoPcWI="
     },
     "ipkgJson": {
       "name": "collection-utils",
       "depends": [
         "best-alternative",
         "dependent-vect",
-        "i-hate-parens"
+        "i-hate-parens",
+        "fin-lizzie"
       ],
       "authors": "Denis Buzdalov",
       "license": "Apache-2.0",
@@ -785,8 +786,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ee6c1844a0ee3bed13ea949f5da4fdb60636f0e7",
-      "hash": "sha256-+j5YAZAradj/pl9Vu8WoVDYPR1zDNFTP407V/bO0c7g="
+      "rev": "b572d3a6b5b5788691232d56963da7458702716b",
+      "hash": "sha256-WkrIrqm6+rSrilnDhJOLBdwLZ8e8Ulibv11AHLoik8Y="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -802,7 +803,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.250930",
+      "version": "0.0.251007",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1058,8 +1059,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ee6c1844a0ee3bed13ea949f5da4fdb60636f0e7",
-      "hash": "sha256-+j5YAZAradj/pl9Vu8WoVDYPR1zDNFTP407V/bO0c7g="
+      "rev": "b572d3a6b5b5788691232d56963da7458702716b",
+      "hash": "sha256-WkrIrqm6+rSrilnDhJOLBdwLZ8e8Ulibv11AHLoik8Y="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1188,8 +1189,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
-      "rev": "d811f6e1eb1a9a509ba2dfdcec5cd90d5c4ffaff",
-      "hash": "sha256-gB4vb+CQiIhlJVt6iu0TBmMFy58iVsQCcywFaEKtKss="
+      "rev": "abc455bfa8263e4c0a2f3bc2c5f0740170df66ed",
+      "hash": "sha256-FoYqUrvVFcqRAy6QD+zpa+X95AdfSoiM2ejS0rfh844="
     },
     "ipkgJson": {
       "name": "fin-lizzie",
@@ -1887,8 +1888,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "aa587333437d7b70f274b36cb3f7cd5c094da299",
-      "hash": "sha256-9Eq5AvwJvmBxMHxK39h0oYhz08LVC0bj+DchN0Rxp7Q="
+      "rev": "b8021d0b92d597f84b45bc708dc8d186bd616602",
+      "hash": "sha256-/6ZEluUyPbBoiLimU69VqB9zEEJXEb6Q7nDlCicFVP4="
     },
     "ipkgJson": {
       "name": "indexed-graph",
