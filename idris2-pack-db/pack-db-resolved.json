@@ -2403,8 +2403,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "c5df946490b183d7385d2cefe0ecf52458aa535f",
-      "hash": "sha256-6NYynj5cF5XecmntsNLs/h8xvAskxbp7XfhfH9VlwM4="
+      "rev": "bc976c699b752a2cf58e3a064d99fe4c72213ca4",
+      "hash": "sha256-0sGAcPEhKb9/owDG0LvcL1omkQx9CY44kc57Z8FNGnE="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2438,8 +2438,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "c5df946490b183d7385d2cefe0ecf52458aa535f",
-      "hash": "sha256-6NYynj5cF5XecmntsNLs/h8xvAskxbp7XfhfH9VlwM4="
+      "rev": "bc976c699b752a2cf58e3a064d99fe4c72213ca4",
+      "hash": "sha256-0sGAcPEhKb9/owDG0LvcL1omkQx9CY44kc57Z8FNGnE="
     },
     "ipkgJson": {
       "name": "pack-admin",
@@ -3912,8 +3912,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "c266f6bbb57d869e695ad1896079b0061f23701d",
-      "hash": "sha256-/NGN2Zd4IhNBVirEnqwqEJ7rHCvFxlOc4JUb1Yo6/kM="
+      "rev": "796b27c59f6ab38ad2f55d61109325d1688327e2",
+      "hash": "sha256-8emoEKEtnUqmecfv7pkz2Yq22zqtNgEb76Vi8n+E+sA="
     },
     "ipkgJson": {
       "name": "tensortype",
