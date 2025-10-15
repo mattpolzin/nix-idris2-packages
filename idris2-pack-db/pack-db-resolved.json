@@ -786,8 +786,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b572d3a6b5b5788691232d56963da7458702716b",
-      "hash": "sha256-WkrIrqm6+rSrilnDhJOLBdwLZ8e8Ulibv11AHLoik8Y="
+      "rev": "24f87065366cc90f28c0f153ff01303cb44ecff4",
+      "hash": "sha256-K60numPk/U+coBNIJxU1qIZHstwYY69aBzudb72Ug6g="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -803,7 +803,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.251007",
+      "version": "0.0.251013",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1059,8 +1059,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b572d3a6b5b5788691232d56963da7458702716b",
-      "hash": "sha256-WkrIrqm6+rSrilnDhJOLBdwLZ8e8Ulibv11AHLoik8Y="
+      "rev": "24f87065366cc90f28c0f153ff01303cb44ecff4",
+      "hash": "sha256-K60numPk/U+coBNIJxU1qIZHstwYY69aBzudb72Ug6g="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -3912,8 +3912,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "796b27c59f6ab38ad2f55d61109325d1688327e2",
-      "hash": "sha256-8emoEKEtnUqmecfv7pkz2Yq22zqtNgEb76Vi8n+E+sA="
+      "rev": "4eaaa8971653e023e59058168ebdda7f08d534bf",
+      "hash": "sha256-MRUxMsNX5Pz/mhVJC5YulVLRlQmefa7phoEDGKG0HPg="
     },
     "ipkgJson": {
       "name": "tensortype",
