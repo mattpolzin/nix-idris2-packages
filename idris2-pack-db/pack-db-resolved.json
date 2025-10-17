@@ -1718,8 +1718,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
-      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
+      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
+      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -1749,8 +1749,8 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
-      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
+      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
+      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
     },
     "ipkgJson": {
       "name": "ilex-core",
@@ -1776,8 +1776,8 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
-      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
+      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
+      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
     },
     "ipkgJson": {
       "name": "ilex-debug",
@@ -1797,8 +1797,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
-      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
+      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
+      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -1817,8 +1817,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
-      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
+      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
+      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -1845,8 +1845,8 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "f169fb86c35146d82b813542b7041676aa92b546",
-      "hash": "sha256-+vdw6hLbLJE/8bC7RXzAnKPCD+VKgQVnmDeCgiPURWc="
+      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
+      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
     },
     "ipkgJson": {
       "name": "ilex-toml",
@@ -3912,8 +3912,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "4eaaa8971653e023e59058168ebdda7f08d534bf",
-      "hash": "sha256-MRUxMsNX5Pz/mhVJC5YulVLRlQmefa7phoEDGKG0HPg="
+      "rev": "692b194c157fdbf4c83e234f3ebb9bf3b21d2a2b",
+      "hash": "sha256-kd4rg6EPljt2KGbHhl+Tsae/fWYBb404kHWolCSfwQM="
     },
     "ipkgJson": {
       "name": "tensortype",
