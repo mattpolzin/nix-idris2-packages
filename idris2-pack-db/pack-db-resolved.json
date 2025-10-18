@@ -112,8 +112,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "7752174d49744bfc2388f5ac967daeb795eccfe7",
-      "hash": "sha256-TofcBt5RIKYx17/UG2TNlekHzL5xb8NKz8EUS0sR5YI="
+      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
+      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
     },
     "ipkgJson": {
       "name": "async",
@@ -136,8 +136,8 @@
     "ipkgDir": "async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "7752174d49744bfc2388f5ac967daeb795eccfe7",
-      "hash": "sha256-TofcBt5RIKYx17/UG2TNlekHzL5xb8NKz8EUS0sR5YI="
+      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
+      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -151,14 +151,36 @@
       "sourcedir": "src"
     }
   },
+  "async-js": {
+    "packName": "async-js",
+    "ipkgName": "async-js",
+    "ipkgDir": "async-js",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-async",
+      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
+      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
+    },
+    "ipkgJson": {
+      "name": "async-js",
+      "depends": [
+        "base",
+        "async",
+        "js"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "An asynchronous run loop for the JS backends",
+      "sourcedir": "src"
+    }
+  },
   "async-posix": {
     "packName": "async-posix",
     "ipkgName": "async-posix",
     "ipkgDir": "async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "7752174d49744bfc2388f5ac967daeb795eccfe7",
-      "hash": "sha256-TofcBt5RIKYx17/UG2TNlekHzL5xb8NKz8EUS0sR5YI="
+      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
+      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -855,8 +877,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom",
-      "rev": "fcf9d2f50e5cadf89f15dc41057e032b8d9a8674",
-      "hash": "sha256-EAKF1f3SgsVA1ELnczbWANF2MqxcFMM8W2H6ZI1crVY="
+      "rev": "9fab6c496d13090f2212b90f10e140e30ba771cd",
+      "hash": "sha256-1P/7NYRdBWR10gmxRWRuKt0NrHBI7ENAPs0USAttIdk="
     },
     "ipkgJson": {
       "name": "dom",
@@ -1718,8 +1740,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
-      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
+      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -1749,8 +1771,8 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
-      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
+      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
       "name": "ilex-core",
@@ -1776,8 +1798,8 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
-      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
+      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
       "name": "ilex-debug",
@@ -1797,8 +1819,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
-      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
+      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -1817,8 +1839,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
-      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
+      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -1845,8 +1867,8 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "53d75bceaca8a0c28cf4dd4aa6bcd475509169dd",
-      "hash": "sha256-e2W11lO3m6u1ybWgw3+5euGwx9V25cirKN1kfjPPXnM="
+      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
       "name": "ilex-toml",
@@ -1912,8 +1934,8 @@
     "ipkgDir": "js",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom",
-      "rev": "fcf9d2f50e5cadf89f15dc41057e032b8d9a8674",
-      "hash": "sha256-EAKF1f3SgsVA1ELnczbWANF2MqxcFMM8W2H6ZI1crVY="
+      "rev": "9fab6c496d13090f2212b90f10e140e30ba771cd",
+      "hash": "sha256-1P/7NYRdBWR10gmxRWRuKt0NrHBI7ENAPs0USAttIdk="
     },
     "ipkgJson": {
       "name": "js",
@@ -2403,8 +2425,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "bc976c699b752a2cf58e3a064d99fe4c72213ca4",
-      "hash": "sha256-0sGAcPEhKb9/owDG0LvcL1omkQx9CY44kc57Z8FNGnE="
+      "rev": "a30dd79447678c4eae435b4b59840fdd39504764",
+      "hash": "sha256-JZFMzjaOIMMWkTWmNBzokbQZ/eNTFYOm5BWMp82/tLU="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2438,8 +2460,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "bc976c699b752a2cf58e3a064d99fe4c72213ca4",
-      "hash": "sha256-0sGAcPEhKb9/owDG0LvcL1omkQx9CY44kc57Z8FNGnE="
+      "rev": "a30dd79447678c4eae435b4b59840fdd39504764",
+      "hash": "sha256-JZFMzjaOIMMWkTWmNBzokbQZ/eNTFYOm5BWMp82/tLU="
     },
     "ipkgJson": {
       "name": "pack-admin",
