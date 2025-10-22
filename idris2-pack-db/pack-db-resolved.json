@@ -1277,8 +1277,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-fixed",
-      "rev": "ff6ac35cb3f5b184ecd812935cc08a213d850b1e",
-      "hash": "sha256-Whev6bpGI+8MDcS8IMkA3xVnRL1XZfELOp1MUzRgoYI="
+      "rev": "8645a0329368deefaef94aa68fc4adaca35c037f",
+      "hash": "sha256-UcYTBgLexPK5eaMwG9mfoGCpdJ7xVCJTVjQ0JoWY5Gs="
     },
     "ipkgJson": {
       "name": "fixed",
@@ -3934,8 +3934,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "3a72902bcb4ccac8564c5519fdacd5acce5f4ac1",
-      "hash": "sha256-6AtNVCe5chbRspTkFbPtyUwkrwyFL5ULDXiOrUEUFt8="
+      "rev": "36237aef5bb2935627a6f71453fee0cbc55d8328",
+      "hash": "sha256-anx4FmWn7K8Ir5DuT/OimZRiDCuP4TgyacCeDmU1Qjo="
     },
     "ipkgJson": {
       "name": "tensortype",
