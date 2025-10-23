@@ -707,6 +707,27 @@
       "preinstall": "make -C support install"
     }
   },
+  "css": {
+    "packName": "css",
+    "ipkgName": "css",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-css",
+      "rev": "d72506eaf4a8cd074fb953056317820b784f67fb",
+      "hash": "sha256-pTmymBcY/BlwwpHOLra3HkBvFjbnkF9oZKoNdVtgWqw="
+    },
+    "ipkgJson": {
+      "name": "css",
+      "depends": [
+        "literal"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "license": "BSD-3",
+      "brief": "A DSL for writing CSS rules in Idris",
+      "sourcedir": "src"
+    }
+  },
   "cyby-draw": {
     "packName": "cyby-draw",
     "ipkgName": "cyby-draw",
@@ -1740,7 +1761,7 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "rev": "cc876b19b1018fa4a6bf8c9a3a2f121abae6f331",
       "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
@@ -1771,7 +1792,7 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "rev": "cc876b19b1018fa4a6bf8c9a3a2f121abae6f331",
       "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
@@ -1798,7 +1819,7 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "rev": "cc876b19b1018fa4a6bf8c9a3a2f121abae6f331",
       "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
@@ -1819,7 +1840,7 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "rev": "cc876b19b1018fa4a6bf8c9a3a2f121abae6f331",
       "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
@@ -1839,7 +1860,7 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "rev": "cc876b19b1018fa4a6bf8c9a3a2f121abae6f331",
       "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
@@ -1867,7 +1888,7 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e17039596c5cc3f43a30767c71514d3bdd00cfa2",
+      "rev": "cc876b19b1018fa4a6bf8c9a3a2f121abae6f331",
       "hash": "sha256-3c24rZJQAZgVIJr7HYt2xoRSTuU0Lrk7pPcxke3QjMM="
     },
     "ipkgJson": {
@@ -2113,6 +2134,28 @@
       "sourcedir": "src",
       "prebuild": "bash gencode.sh",
       "preinstall": "make -C support install"
+    }
+  },
+  "literal": {
+    "packName": "literal",
+    "ipkgName": "literal",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-literal",
+      "rev": "f0fed86ae9bd5b13d98e4dd18103a6e1f7f7c6b4",
+      "hash": "sha256-9hSzw/opHByTMR1vbgL/jcvm1vinEcP/dKmexjZWNKc="
+    },
+    "ipkgJson": {
+      "name": "literal",
+      "depends": [
+        "elab-util",
+        "refined"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "license": "BSD-3",
+      "brief": "Derivable interfaces for refined literals",
+      "sourcedir": "src"
     }
   },
   "log-domain": {
@@ -2425,8 +2468,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "a30dd79447678c4eae435b4b59840fdd39504764",
-      "hash": "sha256-JZFMzjaOIMMWkTWmNBzokbQZ/eNTFYOm5BWMp82/tLU="
+      "rev": "33721a0975e0455fcd6c83aceee5c44440d762e0",
+      "hash": "sha256-GtmlC4bFExOrFmhAaBOQBxyDDNtWYoSHgJ5yFNUo5UE="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2460,8 +2503,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "a30dd79447678c4eae435b4b59840fdd39504764",
-      "hash": "sha256-JZFMzjaOIMMWkTWmNBzokbQZ/eNTFYOm5BWMp82/tLU="
+      "rev": "33721a0975e0455fcd6c83aceee5c44440d762e0",
+      "hash": "sha256-GtmlC4bFExOrFmhAaBOQBxyDDNtWYoSHgJ5yFNUo5UE="
     },
     "ipkgJson": {
       "name": "pack-admin",
