@@ -920,8 +920,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom-mvc",
-      "rev": "aa13b5cb074b9f1537cc55cac365cf1f5d76c8b3",
-      "hash": "sha256-HJLPAmFw9z2u3kacaG4s5UD12wAXp9Dsrgp8Lx1Afws="
+      "rev": "d13a1b5edc6d142524dca9637f7d0a73f181fc0d",
+      "hash": "sha256-YPGok87DxkSMh/h1ehOLAWCL+CoejWLY3E8WggjT39c="
     },
     "ipkgJson": {
       "name": "dom-mvc",
@@ -931,7 +931,8 @@
         "containers",
         "json-simple",
         "refined",
-        "tailrec"
+        "tailrec",
+        "css"
       ],
       "version": "0.0.1",
       "authors": "stefan-hoeck",
@@ -945,8 +946,8 @@
     "ipkgDir": "extra",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-dom-mvc",
-      "rev": "aa13b5cb074b9f1537cc55cac365cf1f5d76c8b3",
-      "hash": "sha256-HJLPAmFw9z2u3kacaG4s5UD12wAXp9Dsrgp8Lx1Afws="
+      "rev": "d13a1b5edc6d142524dca9637f7d0a73f181fc0d",
+      "hash": "sha256-YPGok87DxkSMh/h1ehOLAWCL+CoejWLY3E8WggjT39c="
     },
     "ipkgJson": {
       "name": "dom-mvc-extra",
