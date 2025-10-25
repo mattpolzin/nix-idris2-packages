@@ -200,8 +200,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-barbies",
-      "rev": "5312a5a3fbf91e0fa60698eda5d0d78cfd743b34",
-      "hash": "sha256-hpSv3UZXzV7bIutvD9b7PjIj2vPfzHpJtZNd4SEaSIk="
+      "rev": "257201868668f94884a12c3de3b48ed84fce3a07",
+      "hash": "sha256-XpiCkFjIIXB9LyH0RunvTYDKgfivhVmVspT8CVmR+u8="
     },
     "ipkgJson": {
       "name": "barbies",
@@ -829,8 +829,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "24f87065366cc90f28c0f153ff01303cb44ecff4",
-      "hash": "sha256-K60numPk/U+coBNIJxU1qIZHstwYY69aBzudb72Ug6g="
+      "rev": "a95ab6b9b26712de93862ab9b361507fe8f5e96e",
+      "hash": "sha256-3E03xGyvaXvyc3naigMP21lAcubX4k/ua+gICIKO6kQ="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1103,8 +1103,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "24f87065366cc90f28c0f153ff01303cb44ecff4",
-      "hash": "sha256-K60numPk/U+coBNIJxU1qIZHstwYY69aBzudb72Ug6g="
+      "rev": "a95ab6b9b26712de93862ab9b361507fe8f5e96e",
+      "hash": "sha256-3E03xGyvaXvyc3naigMP21lAcubX4k/ua+gICIKO6kQ="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -3718,8 +3718,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "b87973a77cadab16117d454e27e9b60a2fb65c6b",
-      "hash": "sha256-c8ukx1cG2g+yBoIu9rIp6W6eXi5wDxFqM6vWevkIaA8="
+      "rev": "9d31025c6760c8daf40e3fc444c64aa1834cc6ef",
+      "hash": "sha256-YVw7ZVIqqGaAVKuF+ZFdDtsIHQ8rHcAK+gvBt2riWIk="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3741,8 +3741,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "b87973a77cadab16117d454e27e9b60a2fb65c6b",
-      "hash": "sha256-c8ukx1cG2g+yBoIu9rIp6W6eXi5wDxFqM6vWevkIaA8="
+      "rev": "9d31025c6760c8daf40e3fc444c64aa1834cc6ef",
+      "hash": "sha256-YVw7ZVIqqGaAVKuF+ZFdDtsIHQ8rHcAK+gvBt2riWIk="
     },
     "ipkgJson": {
       "name": "streams-posix",
@@ -3998,7 +3998,7 @@
     "ipkgName": "tester",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/cuddlefishie/tester-idr",
+      "url": "https://github.com/hydrolarus/tester-idr",
       "rev": "3dcdb54ed578a14597a17cb93c926734a9da69ca",
       "hash": "sha256-zKWo7DSnp+WeOEGvzDGlM3CpOU7xg0WwBW4S86Y/9tE="
     },
@@ -4112,7 +4112,7 @@
     "ipkgName": "toml",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/cuddlefishie/toml-idr",
+      "url": "https://github.com/hydrolarus/toml-idr",
       "rev": "7e5c4f3cc2ff028f665653b43c4c1f9b0a8211e2",
       "hash": "sha256-9sOLSTXK6SuMzjelaR8YNtTJROHouC2Yd8bjmOhGe9g="
     },
