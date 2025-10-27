@@ -443,8 +443,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-collection-utils",
-      "rev": "a28049d66507605e06ad314c52e40166373178cf",
-      "hash": "sha256-KzERxeQ5z0I4blH9Rh5r4NgVXBbRf0xY8oqFWHoPcWI="
+      "rev": "ec38943ac41bd216862af304a5ceacb7f26848a1",
+      "hash": "sha256-oTnQbKv/7ecqs2BGvVYeyrkx6pXZ3ycufeRYKgxBD9E="
     },
     "ipkgJson": {
       "name": "collection-utils",
