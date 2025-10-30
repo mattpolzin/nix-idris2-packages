@@ -112,8 +112,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
-      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
+      "rev": "85b8e4c779fb48a86cccfb20f1763e8cc90227bf",
+      "hash": "sha256-xAZHrFKVs13BVUSVNpcmHH7fXPzG2P4RnGKYAr5ZTR4="
     },
     "ipkgJson": {
       "name": "async",
@@ -136,8 +136,8 @@
     "ipkgDir": "async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
-      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
+      "rev": "85b8e4c779fb48a86cccfb20f1763e8cc90227bf",
+      "hash": "sha256-xAZHrFKVs13BVUSVNpcmHH7fXPzG2P4RnGKYAr5ZTR4="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -157,8 +157,8 @@
     "ipkgDir": "async-js",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
-      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
+      "rev": "85b8e4c779fb48a86cccfb20f1763e8cc90227bf",
+      "hash": "sha256-xAZHrFKVs13BVUSVNpcmHH7fXPzG2P4RnGKYAr5ZTR4="
     },
     "ipkgJson": {
       "name": "async-js",
@@ -179,8 +179,8 @@
     "ipkgDir": "async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "03ed6f2f1e4d5cdb7c9dd477155e28d4901d76b1",
-      "hash": "sha256-o0m6vYXGLW/Q6OsLWr5N/b61a4TCS3vdoj7HChJ9A9E="
+      "rev": "85b8e4c779fb48a86cccfb20f1763e8cc90227bf",
+      "hash": "sha256-xAZHrFKVs13BVUSVNpcmHH7fXPzG2P4RnGKYAr5ZTR4="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -191,6 +191,29 @@
       "version": "0.1.0",
       "authors": "stefan-hoeck",
       "brief": "A poll-based event loop for asynchronous computations on Posix systems",
+      "sourcedir": "src"
+    }
+  },
+  "async-spec": {
+    "packName": "async-spec",
+    "ipkgName": "async-spec",
+    "ipkgDir": "async-spec",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-async",
+      "rev": "85b8e4c779fb48a86cccfb20f1763e8cc90227bf",
+      "hash": "sha256-xAZHrFKVs13BVUSVNpcmHH7fXPzG2P4RnGKYAr5ZTR4="
+    },
+    "ipkgJson": {
+      "name": "async-spec",
+      "depends": [
+        "base",
+        "async",
+        "pretty-show",
+        "prettier-ansi"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "A testing framework for Async programs and IO in general",
       "sourcedir": "src"
     }
   },
