@@ -130,6 +130,30 @@
       "sourcedir": "src"
     }
   },
+  "async-dom": {
+    "packName": "async-dom",
+    "ipkgName": "async",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-async",
+      "rev": "0b7e64a9b0cfbe4a40daea23f8e7b9173978d217",
+      "hash": "sha256-8ht4egfGFJ+WJpH6ZrPXbT303JVVHwu3MXa9n3S2EVk="
+    },
+    "ipkgJson": {
+      "name": "async",
+      "depends": [
+        "base",
+        "array",
+        "containers",
+        "elin",
+        "quantifiers-extra"
+      ],
+      "version": "0.1.0",
+      "authors": "stefan-hoeck",
+      "brief": "Asynchronous and concurrent computations in Idris2",
+      "sourcedir": "src"
+    }
+  },
   "async-epoll": {
     "packName": "async-epoll",
     "ipkgName": "async-epoll",
