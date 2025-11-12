@@ -132,25 +132,26 @@
   },
   "async-dom": {
     "packName": "async-dom",
-    "ipkgName": "async",
+    "ipkgName": "async-dom",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "0b7e64a9b0cfbe4a40daea23f8e7b9173978d217",
-      "hash": "sha256-8ht4egfGFJ+WJpH6ZrPXbT303JVVHwu3MXa9n3S2EVk="
+      "url": "https://github.com/stefan-hoeck/idris2-async-dom",
+      "rev": "29af15e1866f753737b8f78b2e378f2ed6b0ba65",
+      "hash": "sha256-wKkh+kbNPUjmm01AYML8PrCB1UvkvRrjFYppK6YvWrE="
     },
     "ipkgJson": {
-      "name": "async",
+      "name": "async-dom",
       "depends": [
         "base",
-        "array",
-        "containers",
-        "elin",
-        "quantifiers-extra"
+        "async-js",
+        "dom",
+        "css",
+        "json-simple",
+        "streams"
       ],
-      "version": "0.1.0",
+      "version": "0.0.1",
       "authors": "stefan-hoeck",
-      "brief": "Asynchronous and concurrent computations in Idris2",
+      "brief": "Concurrency and streaming in interactive web pages",
       "sourcedir": "src"
     }
   },
@@ -4029,8 +4030,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "f4f1dee79d5aefde922470434f03dbe32fc5d603",
-      "hash": "sha256-2zsY8RHdpfevEy6u0tE7jxYj9bmwb37LhkukA0mu9mE="
+      "rev": "3adab6964d450be7ebfed1835aa7b14294f14092",
+      "hash": "sha256-KB6BRvKKAo3W7VvA64WFMaOZ9v3lJDXGJX92aIhCMq4="
     },
     "ipkgJson": {
       "name": "tensortype",
