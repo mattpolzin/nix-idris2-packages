@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "29af15e1866f753737b8f78b2e378f2ed6b0ba65",
-      "hash": "sha256-wKkh+kbNPUjmm01AYML8PrCB1UvkvRrjFYppK6YvWrE="
+      "rev": "e1d8595418c5beabfed336033978a53bed9ac660",
+      "hash": "sha256-1+rOoegrRKv9IkxrfkCdipyB0bRERFWUq6PaclUXQ7k="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -2521,8 +2521,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "37787fa16550ef761d3242bf8ccb8ab672d9f2d1",
-      "hash": "sha256-pvunaZSXj5Ee0utBFZfagxRKFuoSBxeU0IN7VTc56rY="
+      "rev": "b63fef9bb1f3417fba9efae40bddd2eceab0ad5f",
+      "hash": "sha256-jNQQYQH7GMDkbBiajNH/0Pc8xSKMYpUQMii+lul0hfc="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2556,8 +2556,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "37787fa16550ef761d3242bf8ccb8ab672d9f2d1",
-      "hash": "sha256-pvunaZSXj5Ee0utBFZfagxRKFuoSBxeU0IN7VTc56rY="
+      "rev": "b63fef9bb1f3417fba9efae40bddd2eceab0ad5f",
+      "hash": "sha256-jNQQYQH7GMDkbBiajNH/0Pc8xSKMYpUQMii+lul0hfc="
     },
     "ipkgJson": {
       "name": "pack-admin",
@@ -3565,6 +3565,25 @@
       "sourcedir": "src",
       "prebuild": "make -C support",
       "preinstall": "make -C support install"
+    }
+  },
+  "simple-tests": {
+    "packName": "simple-tests",
+    "ipkgName": "simple-tests",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://gitlab.com/avidela/idris2-simple-tests",
+      "rev": "9a5c966fdc4ca5a42c51a7e43bd94049c91e995b",
+      "hash": "sha256-PyjvPlCUhIJ2+lz8L8wrpYd+O1YdSKiB+giFqiNTdsc="
+    },
+    "ipkgJson": {
+      "name": "simple-tests",
+      "depends": [
+        "contrib"
+      ],
+      "version": "0.1.0",
+      "authors": "Andre Videla",
+      "sourcedir": "src"
     }
   },
   "snocvect": {
