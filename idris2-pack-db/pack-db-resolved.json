@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "941e08f0237633f2ff5eee712037ecf8cfa80f7b",
-      "hash": "sha256-2W+wcOXbgqYNFdoCbxxUuj9NkAJ87xv1g+IXNYzq7Hc="
+      "rev": "3c070672d3b8f6a6082e47aadb684466d99c80b0",
+      "hash": "sha256-sRdinQHmVMyB+QBuT7CSWoJK8ce0ReZ0JFVhuUjQhjI="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -444,8 +444,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "d9a0aa0daacd2ae1b65d0ae1ac57cefb226da016",
-      "hash": "sha256-CgGf8Uq3AOXpLJHkj5k40L5tpL8wEvojSAz/QpyjIDs="
+      "rev": "d3fe88ee1e399ce2494f2bc8efdd91954c14c6ea",
+      "hash": "sha256-QRhhRMpC3qKX3IpwlYF6RWVP2lNCYy6zJVXCGhxay0I="
     },
     "ipkgJson": {
       "name": "chem",
@@ -471,8 +471,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "d9a0aa0daacd2ae1b65d0ae1ac57cefb226da016",
-      "hash": "sha256-CgGf8Uq3AOXpLJHkj5k40L5tpL8wEvojSAz/QpyjIDs="
+      "rev": "d3fe88ee1e399ce2494f2bc8efdd91954c14c6ea",
+      "hash": "sha256-QRhhRMpC3qKX3IpwlYF6RWVP2lNCYy6zJVXCGhxay0I="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -1558,8 +1558,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-hedgehog",
-      "rev": "61bff673afe7d3748ec7cc8a802a1f8bbce2682e",
-      "hash": "sha256-X0QSPAVLdZpKARQIcZzaoJIMJU2wi05lSWsIVdhfTCE="
+      "rev": "c987179433e1dab737cb4ba4772913bbefabe059",
+      "hash": "sha256-YPO0sWZ+QWafLsG4g9dVYO6IkOEAcLtIgXZBpRX2ghY="
     },
     "ipkgJson": {
       "name": "hedgehog",
