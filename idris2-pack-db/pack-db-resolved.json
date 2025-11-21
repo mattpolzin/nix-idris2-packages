@@ -784,8 +784,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "f5d959b801e7f038d5e5bad0eb35ac6e1c9a8e95",
-      "hash": "sha256-Ie0sZYqVdiDubOtRQ+BayrGwn0vYHS0DLqbNawgbWrU="
+      "rev": "78c0187bcad6f014c5fd39a81dd749014c090c43",
+      "hash": "sha256-jzbszb4yeSqzrCIvfJGEmzAZjvB7+pKG9OkkRyAHiMM="
     },
     "ipkgJson": {
       "name": "cyby-draw",
