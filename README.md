@@ -70,6 +70,13 @@ outputs = { packageset, ...}:
   {}
 ```
 
+If you'd like to have a slightly easier setup (no need to specify packageset
+dependencies in your Nix derivation) you can use the template that enables
+import-from-derivation (IFD):
+```shell
+nix flake init -t github:mattpolzin/nix-idris2-packages#import-from-derivation
+```
+
 If you're setting up a developer shell or have some other need for source code
 of your dependencies, you can use any given package's `withSource` passthru
 attribute to get a package ready for use in a development environment. For
