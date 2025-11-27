@@ -64,6 +64,10 @@
           path = ./templates/basic;
           description = "A simple template that produces results for multiple systems without using flake-utils";
         };
+        import-from-derivation = {
+          path = ./templates/ifd;
+          description = "A simple template that creates a project that builds against dependencies from pack's packageset automatically";
+        };
       };
 
       impureShell =
