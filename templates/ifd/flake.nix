@@ -45,7 +45,9 @@
           };
         in
         {
-          default = myPkg.executable; # or myPkg.library'
+          # buildIdris' will determine if your package is an executable or not
+          # and produce either a library or executable derivation.
+          default = myPkg;
         }
       );
 
