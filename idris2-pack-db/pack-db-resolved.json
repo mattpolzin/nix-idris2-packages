@@ -784,8 +784,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "7a8dba62f34ebabca451710077e04106df77073b",
-      "hash": "sha256-0VH/3RApZmwTiy9Hj6L3mg0RqRu0Uv9yvF0HYZxKkNg="
+      "rev": "5646b207006a66f194daa2dfc188878621fc2e88",
+      "hash": "sha256-07CqXNgopilnjN6oyOHddKd5arY90VErrxpLol3hHOM="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -3256,8 +3256,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-random-pure",
-      "rev": "e5aad147d41ccea7fd5265d61160ff7a48ffba10",
-      "hash": "sha256-MRjvBkwJRNy+tIZ7XjeH7ZRY21NsKa66TSkzJyzT9wM="
+      "rev": "daaa95706cc5dc8faaa36df0e1b3a77547e991fc",
+      "hash": "sha256-i98FmT8cXvpujpFpDgdntxnnGKfo9Um8zOMohj4Teb4="
     },
     "ipkgJson": {
       "name": "random-pure",
