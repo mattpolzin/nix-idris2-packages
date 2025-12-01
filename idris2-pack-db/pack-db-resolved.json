@@ -1409,6 +1409,23 @@
       "sourcedir": "src"
     }
   },
+  "fs-utils": {
+    "packName": "fs-utils",
+    "ipkgName": "fs-utils",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://gitlab.com/avidela/fs-utils",
+      "rev": "650c710a75e8516e7be688f1b5dbb48b44b05985",
+      "hash": "sha256-69TBPJ17D0SqZmleqgep5JcLZC3M3air6U2c4wpujhg="
+    },
+    "ipkgJson": {
+      "name": "fs-utils",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Andre Videla",
+      "sourcedir": "src"
+    }
+  },
   "fvect": {
     "packName": "fvect",
     "ipkgName": "fvect",
@@ -3710,14 +3727,15 @@
     "ipkgDir": "api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "e15dd705869cbf34def810be076db49c3eb20ae0",
-      "hash": "sha256-pOvVJthDXqm1oOJ79u1brkApA2oR3tviLGztYJTLAB0="
+      "rev": "41114193363bdbb559190bd06783d9a9ed434641",
+      "hash": "sha256-RhLbPmUnmg+nOSQgN452mKSbUYYXxJW0XXoAf/d07xo="
     },
     "ipkgJson": {
       "name": "stellar-api",
       "depends": [
         "algdata",
-        "contrib"
+        "contrib",
+        "fs-utils"
       ],
       "version": "0.1",
       "authors": "Andre Videla",
@@ -3735,8 +3753,8 @@
     "ipkgDir": "http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "e15dd705869cbf34def810be076db49c3eb20ae0",
-      "hash": "sha256-pOvVJthDXqm1oOJ79u1brkApA2oR3tviLGztYJTLAB0="
+      "rev": "41114193363bdbb559190bd06783d9a9ed434641",
+      "hash": "sha256-RhLbPmUnmg+nOSQgN452mKSbUYYXxJW0XXoAf/d07xo="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -3746,7 +3764,8 @@
         "node",
         "tyttp-adapter-node",
         "continuation-monad",
-        "json-simple"
+        "json-simple",
+        "fs-utils"
       ],
       "version": "0.1",
       "authors": "Andre Videla",
@@ -3763,8 +3782,8 @@
     "ipkgDir": "sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "e15dd705869cbf34def810be076db49c3eb20ae0",
-      "hash": "sha256-pOvVJthDXqm1oOJ79u1brkApA2oR3tviLGztYJTLAB0="
+      "rev": "41114193363bdbb559190bd06783d9a9ed434641",
+      "hash": "sha256-RhLbPmUnmg+nOSQgN452mKSbUYYXxJW0XXoAf/d07xo="
     },
     "ipkgJson": {
       "name": "stellar-sql",
@@ -3792,8 +3811,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "c6d2e84f32fc8588288a6c26fe33b383874e1300",
-      "hash": "sha256-kqbbOEOJYLgBfy3i021hFf1IMVRzICwAGGeJteYJjLg="
+      "rev": "57afb012dedc1968eda855ccf8e76c1236aa51da",
+      "hash": "sha256-i0pfI0Sdlx3zOuYFk8/ZeCOl4R2HDbHLneTIHTDynE0="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3815,8 +3834,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "c6d2e84f32fc8588288a6c26fe33b383874e1300",
-      "hash": "sha256-kqbbOEOJYLgBfy3i021hFf1IMVRzICwAGGeJteYJjLg="
+      "rev": "57afb012dedc1968eda855ccf8e76c1236aa51da",
+      "hash": "sha256-i0pfI0Sdlx3zOuYFk8/ZeCOl4R2HDbHLneTIHTDynE0="
     },
     "ipkgJson": {
       "name": "streams-posix",
