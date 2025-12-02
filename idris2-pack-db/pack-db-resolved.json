@@ -4071,8 +4071,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "c58b5952acd610abb6dc4981c44f3b952fecbb05",
-      "hash": "sha256-aVaKo0kuT0F2SEnwtORinblLZgEB140RBIjk5SXRagA="
+      "rev": "c9b25e2f7f94c6d49bba5044dddb2d6ba0cd414e",
+      "hash": "sha256-wyD/Gg+EYBUDfiLB4Zv6mLId31t89Ab7gxl1zOQPes0="
     },
     "ipkgJson": {
       "name": "tensortype",
