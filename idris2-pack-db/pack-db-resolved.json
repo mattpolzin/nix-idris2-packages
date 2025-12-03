@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "6dcec8862090edf7b6644dda44e5e138e6ca944a",
-      "hash": "sha256-VraqcRo20E6ts8cUbv56+ZM9RVu6z0Enwc4CJfhKbaM="
+      "rev": "4d51557bca0d235d0c5382dcb3b5d16636482172",
+      "hash": "sha256-VuaGjVCHXwmSXQn2GmdOppHTuCgajTZY8Ps4pZRKxpU="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -1539,8 +1539,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Z-snails/Idris2-hashable",
-      "rev": "0eb2bf20f677302209b8cd9d1bae426915baf5ef",
-      "hash": "sha256-5ktlbyA5KeS05tToOmNN2yGAOk8b7SOAKoWek6PxDtY="
+      "rev": "af0b5e086d26777cbdedf0e1b5d7a9684d755da6",
+      "hash": "sha256-FO5sxlEJFIiNrluCrIH9ORFTUgldhbbG8C/r+pSD8T0="
     },
     "ipkgJson": {
       "name": "hashable",
@@ -4071,8 +4071,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "c9b25e2f7f94c6d49bba5044dddb2d6ba0cd414e",
-      "hash": "sha256-wyD/Gg+EYBUDfiLB4Zv6mLId31t89Ab7gxl1zOQPes0="
+      "rev": "b8a4f651cbb47c800e09b95b67b91796f2bf80dc",
+      "hash": "sha256-WAYXy+PrOJhNZXIGKQiZ5zGcu1HhXn8PnsU93o5I2OU="
     },
     "ipkgJson": {
       "name": "tensortype",
