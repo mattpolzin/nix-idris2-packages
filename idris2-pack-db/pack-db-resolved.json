@@ -3273,8 +3273,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-random-pure",
-      "rev": "daaa95706cc5dc8faaa36df0e1b3a77547e991fc",
-      "hash": "sha256-i98FmT8cXvpujpFpDgdntxnnGKfo9Um8zOMohj4Teb4="
+      "rev": "bfe091b2ee1bc561ca2e6c17ddeb9972964bd6e8",
+      "hash": "sha256-qth1LF6+/fWgqgLS36AcDamRq46816WfBCbi3kUDILQ="
     },
     "ipkgJson": {
       "name": "random-pure",
