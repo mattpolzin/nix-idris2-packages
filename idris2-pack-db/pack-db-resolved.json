@@ -444,8 +444,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "d3fe88ee1e399ce2494f2bc8efdd91954c14c6ea",
-      "hash": "sha256-QRhhRMpC3qKX3IpwlYF6RWVP2lNCYy6zJVXCGhxay0I="
+      "rev": "df30474d15cbe0511809224568abd512c76d7ee2",
+      "hash": "sha256-EJvyMIrb2w1/bYfQbVBf2gPK66VrqLYBFxEk6C8Y1G4="
     },
     "ipkgJson": {
       "name": "chem",
@@ -471,8 +471,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "d3fe88ee1e399ce2494f2bc8efdd91954c14c6ea",
-      "hash": "sha256-QRhhRMpC3qKX3IpwlYF6RWVP2lNCYy6zJVXCGhxay0I="
+      "rev": "df30474d15cbe0511809224568abd512c76d7ee2",
+      "hash": "sha256-EJvyMIrb2w1/bYfQbVBf2gPK66VrqLYBFxEk6C8Y1G4="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -784,8 +784,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "5646b207006a66f194daa2dfc188878621fc2e88",
-      "hash": "sha256-07CqXNgopilnjN6oyOHddKd5arY90VErrxpLol3hHOM="
+      "rev": "034e3842dac998a61b4988f422d007ccc2a9b6b6",
+      "hash": "sha256-ItndN1X8yD15EW7VZqjjqK2n8EpDfok7g6/UOapdq9M="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -3890,6 +3890,29 @@
       "sourcedir": "src",
       "prebuild": "make -C support",
       "preinstall": "make -C support install"
+    }
+  },
+  "stringsearch-algorithms": {
+    "packName": "stringsearch-algorithms",
+    "ipkgName": "stringsearch-algorithms",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
+      "rev": "4c8fe7e4b0027e067935950c358a96784609f52e",
+      "hash": "sha256-tnE8STUsSlXeosNLh+W6AyBHc8U3AwbYvJGPcYpkcH4="
+    },
+    "ipkgJson": {
+      "name": "stringsearch-algorithms",
+      "depends": [
+        "base",
+        "array",
+        "bytestring",
+        "ref1"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew Mosior",
+      "brief": "Fast searching, splitting and replacing of ByteStrings",
+      "sourcedir": "src"
     }
   },
   "structures": {
