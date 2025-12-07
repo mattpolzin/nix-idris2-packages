@@ -3898,8 +3898,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
-      "rev": "4c8fe7e4b0027e067935950c358a96784609f52e",
-      "hash": "sha256-tnE8STUsSlXeosNLh+W6AyBHc8U3AwbYvJGPcYpkcH4="
+      "rev": "28b3f6c7bbe953b2298091664b7f03c067a329e1",
+      "hash": "sha256-eoO5cL7ibBBV9Tm0qmong3tO5TjFSw98tiYvWbkG+3Y="
     },
     "ipkgJson": {
       "name": "stringsearch-algorithms",
@@ -3911,6 +3911,7 @@
       ],
       "version": "0.1.0",
       "authors": "Matthew Mosior",
+      "license": "BSD-3 Clause",
       "brief": "Fast searching, splitting and replacing of ByteStrings",
       "sourcedir": "src"
     }
