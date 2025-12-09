@@ -1551,6 +1551,27 @@
       "sourcedir": "src"
     }
   },
+  "hashable-derive": {
+    "packName": "hashable-derive",
+    "ipkgName": "hashable-derive",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com//uartman/hashable-derive",
+      "rev": "d60f7c1149a2e68b577fb19de1d62502a76c73b0",
+      "hash": "sha256-NIHXo62dnso3+br6GSavSGWDfcKK2/uNIXbfRpbTdLM="
+    },
+    "ipkgJson": {
+      "name": "hashable-derive",
+      "depends": [
+        "elab-util",
+        "mk",
+        "hashable"
+      ],
+      "version": "0.1.0",
+      "authors": "Anton Gusev",
+      "sourcedir": "src"
+    }
+  },
   "hashmap": {
     "packName": "hashmap",
     "ipkgName": "hashmap",
@@ -2541,8 +2562,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "bdd69a9a403dc17c10bfd39978d8a63c12085f23",
-      "hash": "sha256-g+0dBHmHtAwWeITtoSSw57M3WnIc/yrNuMBtEKO+OVc="
+      "rev": "4685b43f69a90548c87124492d56ef802881ab70",
+      "hash": "sha256-6FbHTUES7lQ868GNcgm0SiA5aN/EyA+z0owuqampkbk="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2576,8 +2597,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "bdd69a9a403dc17c10bfd39978d8a63c12085f23",
-      "hash": "sha256-g+0dBHmHtAwWeITtoSSw57M3WnIc/yrNuMBtEKO+OVc="
+      "rev": "4685b43f69a90548c87124492d56ef802881ab70",
+      "hash": "sha256-6FbHTUES7lQ868GNcgm0SiA5aN/EyA+z0owuqampkbk="
     },
     "ipkgJson": {
       "name": "pack-admin",
@@ -3898,8 +3919,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
-      "rev": "c171fa2b72011961450f2a99a37bf55dd993822f",
-      "hash": "sha256-ZvPqjs5zbJTk+DXNJlzHfgtQa2gR6bzZTtzaN6Yo4u4="
+      "rev": "767fa4869fe352259a2d069e55a1e47bf6dffd7f",
+      "hash": "sha256-gtRAyJHA0htPIY/aa0XBDWqa1lfRIgZKDdex+4MhHpM="
     },
     "ipkgJson": {
       "name": "stringsearch-algorithms",
