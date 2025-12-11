@@ -1557,8 +1557,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com//uartman/hashable-derive",
-      "rev": "d60f7c1149a2e68b577fb19de1d62502a76c73b0",
-      "hash": "sha256-NIHXo62dnso3+br6GSavSGWDfcKK2/uNIXbfRpbTdLM="
+      "rev": "37a80fec1c72b7cbdb5a6e182f84899f34bcd1bd",
+      "hash": "sha256-/6qp+K7EYbKnwVB/J6ebWIX0p8xshiSN1pbEbaBsr6U="
     },
     "ipkgJson": {
       "name": "hashable-derive",
@@ -1569,6 +1569,7 @@
       ],
       "version": "0.1.0",
       "authors": "Anton Gusev",
+      "brief": "Facilities for deriving interface `Hashable` from package `hashable`.",
       "sourcedir": "src"
     }
   },
@@ -2378,8 +2379,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-monocle",
-      "rev": "dd0ac6256ff80c11e112b9e4134669f44b042a51",
-      "hash": "sha256-c+haIeJbJ8dRHvgHO4K8I35SsDFM/jvvx2PDX+jpl7g="
+      "rev": "ab520188b34f367ba5063d99d39e82380990ec7f",
+      "hash": "sha256-yB/HzQvh6OordIQSojmb1a9FATHHKbgKar883nOgHEY="
     },
     "ipkgJson": {
       "name": "monocle",
@@ -2918,8 +2919,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/pg-idris",
-      "rev": "4cf32529b67ac1a32ff3523955b134926e0ed53e",
-      "hash": "sha256-I4mtkdwi6pnkculQDHn6EhvocyjK35LX56DLUCor/ZM="
+      "rev": "509bc468c9b30cdd0e7f554deeec9cf1b0832863",
+      "hash": "sha256-w8wusaIBbB25Eje42WFZxHgCS1/gEifpqdZjJQMrDAs="
     },
     "ipkgJson": {
       "name": "pg-idris",
@@ -3919,8 +3920,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
-      "rev": "767fa4869fe352259a2d069e55a1e47bf6dffd7f",
-      "hash": "sha256-gtRAyJHA0htPIY/aa0XBDWqa1lfRIgZKDdex+4MhHpM="
+      "rev": "934d89b153190108d3abb29361e547afcb3e4264",
+      "hash": "sha256-CttYwXIgZOejKWKzKsf+9sK6QOXRQWFT25sWRh3abss="
     },
     "ipkgJson": {
       "name": "stringsearch-algorithms",
