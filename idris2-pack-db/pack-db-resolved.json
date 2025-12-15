@@ -880,8 +880,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "0a3c61a79a2681b2619347373f238be980cd8b66",
-      "hash": "sha256-bf8zROpqKPA3m0WKnjYXrO9MovBPjqpsUoiuhopjdBw="
+      "rev": "82ae7a832ac2dc1bb96a80740d43a30d8794a86f",
+      "hash": "sha256-BFNqqfOtgNF20ecfO/7JQDNbx6mOoyi+2zDDlEpvCyA="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -897,7 +897,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.251026",
+      "version": "0.0.251213",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1154,8 +1154,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "0a3c61a79a2681b2619347373f238be980cd8b66",
-      "hash": "sha256-bf8zROpqKPA3m0WKnjYXrO9MovBPjqpsUoiuhopjdBw="
+      "rev": "82ae7a832ac2dc1bb96a80740d43a30d8794a86f",
+      "hash": "sha256-BFNqqfOtgNF20ecfO/7JQDNbx6mOoyi+2zDDlEpvCyA="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
