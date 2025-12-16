@@ -401,8 +401,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
-      "rev": "03a4df496af59cfb0bdd7e46f3a0b8d8960b9695",
-      "hash": "sha256-rualS5nOkJD9E23sLYyoPoVXZlEOgSGtY/oGng6AQEk="
+      "rev": "39eea225e76421d089067dc582d8f595f742e77f",
+      "hash": "sha256-yFFqgpk1iTWMJv+JgPFqQ9XRx56kZQREDz8HbCGz/70="
     },
     "ipkgJson": {
       "name": "bytestring",
@@ -493,8 +493,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-collection-utils",
-      "rev": "ec38943ac41bd216862af304a5ceacb7f26848a1",
-      "hash": "sha256-oTnQbKv/7ecqs2BGvVYeyrkx6pXZ3ycufeRYKgxBD9E="
+      "rev": "6df30b19c55233939065129b1c488f4aa4cdf60f",
+      "hash": "sha256-VxprrHyYyAEjfdC6OYYg9FVRQmesfEYt30OMUE1IRY4="
     },
     "ipkgJson": {
       "name": "collection-utils",
