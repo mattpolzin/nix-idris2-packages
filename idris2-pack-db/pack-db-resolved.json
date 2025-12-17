@@ -880,8 +880,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "82ae7a832ac2dc1bb96a80740d43a30d8794a86f",
-      "hash": "sha256-BFNqqfOtgNF20ecfO/7JQDNbx6mOoyi+2zDDlEpvCyA="
+      "rev": "7f30d612f4c58c5f7a931774fc6fe8bce8fdce73",
+      "hash": "sha256-xBG95CkRRpfyyCmFzZ2EdhEvtUwLxTvS+poRc5r1WuU="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1154,8 +1154,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "82ae7a832ac2dc1bb96a80740d43a30d8794a86f",
-      "hash": "sha256-BFNqqfOtgNF20ecfO/7JQDNbx6mOoyi+2zDDlEpvCyA="
+      "rev": "7f30d612f4c58c5f7a931774fc6fe8bce8fdce73",
+      "hash": "sha256-xBG95CkRRpfyyCmFzZ2EdhEvtUwLxTvS+poRc5r1WuU="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
