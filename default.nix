@@ -22,4 +22,4 @@ pkgs.callPackage ./idris2-packages.nix {
     buildIdrisOverride
     withSource
     ;
-}
+} // { nixpkgs = pkgs; }
