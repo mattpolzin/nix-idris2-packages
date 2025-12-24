@@ -112,8 +112,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "fa08935d10f4013b0caef76412bcc47598646e17",
-      "hash": "sha256-AS7VM+K2KFfdN5//JGHmhR/CHpX/18YUUpdXMjQzyeU="
+      "rev": "141eeb61ef3ff33ab87ffa7d5653f5069a249d20",
+      "hash": "sha256-6nWjdZsjOZULwqBgI4k7Yqec9bRqOICWN1IzJTZ5lEg="
     },
     "ipkgJson": {
       "name": "async",
@@ -163,8 +163,8 @@
     "ipkgDir": "async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "fa08935d10f4013b0caef76412bcc47598646e17",
-      "hash": "sha256-AS7VM+K2KFfdN5//JGHmhR/CHpX/18YUUpdXMjQzyeU="
+      "rev": "141eeb61ef3ff33ab87ffa7d5653f5069a249d20",
+      "hash": "sha256-6nWjdZsjOZULwqBgI4k7Yqec9bRqOICWN1IzJTZ5lEg="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -184,8 +184,8 @@
     "ipkgDir": "async-js",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "fa08935d10f4013b0caef76412bcc47598646e17",
-      "hash": "sha256-AS7VM+K2KFfdN5//JGHmhR/CHpX/18YUUpdXMjQzyeU="
+      "rev": "141eeb61ef3ff33ab87ffa7d5653f5069a249d20",
+      "hash": "sha256-6nWjdZsjOZULwqBgI4k7Yqec9bRqOICWN1IzJTZ5lEg="
     },
     "ipkgJson": {
       "name": "async-js",
@@ -206,8 +206,8 @@
     "ipkgDir": "async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "fa08935d10f4013b0caef76412bcc47598646e17",
-      "hash": "sha256-AS7VM+K2KFfdN5//JGHmhR/CHpX/18YUUpdXMjQzyeU="
+      "rev": "141eeb61ef3ff33ab87ffa7d5653f5069a249d20",
+      "hash": "sha256-6nWjdZsjOZULwqBgI4k7Yqec9bRqOICWN1IzJTZ5lEg="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -227,8 +227,8 @@
     "ipkgDir": "async-spec",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "fa08935d10f4013b0caef76412bcc47598646e17",
-      "hash": "sha256-AS7VM+K2KFfdN5//JGHmhR/CHpX/18YUUpdXMjQzyeU="
+      "rev": "141eeb61ef3ff33ab87ffa7d5653f5069a249d20",
+      "hash": "sha256-6nWjdZsjOZULwqBgI4k7Yqec9bRqOICWN1IzJTZ5lEg="
     },
     "ipkgJson": {
       "name": "async-spec",
@@ -880,8 +880,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "5373c2dade0acf36954eb6cde71363e8bc84edb0",
-      "hash": "sha256-MiQDwojTPdnHtXyBodLCdH1CYCjHXXYQWjdODl4kUEQ="
+      "rev": "be9e8516180d7d8ae3fe1e778dd8a66957b94b1a",
+      "hash": "sha256-Z1ibHIucK0ZCQzrQS5so4XOayh8I5tC0IhwZDpzyC7Y="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1154,8 +1154,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "5373c2dade0acf36954eb6cde71363e8bc84edb0",
-      "hash": "sha256-MiQDwojTPdnHtXyBodLCdH1CYCjHXXYQWjdODl4kUEQ="
+      "rev": "be9e8516180d7d8ae3fe1e778dd8a66957b94b1a",
+      "hash": "sha256-Z1ibHIucK0ZCQzrQS5so4XOayh8I5tC0IhwZDpzyC7Y="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1668,6 +1668,49 @@
       "brief": "A http client implementation in idris2",
       "readme": "README.md",
       "opts": "-Wno-shadowing",
+      "sourcedir": "src"
+    }
+  },
+  "http-server-api": {
+    "packName": "http-server-api",
+    "ipkgName": "http-server-api",
+    "ipkgDir": "http-server-api",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-http-types",
+      "rev": "275876f72b0c457eb7b7ac5dab88c621ed2e525b",
+      "hash": "sha256-JmGst+kRem4QTbDAd0/jtaGTo+LiPlFyzlpADgm5Hy0="
+    },
+    "ipkgJson": {
+      "name": "http-server-api",
+      "depends": [
+        "http-types",
+        "streams-posix"
+      ],
+      "version": "0.8.0",
+      "authors": "stefan-hoeck",
+      "brief": "Server-side interpreter for HTTP API",
+      "sourcedir": "src"
+    }
+  },
+  "http-types": {
+    "packName": "http-types",
+    "ipkgName": "http-types",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-http-types",
+      "rev": "275876f72b0c457eb7b7ac5dab88c621ed2e525b",
+      "hash": "sha256-JmGst+kRem4QTbDAd0/jtaGTo+LiPlFyzlpADgm5Hy0="
+    },
+    "ipkgJson": {
+      "name": "http-types",
+      "depends": [
+        "base",
+        "ilex",
+        "json-simple"
+      ],
+      "version": "0.8.0",
+      "authors": "stefan-hoeck",
+      "brief": "Types and utilities for working with HTTP requests and responses",
       "sourcedir": "src"
     }
   },
@@ -2214,8 +2257,8 @@
     "ipkgDir": "linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "6fcf6b323f59729f040540a5c14903f678748d54",
-      "hash": "sha256-IXw74Nb7MzCqNixpdWYRPIUKl+FkL9Eu1UoeW9JdtOI="
+      "rev": "c7b54256b96826fb3913b695354cab58fecac789",
+      "hash": "sha256-e3IJXblnVOujqGK7fRJZgAzLg6BZUMDc+AMpjhkvRmE="
     },
     "ipkgJson": {
       "name": "linux",
@@ -3052,8 +3095,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "6fcf6b323f59729f040540a5c14903f678748d54",
-      "hash": "sha256-IXw74Nb7MzCqNixpdWYRPIUKl+FkL9Eu1UoeW9JdtOI="
+      "rev": "c7b54256b96826fb3913b695354cab58fecac789",
+      "hash": "sha256-e3IJXblnVOujqGK7fRJZgAzLg6BZUMDc+AMpjhkvRmE="
     },
     "ipkgJson": {
       "name": "posix",
@@ -3558,6 +3601,29 @@
       "prebuild": "make -C support",
       "postinstall": "make -C support install",
       "postclean": "make -C support clean"
+    }
+  },
+  "scgi": {
+    "packName": "scgi",
+    "ipkgName": "scgi",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/idris-community/idris2-scgi",
+      "rev": "4b5cae0fa6b05fb09a5c04fbc9b2438b8385a9ae",
+      "hash": "sha256-hy9jo84LtDBKg4nf3QHAXtdO8k0jXafP0dLpIWvFHtg="
+    },
+    "ipkgJson": {
+      "name": "scgi",
+      "depends": [
+        "base",
+        "ansi",
+        "async-epoll",
+        "http-server-api"
+      ],
+      "version": "0.7.0",
+      "authors": "stefan-hoeck",
+      "brief": "Utilities for writing SCGI servers in Idris2",
+      "sourcedir": "src"
     }
   },
   "scram": {
