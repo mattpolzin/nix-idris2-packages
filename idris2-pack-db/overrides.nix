@@ -16,6 +16,7 @@
   clang,
   gcc,
   gmp,
+  gnumake,
   idris2Support,
   idris2,
   chez,
@@ -129,6 +130,7 @@
       gmp
       clang
       chez
+      gnumake
     ] ++ lib.optionals stdenv.hostPlatform.isDarwin [ zsh ];
 
     postInstall = ''
@@ -139,6 +141,7 @@
             [
               clang
               chez
+              gnumake
             ]
             ++ lib.optionals stdenv.hostPlatform.isDarwin [ zsh ]
           )
