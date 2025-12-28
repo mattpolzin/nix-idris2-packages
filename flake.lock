@@ -110,11 +110,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1755736001,
-        "narHash": "sha256-GfUyY3p9AcMbPiuAA2niKd6Mlf8S94uh4QcxxTRyp/k=",
+        "lastModified": 1756810080,
+        "narHash": "sha256-CY3px/8GAwDL1cXDWY1TJh3h5WDVzC+giuTlcwrUhF4=",
         "owner": "idris-lang",
         "repo": "Idris2",
-        "rev": "adfba5bf0fae917146325483dd25e1a95db033aa",
+        "rev": "77f59382c39f1fe4cf209d5be6efa1350755e533",
         "type": "github"
       },
       "original": {
@@ -191,17 +191,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1757515244,
-        "narHash": "sha256-uYmg9Jd98RiO5SpRFox2xNAxY4nocPuK//zxuaIi/DM=",
+        "lastModified": 1766950180,
+        "narHash": "sha256-xEMtX/LlgSIZzy/0oOzOuxUQ4mLozfAqzxk2C5tnGE4=",
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "81344545c134c8e7105ecf1fdd7a1caae6647035",
+        "rev": "5d46d6e1d9babe02780fb3e7b715ef5efd081ad9",
         "type": "github"
       },
       "original": {
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "81344545c134c8e7105ecf1fdd7a1caae6647035",
+        "rev": "5d46d6e1d9babe02780fb3e7b715ef5efd081ad9",
         "type": "github"
       }
     },
@@ -220,11 +220,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1755781462,
-        "narHash": "sha256-/DNfM6EyxsksvgerJLB4uFgKANGgYe60sNuDeWlDqqQ=",
+        "lastModified": 1757515244,
+        "narHash": "sha256-uYmg9Jd98RiO5SpRFox2xNAxY4nocPuK//zxuaIi/DM=",
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "10d7b1357be56e00c1be2cb3fdb78270a8172f50",
+        "rev": "81344545c134c8e7105ecf1fdd7a1caae6647035",
         "type": "github"
       },
       "original": {
@@ -257,11 +257,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1755029558,
-        "narHash": "sha256-PRbjCpqn47HUTd0DaEPU8V1aWGPei2l/mgmodKLUFSo=",
+        "lastModified": 1755781462,
+        "narHash": "sha256-/DNfM6EyxsksvgerJLB4uFgKANGgYe60sNuDeWlDqqQ=",
         "owner": "idris-community",
         "repo": "idris2-lsp",
-        "rev": "2e38e3ee05894c42ac581fddda2a90f3be8a664d",
+        "rev": "10d7b1357be56e00c1be2cb3fdb78270a8172f50",
         "type": "github"
       },
       "original": {
