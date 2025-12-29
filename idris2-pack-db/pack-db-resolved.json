@@ -1827,8 +1827,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "81344545c134c8e7105ecf1fdd7a1caae6647035",
-      "hash": "sha256-uYmg9Jd98RiO5SpRFox2xNAxY4nocPuK//zxuaIi/DM="
+      "rev": "5d46d6e1d9babe02780fb3e7b715ef5efd081ad9",
+      "hash": "sha256-xEMtX/LlgSIZzy/0oOzOuxUQ4mLozfAqzxk2C5tnGE4="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
@@ -2606,8 +2606,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "cd512a0bf61a6effacc24060bb04106a849df0fe",
-      "hash": "sha256-309k3ALAnCno8C09Fy7zz/oiSCzKI2ZbH5WFn6QIwF0="
+      "rev": "ff798eea65c15c1a87c231e431f1fd97bdbd31e8",
+      "hash": "sha256-2q9IWZRILK3g0KIeCcBZr4RTIin2DcWIWELxXXh75gw="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2622,7 +2622,7 @@
       "version": "0.0.1",
       "langversion": {
         "lowerInclusive": true,
-        "lowerBound": "0.6.0",
+        "lowerBound": "0.8.0",
         "upperInclusive": true,
         "upperBound": "*"
       },
@@ -2641,8 +2641,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "cd512a0bf61a6effacc24060bb04106a849df0fe",
-      "hash": "sha256-309k3ALAnCno8C09Fy7zz/oiSCzKI2ZbH5WFn6QIwF0="
+      "rev": "ff798eea65c15c1a87c231e431f1fd97bdbd31e8",
+      "hash": "sha256-2q9IWZRILK3g0KIeCcBZr4RTIin2DcWIWELxXXh75gw="
     },
     "ipkgJson": {
       "name": "pack-admin",
@@ -2657,7 +2657,7 @@
       "version": "0.0.1",
       "langversion": {
         "lowerInclusive": true,
-        "lowerBound": "0.6.0",
+        "lowerBound": "0.8.0",
         "upperInclusive": true,
         "upperBound": "*"
       },
