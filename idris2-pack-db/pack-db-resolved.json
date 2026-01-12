@@ -1627,8 +1627,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/hmac",
-      "rev": "478d743ce8da2ed30b1b5deb5eedf4e3fa030b6e",
-      "hash": "sha256-fGE2ohNBYMOrXWFpZr7LBu0N468DYXGzPwkj740IB0o="
+      "rev": "14dbc91cb3e84dcd70cdda8efe8e48e97f3fb8f5",
+      "hash": "sha256-8A7o99KIpiHZC8r6aHz10lfQsI/gkqfG9fkDfXcoXkM="
     },
     "ipkgJson": {
       "name": "hmac",
@@ -3658,8 +3658,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/sha",
-      "rev": "e47013a162090d240872bb4961b4ef6f33b41a1e",
-      "hash": "sha256-GuAJTbFyBQTgjJgmCY7dCj0zy+MuF2Lpm3lserJa+eY="
+      "rev": "24a0a37332a97187e9e1bf923a0465b58f07a1a4",
+      "hash": "sha256-xyPqSm2o4K5tStiZJyDLeNa9Cm1NKX5UQaXZt1wWHn8="
     },
     "ipkgJson": {
       "name": "sha",
@@ -3667,7 +3667,7 @@
         "base",
         "hash"
       ],
-      "version": "0.0.1",
+      "version": "0.0.2",
       "authors": "Janus Troelsen <ysangkok@gmail.com>",
       "license": "BSD-3 Clause",
       "brief": "SHA (Secure Hashing Algorithm) implementations in C, copied from cryptohash-sha1, cryptohash-sha256. Provides `Data.Cryptography.Hash.SHA`.",
