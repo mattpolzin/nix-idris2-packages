@@ -27,8 +27,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-algebra",
-      "rev": "829f44b7fd961e3f0a7ad9174b395f97ebc33336",
-      "hash": "sha256-etsWqF07j/XBgfnlaA8pyF06BeoXqg7iViG0o09s4Zc="
+      "rev": "e279843a99fe250e2fcd928c774ddb6ffe36815b",
+      "hash": "sha256-feBRFG/72PhDGAmK3LIJIKV2SsM7vhB1RiDSu3p9V0o="
     },
     "ipkgJson": {
       "name": "algebra",
@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "1daa7f7794b8ed3fbd30d40dc2e6733064ce33d6",
-      "hash": "sha256-v+dPTutHaDW+VWFlgw8OnyymeOLtrPbaBljzHVnazls="
+      "rev": "cbad126b94de20fc6238e8d9ace3d5c1d2c2dbb7",
+      "hash": "sha256-M1faCt6u05fSP2k8VXWN+q/xImgEomcV6o8apzfxPCQ="
     },
     "ipkgJson": {
       "name": "array",
@@ -881,8 +881,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "be9e8516180d7d8ae3fe1e778dd8a66957b94b1a",
-      "hash": "sha256-Z1ibHIucK0ZCQzrQS5so4XOayh8I5tC0IhwZDpzyC7Y="
+      "rev": "721cc13542eee9d7cb4dc48a45262c5e166ca769",
+      "hash": "sha256-LUJXH1wDYwfox38uAvkis4jVesH8f/ntB0p/F0STZGo="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1155,8 +1155,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "be9e8516180d7d8ae3fe1e778dd8a66957b94b1a",
-      "hash": "sha256-Z1ibHIucK0ZCQzrQS5so4XOayh8I5tC0IhwZDpzyC7Y="
+      "rev": "721cc13542eee9d7cb4dc48a45262c5e166ca769",
+      "hash": "sha256-LUJXH1wDYwfox38uAvkis4jVesH8f/ntB0p/F0STZGo="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1678,8 +1678,8 @@
     "ipkgDir": "http-server-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "fbee1e91909f197fd4be98e78ed6364ba641b88b",
-      "hash": "sha256-tK+m/xa5b8DxE443CSinAww2QqNMoj9paI7wMhIOk0c="
+      "rev": "5e8e2f25b99f356f62078e0c162190baddb77b7c",
+      "hash": "sha256-x+wSv+o9XGyQwgwNbiZ/I8z933ZxLq7TwGmZTpeXBMU="
     },
     "ipkgJson": {
       "name": "http-server-api",
@@ -1699,8 +1699,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "fbee1e91909f197fd4be98e78ed6364ba641b88b",
-      "hash": "sha256-tK+m/xa5b8DxE443CSinAww2QqNMoj9paI7wMhIOk0c="
+      "rev": "5e8e2f25b99f356f62078e0c162190baddb77b7c",
+      "hash": "sha256-x+wSv+o9XGyQwgwNbiZ/I8z933ZxLq7TwGmZTpeXBMU="
     },
     "ipkgJson": {
       "name": "http-types",
@@ -3610,8 +3610,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-scgi",
-      "rev": "189a289e29e6a00806575d4b72bdf1a5652408b9",
-      "hash": "sha256-MCxYOa+dkneRc0hwBfDGN9jr8qsU85c6j/7/nWLvoWM="
+      "rev": "b24c1445c4eaa6c31d685549a6dccb1c21809a0b",
+      "hash": "sha256-7MF789Sn8ENEjXdD1Kd1JQ+7LdE3u1ZmshNX6qh8q/M="
     },
     "ipkgJson": {
       "name": "scgi",
