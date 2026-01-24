@@ -1678,8 +1678,8 @@
     "ipkgDir": "http-client-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "378310bb58577df16165359e137926b78156e869",
-      "hash": "sha256-45r2aH4wBNanrBq1s5psX3ianfKjCrjeFajt0uWEgE8="
+      "rev": "582a2bd9af62ea2f4788a97c47808b25049cab95",
+      "hash": "sha256-iNNfhPCyMuro/Y/Ntt9xfiwhzhVYKLWBN721nc6GQ3U="
     },
     "ipkgJson": {
       "name": "http-client-api",
@@ -1701,8 +1701,8 @@
     "ipkgDir": "http-server-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "378310bb58577df16165359e137926b78156e869",
-      "hash": "sha256-45r2aH4wBNanrBq1s5psX3ianfKjCrjeFajt0uWEgE8="
+      "rev": "582a2bd9af62ea2f4788a97c47808b25049cab95",
+      "hash": "sha256-iNNfhPCyMuro/Y/Ntt9xfiwhzhVYKLWBN721nc6GQ3U="
     },
     "ipkgJson": {
       "name": "http-server-api",
@@ -1722,8 +1722,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "378310bb58577df16165359e137926b78156e869",
-      "hash": "sha256-45r2aH4wBNanrBq1s5psX3ianfKjCrjeFajt0uWEgE8="
+      "rev": "582a2bd9af62ea2f4788a97c47808b25049cab95",
+      "hash": "sha256-iNNfhPCyMuro/Y/Ntt9xfiwhzhVYKLWBN721nc6GQ3U="
     },
     "ipkgJson": {
       "name": "http-types",
@@ -2244,6 +2244,34 @@
       "main": "Katla.Pandoc",
       "executable": "katla-pandoc",
       "sourcedir": "src"
+    }
+  },
+  "lana": {
+    "packName": "lana",
+    "ipkgName": "lana",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://git.sr.ht/~janus/lana",
+      "rev": "15301789fed2985cbe1d31bb862731ba8de33b00",
+      "hash": "sha256-U3T14JB45bBraLgJ0snXhxZNTdewjh5Wurno4hRrUOU="
+    },
+    "ipkgJson": {
+      "name": "lana",
+      "depends": [
+        "base",
+        "contrib",
+        "finite",
+        "json",
+        "json-simple"
+      ],
+      "version": "0.0.1",
+      "authors": "Janus Troelsen <ysangkok@gmail.com>",
+      "license": "MIT",
+      "brief": "Bi-directional and extensible JSON schemas using tagless final. Including serialization/deserialization.",
+      "readme": "Readme.md",
+      "main": "Readme",
+      "executable": "lanatest",
+      "sourcedir": "."
     }
   },
   "lens": {
@@ -3633,8 +3661,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-scgi",
-      "rev": "b24c1445c4eaa6c31d685549a6dccb1c21809a0b",
-      "hash": "sha256-7MF789Sn8ENEjXdD1Kd1JQ+7LdE3u1ZmshNX6qh8q/M="
+      "rev": "bc8c092e187f6c9ae4a6914412c82c032872d3ef",
+      "hash": "sha256-xewyGPT2Yc+K+EUA+LH0r1J+mrUAcHJQ5tJxAvadZiE="
     },
     "ipkgJson": {
       "name": "scgi",
