@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "40f55422bc47ec949ac8e035b589ba042e44c62b",
-      "hash": "sha256-3dXqd3l0LZIPZjv4TceB3s75+1GtdSYF1HwGJMFUUf4="
+      "rev": "9a0a71bfbc37600c8fd3ac26cdc851fb565f2a85",
+      "hash": "sha256-Vkimp+gWrinSOH8LPnLhAganSH6FD8dZSOv0S3tu6HA="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -1678,8 +1678,8 @@
     "ipkgDir": "http-client-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "582a2bd9af62ea2f4788a97c47808b25049cab95",
-      "hash": "sha256-iNNfhPCyMuro/Y/Ntt9xfiwhzhVYKLWBN721nc6GQ3U="
+      "rev": "2d51944ebab45f587b537e8243c2fc718b0b56cf",
+      "hash": "sha256-OSFqP7zq6TAGYixUAvbFFzwOnQghsPQx54i7/gakNjM="
     },
     "ipkgJson": {
       "name": "http-client-api",
@@ -1701,8 +1701,8 @@
     "ipkgDir": "http-server-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "582a2bd9af62ea2f4788a97c47808b25049cab95",
-      "hash": "sha256-iNNfhPCyMuro/Y/Ntt9xfiwhzhVYKLWBN721nc6GQ3U="
+      "rev": "2d51944ebab45f587b537e8243c2fc718b0b56cf",
+      "hash": "sha256-OSFqP7zq6TAGYixUAvbFFzwOnQghsPQx54i7/gakNjM="
     },
     "ipkgJson": {
       "name": "http-server-api",
@@ -1722,8 +1722,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "582a2bd9af62ea2f4788a97c47808b25049cab95",
-      "hash": "sha256-iNNfhPCyMuro/Y/Ntt9xfiwhzhVYKLWBN721nc6GQ3U="
+      "rev": "2d51944ebab45f587b537e8243c2fc718b0b56cf",
+      "hash": "sha256-OSFqP7zq6TAGYixUAvbFFzwOnQghsPQx54i7/gakNjM="
     },
     "ipkgJson": {
       "name": "http-types",
@@ -2309,8 +2309,8 @@
     "ipkgDir": "linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "ca0405f3633ec68da8a1d93b9f8843ee66507924",
-      "hash": "sha256-48VlGTfbrYsNEmQqWnUaooh0b/A1DAKvL4NoG3mJUpo="
+      "rev": "83e0a7bdfe15a0189d48e473041a66a2b0e52028",
+      "hash": "sha256-LIcoHJl5SeVZf6WP/P9BpcXSwFd5tGJktZcZus2QJgY="
     },
     "ipkgJson": {
       "name": "linux",
@@ -3147,8 +3147,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "ca0405f3633ec68da8a1d93b9f8843ee66507924",
-      "hash": "sha256-48VlGTfbrYsNEmQqWnUaooh0b/A1DAKvL4NoG3mJUpo="
+      "rev": "83e0a7bdfe15a0189d48e473041a66a2b0e52028",
+      "hash": "sha256-LIcoHJl5SeVZf6WP/P9BpcXSwFd5tGJktZcZus2QJgY="
     },
     "ipkgJson": {
       "name": "posix",
@@ -4015,15 +4015,15 @@
     "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/string-search",
-      "rev": "519de6bcc6a8e9c66941ed7d72bcce3bbdb17045",
-      "hash": "sha256-Mo4fMMWCeb3p9v/FTaaMZhqyJ0hB1lthTuATQ8xcgUw="
+      "rev": "96b3ba239f8bb7b2cf11b6078efde10057b5821a",
+      "hash": "sha256-Z3FD9Eu73BJl6sEumC1LIIUTyAsI57sLDDNFwscvLh4="
     },
     "ipkgJson": {
       "name": "string-search",
       "depends": [
         "base"
       ],
-      "version": "0.0.2",
+      "version": "0.0.3",
       "authors": "Janus Troelsen <ysangkok@gmail.com>",
       "license": "BSD-3 Clause",
       "brief": "Search for the index of a `Buffer` contained in another `Buffer`. Uses `memmem` from `libc`. Also provides `splitBits8 : List Bits8 -> List Bits8 -> Maybe (List Bits8, List Bits8)`.",
