@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "1ebc078373067d629f57b4c10dbddc3797376666",
-      "hash": "sha256-99Df3WqXbA/jdbpi4NXq/EAAeCeBkvS0g05GoFn9aLg="
+      "rev": "c78d569905ce1dae91d21ff1d5b29dd5081cbba1",
+      "hash": "sha256-UFC+85++A7b0+4yEPmDnGh8Jnm10iHSJE2vXZihMsy0="
     },
     "ipkgJson": {
       "name": "async-dom",
