@@ -1996,6 +1996,29 @@
       "sourcedir": "src"
     }
   },
+  "ilex-fasta": {
+    "packName": "ilex-fasta",
+    "ipkgName": "ilex-fasta",
+    "ipkgDir": "fasta",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-bioinformatics",
+      "rev": "5fe00925c6d0a7277d814a46a1eb7358a872f66f",
+      "hash": "sha256-pnMC+gL31QOjvWY3JKC7JbPAGYllCPGuoNxBbSchIPY="
+    },
+    "ipkgJson": {
+      "name": "ilex-fasta",
+      "depends": [
+        "async-epoll",
+        "ilex",
+        "ilex-streams",
+        "streams-posix"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew-Mosior",
+      "brief": "Stack-safe and efficient parser for the FASTA format.",
+      "sourcedir": "src"
+    }
+  },
   "ilex-json": {
     "packName": "ilex-json",
     "ipkgName": "ilex-json",
