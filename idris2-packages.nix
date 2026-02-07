@@ -21,7 +21,7 @@ let
   idris2Scope = lib.makeScope newScope (self: {
     idris2Support =
       if idris2SupportOverride == null then idris2Default.support else idris2SupportOverride;
-    idris2 = if idris2Override == null then idris2Default.idris2 else idris2Override;
+    idris2 = lib.recursiveUpdate (if idris2Override == null then idris2Default.idris2 else idris2Override) { passthru.idris2Support = self.idris2Support; };
     buildIdris = if buildIdrisOverride == null then idris2Default.buildIdris else buildIdrisOverride;
     idris2Api = self.callPackage ./packages/idris2-api.nix { };
     idris2Lsp = if idris2LspOverride == null then idris2LspDefault else idris2LspOverride;
