@@ -3974,8 +3974,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "41994447af834990af4fc4b1c7437b45b55c4deb",
-      "hash": "sha256-ShB6vpRyx0oFoUkSLUtwgT8lJKfnLGBw7ihKE2dGcEQ="
+      "rev": "6d1568f51d01b5b8e15fd451d1f46bc8d6f271f0",
+      "hash": "sha256-zrO9aN6mPQnaHgY23LSNNql5Vc9ngLvDPE7nhgyPb/E="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3997,8 +3997,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "41994447af834990af4fc4b1c7437b45b55c4deb",
-      "hash": "sha256-ShB6vpRyx0oFoUkSLUtwgT8lJKfnLGBw7ihKE2dGcEQ="
+      "rev": "6d1568f51d01b5b8e15fd451d1f46bc8d6f271f0",
+      "hash": "sha256-zrO9aN6mPQnaHgY23LSNNql5Vc9ngLvDPE7nhgyPb/E="
     },
     "ipkgJson": {
       "name": "streams-posix",
@@ -4258,8 +4258,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "45a2de41683fbb89cc4552fe8c91c404da511588",
-      "hash": "sha256-CheyO2DYHTi6WekOPjsXDPJNA2cyeFlEGp3e2harXKM="
+      "rev": "d016c6f8342d8376dc9b40e5d24b36635c6730a3",
+      "hash": "sha256-skUg0clvepnAT5rARuXjpqOnoZ3ZhXrnpVTIRDYzG1U="
     },
     "ipkgJson": {
       "name": "tensortype",
