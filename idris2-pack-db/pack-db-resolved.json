@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "c78d569905ce1dae91d21ff1d5b29dd5081cbba1",
-      "hash": "sha256-UFC+85++A7b0+4yEPmDnGh8Jnm10iHSJE2vXZihMsy0="
+      "rev": "c7dd3a67b2b8c54d93df58e3e2374b463a4cdf25",
+      "hash": "sha256-TkU7pVddYd6TtaTtEflKR2yCy2jUcE7NexaL+FsoUeQ="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -3974,8 +3974,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "6d1568f51d01b5b8e15fd451d1f46bc8d6f271f0",
-      "hash": "sha256-zrO9aN6mPQnaHgY23LSNNql5Vc9ngLvDPE7nhgyPb/E="
+      "rev": "d7bf31059752ae6b3b8f6158ba70f744bd89d4ca",
+      "hash": "sha256-szWQHkyM2FnKUXkbLGP7AdNIvq9yXX7wBXXPG9tuYY0="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3997,8 +3997,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "6d1568f51d01b5b8e15fd451d1f46bc8d6f271f0",
-      "hash": "sha256-zrO9aN6mPQnaHgY23LSNNql5Vc9ngLvDPE7nhgyPb/E="
+      "rev": "d7bf31059752ae6b3b8f6158ba70f744bd89d4ca",
+      "hash": "sha256-szWQHkyM2FnKUXkbLGP7AdNIvq9yXX7wBXXPG9tuYY0="
     },
     "ipkgJson": {
       "name": "streams-posix",
