@@ -112,8 +112,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "9d6e3e699343a232782a2268ee609fb5229ded38",
-      "hash": "sha256-c4XOlAdsV4drS2zjMRcdhynsx9O8w8yxd+BdirvyO1A="
+      "rev": "3205bd8f79131fb501f0161b317aca50747deaf8",
+      "hash": "sha256-TCYDG2HjeOmlyJhPcjHpAKtdz+AZxHjgBmb7Drplnyk="
     },
     "ipkgJson": {
       "name": "async",
@@ -163,8 +163,8 @@
     "ipkgDir": "async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "9d6e3e699343a232782a2268ee609fb5229ded38",
-      "hash": "sha256-c4XOlAdsV4drS2zjMRcdhynsx9O8w8yxd+BdirvyO1A="
+      "rev": "3205bd8f79131fb501f0161b317aca50747deaf8",
+      "hash": "sha256-TCYDG2HjeOmlyJhPcjHpAKtdz+AZxHjgBmb7Drplnyk="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -184,8 +184,8 @@
     "ipkgDir": "async-js",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "9d6e3e699343a232782a2268ee609fb5229ded38",
-      "hash": "sha256-c4XOlAdsV4drS2zjMRcdhynsx9O8w8yxd+BdirvyO1A="
+      "rev": "3205bd8f79131fb501f0161b317aca50747deaf8",
+      "hash": "sha256-TCYDG2HjeOmlyJhPcjHpAKtdz+AZxHjgBmb7Drplnyk="
     },
     "ipkgJson": {
       "name": "async-js",
@@ -206,8 +206,8 @@
     "ipkgDir": "async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "9d6e3e699343a232782a2268ee609fb5229ded38",
-      "hash": "sha256-c4XOlAdsV4drS2zjMRcdhynsx9O8w8yxd+BdirvyO1A="
+      "rev": "3205bd8f79131fb501f0161b317aca50747deaf8",
+      "hash": "sha256-TCYDG2HjeOmlyJhPcjHpAKtdz+AZxHjgBmb7Drplnyk="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -228,8 +228,8 @@
     "ipkgDir": "async-spec",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "9d6e3e699343a232782a2268ee609fb5229ded38",
-      "hash": "sha256-c4XOlAdsV4drS2zjMRcdhynsx9O8w8yxd+BdirvyO1A="
+      "rev": "3205bd8f79131fb501f0161b317aca50747deaf8",
+      "hash": "sha256-TCYDG2HjeOmlyJhPcjHpAKtdz+AZxHjgBmb7Drplnyk="
     },
     "ipkgJson": {
       "name": "async-spec",
