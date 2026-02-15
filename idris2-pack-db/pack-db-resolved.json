@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "7ea202d3fb1b5a04c2d5003ae3a802053d1d45d8",
-      "hash": "sha256-YPeIbMDpZqUoUoJPbHBv6K+Q7ruqYEtNA+SscJ0VoE4="
+      "rev": "53ecb797b39ab253937df5f1c9cffe931ea33614",
+      "hash": "sha256-LaXapu3vRgAqmZXdPPGl0xx96yC34fDqfZaeDbsKFFk="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -4402,6 +4402,36 @@
         "contrib"
       ],
       "version": "0.1.0",
+      "sourcedir": "src"
+    }
+  },
+  "type-aligned": {
+    "packName": "type-aligned",
+    "ipkgName": "type-aligned",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://gitlab.com/bss03/type-aligned",
+      "rev": "87630ce5181909d24e23c96ac0b4cf70fda942ab",
+      "hash": "sha256-UB7o+VI42+p+hnZHjttpzRKBJDdg57o0+FpWjMh0p+0="
+    },
+    "ipkgJson": {
+      "name": "type-aligned",
+      "depends": [],
+      "version": "0.1.0",
+      "langversion": {
+        "lowerInclusive": true,
+        "lowerBound": "0.8.0",
+        "upperInclusive": false,
+        "upperBound": "1.0.0"
+      },
+      "authors": "Boyd Stephen Smith Jr.",
+      "license": "AGPL-3.0-or-later",
+      "brief": "Type aligned sequences (and misc. structures) for reflection without remorse",
+      "readme": "README.md",
+      "homepage": "https://gitlab.com/bss03/type-aligned/",
+      "sourceloc": "https://gitlab.com/bss03/type-aligned.git",
+      "bugtracker": "https://gitlab.com/bss03/type-aligned/-/issues",
+      "main": "TypeAligned",
       "sourcedir": "src"
     }
   },
