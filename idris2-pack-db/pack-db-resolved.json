@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "24dae2c06da3e9853a52c2cecf85119a9f3f4203",
-      "hash": "sha256-uYnCg7tVN9fCC+aH0Imvyh2Z5UADp2CYraVXrYClhb4="
+      "rev": "c9af8ecbe4536c5a5ff8bc5b5b17c6300e33acf7",
+      "hash": "sha256-fknr+prp769v+V2PYHfCnZ2kJBnVzRURYE/n6o0Fu7o="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -4411,8 +4411,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/bss03/type-aligned",
-      "rev": "f88f366ba0b2817d32772d5f2b1190f38e1e867b",
-      "hash": "sha256-z2+hFH5rouNt1HgamIhbU/fUiB3lgKZ5WXY0PH7p3mY="
+      "rev": "555e0d0c345e101497e2ff86270973644023947b",
+      "hash": "sha256-HM9w7ks+c3IDvXVRYBoqzkPUE+V8/uc2pLiQ6uGA32Y="
     },
     "ipkgJson": {
       "name": "type-aligned",
