@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "c61af0bd101dae1998d5b17636498f229a737bb7",
-      "hash": "sha256-2wouQeOz4ynyYCjwo+pj2fRxCLZerSkg/gSGLSuWXGs="
+      "rev": "8db7b4fb27434250e62d2362da504bc9896de869",
+      "hash": "sha256-/YMgDgGuGo6Z8ijMb3zgLLPtsJbqnobE+KpbpcgFnS0="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -3974,8 +3974,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "a89e2ff202a73da485ccf105f7b4ac3f106a0730",
-      "hash": "sha256-/YatDbycDocLBE8SW6Mn2CioiDqr6wOtpb8poNpIz7A="
+      "rev": "61b76a55447861f0feb6e2af56168dbeac3cdb27",
+      "hash": "sha256-R+cXr9y5mBhrxsT8tglZvQ41998GpN2j9UikMlMArvw="
     },
     "ipkgJson": {
       "name": "streams",
@@ -3997,8 +3997,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "a89e2ff202a73da485ccf105f7b4ac3f106a0730",
-      "hash": "sha256-/YatDbycDocLBE8SW6Mn2CioiDqr6wOtpb8poNpIz7A="
+      "rev": "61b76a55447861f0feb6e2af56168dbeac3cdb27",
+      "hash": "sha256-R+cXr9y5mBhrxsT8tglZvQ41998GpN2j9UikMlMArvw="
     },
     "ipkgJson": {
       "name": "streams-posix",
@@ -4411,8 +4411,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/bss03/type-aligned",
-      "rev": "555e0d0c345e101497e2ff86270973644023947b",
-      "hash": "sha256-HM9w7ks+c3IDvXVRYBoqzkPUE+V8/uc2pLiQ6uGA32Y="
+      "rev": "13385abe89dfcd25f823db0a4588aba52bbafadb",
+      "hash": "sha256-JwM7dmZotjGWWjULQ/KB0NOA0iwzrXsMmhJuZmb4FLY="
     },
     "ipkgJson": {
       "name": "type-aligned",
