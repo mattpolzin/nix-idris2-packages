@@ -881,8 +881,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "c61f2befa670280871e67fcb0a507ee437f8842a",
-      "hash": "sha256-Ks7vO5SDpb4CxcCLmwfw8r4Uja8PAJNH50y9cbMDdJA="
+      "rev": "6e3f62798b9899859cd3dcb16f0210f145ce7c5a",
+      "hash": "sha256-HOPLC9qT5rNmD0kTBFMS6lnYvU5KDFyzfkSzGT4L4f0="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1155,8 +1155,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "c61f2befa670280871e67fcb0a507ee437f8842a",
-      "hash": "sha256-Ks7vO5SDpb4CxcCLmwfw8r4Uja8PAJNH50y9cbMDdJA="
+      "rev": "6e3f62798b9899859cd3dcb16f0210f145ce7c5a",
+      "hash": "sha256-HOPLC9qT5rNmD0kTBFMS6lnYvU5KDFyzfkSzGT4L4f0="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1903,8 +1903,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-if-unsolved-implicit",
-      "rev": "fd110417e84335646aabffd187a465ad854448e7",
-      "hash": "sha256-I1oibKF68kjgf2UgCMR8xrCh0kwTjGiHMMNakQhaG/I="
+      "rev": "a749bacf2ba37e91c37258d7aceb7d7f69df4446",
+      "hash": "sha256-PMXxhLf/r6X2WlI+FEaAKEQej7rsulhYpSmdoY/tTcY="
     },
     "ipkgJson": {
       "name": "if-unsolved-implicit",
@@ -3562,8 +3562,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-regex",
-      "rev": "7c693d60a686f87137fd4eb3131a10b0751e8bac",
-      "hash": "sha256-TpDOwo5Zg0RF2Nc1QI96aykvLT/l15ryuuArPGoTMFE="
+      "rev": "976ab9c3a144d614e4467f57bd567d1d5357e995",
+      "hash": "sha256-lLPxJzQp0JNYG045f9xnOxQw2VSxh/KR7eefdsCpMp4="
     },
     "ipkgJson": {
       "name": "regex",
@@ -4061,8 +4061,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
-      "rev": "14574ab8a07bde45c346ec94ffad8b0f89cd802e",
-      "hash": "sha256-NBSQBgmFzIga1GjoeT6XiOHQqHC5oaOI+Wp/7xriymU="
+      "rev": "31ca9a9ac3376324ab7183242214f2a98fe358aa",
+      "hash": "sha256-jBSOeK72CMxM9FWVfMm2CNF3V0yCbWCEjZ6p/bUcFPE="
     },
     "ipkgJson": {
       "name": "stringsearch-algorithms",
