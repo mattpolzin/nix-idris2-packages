@@ -4160,8 +4160,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-swirl",
-      "rev": "94b6eb18d9b68cba885090b2866091d97d7b1602",
-      "hash": "sha256-HOqOEoUqppCQUN7Uoqp5Yx7nPC73licq+kITce0IwRA="
+      "rev": "6fee6df50cf3c369e80bca06372a81687bf6b248",
+      "hash": "sha256-zzyIVWwgh3bKHNySlGqr/TK4uUrRjxqmGeIY5kzwYdM="
     },
     "ipkgJson": {
       "name": "swirl",
