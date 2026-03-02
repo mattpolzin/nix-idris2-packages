@@ -4411,8 +4411,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/bss03/type-aligned",
-      "rev": "13385abe89dfcd25f823db0a4588aba52bbafadb",
-      "hash": "sha256-JwM7dmZotjGWWjULQ/KB0NOA0iwzrXsMmhJuZmb4FLY="
+      "rev": "48c4ae48e5d47b742a7bbbade24512097705709b",
+      "hash": "sha256-2llkqqYyiNPcJ/PS2YsFK+NMupssjncfPOqJY5jMenQ="
     },
     "ipkgJson": {
       "name": "type-aligned",
