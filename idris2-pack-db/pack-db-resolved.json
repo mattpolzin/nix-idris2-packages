@@ -1678,8 +1678,8 @@
     "ipkgDir": "http-client-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "b8ba48d09e4696dcf5b682b979a46608d4eeef6c",
-      "hash": "sha256-aBUcoGu8c7Lm80fEOI5E3/35iodTNyLlTn1DoGasID0="
+      "rev": "ac13a9b63caed026eff2b3c56012e53ee05bd806",
+      "hash": "sha256-FtKm2cMdvcUyokGxZuY2hEpGhYDMelP3lmph3BiwWe4="
     },
     "ipkgJson": {
       "name": "http-client-api",
@@ -1701,8 +1701,8 @@
     "ipkgDir": "http-server-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "b8ba48d09e4696dcf5b682b979a46608d4eeef6c",
-      "hash": "sha256-aBUcoGu8c7Lm80fEOI5E3/35iodTNyLlTn1DoGasID0="
+      "rev": "ac13a9b63caed026eff2b3c56012e53ee05bd806",
+      "hash": "sha256-FtKm2cMdvcUyokGxZuY2hEpGhYDMelP3lmph3BiwWe4="
     },
     "ipkgJson": {
       "name": "http-server-api",
@@ -1722,8 +1722,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "b8ba48d09e4696dcf5b682b979a46608d4eeef6c",
-      "hash": "sha256-aBUcoGu8c7Lm80fEOI5E3/35iodTNyLlTn1DoGasID0="
+      "rev": "ac13a9b63caed026eff2b3c56012e53ee05bd806",
+      "hash": "sha256-FtKm2cMdvcUyokGxZuY2hEpGhYDMelP3lmph3BiwWe4="
     },
     "ipkgJson": {
       "name": "http-types",
