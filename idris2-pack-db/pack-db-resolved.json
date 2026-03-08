@@ -3840,8 +3840,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
-      "rev": "51b1664c95a3fa0ba245ffc36fabfc4e0ed5db3d",
-      "hash": "sha256-106FZ/XxV8mNsNpqzydCHznKFosH2+FMLp2xb4nx/P8="
+      "rev": "df22a8b7b37d120d5e91dc361d22a3fd641e9905",
+      "hash": "sha256-k/jCCGHvpayhPTllapWfQWdvroi2gjm3umj/8pzeYeI="
     },
     "ipkgJson": {
       "name": "sqlite3",
@@ -3867,8 +3867,8 @@
     "ipkgDir": "sqlite3-rio",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
-      "rev": "51b1664c95a3fa0ba245ffc36fabfc4e0ed5db3d",
-      "hash": "sha256-106FZ/XxV8mNsNpqzydCHznKFosH2+FMLp2xb4nx/P8="
+      "rev": "df22a8b7b37d120d5e91dc361d22a3fd641e9905",
+      "hash": "sha256-k/jCCGHvpayhPTllapWfQWdvroi2gjm3umj/8pzeYeI="
     },
     "ipkgJson": {
       "name": "sqlite3-rio",
@@ -3880,6 +3880,29 @@
       "authors": "stefan-hoeck",
       "license": "BSD-3 Clause",
       "brief": "RIO wrappers for the sqlite3 library",
+      "readme": "README.md",
+      "sourcedir": "src"
+    }
+  },
+  "sqlite3-streams": {
+    "packName": "sqlite3-streams",
+    "ipkgName": "sqlite3-streams",
+    "ipkgDir": "sqlite3-streams",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
+      "rev": "df22a8b7b37d120d5e91dc361d22a3fd641e9905",
+      "hash": "sha256-k/jCCGHvpayhPTllapWfQWdvroi2gjm3umj/8pzeYeI="
+    },
+    "ipkgJson": {
+      "name": "sqlite3-streams",
+      "depends": [
+        "sqlite3",
+        "streams"
+      ],
+      "version": "0.0.1",
+      "authors": "stefan-hoeck",
+      "license": "BSD-3 Clause",
+      "brief": "Streaming SQlite results",
       "readme": "README.md",
       "sourcedir": "src"
     }
@@ -4411,12 +4434,14 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/bss03/type-aligned",
-      "rev": "07b83bd1f77258b95961aa94a8323983df3db352",
-      "hash": "sha256-Av8fp9MTU8qgw+ElC6qHxFL8A+DYTGmi9uF/BlRKLpA="
+      "rev": "ad332805c33aa4712798c7f36398e6a94c607929",
+      "hash": "sha256-YXPkNc9/YN5xT8G4gY1gqIiAZVnyWdRa0R6xRM6qhVs="
     },
     "ipkgJson": {
       "name": "type-aligned",
-      "depends": [],
+      "depends": [
+        "linear"
+      ],
       "version": "0.1.0",
       "langversion": {
         "lowerInclusive": true,
