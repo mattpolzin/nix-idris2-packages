@@ -445,8 +445,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "550c419c2bea46e1cec7a48043fff84c3b6623ac",
-      "hash": "sha256-NxCw3wtXsRiM3aL+1qyejeXZkiSugN7Yfu1Aas7cjnI="
+      "rev": "8dccca7ae02131182f0dd961359b81b0ccaec170",
+      "hash": "sha256-2ggWWpyNZMYoHHkpLUTm3dw3b/7Qm8ymEKpKzvUeV1k="
     },
     "ipkgJson": {
       "name": "chem",
@@ -454,7 +454,6 @@
         "base",
         "elab-util",
         "refined",
-        "parser",
         "ilex",
         "indexed-graph",
         "quantifiers-extra",
@@ -472,8 +471,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "550c419c2bea46e1cec7a48043fff84c3b6623ac",
-      "hash": "sha256-NxCw3wtXsRiM3aL+1qyejeXZkiSugN7Yfu1Aas7cjnI="
+      "rev": "8dccca7ae02131182f0dd961359b81b0ccaec170",
+      "hash": "sha256-2ggWWpyNZMYoHHkpLUTm3dw3b/7Qm8ymEKpKzvUeV1k="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -785,16 +784,15 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "81a252b7306643826659fa4f01d58e3ef9d9fbc3",
-      "hash": "sha256-q4wgoBHB0uRBIDzQvDXTF6nJjXvux6bPe7F81M25HgI="
+      "rev": "3c86f13b5f2a11829551e38e22503c2fcabcff75",
+      "hash": "sha256-cnBggq/UZRu7By3rqYHJn7mSqjUnXFj5HPQKurYs1Qo="
     },
     "ipkgJson": {
       "name": "cyby-draw",
       "depends": [
         "base",
         "chem",
-        "dom",
-        "dom-mvc",
+        "async-dom",
         "containers",
         "svg",
         "array"
@@ -881,8 +879,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "9a7c695a1530376ec010791b4c47d36f27eb811a",
-      "hash": "sha256-vIQXd3X/XdqkvyquLrXps/bA8GWJP13g061KwNGcH/o="
+      "rev": "00c8f1258f75c6e183679652b2e89418366fa5d6",
+      "hash": "sha256-q8Kon2pwxcgBBNTuO32U9ODFs5ifvYyiHju7zD6Rrd4="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1155,8 +1153,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "9a7c695a1530376ec010791b4c47d36f27eb811a",
-      "hash": "sha256-vIQXd3X/XdqkvyquLrXps/bA8GWJP13g061KwNGcH/o="
+      "rev": "00c8f1258f75c6e183679652b2e89418366fa5d6",
+      "hash": "sha256-q8Kon2pwxcgBBNTuO32U9ODFs5ifvYyiHju7zD6Rrd4="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -3475,8 +3473,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "4613ad32868e19f6a52f4bb0bd7bbd8228c4414f",
-      "hash": "sha256-hmgNJjT/xPLBwphSqxdVp7h3EvjvDFbKvUubvwz0F3s="
+      "rev": "843992ee98d762de7e6b9ed018671e122dd2edaf",
+      "hash": "sha256-hf8h95i0AI7UTNmFwIX1M/fV9iALBnH4UEMpvY6oIEY="
     },
     "ipkgJson": {
       "name": "ref1",
