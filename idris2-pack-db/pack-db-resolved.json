@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "23c495f03db2b16e62a2f206886b446d1475dfac",
-      "hash": "sha256-buHjZmIHzr67IowtIcYGB+CCeD+4GYRdVB6kzTVQIy4="
+      "rev": "c9fa6888a47746a071d7db79dff3110700586e66",
+      "hash": "sha256-qbiWnYcXsuP9n3IbhaaZmEFVix05IV2KVSBIjPq3OCI="
     },
     "ipkgJson": {
       "name": "array",
@@ -402,8 +402,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
-      "rev": "39eea225e76421d089067dc582d8f595f742e77f",
-      "hash": "sha256-yFFqgpk1iTWMJv+JgPFqQ9XRx56kZQREDz8HbCGz/70="
+      "rev": "230d8577f02de22251786f128ec921078da4d880",
+      "hash": "sha256-kq8uYI5STgxJ7g1EgjaG7FGfZQ85qxBRm/bb6gI/hbk="
     },
     "ipkgJson": {
       "name": "bytestring",
@@ -1229,6 +1229,48 @@
       "sourcedir": "src",
       "prebuild": "make -C support",
       "preinstall": "make -C support install"
+    }
+  },
+  "evince": {
+    "packName": "evince",
+    "ipkgName": "evince",
+    "ipkgDir": "evince",
+    "src": {
+      "url": "https://github.com/bio-aeon/evince",
+      "rev": "5baf330162839e1b3f26d0572a1f420a33752498",
+      "hash": "sha256-wYHYm4NjI+n0glBT1Z269ooqpWjJ3Bn4CYwcA1CjIcM="
+    },
+    "ipkgJson": {
+      "name": "evince",
+      "depends": [
+        "contrib",
+        "pretty-show"
+      ],
+      "version": "0.5.0",
+      "authors": "Alexandr Chigrinets",
+      "brief": "A testing framework for Idris 2",
+      "sourcedir": "src"
+    }
+  },
+  "evince-hedgehog": {
+    "packName": "evince-hedgehog",
+    "ipkgName": "evince-hedgehog",
+    "ipkgDir": "evince-hedgehog",
+    "src": {
+      "url": "https://github.com/bio-aeon/evince",
+      "rev": "5baf330162839e1b3f26d0572a1f420a33752498",
+      "hash": "sha256-wYHYm4NjI+n0glBT1Z269ooqpWjJ3Bn4CYwcA1CjIcM="
+    },
+    "ipkgJson": {
+      "name": "evince-hedgehog",
+      "depends": [
+        "evince",
+        "hedgehog"
+      ],
+      "version": "0.5.0",
+      "authors": "Alexandr Chigrinets",
+      "brief": "Hedgehog property testing bridge for evince",
+      "sourcedir": "src"
     }
   },
   "extrafun": {
