@@ -733,8 +733,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-crypt",
-      "rev": "15866ef4869d29873fa734a2732805ca415aad3e",
-      "hash": "sha256-GCRRhHEuSWUXWQOOnqym9iI9VLeIndODjwaQvsyrC1o="
+      "rev": "8f97578a7646c41ea00e978cfc2ef46dc260b49e",
+      "hash": "sha256-PW8krgWm1HoBzBm1Bo+lJEN4XQpAsTwOjztnUH/aiDQ="
     },
     "ipkgJson": {
       "name": "crypt",
@@ -784,8 +784,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "3c86f13b5f2a11829551e38e22503c2fcabcff75",
-      "hash": "sha256-cnBggq/UZRu7By3rqYHJn7mSqjUnXFj5HPQKurYs1Qo="
+      "rev": "6a7b58a55976e534c88199abb14a4d3c5eaf987f",
+      "hash": "sha256-O9e8LOhXvDEfvr8zHcCZLKJX5TJUHftfNc6RUBM07A8="
     },
     "ipkgJson": {
       "name": "cyby-draw",
