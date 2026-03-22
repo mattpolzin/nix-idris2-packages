@@ -112,8 +112,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "ce1764384fcf024c135ae97d97894c696c31f505",
-      "hash": "sha256-iG2EXxIUr2GuZghJemawQIF43Q3na+gHiepWLn2wGFA="
+      "rev": "1cd4007efcce51efc79c2697a925608826f9d75d",
+      "hash": "sha256-98i4ukGi8ypTxSD5dVNl2EIZ2lzXw/4F2OvrrSsACw0="
     },
     "ipkgJson": {
       "name": "async",
@@ -163,8 +163,8 @@
     "ipkgDir": "async-epoll",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "ce1764384fcf024c135ae97d97894c696c31f505",
-      "hash": "sha256-iG2EXxIUr2GuZghJemawQIF43Q3na+gHiepWLn2wGFA="
+      "rev": "1cd4007efcce51efc79c2697a925608826f9d75d",
+      "hash": "sha256-98i4ukGi8ypTxSD5dVNl2EIZ2lzXw/4F2OvrrSsACw0="
     },
     "ipkgJson": {
       "name": "async-epoll",
@@ -184,8 +184,8 @@
     "ipkgDir": "async-js",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "ce1764384fcf024c135ae97d97894c696c31f505",
-      "hash": "sha256-iG2EXxIUr2GuZghJemawQIF43Q3na+gHiepWLn2wGFA="
+      "rev": "1cd4007efcce51efc79c2697a925608826f9d75d",
+      "hash": "sha256-98i4ukGi8ypTxSD5dVNl2EIZ2lzXw/4F2OvrrSsACw0="
     },
     "ipkgJson": {
       "name": "async-js",
@@ -206,8 +206,8 @@
     "ipkgDir": "async-posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "ce1764384fcf024c135ae97d97894c696c31f505",
-      "hash": "sha256-iG2EXxIUr2GuZghJemawQIF43Q3na+gHiepWLn2wGFA="
+      "rev": "1cd4007efcce51efc79c2697a925608826f9d75d",
+      "hash": "sha256-98i4ukGi8ypTxSD5dVNl2EIZ2lzXw/4F2OvrrSsACw0="
     },
     "ipkgJson": {
       "name": "async-posix",
@@ -228,8 +228,8 @@
     "ipkgDir": "async-spec",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async",
-      "rev": "ce1764384fcf024c135ae97d97894c696c31f505",
-      "hash": "sha256-iG2EXxIUr2GuZghJemawQIF43Q3na+gHiepWLn2wGFA="
+      "rev": "1cd4007efcce51efc79c2697a925608826f9d75d",
+      "hash": "sha256-98i4ukGi8ypTxSD5dVNl2EIZ2lzXw/4F2OvrrSsACw0="
     },
     "ipkgJson": {
       "name": "async-spec",
@@ -576,8 +576,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "775a5cdcc94cad4ef3d646ca54fdf3787ffb2c3c",
-      "hash": "sha256-v7uhC9pOJrty1W3tx+eNtkA6WLjbHx3LuOfeDD5eDQQ="
+      "rev": "a5c70259d1ebb38cd3e997884114ba5303bffb32",
+      "hash": "sha256-bhPR3eqrFVqeAFh7mdUyANC4ldooDcWSUtm1jS/EWqo="
     },
     "ipkgJson": {
       "name": "containers",
@@ -1237,8 +1237,8 @@
     "ipkgDir": "evince",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "5baf330162839e1b3f26d0572a1f420a33752498",
-      "hash": "sha256-wYHYm4NjI+n0glBT1Z269ooqpWjJ3Bn4CYwcA1CjIcM="
+      "rev": "b0c5a256354bcb03501fe380a3828a04ed7f2c0e",
+      "hash": "sha256-HOmkDRlRN7oCpkONge19wINAg1xA3QjQWU4KyONjZFc="
     },
     "ipkgJson": {
       "name": "evince",
@@ -1248,6 +1248,7 @@
       ],
       "version": "0.5.0",
       "authors": "Alexandr Chigrinets",
+      "license": "MIT",
       "brief": "A testing framework for Idris 2",
       "sourcedir": "src"
     }
@@ -1258,8 +1259,8 @@
     "ipkgDir": "evince-hedgehog",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "5baf330162839e1b3f26d0572a1f420a33752498",
-      "hash": "sha256-wYHYm4NjI+n0glBT1Z269ooqpWjJ3Bn4CYwcA1CjIcM="
+      "rev": "b0c5a256354bcb03501fe380a3828a04ed7f2c0e",
+      "hash": "sha256-HOmkDRlRN7oCpkONge19wINAg1xA3QjQWU4KyONjZFc="
     },
     "ipkgJson": {
       "name": "evince-hedgehog",
@@ -1269,6 +1270,7 @@
       ],
       "version": "0.5.0",
       "authors": "Alexandr Chigrinets",
+      "license": "MIT",
       "brief": "Hedgehog property testing bridge for evince",
       "sourcedir": "src"
     }
