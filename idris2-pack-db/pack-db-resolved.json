@@ -2158,8 +2158,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "6e54290f74ee4285b1db061a63a135c85aaafc9f",
-      "hash": "sha256-h2BbfTTBSkOO9y3i3UsoCgL5eb38j/VB6kiJdIKoptA="
+      "rev": "88425538684a461d6bdb4b72a8615a969b1b0efc",
+      "hash": "sha256-ZtQAHofY/Ryv6f2atCmjXZHgU4LYuJ3ubp5aXFJPGBY="
     },
     "ipkgJson": {
       "name": "indexed-graph",
