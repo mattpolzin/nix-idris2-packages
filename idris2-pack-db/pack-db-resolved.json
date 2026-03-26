@@ -445,8 +445,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "1bc6409cab4c219d0abd7e8645e5f76fe10b05f5",
-      "hash": "sha256-sLwHKDzGzbKyRMlV3NBG3XGpr04Cmbf+C5wrhZtGoG0="
+      "rev": "d6bfd6ccd83e4f9a0dac65784c4886d89e1330b5",
+      "hash": "sha256-iucKgYya+FtAZ00mN2PeIbGFg24pqjJDSpp9+p0wrqQ="
     },
     "ipkgJson": {
       "name": "chem",
@@ -471,8 +471,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "1bc6409cab4c219d0abd7e8645e5f76fe10b05f5",
-      "hash": "sha256-sLwHKDzGzbKyRMlV3NBG3XGpr04Cmbf+C5wrhZtGoG0="
+      "rev": "d6bfd6ccd83e4f9a0dac65784c4886d89e1330b5",
+      "hash": "sha256-iucKgYya+FtAZ00mN2PeIbGFg24pqjJDSpp9+p0wrqQ="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -879,8 +879,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "9b33209643fcd2c9b547461910a2cd2ad7510529",
-      "hash": "sha256-/4uig2q+sp/R2a5mb/Yohz9rsu7JuVi0SD1h6aTvlJ8="
+      "rev": "8426d13e6c0e017dba357e53da584a22edf547b4",
+      "hash": "sha256-hwlmtK7gabs74OyYbRIQNqbzqcA1PoZ8JliYa5JPQnI="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1153,8 +1153,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "9b33209643fcd2c9b547461910a2cd2ad7510529",
-      "hash": "sha256-/4uig2q+sp/R2a5mb/Yohz9rsu7JuVi0SD1h6aTvlJ8="
+      "rev": "8426d13e6c0e017dba357e53da584a22edf547b4",
+      "hash": "sha256-hwlmtK7gabs74OyYbRIQNqbzqcA1PoZ8JliYa5JPQnI="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -3517,8 +3517,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "843992ee98d762de7e6b9ed018671e122dd2edaf",
-      "hash": "sha256-hf8h95i0AI7UTNmFwIX1M/fV9iALBnH4UEMpvY6oIEY="
+      "rev": "2c5ce5eda324514a6be2ec53cc0ef9dedadae5b9",
+      "hash": "sha256-Nm0S8yxdAPtPTL05UZaupvcJuyIg+6brn5V1pk90gow="
     },
     "ipkgJson": {
       "name": "ref1",
