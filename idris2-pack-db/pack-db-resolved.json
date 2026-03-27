@@ -4323,14 +4323,16 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "a4c6cbc8061fca52d903461b8ed17a80a14af601",
-      "hash": "sha256-+cZ9Rd447n/h5eXxU+q2d0LdnWqxjjdUpxAS3FGI0GY="
+      "rev": "5ceb2250bff20c980de7aa9aa3d5a4731596a395",
+      "hash": "sha256-jWo1L5MVPhjAEUen2ep9AUQ1/PiwOrOXgXlKrD1z5cA="
     },
     "ipkgJson": {
       "name": "tensortype",
       "depends": [
         "contrib",
-        "elab-util"
+        "elab-util",
+        "hashmap",
+        "finite"
       ],
       "authors": "Bruno Gavranovic",
       "license": "AGPL-3.0",
