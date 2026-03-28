@@ -576,8 +576,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-containers",
-      "rev": "e983607c3a31ac422a5eb1f7f92e05efefe80bff",
-      "hash": "sha256-jQWGESg8GRtsDMSIfjyrYOhhD0Ypu1hxRPMy8hrDuWQ="
+      "rev": "11a553f995c3efb58d3f7382d88e7a3ecf61ee75",
+      "hash": "sha256-vqNgavK/Tc9ZKhhohW0OJPuxDMDGzkfanQ8bYR0G090="
     },
     "ipkgJson": {
       "name": "containers",
@@ -4323,8 +4323,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "5ceb2250bff20c980de7aa9aa3d5a4731596a395",
-      "hash": "sha256-jWo1L5MVPhjAEUen2ep9AUQ1/PiwOrOXgXlKrD1z5cA="
+      "rev": "56072e0e08593d69e726ae4ba8caa23f8b3804e8",
+      "hash": "sha256-b296oVvnVeGjAjusI3Z8MI8AJfyKygYws0tA56uC90g="
     },
     "ipkgJson": {
       "name": "tensortype",
