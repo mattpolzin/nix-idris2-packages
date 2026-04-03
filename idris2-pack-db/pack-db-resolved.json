@@ -784,8 +784,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "b442ecb84cb8c379bfc2854468b023abbb622469",
-      "hash": "sha256-6uqgwp2hzLY+sk+BJeTfPiSydmY8QDmt1WQhbKpTEWc="
+      "rev": "7fceb69963185bde5533d26b8364dc88a6588704",
+      "hash": "sha256-EpwNKQcICVpSmkLdAEb9uSGZ++Yd125IIRg1uTEw0ZI="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -795,7 +795,8 @@
         "async-dom",
         "containers",
         "svg",
-        "array"
+        "array",
+        "pretty-show"
       ],
       "version": "0.1.0",
       "authors": "Claudio Etterli, Salome Heilig, Stefan Höck",
@@ -3517,8 +3518,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "2c5ce5eda324514a6be2ec53cc0ef9dedadae5b9",
-      "hash": "sha256-Nm0S8yxdAPtPTL05UZaupvcJuyIg+6brn5V1pk90gow="
+      "rev": "b294c58f4ef5e67762c217c3ca938239c410eede",
+      "hash": "sha256-2y6LKPU6/sSJAEQvM8o/evKE0NisWkELtSEN83rX15U="
     },
     "ipkgJson": {
       "name": "ref1",
