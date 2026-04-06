@@ -1894,8 +1894,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "5d46d6e1d9babe02780fb3e7b715ef5efd081ad9",
-      "hash": "sha256-xEMtX/LlgSIZzy/0oOzOuxUQ4mLozfAqzxk2C5tnGE4="
+      "rev": "a7e6c539e5ae9c0fc2ee680d33bd4dce0126397d",
+      "hash": "sha256-N6ojdGSoqQ+AIAbriRtl01lhHqXlEylKLiTEbmUt4uE="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
@@ -2159,8 +2159,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "891a6b297751144fef0d5af82dee89a5ce5fe870",
-      "hash": "sha256-99OoGGbGBgDLCjekB6KHhOQHqah9EjNYQkfnREgubeg="
+      "rev": "e769c2d7e333aaf4926b9f4a32c233760c27d1f6",
+      "hash": "sha256-yEkkmLknA7wIjW2w90U3lS5KbaQDZC7XIYMkCPkWVRg="
     },
     "ipkgJson": {
       "name": "indexed-graph",
@@ -3799,8 +3799,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/idris2-simple-tests",
-      "rev": "9a5c966fdc4ca5a42c51a7e43bd94049c91e995b",
-      "hash": "sha256-PyjvPlCUhIJ2+lz8L8wrpYd+O1YdSKiB+giFqiNTdsc="
+      "rev": "945aab794e42d2d06c88433f9fd33c2c417e14d9",
+      "hash": "sha256-9nxhzzv2qdm28x9mhSMtn6/yJ/+JvpdvNjZAp5nFCWs="
     },
     "ipkgJson": {
       "name": "simple-tests",
