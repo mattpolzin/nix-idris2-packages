@@ -445,8 +445,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "710c4c9fc1cd728bfe0e536288f5cf99500bfe2f",
-      "hash": "sha256-iAFTHRxBf0fg9wiHlFR36CB95CcMXWd5+Qf4tNPJVp8="
+      "rev": "f5c131edd00a532894f964c19e3a69842a660de0",
+      "hash": "sha256-9fbYm8DexrVVk9Q+m0ku80+58C3enrjuNS1Z4g1WxDE="
     },
     "ipkgJson": {
       "name": "chem",
@@ -471,8 +471,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "710c4c9fc1cd728bfe0e536288f5cf99500bfe2f",
-      "hash": "sha256-iAFTHRxBf0fg9wiHlFR36CB95CcMXWd5+Qf4tNPJVp8="
+      "rev": "f5c131edd00a532894f964c19e3a69842a660de0",
+      "hash": "sha256-9fbYm8DexrVVk9Q+m0ku80+58C3enrjuNS1Z4g1WxDE="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -2460,33 +2460,26 @@
   },
   "markdown": {
     "packName": "markdown",
-    "ipkgName": "markdown",
+    "ipkgName": "idris2-text-markdown",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/running-grass/idris2-markdown",
-      "rev": "38334267cbbe0ed067320d2e8bec36b08f475f5a",
-      "hash": "sha256-zG8Og6ckG1hLrUKbRSvW7pfnivypkCBOntoa0yoaxfw="
+      "url": "https://codeberg.org/berg4478/idris2-text-markdown",
+      "rev": "642e8218d9155260eb8f5a0df3d5492ff14f0fd4",
+      "hash": "sha256-BzLQxey5Fo+xm1P+CaMlmyCPbYZAHa4IbBdsYeYyQ7g="
     },
     "ipkgJson": {
-      "name": "markdown",
+      "name": "idris2-text-markdown",
       "depends": [
         "base",
         "contrib"
       ],
-      "version": "0.0.1",
-      "langversion": {
-        "lowerInclusive": true,
-        "lowerBound": "0.5.1",
-        "upperInclusive": false,
-        "upperBound": "1.0.0"
-      },
-      "authors": "running-grass",
+      "version": "0.1.1",
+      "authors": "Brandon Elam Barker",
+      "maintainers": "Leonard Monnier",
       "license": "MIT",
-      "brief": "A markdown parser for idris2",
-      "readme": "https://github.com/running-grass/idris2-markdown/blob/main/README.md",
-      "homepage": "https://github.com/running-grass/idris2-markdown",
-      "sourceloc": "https://github.com/running-grass/idris2-markdown",
-      "bugtracker": "https://github.com/running-grass/idris2-markdown/issues",
+      "brief": "Markdown parser and renderer for Idris2.",
+      "readme": "README.md",
+      "homepage": "https://codeberg.org/berg4478/idris2-text-markdown",
       "sourcedir": "src"
     }
   },
