@@ -445,8 +445,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "f5c131edd00a532894f964c19e3a69842a660de0",
-      "hash": "sha256-9fbYm8DexrVVk9Q+m0ku80+58C3enrjuNS1Z4g1WxDE="
+      "rev": "935533b76840a65d35103bd4520c893f40abd3fc",
+      "hash": "sha256-mc49wfiJDE5kThIMOL+ElwlGiwlqD8A3rvdj7u1BbtU="
     },
     "ipkgJson": {
       "name": "chem",
@@ -471,8 +471,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "f5c131edd00a532894f964c19e3a69842a660de0",
-      "hash": "sha256-9fbYm8DexrVVk9Q+m0ku80+58C3enrjuNS1Z4g1WxDE="
+      "rev": "935533b76840a65d35103bd4520c893f40abd3fc",
+      "hash": "sha256-mc49wfiJDE5kThIMOL+ElwlGiwlqD8A3rvdj7u1BbtU="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -1600,7 +1600,7 @@
     "ipkgName": "hashable-derive",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com//uartman/hashable-derive",
+      "url": "https://github.com/uartman/hashable-derive",
       "rev": "37a80fec1c72b7cbdb5a6e182f84899f34bcd1bd",
       "hash": "sha256-/6qp+K7EYbKnwVB/J6ebWIX0p8xshiSN1pbEbaBsr6U="
     },
@@ -2460,15 +2460,15 @@
   },
   "markdown": {
     "packName": "markdown",
-    "ipkgName": "idris2-text-markdown",
+    "ipkgName": "markdown",
     "ipkgDir": "",
     "src": {
       "url": "https://codeberg.org/berg4478/idris2-text-markdown",
-      "rev": "642e8218d9155260eb8f5a0df3d5492ff14f0fd4",
-      "hash": "sha256-BzLQxey5Fo+xm1P+CaMlmyCPbYZAHa4IbBdsYeYyQ7g="
+      "rev": "122b7f62d2a497168d5f9930301149f4aedf9d91",
+      "hash": "sha256-QePGG0PtAfbNys4L56CnzTLnwUJARnAkVOdmm3kBdSM="
     },
     "ipkgJson": {
-      "name": "idris2-text-markdown",
+      "name": "markdown",
       "depends": [
         "base",
         "contrib"
@@ -3511,8 +3511,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "b294c58f4ef5e67762c217c3ca938239c410eede",
-      "hash": "sha256-2y6LKPU6/sSJAEQvM8o/evKE0NisWkELtSEN83rX15U="
+      "rev": "a310afbb234cb5a405985bf3667c4ea5f5248084",
+      "hash": "sha256-YS/JV/c3Ai5kU1Y1jfJYPzbF2W3o0YysdafC8+Xp4Bw="
     },
     "ipkgJson": {
       "name": "ref1",
