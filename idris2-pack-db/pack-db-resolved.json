@@ -1238,8 +1238,8 @@
     "ipkgDir": "evince",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "b0c5a256354bcb03501fe380a3828a04ed7f2c0e",
-      "hash": "sha256-HOmkDRlRN7oCpkONge19wINAg1xA3QjQWU4KyONjZFc="
+      "rev": "c54d475d494ac71f00eebb5e7599b6288d8df616",
+      "hash": "sha256-lHUha/vGaRO9G0Xo4qLzVhBGsRzY4v8UoHs44Ijg/5E="
     },
     "ipkgJson": {
       "name": "evince",
@@ -1260,8 +1260,8 @@
     "ipkgDir": "evince-hedgehog",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "b0c5a256354bcb03501fe380a3828a04ed7f2c0e",
-      "hash": "sha256-HOmkDRlRN7oCpkONge19wINAg1xA3QjQWU4KyONjZFc="
+      "rev": "c54d475d494ac71f00eebb5e7599b6288d8df616",
+      "hash": "sha256-lHUha/vGaRO9G0Xo4qLzVhBGsRzY4v8UoHs44Ijg/5E="
     },
     "ipkgJson": {
       "name": "evince-hedgehog",
