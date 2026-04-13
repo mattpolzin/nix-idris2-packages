@@ -445,8 +445,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "935533b76840a65d35103bd4520c893f40abd3fc",
-      "hash": "sha256-mc49wfiJDE5kThIMOL+ElwlGiwlqD8A3rvdj7u1BbtU="
+      "rev": "9aa882389fdaefb9ba4e38f746455e423d47e883",
+      "hash": "sha256-twvcPbTQxnB3VYLa3cYkwZXRv5TkAoa08LCEuI1VocU="
     },
     "ipkgJson": {
       "name": "chem",
@@ -471,8 +471,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "935533b76840a65d35103bd4520c893f40abd3fc",
-      "hash": "sha256-mc49wfiJDE5kThIMOL+ElwlGiwlqD8A3rvdj7u1BbtU="
+      "rev": "9aa882389fdaefb9ba4e38f746455e423d47e883",
+      "hash": "sha256-twvcPbTQxnB3VYLa3cYkwZXRv5TkAoa08LCEuI1VocU="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -2464,8 +2464,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://codeberg.org/berg4478/idris2-text-markdown",
-      "rev": "122b7f62d2a497168d5f9930301149f4aedf9d91",
-      "hash": "sha256-QePGG0PtAfbNys4L56CnzTLnwUJARnAkVOdmm3kBdSM="
+      "rev": "4bf23fd0a57a9bc444d211d380b4cdeac365008e",
+      "hash": "sha256-iDBroQLk4s1S7gyWwO6Shyg2K4hm8rt4aj1d6Rs6ZyY="
     },
     "ipkgJson": {
       "name": "markdown",
@@ -2473,7 +2473,7 @@
         "base",
         "contrib"
       ],
-      "version": "0.1.1",
+      "version": "0.1.2",
       "authors": "Brandon Elam Barker",
       "maintainers": "Leonard Monnier",
       "license": "MIT",
