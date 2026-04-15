@@ -2160,8 +2160,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "2827719fcde97054e774a3f60ef734fa2b2046a8",
-      "hash": "sha256-XwVJNP1ZuD79cQoTabTHouREGyf77GfBHYi9KVIZFpY="
+      "rev": "efa4306114261d222be802eb3188b253a5640d8c",
+      "hash": "sha256-YmPiYwb/lWp4nkyZrM5ERm7XqMNTyyZaTLknzR3axhg="
     },
     "ipkgJson": {
       "name": "indexed-graph",
@@ -2465,8 +2465,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://codeberg.org/berg4478/idris2-text-markdown",
-      "rev": "011dd90306e1d656f90084afeccf3dd3e4ba5cb6",
-      "hash": "sha256-vGHUBR/vOv6inFo3fyJLXY3JDaQLo8mFDUH7xqU/dWI="
+      "rev": "a9e541ca831430d2a56abd4218dbd3c8dce1ef3b",
+      "hash": "sha256-1hf2JkKB7Tp9uTJeWkY5UQ/SP1y6d1c7cTRKQmTYWSU="
     },
     "ipkgJson": {
       "name": "markdown",
@@ -2474,7 +2474,7 @@
         "base",
         "contrib"
       ],
-      "version": "0.1.2",
+      "version": "0.1.3",
       "authors": "Brandon Elam Barker",
       "maintainers": "Leonard Monnier",
       "license": "MIT",
