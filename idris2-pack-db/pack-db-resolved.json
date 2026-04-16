@@ -445,8 +445,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "0a5a83b709c6998d2bd600c1852916b9bf6b6015",
-      "hash": "sha256-yej2jrrG5UdJwQ4lDBScijVfgGFyMEXafJ0AkRo2QbE="
+      "rev": "422638e68a6c72860787582b8597cad269f7598d",
+      "hash": "sha256-DJkd+GWCE87Re1CjS7qUeZ1RKWCVAsO68/lqYVmYO8U="
     },
     "ipkgJson": {
       "name": "chem",
@@ -472,8 +472,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "0a5a83b709c6998d2bd600c1852916b9bf6b6015",
-      "hash": "sha256-yej2jrrG5UdJwQ4lDBScijVfgGFyMEXafJ0AkRo2QbE="
+      "rev": "422638e68a6c72860787582b8597cad269f7598d",
+      "hash": "sha256-DJkd+GWCE87Re1CjS7qUeZ1RKWCVAsO68/lqYVmYO8U="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -1847,6 +1847,27 @@
       ],
       "brief": "Dhall compiler for Idris2",
       "sourcedir": "./"
+    }
+  },
+  "idris2-dep-graph": {
+    "packName": "idris2-dep-graph",
+    "ipkgName": "idris2-dep-graph",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://codeberg.org/tzemanovic/idris2-dep-graph",
+      "rev": "5eeba1707063e91a54a55e8d3a32a192b619e533",
+      "hash": "sha256-zVfxbbTeRCRhRGibfBcbhZAXQFHrvYeXG2LVyKzMi0c="
+    },
+    "ipkgJson": {
+      "name": "idris2-dep-graph",
+      "depends": [
+        "idris2"
+      ],
+      "version": "0.1.0",
+      "authors": "Tomáš Zemanovič",
+      "main": "Main",
+      "executable": "idris2-dep-graph",
+      "sourcedir": "src"
     }
   },
   "idris2-go": {
