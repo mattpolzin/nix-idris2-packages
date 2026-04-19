@@ -2457,6 +2457,74 @@
       "prebuild": "cd lib && cc -shared log-domain.c -o log-domain.so"
     }
   },
+  "log4types": {
+    "packName": "log4types",
+    "ipkgName": "log4types",
+    "ipkgDir": "log4types",
+    "src": {
+      "url": "https://github.com/bio-aeon/log4types",
+      "rev": "887989d4d38b59fa97d9af7f3961f882fb19da57",
+      "hash": "sha256-LaW4Mj73blR/yGe/ZMDZ1sKz/5A0N/ty2Hx0m/YVttk="
+    },
+    "ipkgJson": {
+      "name": "log4types",
+      "depends": [
+        "base",
+        "contrib",
+        "log4types-core"
+      ],
+      "version": "0.1.0",
+      "authors": "Alexandr Chigrinets",
+      "license": "MIT",
+      "brief": "Composable structured logging for Idris 2 applications.",
+      "sourcedir": "src"
+    }
+  },
+  "log4types-core": {
+    "packName": "log4types-core",
+    "ipkgName": "log4types-core",
+    "ipkgDir": "log4types-core",
+    "src": {
+      "url": "https://github.com/bio-aeon/log4types",
+      "rev": "887989d4d38b59fa97d9af7f3961f882fb19da57",
+      "hash": "sha256-LaW4Mj73blR/yGe/ZMDZ1sKz/5A0N/ty2Hx0m/YVttk="
+    },
+    "ipkgJson": {
+      "name": "log4types-core",
+      "depends": [
+        "base",
+        "contrib"
+      ],
+      "version": "0.1.0",
+      "authors": "Alexandr Chigrinets",
+      "license": "MIT",
+      "brief": "Core algebra for composable logging, refined by dependent types.",
+      "sourcedir": "src"
+    }
+  },
+  "log4types-json": {
+    "packName": "log4types-json",
+    "ipkgName": "log4types-json",
+    "ipkgDir": "log4types-json",
+    "src": {
+      "url": "https://github.com/bio-aeon/log4types",
+      "rev": "887989d4d38b59fa97d9af7f3961f882fb19da57",
+      "hash": "sha256-LaW4Mj73blR/yGe/ZMDZ1sKz/5A0N/ty2Hx0m/YVttk="
+    },
+    "ipkgJson": {
+      "name": "log4types-json",
+      "depends": [
+        "base",
+        "contrib",
+        "log4types-core"
+      ],
+      "version": "0.1.0",
+      "authors": "Alexandr Chigrinets",
+      "license": "MIT",
+      "brief": "JSON backend for log4types structured logging.",
+      "sourcedir": "src"
+    }
+  },
   "lsp-lib": {
     "packName": "lsp-lib",
     "ipkgName": "lsp-lib",
