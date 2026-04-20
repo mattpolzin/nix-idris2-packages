@@ -2463,8 +2463,8 @@
     "ipkgDir": "log4types",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "887989d4d38b59fa97d9af7f3961f882fb19da57",
-      "hash": "sha256-LaW4Mj73blR/yGe/ZMDZ1sKz/5A0N/ty2Hx0m/YVttk="
+      "rev": "759a17239d62b54d6d8821ee98961cb0ca8dcceb",
+      "hash": "sha256-59YyhPZ8K5AnrKNtkagjv9gWQZtL0qLdW7S0G21+RD0="
     },
     "ipkgJson": {
       "name": "log4types",
@@ -2476,7 +2476,7 @@
       "version": "0.1.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
-      "brief": "Composable structured logging for Idris 2 applications.",
+      "brief": "Composable structured logging for Idris 2 applications",
       "sourcedir": "src"
     }
   },
@@ -2486,8 +2486,8 @@
     "ipkgDir": "log4types-core",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "887989d4d38b59fa97d9af7f3961f882fb19da57",
-      "hash": "sha256-LaW4Mj73blR/yGe/ZMDZ1sKz/5A0N/ty2Hx0m/YVttk="
+      "rev": "759a17239d62b54d6d8821ee98961cb0ca8dcceb",
+      "hash": "sha256-59YyhPZ8K5AnrKNtkagjv9gWQZtL0qLdW7S0G21+RD0="
     },
     "ipkgJson": {
       "name": "log4types-core",
@@ -2498,7 +2498,7 @@
       "version": "0.1.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
-      "brief": "Core algebra for composable logging, refined by dependent types.",
+      "brief": "Core algebra for composable logging, refined by dependent types",
       "sourcedir": "src"
     }
   },
@@ -2508,8 +2508,8 @@
     "ipkgDir": "log4types-json",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "887989d4d38b59fa97d9af7f3961f882fb19da57",
-      "hash": "sha256-LaW4Mj73blR/yGe/ZMDZ1sKz/5A0N/ty2Hx0m/YVttk="
+      "rev": "759a17239d62b54d6d8821ee98961cb0ca8dcceb",
+      "hash": "sha256-59YyhPZ8K5AnrKNtkagjv9gWQZtL0qLdW7S0G21+RD0="
     },
     "ipkgJson": {
       "name": "log4types-json",
@@ -2521,7 +2521,7 @@
       "version": "0.1.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
-      "brief": "JSON backend for log4types structured logging.",
+      "brief": "JSON backend for log4types structured logging",
       "sourcedir": "src"
     }
   },
@@ -2556,8 +2556,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://codeberg.org/berg4478/idris2-text-markdown",
-      "rev": "a9e541ca831430d2a56abd4218dbd3c8dce1ef3b",
-      "hash": "sha256-1hf2JkKB7Tp9uTJeWkY5UQ/SP1y6d1c7cTRKQmTYWSU="
+      "rev": "0cd58c79d6112756557eb8f0785342dbbef00eb9",
+      "hash": "sha256-NxMsOVvZ5gTNjhwVv3t4P0ckN7qJC9VTutxQTVlpQ8o="
     },
     "ipkgJson": {
       "name": "markdown",
