@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "9e9da3a450587ec8e96cf0a1f1d9a43b7db92abd",
-      "hash": "sha256-GjVfBKRZYKj4TAElQeGn4xGVri1Mb5FfBI7zsoEKSP8="
+      "rev": "c217be05cf1acd0d096380c866c95657fb315faa",
+      "hash": "sha256-KSCwxaZkPUtrKo5ImamkpBPcl0vtB67/tcclQX8Me1Q="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -785,8 +785,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "d14a6b165b4d59591fca087692f71b04a74c197c",
-      "hash": "sha256-f0xnuowOjo9q74YN6Odsii9/eFTY/dTjlJ79N7DkTUs="
+      "rev": "558fbbcfe5efc3bbf0cb549ca431a48ad0689d96",
+      "hash": "sha256-vv8idwYYeqeS39DQu8lsJN8LDEzr+4IefgeSvgcZKug="
     },
     "ipkgJson": {
       "name": "cyby-draw",
