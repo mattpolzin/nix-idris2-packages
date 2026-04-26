@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "a733eb7e419b582189997742f61040e4a21bebba",
-      "hash": "sha256-/3ExOM4mPslTqqrv2ha9VBdD3ShAJHGN0u1VUVAcHP0="
+      "rev": "a41669dc8534de781fde680e86e84094a4b866b9",
+      "hash": "sha256-63UPjY+Y4q62TkiQcbnVKGTduldf5vaRzxLgAjpkFlw="
     },
     "ipkgJson": {
       "name": "css",
@@ -785,8 +785,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "558fbbcfe5efc3bbf0cb549ca431a48ad0689d96",
-      "hash": "sha256-vv8idwYYeqeS39DQu8lsJN8LDEzr+4IefgeSvgcZKug="
+      "rev": "e4649d2b910f5429c4287e2308ed9236026f6095",
+      "hash": "sha256-RDN7jVo8y5TYpxZ2QkU/JyCy7jCjSDyv912lTj6bXIQ="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -2463,8 +2463,8 @@
     "ipkgDir": "log4types",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "759a17239d62b54d6d8821ee98961cb0ca8dcceb",
-      "hash": "sha256-59YyhPZ8K5AnrKNtkagjv9gWQZtL0qLdW7S0G21+RD0="
+      "rev": "79d773db9faa7e859919c7ba397d8460e6d38b78",
+      "hash": "sha256-fDYrvlKUpMkf9hyi6HPSdlikOIS3avSq3fS9UQ0BLPE="
     },
     "ipkgJson": {
       "name": "log4types",
@@ -2473,7 +2473,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.1.0",
+      "version": "0.2.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Composable structured logging for Idris 2 applications",
@@ -2486,8 +2486,8 @@
     "ipkgDir": "log4types-core",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "759a17239d62b54d6d8821ee98961cb0ca8dcceb",
-      "hash": "sha256-59YyhPZ8K5AnrKNtkagjv9gWQZtL0qLdW7S0G21+RD0="
+      "rev": "79d773db9faa7e859919c7ba397d8460e6d38b78",
+      "hash": "sha256-fDYrvlKUpMkf9hyi6HPSdlikOIS3avSq3fS9UQ0BLPE="
     },
     "ipkgJson": {
       "name": "log4types-core",
@@ -2508,8 +2508,8 @@
     "ipkgDir": "log4types-json",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "759a17239d62b54d6d8821ee98961cb0ca8dcceb",
-      "hash": "sha256-59YyhPZ8K5AnrKNtkagjv9gWQZtL0qLdW7S0G21+RD0="
+      "rev": "79d773db9faa7e859919c7ba397d8460e6d38b78",
+      "hash": "sha256-fDYrvlKUpMkf9hyi6HPSdlikOIS3avSq3fS9UQ0BLPE="
     },
     "ipkgJson": {
       "name": "log4types-json",
