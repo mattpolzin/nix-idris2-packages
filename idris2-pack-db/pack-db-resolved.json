@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "2c7c835cde3562716bdf84b515bf1f6a6ca295b8",
-      "hash": "sha256-eBqxhorGiQhRTgun79+r8bu8O7hDbKQywBcrLKyCQAE="
+      "rev": "f1154c7ef4dcfb6ee03b5b6b91c9730534660ade",
+      "hash": "sha256-kqKyTeHLY5AENmtz36Y6DUzdXdis81Hl5+HIT0TG94s="
     },
     "ipkgJson": {
       "name": "css",
