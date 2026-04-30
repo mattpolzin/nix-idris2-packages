@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "f1154c7ef4dcfb6ee03b5b6b91c9730534660ade",
-      "hash": "sha256-kqKyTeHLY5AENmtz36Y6DUzdXdis81Hl5+HIT0TG94s="
+      "rev": "341bc8436fc037f741ef449e501f08360c27562b",
+      "hash": "sha256-V0EUjpkh1ICwTFR4jNld56pItY//clN6/rPNcE5dd+A="
     },
     "ipkgJson": {
       "name": "css",
@@ -4041,8 +4041,8 @@
     "ipkgDir": "api",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "2bbbdce9e53c916e51b0f5b99a700e5318d28417",
-      "hash": "sha256-YWM6vDv35h+B/nJGSLa//Zvkg+k7qBxWm1N4KFRrIuA="
+      "rev": "9df3a9467f800175db0f44483e0ee02705848bdf",
+      "hash": "sha256-1fBqxy2dhFD/SbDFWhF9Ah64mJCzl9cgmLeYQrwSWuY="
     },
     "ipkgJson": {
       "name": "stellar-api",
@@ -4067,8 +4067,8 @@
     "ipkgDir": "http",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "2bbbdce9e53c916e51b0f5b99a700e5318d28417",
-      "hash": "sha256-YWM6vDv35h+B/nJGSLa//Zvkg+k7qBxWm1N4KFRrIuA="
+      "rev": "9df3a9467f800175db0f44483e0ee02705848bdf",
+      "hash": "sha256-1fBqxy2dhFD/SbDFWhF9Ah64mJCzl9cgmLeYQrwSWuY="
     },
     "ipkgJson": {
       "name": "stellar-http",
@@ -4096,8 +4096,8 @@
     "ipkgDir": "sql",
     "src": {
       "url": "https://gitlab.com/avidela/stellar",
-      "rev": "2bbbdce9e53c916e51b0f5b99a700e5318d28417",
-      "hash": "sha256-YWM6vDv35h+B/nJGSLa//Zvkg+k7qBxWm1N4KFRrIuA="
+      "rev": "9df3a9467f800175db0f44483e0ee02705848bdf",
+      "hash": "sha256-1fBqxy2dhFD/SbDFWhF9Ah64mJCzl9cgmLeYQrwSWuY="
     },
     "ipkgJson": {
       "name": "stellar-sql",
