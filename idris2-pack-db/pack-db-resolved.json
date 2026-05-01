@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "341bc8436fc037f741ef449e501f08360c27562b",
-      "hash": "sha256-V0EUjpkh1ICwTFR4jNld56pItY//clN6/rPNcE5dd+A="
+      "rev": "34ecd2b43f5302c39c07abceb534e1b933c2e37f",
+      "hash": "sha256-aC1h55Pw2SwtKYsWivuiR4+4sV+CtZYJ2MlXKkA96Ck="
     },
     "ipkgJson": {
       "name": "css",
@@ -779,25 +779,49 @@
       "sourcedir": "src"
     }
   },
+  "cyby-css": {
+    "packName": "cyby-css",
+    "ipkgName": "cyby-css",
+    "ipkgDir": "cyby-css",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
+      "rev": "80f31e2f09c47f3876541d710a3c0ca6f155c901",
+      "hash": "sha256-BK61IaUykS7/vX+OHdMvpyzt1Su76wYjzFZquavpqaA="
+    },
+    "ipkgJson": {
+      "name": "cyby-css",
+      "depends": [
+        "base",
+        "async-dom",
+        "chem",
+        "css"
+      ],
+      "version": "0.1.0",
+      "authors": "Stefan Höck",
+      "brief": "An opinionated CSS framework written in Idris",
+      "sourcedir": "src"
+    }
+  },
   "cyby-draw": {
     "packName": "cyby-draw",
     "ipkgName": "cyby-draw",
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "e4649d2b910f5429c4287e2308ed9236026f6095",
-      "hash": "sha256-RDN7jVo8y5TYpxZ2QkU/JyCy7jCjSDyv912lTj6bXIQ="
+      "rev": "80f31e2f09c47f3876541d710a3c0ca6f155c901",
+      "hash": "sha256-BK61IaUykS7/vX+OHdMvpyzt1Su76wYjzFZquavpqaA="
     },
     "ipkgJson": {
       "name": "cyby-draw",
       "depends": [
         "base",
-        "chem",
-        "async-dom",
-        "containers",
-        "svg",
         "array",
-        "pretty-show"
+        "async-dom",
+        "chem",
+        "containers",
+        "cyby-css",
+        "pretty-show",
+        "svg"
       ],
       "version": "0.1.0",
       "authors": "Claudio Etterli, Salome Heilig, Stefan Höck",
@@ -2463,8 +2487,8 @@
     "ipkgDir": "log4types",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "79d773db9faa7e859919c7ba397d8460e6d38b78",
-      "hash": "sha256-fDYrvlKUpMkf9hyi6HPSdlikOIS3avSq3fS9UQ0BLPE="
+      "rev": "217515f534bc1cb4b2dbfa4ed7f245c1fd376694",
+      "hash": "sha256-QZrv+/jm8odiayZlBhYsQh3Fj9IV8WdIX28kadQpa1M="
     },
     "ipkgJson": {
       "name": "log4types",
@@ -2473,7 +2497,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Composable structured logging for Idris 2 applications",
@@ -2486,8 +2510,8 @@
     "ipkgDir": "log4types-core",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "79d773db9faa7e859919c7ba397d8460e6d38b78",
-      "hash": "sha256-fDYrvlKUpMkf9hyi6HPSdlikOIS3avSq3fS9UQ0BLPE="
+      "rev": "217515f534bc1cb4b2dbfa4ed7f245c1fd376694",
+      "hash": "sha256-QZrv+/jm8odiayZlBhYsQh3Fj9IV8WdIX28kadQpa1M="
     },
     "ipkgJson": {
       "name": "log4types-core",
@@ -2508,8 +2532,8 @@
     "ipkgDir": "log4types-json",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "79d773db9faa7e859919c7ba397d8460e6d38b78",
-      "hash": "sha256-fDYrvlKUpMkf9hyi6HPSdlikOIS3avSq3fS9UQ0BLPE="
+      "rev": "217515f534bc1cb4b2dbfa4ed7f245c1fd376694",
+      "hash": "sha256-QZrv+/jm8odiayZlBhYsQh3Fj9IV8WdIX28kadQpa1M="
     },
     "ipkgJson": {
       "name": "log4types-json",
