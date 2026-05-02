@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "34ecd2b43f5302c39c07abceb534e1b933c2e37f",
-      "hash": "sha256-aC1h55Pw2SwtKYsWivuiR4+4sV+CtZYJ2MlXKkA96Ck="
+      "rev": "5fdeff04d068a39bcd956850d49ada5a6bbcc6ae",
+      "hash": "sha256-L4p8rxp0IrzIi2H1pLaqn+4dTmh8+m9+osxRq/o6zTs="
     },
     "ipkgJson": {
       "name": "css",
@@ -785,8 +785,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "80f31e2f09c47f3876541d710a3c0ca6f155c901",
-      "hash": "sha256-BK61IaUykS7/vX+OHdMvpyzt1Su76wYjzFZquavpqaA="
+      "rev": "a7b72f93c6af5f3792b8a874b69a0c17e408a1de",
+      "hash": "sha256-/j29XRYItMK1E7tEQNsw9uZiP9qAmkGi9bEo24ofTbk="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -808,8 +808,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "80f31e2f09c47f3876541d710a3c0ca6f155c901",
-      "hash": "sha256-BK61IaUykS7/vX+OHdMvpyzt1Su76wYjzFZquavpqaA="
+      "rev": "a7b72f93c6af5f3792b8a874b69a0c17e408a1de",
+      "hash": "sha256-/j29XRYItMK1E7tEQNsw9uZiP9qAmkGi9bEo24ofTbk="
     },
     "ipkgJson": {
       "name": "cyby-draw",
