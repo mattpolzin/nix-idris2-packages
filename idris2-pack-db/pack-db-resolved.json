@@ -785,8 +785,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "2cecca5c48dc8e83a8d4d566c6f18896ab97366c",
-      "hash": "sha256-I8Lj+4yVz/DPFGEqx3EvSimE7Ghl+8Rtn406V6aHMyE="
+      "rev": "d66c52425dadc207d7f7215ec1c3ecf627f8ce12",
+      "hash": "sha256-H0DVTWVDSR2P2Ml4V1Dctlpqk7Wy5+Zlg1Cb12KF0ms="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -808,8 +808,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "2cecca5c48dc8e83a8d4d566c6f18896ab97366c",
-      "hash": "sha256-I8Lj+4yVz/DPFGEqx3EvSimE7Ghl+8Rtn406V6aHMyE="
+      "rev": "d66c52425dadc207d7f7215ec1c3ecf627f8ce12",
+      "hash": "sha256-H0DVTWVDSR2P2Ml4V1Dctlpqk7Wy5+Zlg1Cb12KF0ms="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -3259,8 +3259,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "b1170d081fa40169f16338fb2beef53b4448c3d8",
-      "hash": "sha256-T6UharYxZyG3H59dx1yUnhiGsuVEFdka1vD8t6RyVA4="
+      "rev": "122007fa66202f04d66a15763143faf5f74091e3",
+      "hash": "sha256-ixaFpLr2cJE+c8pWSFPDxYhypz/rSFwUnKEg4V50Fzg="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3280,8 +3280,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "b1170d081fa40169f16338fb2beef53b4448c3d8",
-      "hash": "sha256-T6UharYxZyG3H59dx1yUnhiGsuVEFdka1vD8t6RyVA4="
+      "rev": "122007fa66202f04d66a15763143faf5f74091e3",
+      "hash": "sha256-ixaFpLr2cJE+c8pWSFPDxYhypz/rSFwUnKEg4V50Fzg="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -3969,8 +3969,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "b1170d081fa40169f16338fb2beef53b4448c3d8",
-      "hash": "sha256-T6UharYxZyG3H59dx1yUnhiGsuVEFdka1vD8t6RyVA4="
+      "rev": "122007fa66202f04d66a15763143faf5f74091e3",
+      "hash": "sha256-ixaFpLr2cJE+c8pWSFPDxYhypz/rSFwUnKEg4V50Fzg="
     },
     "ipkgJson": {
       "name": "spidr",
