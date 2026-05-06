@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "5fdeff04d068a39bcd956850d49ada5a6bbcc6ae",
-      "hash": "sha256-L4p8rxp0IrzIi2H1pLaqn+4dTmh8+m9+osxRq/o6zTs="
+      "rev": "0d91a3be7a920c23336da8896397515071027300",
+      "hash": "sha256-pxGdvAxO7eb4FiXlE/KwMrbbY9tgUi7EJD4AQ48cfjc="
     },
     "ipkgJson": {
       "name": "css",
@@ -785,8 +785,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "22771142223a9bcf0b8d98219198fc16324090cc",
-      "hash": "sha256-W2s6qdKEDohODyj+RUu5YLuHWJaPvfa9Xv5lAeyNkP8="
+      "rev": "1b720a6ecca21afad60db3e1a0707217628d0fe4",
+      "hash": "sha256-pl8Y0b2lIrmZUKxgx3a3UgygdZ3d0L1bDCR//KkAKGk="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -808,8 +808,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "22771142223a9bcf0b8d98219198fc16324090cc",
-      "hash": "sha256-W2s6qdKEDohODyj+RUu5YLuHWJaPvfa9Xv5lAeyNkP8="
+      "rev": "1b720a6ecca21afad60db3e1a0707217628d0fe4",
+      "hash": "sha256-pl8Y0b2lIrmZUKxgx3a3UgygdZ3d0L1bDCR//KkAKGk="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -3259,8 +3259,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "122007fa66202f04d66a15763143faf5f74091e3",
-      "hash": "sha256-ixaFpLr2cJE+c8pWSFPDxYhypz/rSFwUnKEg4V50Fzg="
+      "rev": "7f2815e6a88f5ce2ab21e8c350f16967831903c4",
+      "hash": "sha256-kpSgmng/bh2/TZWb+frcIifr+W0eg5ArZ8ySL+8KHW0="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3280,8 +3280,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "122007fa66202f04d66a15763143faf5f74091e3",
-      "hash": "sha256-ixaFpLr2cJE+c8pWSFPDxYhypz/rSFwUnKEg4V50Fzg="
+      "rev": "7f2815e6a88f5ce2ab21e8c350f16967831903c4",
+      "hash": "sha256-kpSgmng/bh2/TZWb+frcIifr+W0eg5ArZ8ySL+8KHW0="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -3969,8 +3969,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "122007fa66202f04d66a15763143faf5f74091e3",
-      "hash": "sha256-ixaFpLr2cJE+c8pWSFPDxYhypz/rSFwUnKEg4V50Fzg="
+      "rev": "7f2815e6a88f5ce2ab21e8c350f16967831903c4",
+      "hash": "sha256-kpSgmng/bh2/TZWb+frcIifr+W0eg5ArZ8ySL+8KHW0="
     },
     "ipkgJson": {
       "name": "spidr",
