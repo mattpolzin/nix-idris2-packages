@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "0d91a3be7a920c23336da8896397515071027300",
-      "hash": "sha256-pxGdvAxO7eb4FiXlE/KwMrbbY9tgUi7EJD4AQ48cfjc="
+      "rev": "a3c52b309e68c8d988d4613baddd269a59353c01",
+      "hash": "sha256-alPOmZsLIPYeF1+Iqj7zwEDQgKZSHqSMdZuKXMV1QFc="
     },
     "ipkgJson": {
       "name": "css",
@@ -785,8 +785,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "1b720a6ecca21afad60db3e1a0707217628d0fe4",
-      "hash": "sha256-pl8Y0b2lIrmZUKxgx3a3UgygdZ3d0L1bDCR//KkAKGk="
+      "rev": "d89a8c4b9669abaab82a869e6f1d2bc4a25d6bb0",
+      "hash": "sha256-dHZRXQlhs5bcuAvYWMVEYXxMgFfyA/tHQKZ1M4ahoDU="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -808,8 +808,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "1b720a6ecca21afad60db3e1a0707217628d0fe4",
-      "hash": "sha256-pl8Y0b2lIrmZUKxgx3a3UgygdZ3d0L1bDCR//KkAKGk="
+      "rev": "d89a8c4b9669abaab82a869e6f1d2bc4a25d6bb0",
+      "hash": "sha256-dHZRXQlhs5bcuAvYWMVEYXxMgFfyA/tHQKZ1M4ahoDU="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -2833,8 +2833,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "ffff61f5b0400525d7b0c41eef79e83ebe2b0b52",
-      "hash": "sha256-VL5dvRSuDY3ZXLs/uYl5QQNtCqprBec92F5vdYwwlxI="
+      "rev": "994d7a31050654cfd1a79f33cad4b0e97a37d38e",
+      "hash": "sha256-BuKUYxV7GxuT0coweu3HmZRDEfJtfAFo7qp8pMyIf8E="
     },
     "ipkgJson": {
       "name": "pack",
@@ -2868,8 +2868,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "ffff61f5b0400525d7b0c41eef79e83ebe2b0b52",
-      "hash": "sha256-VL5dvRSuDY3ZXLs/uYl5QQNtCqprBec92F5vdYwwlxI="
+      "rev": "994d7a31050654cfd1a79f33cad4b0e97a37d38e",
+      "hash": "sha256-BuKUYxV7GxuT0coweu3HmZRDEfJtfAFo7qp8pMyIf8E="
     },
     "ipkgJson": {
       "name": "pack-admin",
