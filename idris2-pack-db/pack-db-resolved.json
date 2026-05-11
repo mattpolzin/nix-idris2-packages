@@ -785,8 +785,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "3e13ba16961f3506a4e178deaac7be6d483c657e",
-      "hash": "sha256-GHmgZKfdWx0+jgtIG7czR2umd3KRBScCAGXZqzCcXFQ="
+      "rev": "dac1bb4e9a333902235ddc64cacab44139c80977",
+      "hash": "sha256-TeFWLigvOszgxeVVaaL5T4CFGzwUxBx+45WIZbB9xiY="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -808,8 +808,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "3e13ba16961f3506a4e178deaac7be6d483c657e",
-      "hash": "sha256-GHmgZKfdWx0+jgtIG7czR2umd3KRBScCAGXZqzCcXFQ="
+      "rev": "dac1bb4e9a333902235ddc64cacab44139c80977",
+      "hash": "sha256-TeFWLigvOszgxeVVaaL5T4CFGzwUxBx+45WIZbB9xiY="
     },
     "ipkgJson": {
       "name": "cyby-draw",
