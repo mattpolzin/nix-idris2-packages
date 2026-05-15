@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "c217be05cf1acd0d096380c866c95657fb315faa",
-      "hash": "sha256-KSCwxaZkPUtrKo5ImamkpBPcl0vtB67/tcclQX8Me1Q="
+      "rev": "bb9755aec8c69967d7c74bcfc5c4ddfc26421d78",
+      "hash": "sha256-/Hnil9BwvZBQsTEPRVdcy5SkidgQVPsBQ0W5tD86T9g="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -764,8 +764,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "0193a8fa2e1bbabca35edf3aac69259ecf530ffb",
-      "hash": "sha256-RSRSRqLBQEO1dN6pvpmBgPbBLr5HTpRNktn3UaI3JtM="
+      "rev": "d54e6c7270b9d1664d10d6c9af90ba86febc8b74",
+      "hash": "sha256-qNqOxPNPLEbd34DxV+2+j1cdYVYc/6JCuZxhqVSYQqg="
     },
     "ipkgJson": {
       "name": "css",
@@ -785,8 +785,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "69da96f290d3fceb6f4ccdd35e89d533ad1a846a",
-      "hash": "sha256-lLrinS7eECvDUU0hyXHn5b9M+cbMKEV4jvVf2r1zXMo="
+      "rev": "d952fe87fbd6a4408d156b95a6dac86c378e145d",
+      "hash": "sha256-P5P6t1kArajKE5vcS6gcVRdrLHbLr6g5TPgA55zXfBQ="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -808,8 +808,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "69da96f290d3fceb6f4ccdd35e89d533ad1a846a",
-      "hash": "sha256-lLrinS7eECvDUU0hyXHn5b9M+cbMKEV4jvVf2r1zXMo="
+      "rev": "d952fe87fbd6a4408d156b95a6dac86c378e145d",
+      "hash": "sha256-P5P6t1kArajKE5vcS6gcVRdrLHbLr6g5TPgA55zXfBQ="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -4795,6 +4795,27 @@
       "license": "BSD-3 Clause",
       "brief": "UTF-8 encoding and decoding, thin wrapper around the 'array' library",
       "sourcedir": "src"
+    }
+  },
+  "uuid": {
+    "packName": "uuid",
+    "ipkgName": "uuid",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://codeberg.org/joelberkeley/uuid",
+      "rev": "32752e599ffe6f53113d27fd73bbcb5a3165550f",
+      "hash": "sha256-XhyJrJSEAEfK7iMIK0Fp56qkWjD8dkb5kiFXnX6CIl8="
+    },
+    "ipkgJson": {
+      "name": "uuid",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Joel Berkeley",
+      "license": "AGPL-3.0-or-later",
+      "brief": "UUIDs for Idris2",
+      "readme": "README.md",
+      "sourcedir": "src",
+      "postinstall": "./postinstall.sh"
     }
   },
   "uv": {
