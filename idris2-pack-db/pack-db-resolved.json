@@ -785,8 +785,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "2a04f3b40c61a52a304deec1560a591aad44894e",
-      "hash": "sha256-8F5Wm3TjRwwFpDqsEjx+s8AdVfUbi5rxm/Wc5L9hsU0="
+      "rev": "68a021bce6ae96bd3af2d8af223004ce6b86daf6",
+      "hash": "sha256-xG9RVTvoH7zHYWekCzDZ2OtzTLAOxrMZMHPfNppYs20="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -808,8 +808,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "2a04f3b40c61a52a304deec1560a591aad44894e",
-      "hash": "sha256-8F5Wm3TjRwwFpDqsEjx+s8AdVfUbi5rxm/Wc5L9hsU0="
+      "rev": "68a021bce6ae96bd3af2d8af223004ce6b86daf6",
+      "hash": "sha256-xG9RVTvoH7zHYWekCzDZ2OtzTLAOxrMZMHPfNppYs20="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -3730,6 +3730,30 @@
       "brief": "Interfaces for building, matching, parsing and printing regular expressions with a naive implementation",
       "sourcedir": "src",
       "builddir": ".build"
+    }
+  },
+  "resource-pool": {
+    "packName": "resource-pool",
+    "ipkgName": "resource-pool",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-resource-pool",
+      "rev": "ddeb7ca748b2cb686a492298f8c4ca3da6f5f8d6",
+      "hash": "sha256-Hl5x1PfF5NdEKcup+w7PooaJzBDSuYe/JOcHI9YS0CY="
+    },
+    "ipkgJson": {
+      "name": "resource-pool",
+      "depends": [
+        "base",
+        "array",
+        "elin",
+        "posix",
+        "ref1"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew Mosior",
+      "brief": "A high-performance striped resource pooling implementation",
+      "sourcedir": "src"
     }
   },
   "rhone": {
