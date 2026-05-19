@@ -311,6 +311,23 @@
       "builddir": ".build"
     }
   },
+  "betti": {
+    "packName": "betti",
+    "ipkgName": "betti",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/ohad/betti",
+      "rev": "ff80b92487364a2f3d9f7611961f023bd5f1bcf5",
+      "hash": "sha256-Ml0CG27atQJ2lhALxnZ9EjVKRe6bp9LVrMgROLiDRTc="
+    },
+    "ipkgJson": {
+      "name": "betti",
+      "depends": [],
+      "version": "0.1.0",
+      "authors": "Ohad Kammar",
+      "sourcedir": "src"
+    }
+  },
   "bounded-doubles": {
     "packName": "bounded-doubles",
     "ipkgName": "bounded-doubles",
