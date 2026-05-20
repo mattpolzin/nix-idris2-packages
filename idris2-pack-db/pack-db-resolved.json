@@ -317,8 +317,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/ohad/betti",
-      "rev": "ff80b92487364a2f3d9f7611961f023bd5f1bcf5",
-      "hash": "sha256-Ml0CG27atQJ2lhALxnZ9EjVKRe6bp9LVrMgROLiDRTc="
+      "rev": "a41a76ae26874d82ab25d4b93a8dad0a84f16097",
+      "hash": "sha256-aTU71ZbCtCTzWn8ifdQlHlAawZpze+KogRP6MVy4jic="
     },
     "ipkgJson": {
       "name": "betti",
@@ -781,8 +781,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-css",
-      "rev": "a300a4e755c6789e8af665a7f299c5ef012e4b1c",
-      "hash": "sha256-WE9Ydq6S7F/td0z0mB2qlyBC3QHnpnjgrZv+FQ2cTYg="
+      "rev": "de7e9dba95dad7c3e873e41ef94c8eb8c4697cef",
+      "hash": "sha256-eV5lokIEt29Ej3Tbh5Ikvqt1FM6yqEjLQzZaQdFU77c="
     },
     "ipkgJson": {
       "name": "css",
@@ -3755,8 +3755,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-resource-pool",
-      "rev": "ddeb7ca748b2cb686a492298f8c4ca3da6f5f8d6",
-      "hash": "sha256-Hl5x1PfF5NdEKcup+w7PooaJzBDSuYe/JOcHI9YS0CY="
+      "rev": "15418c2106cf27afa60bae7ba8c699f54e56dc0d",
+      "hash": "sha256-DJQX8urV7ilY0aOoCGh3tv/SJKT4NWIVOfo0t2qq8iw="
     },
     "ipkgJson": {
       "name": "resource-pool",
@@ -4474,8 +4474,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "56072e0e08593d69e726ae4ba8caa23f8b3804e8",
-      "hash": "sha256-b296oVvnVeGjAjusI3Z8MI8AJfyKygYws0tA56uC90g="
+      "rev": "b85946f0dd2ee4989b8900b6bbadf6c14340550b",
+      "hash": "sha256-VNiweoRLlSYrRfbWGDYpXxy5TtCjZs4CSdapGb/foA4="
     },
     "ipkgJson": {
       "name": "tensortype",
@@ -4483,7 +4483,8 @@
         "contrib",
         "elab-util",
         "hashmap",
-        "finite"
+        "finite",
+        "timeit"
       ],
       "authors": "Bruno Gavranovic",
       "license": "AGPL-3.0",
