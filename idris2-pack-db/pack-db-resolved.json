@@ -136,18 +136,16 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "bb9755aec8c69967d7c74bcfc5c4ddfc26421d78",
-      "hash": "sha256-/Hnil9BwvZBQsTEPRVdcy5SkidgQVPsBQ0W5tD86T9g="
+      "rev": "4e6db59827db9485a3eeea13375042c6afed4f32",
+      "hash": "sha256-TosxASbMI1vwhtVwXIeeaXQ1VxTLSxm/S/zO/eFaiM0="
     },
     "ipkgJson": {
       "name": "async-dom",
       "depends": [
         "base",
-        "async-js",
+        "http-client-api",
         "barbies",
-        "dom",
         "css",
-        "json-simple",
         "monocle",
         "streams"
       ],
@@ -802,8 +800,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "9e95c3cb5987d42ae262ed1b7c0ca8b3ccaec3c0",
-      "hash": "sha256-O32aX3o0R3Ovq47J948XuoGABMJ197foHLrza+bIASQ="
+      "rev": "a578ea570fb00a2fcdeb876f67de8ab12407793a",
+      "hash": "sha256-/BdBzrFbWCCbEZLHqbGmQEEllC23fAlWR9Jn3TUNveI="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -825,8 +823,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "9e95c3cb5987d42ae262ed1b7c0ca8b3ccaec3c0",
-      "hash": "sha256-O32aX3o0R3Ovq47J948XuoGABMJ197foHLrza+bIASQ="
+      "rev": "a578ea570fb00a2fcdeb876f67de8ab12407793a",
+      "hash": "sha256-/BdBzrFbWCCbEZLHqbGmQEEllC23fAlWR9Jn3TUNveI="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -1763,15 +1761,14 @@
     "ipkgDir": "http-client-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "c6b7ae27f82d58edd9b66c35cd061f06c2614685",
-      "hash": "sha256-cpWi0RHursxxVnHA6GG4qQvPHShVBbMlpi9LunD2pWg="
+      "rev": "703e351f3fc878cef937b8c46cb1f740251ad162",
+      "hash": "sha256-5kg7qKXEd2vrdg4rcA1tbCI2l7z7KPLnqDwvsLBBhlE="
     },
     "ipkgJson": {
       "name": "http-client-api",
       "depends": [
         "http-types",
         "async-js",
-        "async-dom",
         "dom"
       ],
       "version": "0.8.0",
@@ -1786,8 +1783,8 @@
     "ipkgDir": "http-server-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "c6b7ae27f82d58edd9b66c35cd061f06c2614685",
-      "hash": "sha256-cpWi0RHursxxVnHA6GG4qQvPHShVBbMlpi9LunD2pWg="
+      "rev": "703e351f3fc878cef937b8c46cb1f740251ad162",
+      "hash": "sha256-5kg7qKXEd2vrdg4rcA1tbCI2l7z7KPLnqDwvsLBBhlE="
     },
     "ipkgJson": {
       "name": "http-server-api",
@@ -1807,13 +1804,14 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "c6b7ae27f82d58edd9b66c35cd061f06c2614685",
-      "hash": "sha256-cpWi0RHursxxVnHA6GG4qQvPHShVBbMlpi9LunD2pWg="
+      "rev": "703e351f3fc878cef937b8c46cb1f740251ad162",
+      "hash": "sha256-5kg7qKXEd2vrdg4rcA1tbCI2l7z7KPLnqDwvsLBBhlE="
     },
     "ipkgJson": {
       "name": "http-types",
       "depends": [
         "base",
+        "async",
         "ilex",
         "json-simple"
       ],
@@ -3276,8 +3274,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "7f2815e6a88f5ce2ab21e8c350f16967831903c4",
-      "hash": "sha256-kpSgmng/bh2/TZWb+frcIifr+W0eg5ArZ8ySL+8KHW0="
+      "rev": "1fc119cc1a352e6d8f4bce2338afef55ece47e0c",
+      "hash": "sha256-CFoDZq0vScVJgNQUkZPC+IAq54GnQLmRxnnuqNYBDmI="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3297,8 +3295,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "7f2815e6a88f5ce2ab21e8c350f16967831903c4",
-      "hash": "sha256-kpSgmng/bh2/TZWb+frcIifr+W0eg5ArZ8ySL+8KHW0="
+      "rev": "1fc119cc1a352e6d8f4bce2338afef55ece47e0c",
+      "hash": "sha256-CFoDZq0vScVJgNQUkZPC+IAq54GnQLmRxnnuqNYBDmI="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -3877,8 +3875,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-scgi",
-      "rev": "5f3e449e122666a4d3330b9900c3c714d441a4c1",
-      "hash": "sha256-jPpgorj2NA/63t3hHRAkz7DeZvFdeofGUrGwGei8mqs="
+      "rev": "8abd9a8555cb2cd2717339a8a21656c020869970",
+      "hash": "sha256-bfhcU0oHA703ClyAYNcWxE9ncPI0B/KIiYmWDDMEiPk="
     },
     "ipkgJson": {
       "name": "scgi",
@@ -4010,8 +4008,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "7f2815e6a88f5ce2ab21e8c350f16967831903c4",
-      "hash": "sha256-kpSgmng/bh2/TZWb+frcIifr+W0eg5ArZ8ySL+8KHW0="
+      "rev": "1fc119cc1a352e6d8f4bce2338afef55ece47e0c",
+      "hash": "sha256-CFoDZq0vScVJgNQUkZPC+IAq54GnQLmRxnnuqNYBDmI="
     },
     "ipkgJson": {
       "name": "spidr",
