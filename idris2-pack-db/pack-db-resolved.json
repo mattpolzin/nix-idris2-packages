@@ -5,8 +5,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/algebraic-data",
-      "rev": "8fe9ec5c56ee043046df9a50d4280602ac352b88",
-      "hash": "sha256-b2ofl4FdcUXa2PpiSKtYHsLLDsdq5d1i/j2/TSX6zP0="
+      "rev": "e266ad0180aed2b75ea7004915bdd6111086cc45",
+      "hash": "sha256-0Dt4OlWGU0LaKaWO0xRyvkb/c3Bgt9u4OtX4Jv3Y220="
     },
     "ipkgJson": {
       "name": "algdata",
@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "8f9c84bc71dae21c6fe430296c6a094f7706748c",
-      "hash": "sha256-Cn8RscraiH97Wiv/E+qNwaIc17zcxT33EaPz3E55kMU="
+      "rev": "9f7714fc6a75477c8009a03b6331eae4d51dae7b",
+      "hash": "sha256-Vf8AxIwBeYv3LpI3FhuISg6WShIkeBS+pxxMsPMdtDE="
     },
     "ipkgJson": {
       "name": "array",
@@ -136,8 +136,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-async-dom",
-      "rev": "c4c2ae3ccbc514ce4dafece524a4778799c0b8f1",
-      "hash": "sha256-ecRB8XgFo9ZnERt1dPYvUPUXOeJ1QiFmytZbV5YM2aU="
+      "rev": "df08a47277538ea8a3c068267e5f60dbaf6417cd",
+      "hash": "sha256-cIpEubVpYYZyOExwSK1Rue8/ByabrPyPNho6rPbRRIw="
     },
     "ipkgJson": {
       "name": "async-dom",
@@ -152,6 +152,27 @@
       "version": "0.0.1",
       "authors": "stefan-hoeck",
       "brief": "Concurrency and streaming in interactive web pages",
+      "sourcedir": "src"
+    }
+  },
+  "async-dom-extra": {
+    "packName": "async-dom-extra",
+    "ipkgName": "async-dom-extra",
+    "ipkgDir": "extra",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-async-dom",
+      "rev": "df08a47277538ea8a3c068267e5f60dbaf6417cd",
+      "hash": "sha256-cIpEubVpYYZyOExwSK1Rue8/ByabrPyPNho6rPbRRIw="
+    },
+    "ipkgJson": {
+      "name": "async-dom-extra",
+      "depends": [
+        "base",
+        "async-dom"
+      ],
+      "version": "0.0.1",
+      "authors": "stefan-hoeck",
+      "brief": "Opinionated utilities for writing web apps with async-dom",
       "sourcedir": "src"
     }
   },
@@ -800,16 +821,15 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "f4e8f995c0c9b51e6d371f84993da12c0aab81be",
-      "hash": "sha256-c5UZCHzzzegDbk+kOGVL9Z5Wz5z0j+wxTAQHdY5s7SM="
+      "rev": "23fdca4c7bfb1974b8f08eb106a759fa2b793415",
+      "hash": "sha256-B1W4cark4E/TPgfmanPZN/TeTbMt4V7OeNcCWF/zqfU="
     },
     "ipkgJson": {
       "name": "cyby-css",
       "depends": [
         "base",
-        "async-dom",
-        "chem",
-        "css"
+        "async-dom-extra",
+        "chem"
       ],
       "version": "0.1.0",
       "authors": "Stefan Höck",
@@ -823,8 +843,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "f4e8f995c0c9b51e6d371f84993da12c0aab81be",
-      "hash": "sha256-c5UZCHzzzegDbk+kOGVL9Z5Wz5z0j+wxTAQHdY5s7SM="
+      "rev": "23fdca4c7bfb1974b8f08eb106a759fa2b793415",
+      "hash": "sha256-B1W4cark4E/TPgfmanPZN/TeTbMt4V7OeNcCWF/zqfU="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -1278,8 +1298,8 @@
     "ipkgDir": "evince",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "c54d475d494ac71f00eebb5e7599b6288d8df616",
-      "hash": "sha256-lHUha/vGaRO9G0Xo4qLzVhBGsRzY4v8UoHs44Ijg/5E="
+      "rev": "d6d2311e9ed95a140608e3a67fbfe8652e383389",
+      "hash": "sha256-yztyJjQzphsWre3zbNUdFhY7C86KtE7LOn7g03/uMII="
     },
     "ipkgJson": {
       "name": "evince",
@@ -1300,8 +1320,8 @@
     "ipkgDir": "evince-hedgehog",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "c54d475d494ac71f00eebb5e7599b6288d8df616",
-      "hash": "sha256-lHUha/vGaRO9G0Xo4qLzVhBGsRzY4v8UoHs44Ijg/5E="
+      "rev": "d6d2311e9ed95a140608e3a67fbfe8652e383389",
+      "hash": "sha256-yztyJjQzphsWre3zbNUdFhY7C86KtE7LOn7g03/uMII="
     },
     "ipkgJson": {
       "name": "evince-hedgehog",
@@ -1499,8 +1519,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/fs-utils",
-      "rev": "650c710a75e8516e7be688f1b5dbb48b44b05985",
-      "hash": "sha256-69TBPJ17D0SqZmleqgep5JcLZC3M3air6U2c4wpujhg="
+      "rev": "28dd3c9a1f086f54704c17c4f2d65378fe3b6f3e",
+      "hash": "sha256-0WDpmj3sOrY6CFnAAwhOCCGGjwYl+Pj8q0H4Slzs9yY="
     },
     "ipkgJson": {
       "name": "fs-utils",
@@ -1761,8 +1781,8 @@
     "ipkgDir": "http-client-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "703e351f3fc878cef937b8c46cb1f740251ad162",
-      "hash": "sha256-5kg7qKXEd2vrdg4rcA1tbCI2l7z7KPLnqDwvsLBBhlE="
+      "rev": "30d11fb54bb78b1d1be15d9e1cbbe497b656baf5",
+      "hash": "sha256-H36T8K6XYcfRmNYUYPqg47sUdvy71BhpIwCBjMUMXzQ="
     },
     "ipkgJson": {
       "name": "http-client-api",
@@ -1783,8 +1803,8 @@
     "ipkgDir": "http-server-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "703e351f3fc878cef937b8c46cb1f740251ad162",
-      "hash": "sha256-5kg7qKXEd2vrdg4rcA1tbCI2l7z7KPLnqDwvsLBBhlE="
+      "rev": "30d11fb54bb78b1d1be15d9e1cbbe497b656baf5",
+      "hash": "sha256-H36T8K6XYcfRmNYUYPqg47sUdvy71BhpIwCBjMUMXzQ="
     },
     "ipkgJson": {
       "name": "http-server-api",
@@ -1804,8 +1824,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "703e351f3fc878cef937b8c46cb1f740251ad162",
-      "hash": "sha256-5kg7qKXEd2vrdg4rcA1tbCI2l7z7KPLnqDwvsLBBhlE="
+      "rev": "30d11fb54bb78b1d1be15d9e1cbbe497b656baf5",
+      "hash": "sha256-H36T8K6XYcfRmNYUYPqg47sUdvy71BhpIwCBjMUMXzQ="
     },
     "ipkgJson": {
       "name": "http-types",
@@ -2222,8 +2242,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-indexed-graph",
-      "rev": "efa4306114261d222be802eb3188b253a5640d8c",
-      "hash": "sha256-YmPiYwb/lWp4nkyZrM5ERm7XqMNTyyZaTLknzR3axhg="
+      "rev": "b8f1fb1157cbe6ac9b487efa81284ab4342169af",
+      "hash": "sha256-ZxAO98XYkd7C7D3VcRkenxDV/H8cJTwmrA/8cgGQLqw="
     },
     "ipkgJson": {
       "name": "indexed-graph",
@@ -3875,8 +3895,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-scgi",
-      "rev": "8abd9a8555cb2cd2717339a8a21656c020869970",
-      "hash": "sha256-bfhcU0oHA703ClyAYNcWxE9ncPI0B/KIiYmWDDMEiPk="
+      "rev": "7551730d60a37b67cd1e7a9557bb588dfc168545",
+      "hash": "sha256-Tnv7EFafZuBEYrf1yimWTHFWjIeBcqg1511echMIwQ4="
     },
     "ipkgJson": {
       "name": "scgi",
@@ -4095,90 +4115,6 @@
       "license": "BSD-3 Clause",
       "brief": "Streaming SQlite results",
       "readme": "README.md",
-      "sourcedir": "src"
-    }
-  },
-  "stellar-api": {
-    "packName": "stellar-api",
-    "ipkgName": "stellar-api",
-    "ipkgDir": "api",
-    "src": {
-      "url": "https://gitlab.com/avidela/stellar",
-      "rev": "9df3a9467f800175db0f44483e0ee02705848bdf",
-      "hash": "sha256-1fBqxy2dhFD/SbDFWhF9Ah64mJCzl9cgmLeYQrwSWuY="
-    },
-    "ipkgJson": {
-      "name": "stellar-api",
-      "depends": [
-        "algdata",
-        "contrib",
-        "fs-utils"
-      ],
-      "version": "0.1",
-      "authors": "Andre Videla",
-      "maintainers": "Andre Videla",
-      "license": "MIT",
-      "brief": "Base Stellar library for API programming",
-      "readme": "README.md",
-      "opts": "--total",
-      "sourcedir": "src"
-    }
-  },
-  "stellar-http": {
-    "packName": "stellar-http",
-    "ipkgName": "stellar-http",
-    "ipkgDir": "http",
-    "src": {
-      "url": "https://gitlab.com/avidela/stellar",
-      "rev": "9df3a9467f800175db0f44483e0ee02705848bdf",
-      "hash": "sha256-1fBqxy2dhFD/SbDFWhF9Ah64mJCzl9cgmLeYQrwSWuY="
-    },
-    "ipkgJson": {
-      "name": "stellar-http",
-      "depends": [
-        "stellar-api",
-        "tyttp",
-        "node",
-        "tyttp-adapter-node",
-        "continuation-monad",
-        "json-simple",
-        "fs-utils"
-      ],
-      "version": "0.1",
-      "authors": "Andre Videla",
-      "maintainers": "Andre Videla",
-      "license": "MIT",
-      "brief": "Node server bindings for Stellar",
-      "readme": "README.md",
-      "sourcedir": "src"
-    }
-  },
-  "stellar-sql": {
-    "packName": "stellar-sql",
-    "ipkgName": "stellar-sql",
-    "ipkgDir": "sql",
-    "src": {
-      "url": "https://gitlab.com/avidela/stellar",
-      "rev": "9df3a9467f800175db0f44483e0ee02705848bdf",
-      "hash": "sha256-1fBqxy2dhFD/SbDFWhF9Ah64mJCzl9cgmLeYQrwSWuY="
-    },
-    "ipkgJson": {
-      "name": "stellar-sql",
-      "depends": [
-        "sqlite3",
-        "sqlite3-rio",
-        "algdata",
-        "stellar-api",
-        "contrib",
-        "json"
-      ],
-      "version": "0.1",
-      "authors": "Andre Videla",
-      "maintainers": "Andre Videla",
-      "license": "MIT",
-      "brief": "SQL Binding for Stellar",
-      "readme": "README.md",
-      "opts": "--total",
       "sourcedir": "src"
     }
   },
