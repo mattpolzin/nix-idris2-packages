@@ -1701,8 +1701,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-hedgehog",
-      "rev": "c987179433e1dab737cb4ba4772913bbefabe059",
-      "hash": "sha256-YPO0sWZ+QWafLsG4g9dVYO6IkOEAcLtIgXZBpRX2ghY="
+      "rev": "de4d9b15278848f2ee2b99249a73899ef07eda57",
+      "hash": "sha256-W1M0QHeqSLs5f6xwk0f1CalhwG1IqXqSnpR9aNwiIV8="
     },
     "ipkgJson": {
       "name": "hedgehog",
@@ -3773,8 +3773,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-resource-pool",
-      "rev": "8e27fc076d0cf06de46d4f6c0302fc97d910e760",
-      "hash": "sha256-gMIGq9UNlD5q3rLhjHdjI1jWp+3RiqHCvd+nJ0D7FdY="
+      "rev": "60d2053338a6ee7bdf70399cbe86d28d2f2e8cf1",
+      "hash": "sha256-9Xors8b80/0y5DoSu08fR1tSjZKHOp6iMwmVTE03LOM="
     },
     "ipkgJson": {
       "name": "resource-pool",
@@ -3787,6 +3787,7 @@
       ],
       "version": "0.1.0",
       "authors": "Matthew Mosior",
+      "license": "BSD-3 Clause",
       "brief": "A high-performance striped resource pooling implementation",
       "sourcedir": "src"
     }
