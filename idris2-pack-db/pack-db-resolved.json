@@ -2584,6 +2584,33 @@
       "sourcedir": "src"
     }
   },
+  "lsm-rrbvector": {
+    "packName": "lsm-rrbvector",
+    "ipkgName": "lsm-rrbvector",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-lsm-rrbvector",
+      "rev": "10a6d4c8a0000b846c35f6b5af5b22294b6e051b",
+      "hash": "sha256-Pc9/2Ue3noWzbYpfWQROG2C3d8ZGNFA3Kletkptb+R8="
+    },
+    "ipkgJson": {
+      "name": "lsm-rrbvector",
+      "depends": [
+        "base",
+        "array",
+        "async",
+        "async-posix",
+        "elab-util",
+        "posix",
+        "ref1"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew Mosior",
+      "license": "BSD-3 Clause",
+      "brief": "A Log-Structured Merge Relaxed Radix Balanced Vector",
+      "sourcedir": "src"
+    }
+  },
   "lsp-lib": {
     "packName": "lsp-lib",
     "ipkgName": "lsp-lib",
@@ -3663,8 +3690,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "f5b771217295ee692080c08ce5627644c3f86c73",
-      "hash": "sha256-hNTM8H4glECynitzW084mvyGMeJ+00jgllhaYAOD7dM="
+      "rev": "f7a20a9e41aba4026b50edddd689fc394d354b97",
+      "hash": "sha256-BlOv+kvMvtETi6cWSOwT+cvs0bYkQq72HeKA+OCRrlI="
     },
     "ipkgJson": {
       "name": "ref1",

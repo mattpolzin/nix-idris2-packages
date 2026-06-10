@@ -6,7 +6,7 @@
       flake = false;
     };
     idris2 = {
-      url = "github:/idris-lang/idris2/b2d2cf40dae03d28a873454979fa86093781eb97";
+      url = "github:/idris-lang/idris2/3442ed7c9b329a6d0c3ad181de3d03bb520b1a75";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     idris2Lsp = {
