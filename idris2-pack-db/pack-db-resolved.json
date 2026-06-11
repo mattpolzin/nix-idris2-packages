@@ -4985,5 +4985,26 @@
       "version": "1.0",
       "sourcedir": "XML"
     }
+  },
+  "yaml": {
+    "packName": "yaml",
+    "ipkgName": "yaml",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/mitchmindtree/idris2-yaml",
+      "rev": "d946ee063cad5367f30630b357e142713ee04495",
+      "hash": "sha256-RS4Sl1/xgWuPvKjTytUk9873Ao9aepC+qjI8yQd2Q68="
+    },
+    "ipkgJson": {
+      "name": "yaml",
+      "depends": [
+        "parser"
+      ],
+      "version": "0.1.0",
+      "authors": "mitchmindtree",
+      "license": "BSD-2-Clause",
+      "brief": "Total parser for the YAML file format",
+      "sourcedir": "src"
+    }
   }
 }
