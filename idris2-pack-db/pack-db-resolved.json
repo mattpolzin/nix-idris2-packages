@@ -2590,8 +2590,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-lsm-rrbvector",
-      "rev": "10a6d4c8a0000b846c35f6b5af5b22294b6e051b",
-      "hash": "sha256-Pc9/2Ue3noWzbYpfWQROG2C3d8ZGNFA3Kletkptb+R8="
+      "rev": "d824727c57d0d0538dafd0db26abbe39920d6f88",
+      "hash": "sha256-ie3AA6PBm+w4ROg8ExZZgY8x4fiQA+/QfOJqGIyR95c="
     },
     "ipkgJson": {
       "name": "lsm-rrbvector",
