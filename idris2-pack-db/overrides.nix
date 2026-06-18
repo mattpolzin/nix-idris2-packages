@@ -7,27 +7,28 @@
 #
 # `idris2Packages` is a reference to the final packages of this package set.
 {
-  lib,
-  stdenv,
-  pkg-config,
-  makeWrapper,
-  makeBinaryWrapper,
-  zsh,
+  chez,
   clang,
+  cmake,
   gcc,
   gmp,
   gnumake,
-  idris2Support,
-  idris2,
-  chez,
   go,
   gsl,
+  idris2,
+  idris2Support,
+  lib,
   libuv,
   libxcrypt,
+  makeBinaryWrapper,
+  makeWrapper,
   ncurses5,
+  pkg-config,
+  postgresql,
   rtl-sdr-librtlsdr,
   sqlite,
-  postgresql,
+  stdenv,
+  zsh,
 }:
 {
   async-epoll = {
