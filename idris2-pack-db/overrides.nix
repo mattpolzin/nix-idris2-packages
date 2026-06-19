@@ -18,6 +18,7 @@
   idris2,
   idris2Support,
   lib,
+  libuuid,
   libuv,
   libxcrypt,
   makeBinaryWrapper,
@@ -195,6 +196,27 @@
     ];
   };
 
+  uuid = {
+    buildInputs = [ libuuid ];
+
+    postPatch = ''
+      substituteInPlace support/c/CMakeLists.txt \
+        --replace-fail 'VERSION 4.3' 'VERSION 4.1'
+    '';
+
+    postBuild = ''
+        mkdir -p ./lib
+        (cd support/c && \
+          ${lib.getExe cmake} . && \
+          make)
+        cp support/c/*.{so,dylib} ./lib
+      '';
+
+    preInstall = ''
+      export UUID_NOINSTALL_SUPPORT=true
+    '';
+  };
+
   uv = {
     buildInputs = [
       libuv.dev
@@ -202,7 +224,6 @@
   };
 
   uv-data = {
-
     preBuild = ''
       patchShebangs --build gencode.sh
       patchShebangs --build cleanup.sh
