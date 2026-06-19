@@ -1977,8 +1977,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-lsp",
-      "rev": "f1d0e7edc0e92bfdf3fd70d299bda3636e6b1094",
-      "hash": "sha256-2NceM4lLy69MeF2ec8TnZFXNl4bvmrWufKRs7lHEuSU="
+      "rev": "fb6f798fb71cde07f02bf901f9fbb2b4112aa108",
+      "hash": "sha256-ma7b54o69v8cWTG1Ma8tre5tjFFZ6FZF8eF6GEuGEDI="
     },
     "ipkgJson": {
       "name": "idris2-lsp",
