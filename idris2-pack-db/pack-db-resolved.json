@@ -438,8 +438,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-bytestring",
-      "rev": "230d8577f02de22251786f128ec921078da4d880",
-      "hash": "sha256-kq8uYI5STgxJ7g1EgjaG7FGfZQ85qxBRm/bb6gI/hbk="
+      "rev": "1c5c6160eef2a91b222d219383af6901c74b57e0",
+      "hash": "sha256-ae8ZfS+Je6K1tWNTzVqgPgbuRxcA51dzg5lChpiT52w="
     },
     "ipkgJson": {
       "name": "bytestring",
@@ -1243,8 +1243,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-elin",
-      "rev": "c66a6709397431150235e8bdddc0a21fcbedb7de",
-      "hash": "sha256-sG1cFnOI8SDFEV/qwu2vEQY2hD+0Kp72Z198/LCY1tA="
+      "rev": "70d0d81631da44c7e5abad758c751bb454f2c5b9",
+      "hash": "sha256-dqXyTKcADbRIsQ22YRr9gIThvfuZsBo0brc8O66MQ1E="
     },
     "ipkgJson": {
       "name": "elin",
@@ -1781,8 +1781,8 @@
     "ipkgDir": "http-client-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "ed1d3c01d22f008e1d7c526376538b1aefa05188",
-      "hash": "sha256-SPulFv9DTDh15ODCwfK7h4mU11D2+xpJDa0lkwcWTjY="
+      "rev": "2230788ece17b4360c62940837c1f685e9420a90",
+      "hash": "sha256-oToeP9ZRRWV/c7yVFxuf65fxqM7RZuiqncSOv3PnSM0="
     },
     "ipkgJson": {
       "name": "http-client-api",
@@ -1803,8 +1803,8 @@
     "ipkgDir": "http-server-api",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "ed1d3c01d22f008e1d7c526376538b1aefa05188",
-      "hash": "sha256-SPulFv9DTDh15ODCwfK7h4mU11D2+xpJDa0lkwcWTjY="
+      "rev": "2230788ece17b4360c62940837c1f685e9420a90",
+      "hash": "sha256-oToeP9ZRRWV/c7yVFxuf65fxqM7RZuiqncSOv3PnSM0="
     },
     "ipkgJson": {
       "name": "http-server-api",
@@ -1824,8 +1824,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-http-types",
-      "rev": "ed1d3c01d22f008e1d7c526376538b1aefa05188",
-      "hash": "sha256-SPulFv9DTDh15ODCwfK7h4mU11D2+xpJDa0lkwcWTjY="
+      "rev": "2230788ece17b4360c62940837c1f685e9420a90",
+      "hash": "sha256-oToeP9ZRRWV/c7yVFxuf65fxqM7RZuiqncSOv3PnSM0="
     },
     "ipkgJson": {
       "name": "http-types",
@@ -4437,8 +4437,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "b85946f0dd2ee4989b8900b6bbadf6c14340550b",
-      "hash": "sha256-VNiweoRLlSYrRfbWGDYpXxy5TtCjZs4CSdapGb/foA4="
+      "rev": "8fedb3ec31a203d30ed82f8d6d3548bf7c22b9a1",
+      "hash": "sha256-0QnTyDNzKLc0gnWlXnk3+HfB2IOlzsg3KcW7F7ESqmA="
     },
     "ipkgJson": {
       "name": "tensortype",
@@ -4452,6 +4452,7 @@
       "authors": "Bruno Gavranovic",
       "license": "AGPL-3.0",
       "brief": "Type-safe pure functional tensor processing framework, supporting non-cubical tensors",
+      "opts": "--total",
       "sourcedir": "src"
     }
   },
