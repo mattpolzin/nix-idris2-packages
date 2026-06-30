@@ -842,8 +842,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "77c147ec1502e0c9f970024517a0a84b8b28b808",
-      "hash": "sha256-BdEc71nqLf5jGXP5xSjeIRHLsbexQ55G3fGAxpK7vc4="
+      "rev": "b26a6dd82121d835dc0ed3cd52172e48bcba17e3",
+      "hash": "sha256-DYQPeSSV4OCKcBl1UmE2yERVobF4+vwbwR8+6RQgOd4="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -864,8 +864,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "77c147ec1502e0c9f970024517a0a84b8b28b808",
-      "hash": "sha256-BdEc71nqLf5jGXP5xSjeIRHLsbexQ55G3fGAxpK7vc4="
+      "rev": "b26a6dd82121d835dc0ed3cd52172e48bcba17e3",
+      "hash": "sha256-DYQPeSSV4OCKcBl1UmE2yERVobF4+vwbwR8+6RQgOd4="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -873,6 +873,7 @@
         "base",
         "array",
         "async-dom",
+        "async-dom-extra",
         "chem",
         "containers",
         "cyby-css",
@@ -4379,8 +4380,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-summary-stat",
-      "rev": "041ceabb30deff4eb67eb98256e24173b9b8f111",
-      "hash": "sha256-WbY7CAVyqQDIsnwS5KPJg9xhjBfYrc5l+/gOFXPle9w="
+      "rev": "9e7985ab433d72ab08e3df65c7520c311376f64e",
+      "hash": "sha256-TE+Mm4L6opjRw3YD7dG/LQT5/hnPrPNlhk6diT4crZ0="
     },
     "ipkgJson": {
       "name": "summary-stat",
