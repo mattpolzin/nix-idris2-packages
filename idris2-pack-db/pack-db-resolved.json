@@ -368,6 +368,28 @@
       "sourcedir": "src"
     }
   },
+  "blake2b": {
+    "packName": "blake2b",
+    "ipkgName": "blake2b",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-blake2b",
+      "rev": "dda62de3b8d94386e98e299ab67cac406fe53706",
+      "hash": "sha256-ZweZm29hbZXXYNPexkmd3RhiIrVz4YHaJIWm8oy/bBQ="
+    },
+    "ipkgJson": {
+      "name": "blake2b",
+      "depends": [
+        "base",
+        "bytestring",
+        "ilex-core"
+      ],
+      "version": "0.0.1",
+      "authors": "Stefan Höck",
+      "brief": "Implementation of the BLAKE2b hash function2",
+      "sourcedir": "src"
+    }
+  },
   "bounded-doubles": {
     "packName": "bounded-doubles",
     "ipkgName": "bounded-doubles",
@@ -962,8 +984,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "20400cad184ceb365509d025d930387f09f69488",
-      "hash": "sha256-13hRQYhQjn1bl8ExUtgEKGku91KkxBR5uonXFOosD04="
+      "rev": "9e7213494c3b660030499f5e872e67dc446bc880",
+      "hash": "sha256-CvFO0xztpR8lvo9quLnQV4KLB+bvGg35dL4fK0pLrBg="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1236,8 +1258,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "20400cad184ceb365509d025d930387f09f69488",
-      "hash": "sha256-13hRQYhQjn1bl8ExUtgEKGku91KkxBR5uonXFOosD04="
+      "rev": "9e7213494c3b660030499f5e872e67dc446bc880",
+      "hash": "sha256-CvFO0xztpR8lvo9quLnQV4KLB+bvGg35dL4fK0pLrBg="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -2988,8 +3010,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "3174b1d383addcbac6ff8a1c9cebcd4fd19ce396",
-      "hash": "sha256-XiKWFJDW/rZDWg6Nw5yk/m1Vrl2JyLtdXr74CIqtDww="
+      "rev": "df1b7d3e8f1b705d181dd9e32751167608489b49",
+      "hash": "sha256-CC0HYF3qR5dkA+m2Ta982zJZe251MKOJXnxgIrJ8CKU="
     },
     "ipkgJson": {
       "name": "pack",
@@ -3023,8 +3045,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "3174b1d383addcbac6ff8a1c9cebcd4fd19ce396",
-      "hash": "sha256-XiKWFJDW/rZDWg6Nw5yk/m1Vrl2JyLtdXr74CIqtDww="
+      "rev": "df1b7d3e8f1b705d181dd9e32751167608489b49",
+      "hash": "sha256-CC0HYF3qR5dkA+m2Ta982zJZe251MKOJXnxgIrJ8CKU="
     },
     "ipkgJson": {
       "name": "pack-admin",
@@ -4172,8 +4194,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
-      "rev": "9241b497a01c477c3a4014b9487dee300d83fe77",
-      "hash": "sha256-EIQjpthHOLoa2nTsqF1OYpdhMehBfI3SB6LD2oMXVXk="
+      "rev": "78deeaf25b9a82073393f557e9e77848cf9364ac",
+      "hash": "sha256-6eQqqYk2uqO9lWYJj/QPh/qbhOYWniYBfz+MgguqJBs="
     },
     "ipkgJson": {
       "name": "sqlite3",
@@ -4199,8 +4221,8 @@
     "ipkgDir": "sqlite3-rio",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
-      "rev": "9241b497a01c477c3a4014b9487dee300d83fe77",
-      "hash": "sha256-EIQjpthHOLoa2nTsqF1OYpdhMehBfI3SB6LD2oMXVXk="
+      "rev": "78deeaf25b9a82073393f557e9e77848cf9364ac",
+      "hash": "sha256-6eQqqYk2uqO9lWYJj/QPh/qbhOYWniYBfz+MgguqJBs="
     },
     "ipkgJson": {
       "name": "sqlite3-rio",
@@ -4222,8 +4244,8 @@
     "ipkgDir": "sqlite3-streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-sqlite3",
-      "rev": "9241b497a01c477c3a4014b9487dee300d83fe77",
-      "hash": "sha256-EIQjpthHOLoa2nTsqF1OYpdhMehBfI3SB6LD2oMXVXk="
+      "rev": "78deeaf25b9a82073393f557e9e77848cf9364ac",
+      "hash": "sha256-6eQqqYk2uqO9lWYJj/QPh/qbhOYWniYBfz+MgguqJBs="
     },
     "ipkgJson": {
       "name": "sqlite3-streams",
