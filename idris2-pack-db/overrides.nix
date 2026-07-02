@@ -196,6 +196,13 @@
     ];
   };
 
+  systemd = {
+    postPatch = ''
+      substituteInPlace support/Makefile \
+        --replace-fail '-fuse-ld=lld' ""
+    '';
+  };
+
   uuid = {
     buildInputs = [ libuuid ];
 
