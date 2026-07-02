@@ -232,11 +232,14 @@
 
   uv-data = {
     preBuild = ''
+      export CC=clang
+
       patchShebangs --build gencode.sh
       patchShebangs --build cleanup.sh
     '';
 
     buildInputs = [
+      clang
       libuv.dev
     ];
   };
