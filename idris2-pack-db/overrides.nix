@@ -222,6 +222,9 @@
     preInstall = ''
       export UUID_NOINSTALL_SUPPORT=true
     '';
+
+    # this package's C library does not currently build for Darwin
+    meta.platforms = lib.platforms.linux;
   };
 
   uv = {
