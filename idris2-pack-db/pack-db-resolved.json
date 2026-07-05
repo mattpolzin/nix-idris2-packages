@@ -1342,15 +1342,15 @@
     "ipkgDir": "evince",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "400fbd3235a17515776a376090358a0b43349dd2",
-      "hash": "sha256-C0j508r7fK/qJSSGAStrLKF0dUfiQDbB+SHepZtUCaM="
+      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
+      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
     },
     "ipkgJson": {
       "name": "evince",
       "depends": [
         "pretty-show"
       ],
-      "version": "0.6.0",
+      "version": "0.7.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "A testing framework for Idris 2",
@@ -1363,8 +1363,8 @@
     "ipkgDir": "evince-async",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "400fbd3235a17515776a376090358a0b43349dd2",
-      "hash": "sha256-C0j508r7fK/qJSSGAStrLKF0dUfiQDbB+SHepZtUCaM="
+      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
+      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
     },
     "ipkgJson": {
       "name": "evince-async",
@@ -1373,7 +1373,7 @@
         "async",
         "ref1"
       ],
-      "version": "0.6.0",
+      "version": "0.7.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Async-based concurrent runner for evince",
@@ -1386,8 +1386,8 @@
     "ipkgDir": "evince-async-js",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "400fbd3235a17515776a376090358a0b43349dd2",
-      "hash": "sha256-C0j508r7fK/qJSSGAStrLKF0dUfiQDbB+SHepZtUCaM="
+      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
+      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
     },
     "ipkgJson": {
       "name": "evince-async-js",
@@ -1397,7 +1397,7 @@
         "async",
         "async-js"
       ],
-      "version": "0.6.0",
+      "version": "0.7.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "JS/Node concurrent runner for evince (async-js event loop)",
@@ -1410,8 +1410,8 @@
     "ipkgDir": "evince-async-posix",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "400fbd3235a17515776a376090358a0b43349dd2",
-      "hash": "sha256-C0j508r7fK/qJSSGAStrLKF0dUfiQDbB+SHepZtUCaM="
+      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
+      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
     },
     "ipkgJson": {
       "name": "evince-async-posix",
@@ -1421,7 +1421,7 @@
         "async",
         "async-posix"
       ],
-      "version": "0.6.0",
+      "version": "0.7.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Multi-threaded parallel runner for evince (posix/poll thread pool)",
@@ -1434,8 +1434,8 @@
     "ipkgDir": "evince-hedgehog",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "400fbd3235a17515776a376090358a0b43349dd2",
-      "hash": "sha256-C0j508r7fK/qJSSGAStrLKF0dUfiQDbB+SHepZtUCaM="
+      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
+      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
     },
     "ipkgJson": {
       "name": "evince-hedgehog",
@@ -1443,7 +1443,7 @@
         "evince",
         "hedgehog"
       ],
-      "version": "0.6.0",
+      "version": "0.7.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Hedgehog property testing bridge for evince",
@@ -3437,8 +3437,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "4d26b242551cd886cc5c190e58067b7d9cb1c317",
-      "hash": "sha256-SMs1R2d4TjxtSOix3dbS5uRGgn6F/6rWmtC1M2sc61U="
+      "rev": "71b37792ecaff4ebef344f9d98fa275eff6d560c",
+      "hash": "sha256-q+jv2wGHLIh19gubX0bYjWc0ZaSSatHjk155wyDpR2s="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3458,8 +3458,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "4d26b242551cd886cc5c190e58067b7d9cb1c317",
-      "hash": "sha256-SMs1R2d4TjxtSOix3dbS5uRGgn6F/6rWmtC1M2sc61U="
+      "rev": "71b37792ecaff4ebef344f9d98fa275eff6d560c",
+      "hash": "sha256-q+jv2wGHLIh19gubX0bYjWc0ZaSSatHjk155wyDpR2s="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -4172,8 +4172,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "4d26b242551cd886cc5c190e58067b7d9cb1c317",
-      "hash": "sha256-SMs1R2d4TjxtSOix3dbS5uRGgn6F/6rWmtC1M2sc61U="
+      "rev": "71b37792ecaff4ebef344f9d98fa275eff6d560c",
+      "hash": "sha256-q+jv2wGHLIh19gubX0bYjWc0ZaSSatHjk155wyDpR2s="
     },
     "ipkgJson": {
       "name": "spidr",
