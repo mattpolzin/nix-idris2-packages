@@ -3805,8 +3805,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "f7a20a9e41aba4026b50edddd689fc394d354b97",
-      "hash": "sha256-BlOv+kvMvtETi6cWSOwT+cvs0bYkQq72HeKA+OCRrlI="
+      "rev": "53ad4c1cafd0ecd756b2b6f7873650c19a28697c",
+      "hash": "sha256-d28q4ygKfFtHtWCfUwWkQrBPsYX3n9msfb9EmF65eV8="
     },
     "ipkgJson": {
       "name": "ref1",
