@@ -58,7 +58,6 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-15-intel
           - macos-latest
 
     needs: update-package-set
