@@ -2637,8 +2637,8 @@
     "ipkgDir": "log4types",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "4e4c8342360b3e015c0b1483ed3f48fa11b56719",
-      "hash": "sha256-ubqaY++l2we1TFaBWmYCE4SRIWRQ0wgIoB9Nk8skjeI="
+      "rev": "7ff8c07a3a53de690c95e70ec0f68d060a4c246a",
+      "hash": "sha256-qs62GlGU/UcKF7b3f2MSOBBEcZF45N2msck9iaXge6s="
     },
     "ipkgJson": {
       "name": "log4types",
@@ -2647,7 +2647,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Composable structured logging for Idris 2 applications",
@@ -2660,8 +2660,8 @@
     "ipkgDir": "log4types-core",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "4e4c8342360b3e015c0b1483ed3f48fa11b56719",
-      "hash": "sha256-ubqaY++l2we1TFaBWmYCE4SRIWRQ0wgIoB9Nk8skjeI="
+      "rev": "7ff8c07a3a53de690c95e70ec0f68d060a4c246a",
+      "hash": "sha256-qs62GlGU/UcKF7b3f2MSOBBEcZF45N2msck9iaXge6s="
     },
     "ipkgJson": {
       "name": "log4types-core",
@@ -2669,7 +2669,7 @@
         "base",
         "contrib"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Core algebra for composable logging, refined by dependent types",
@@ -2682,8 +2682,8 @@
     "ipkgDir": "log4types-json",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "4e4c8342360b3e015c0b1483ed3f48fa11b56719",
-      "hash": "sha256-ubqaY++l2we1TFaBWmYCE4SRIWRQ0wgIoB9Nk8skjeI="
+      "rev": "7ff8c07a3a53de690c95e70ec0f68d060a4c246a",
+      "hash": "sha256-qs62GlGU/UcKF7b3f2MSOBBEcZF45N2msck9iaXge6s="
     },
     "ipkgJson": {
       "name": "log4types-json",
@@ -2692,7 +2692,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "JSON backend for log4types structured logging",
