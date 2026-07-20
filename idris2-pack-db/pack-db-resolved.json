@@ -1342,8 +1342,8 @@
     "ipkgDir": "evince",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
-      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
+      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
+      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
     },
     "ipkgJson": {
       "name": "evince",
@@ -1363,8 +1363,8 @@
     "ipkgDir": "evince-async",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
-      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
+      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
+      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
     },
     "ipkgJson": {
       "name": "evince-async",
@@ -1386,8 +1386,8 @@
     "ipkgDir": "evince-async-js",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
-      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
+      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
+      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
     },
     "ipkgJson": {
       "name": "evince-async-js",
@@ -1410,8 +1410,8 @@
     "ipkgDir": "evince-async-posix",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
-      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
+      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
+      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
     },
     "ipkgJson": {
       "name": "evince-async-posix",
@@ -1434,8 +1434,8 @@
     "ipkgDir": "evince-hedgehog",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "942f9981b70aeee828ff14220521e5cdfe38e579",
-      "hash": "sha256-tzCbPZWnAMwR/3lbZ06sJGMUbMb9mbEdlI0wgk4RSNg="
+      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
+      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
     },
     "ipkgJson": {
       "name": "evince-hedgehog",
@@ -3003,6 +3003,33 @@
       },
       "brief": "Purely Functional Data Structures ala Okasaki",
       "sourcedir": "src"
+    }
+  },
+  "oracle": {
+    "packName": "oracle",
+    "ipkgName": "oracle",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-oracle",
+      "rev": "c4936fda8fd27ddef8c047aa0bde2ca82bea1692",
+      "hash": "sha256-fxqPTuPBTXTwP3psBuPVunQvkPuBsQpeYq2SehvTs7M="
+    },
+    "ipkgJson": {
+      "name": "oracle",
+      "depends": [
+        "base",
+        "bytestring",
+        "elab-util",
+        "elin",
+        "ref1"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew Mosior",
+      "license": "BSD-3 Clause",
+      "brief": "Idris2 bindings to the Oracle ODPI-C API",
+      "sourcedir": "src",
+      "prebuild": "make -C support",
+      "preinstall": "make -C support install"
     }
   },
   "pack": {
@@ -4919,25 +4946,69 @@
       "sourcedir": "src"
     }
   },
-  "uuid": {
-    "packName": "uuid",
-    "ipkgName": "uuid",
-    "ipkgDir": "",
+  "uuid-base": {
+    "packName": "uuid-base",
+    "ipkgName": "uuid-base",
+    "ipkgDir": "uuid-base",
     "src": {
       "url": "https://codeberg.org/joelberkeley/uuid",
-      "rev": "32752e599ffe6f53113d27fd73bbcb5a3165550f",
-      "hash": "sha256-XhyJrJSEAEfK7iMIK0Fp56qkWjD8dkb5kiFXnX6CIl8="
+      "rev": "2f51994d6d52efd605aac50613014bc792194ac2",
+      "hash": "sha256-loycYP26+KizOtEgbXSzz/5qSNFla+PRkZ2e7A7YMcI="
     },
     "ipkgJson": {
-      "name": "uuid",
+      "name": "uuid-base",
       "depends": [],
       "version": "0.1.0",
       "authors": "Joel Berkeley",
       "license": "AGPL-3.0-or-later",
       "brief": "UUIDs for Idris2",
       "readme": "README.md",
-      "sourcedir": "src",
+      "sourcedir": "."
+    }
+  },
+  "uuid-c": {
+    "packName": "uuid-c",
+    "ipkgName": "uuid-c",
+    "ipkgDir": "uuid-c",
+    "src": {
+      "url": "https://codeberg.org/joelberkeley/uuid",
+      "rev": "2f51994d6d52efd605aac50613014bc792194ac2",
+      "hash": "sha256-loycYP26+KizOtEgbXSzz/5qSNFla+PRkZ2e7A7YMcI="
+    },
+    "ipkgJson": {
+      "name": "uuid-c",
+      "depends": [
+        "uuid-base"
+      ],
+      "version": "0.1.0",
+      "authors": "Joel Berkeley",
+      "license": "AGPL-3.0-or-later",
+      "brief": "UUIDs for Idris2",
+      "readme": "README.md",
+      "sourcedir": ".",
       "postinstall": "./postinstall.sh"
+    }
+  },
+  "uuid-js": {
+    "packName": "uuid-js",
+    "ipkgName": "uuid-js",
+    "ipkgDir": "uuid-js",
+    "src": {
+      "url": "https://codeberg.org/joelberkeley/uuid",
+      "rev": "2f51994d6d52efd605aac50613014bc792194ac2",
+      "hash": "sha256-loycYP26+KizOtEgbXSzz/5qSNFla+PRkZ2e7A7YMcI="
+    },
+    "ipkgJson": {
+      "name": "uuid-js",
+      "depends": [
+        "uuid-base"
+      ],
+      "version": "0.1.0",
+      "authors": "Joel Berkeley",
+      "license": "AGPL-3.0-or-later",
+      "brief": "UUIDs for Idris2",
+      "readme": "README.md",
+      "sourcedir": "."
     }
   },
   "uv": {
