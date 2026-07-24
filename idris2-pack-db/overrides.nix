@@ -21,6 +21,7 @@
   libuuid,
   libuv,
   libxcrypt,
+  lld,
   makeBinaryWrapper,
   makeWrapper,
   ncurses5,
@@ -125,6 +126,10 @@
     ];
   };
 
+  oracle = {
+    nativeBuildInputs = [ lld ];
+  };
+
   pack = {
     nativeBuildInputs = [ makeBinaryWrapper ];
 
@@ -203,7 +208,7 @@
     '';
   };
 
-  uuid = {
+  uuid-c = {
     buildInputs = [ libuuid ];
 
     postPatch = ''
