@@ -2164,8 +2164,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "4e6b10e099b9947f340054c78f4aed3e17ffd148",
-      "hash": "sha256-bU+tT807GyUm2kX71FeKQ/MJ9fd62aGYeSsKSon6j3k="
+      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
+      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -2195,8 +2195,8 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "4e6b10e099b9947f340054c78f4aed3e17ffd148",
-      "hash": "sha256-bU+tT807GyUm2kX71FeKQ/MJ9fd62aGYeSsKSon6j3k="
+      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
+      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
     },
     "ipkgJson": {
       "name": "ilex-core",
@@ -2222,8 +2222,8 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "4e6b10e099b9947f340054c78f4aed3e17ffd148",
-      "hash": "sha256-bU+tT807GyUm2kX71FeKQ/MJ9fd62aGYeSsKSon6j3k="
+      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
+      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
     },
     "ipkgJson": {
       "name": "ilex-debug",
@@ -2266,8 +2266,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "4e6b10e099b9947f340054c78f4aed3e17ffd148",
-      "hash": "sha256-bU+tT807GyUm2kX71FeKQ/MJ9fd62aGYeSsKSon6j3k="
+      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
+      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -2286,8 +2286,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "4e6b10e099b9947f340054c78f4aed3e17ffd148",
-      "hash": "sha256-bU+tT807GyUm2kX71FeKQ/MJ9fd62aGYeSsKSon6j3k="
+      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
+      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -2314,8 +2314,8 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "4e6b10e099b9947f340054c78f4aed3e17ffd148",
-      "hash": "sha256-bU+tT807GyUm2kX71FeKQ/MJ9fd62aGYeSsKSon6j3k="
+      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
+      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
     },
     "ipkgJson": {
       "name": "ilex-toml",
@@ -3011,8 +3011,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-oracle",
-      "rev": "c4936fda8fd27ddef8c047aa0bde2ca82bea1692",
-      "hash": "sha256-fxqPTuPBTXTwP3psBuPVunQvkPuBsQpeYq2SehvTs7M="
+      "rev": "28015c58715cab8ffdb8caee98af4fbf9bade6d6",
+      "hash": "sha256-xKx48hw2H8vFd15wECZlzmEZ8KNRO7l2NidVVEf+DQo="
     },
     "ipkgJson": {
       "name": "oracle",
@@ -3021,6 +3021,7 @@
         "bytestring",
         "elab-util",
         "elin",
+        "json",
         "ref1"
       ],
       "version": "0.1.0",
@@ -4952,15 +4953,15 @@
     "ipkgDir": "uuid-base",
     "src": {
       "url": "https://codeberg.org/joelberkeley/uuid",
-      "rev": "ddde5c2e336f32a0af478646c259292604a29c54",
-      "hash": "sha256-bm0L1E6ivX8XFrD44eWRXvtnNDrz729E2utF27Rf+2Q="
+      "rev": "7b2701307df7fa99572a0a06e977883eaffe4aad",
+      "hash": "sha256-jT3JG7gI0hq8U/tTRCytntaB6pTTwTvsV6TxzpOcnM0="
     },
     "ipkgJson": {
       "name": "uuid-base",
       "depends": [],
       "version": "0.1.0",
       "authors": "Joel Berkeley",
-      "license": "AGPL-3.0-or-later",
+      "license": "MIT License",
       "brief": "UUIDs for Idris2",
       "readme": "README.md",
       "sourcedir": "."
@@ -4972,8 +4973,8 @@
     "ipkgDir": "uuid-c",
     "src": {
       "url": "https://codeberg.org/joelberkeley/uuid",
-      "rev": "ddde5c2e336f32a0af478646c259292604a29c54",
-      "hash": "sha256-bm0L1E6ivX8XFrD44eWRXvtnNDrz729E2utF27Rf+2Q="
+      "rev": "7b2701307df7fa99572a0a06e977883eaffe4aad",
+      "hash": "sha256-jT3JG7gI0hq8U/tTRCytntaB6pTTwTvsV6TxzpOcnM0="
     },
     "ipkgJson": {
       "name": "uuid-c",
@@ -4982,7 +4983,7 @@
       ],
       "version": "0.1.0",
       "authors": "Joel Berkeley",
-      "license": "AGPL-3.0-or-later",
+      "license": "MIT License",
       "brief": "UUIDs for Idris2",
       "readme": "README.md",
       "sourcedir": ".",
@@ -4995,8 +4996,8 @@
     "ipkgDir": "uuid-js",
     "src": {
       "url": "https://codeberg.org/joelberkeley/uuid",
-      "rev": "ddde5c2e336f32a0af478646c259292604a29c54",
-      "hash": "sha256-bm0L1E6ivX8XFrD44eWRXvtnNDrz729E2utF27Rf+2Q="
+      "rev": "7b2701307df7fa99572a0a06e977883eaffe4aad",
+      "hash": "sha256-jT3JG7gI0hq8U/tTRCytntaB6pTTwTvsV6TxzpOcnM0="
     },
     "ipkgJson": {
       "name": "uuid-js",
@@ -5005,7 +5006,7 @@
       ],
       "version": "0.1.0",
       "authors": "Joel Berkeley",
-      "license": "AGPL-3.0-or-later",
+      "license": "MIT License",
       "brief": "UUIDs for Idris2",
       "readme": "README.md",
       "sourcedir": "."
