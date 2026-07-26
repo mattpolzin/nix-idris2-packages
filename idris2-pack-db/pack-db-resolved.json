@@ -1342,15 +1342,15 @@
     "ipkgDir": "evince",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
-      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
+      "rev": "5605be9ff472f0452fa86cbc3ba13cf1a25cb01a",
+      "hash": "sha256-A7mvktfR1rSXM6Ak4pAc1BLsCqGYlCEpxfv2RTunjaI="
     },
     "ipkgJson": {
       "name": "evince",
       "depends": [
         "pretty-show"
       ],
-      "version": "0.7.0",
+      "version": "0.8.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "A testing framework for Idris 2",
@@ -1363,8 +1363,8 @@
     "ipkgDir": "evince-async",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
-      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
+      "rev": "5605be9ff472f0452fa86cbc3ba13cf1a25cb01a",
+      "hash": "sha256-A7mvktfR1rSXM6Ak4pAc1BLsCqGYlCEpxfv2RTunjaI="
     },
     "ipkgJson": {
       "name": "evince-async",
@@ -1373,7 +1373,7 @@
         "async",
         "ref1"
       ],
-      "version": "0.7.0",
+      "version": "0.8.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Async-based concurrent runner for evince",
@@ -1386,8 +1386,8 @@
     "ipkgDir": "evince-async-js",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
-      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
+      "rev": "5605be9ff472f0452fa86cbc3ba13cf1a25cb01a",
+      "hash": "sha256-A7mvktfR1rSXM6Ak4pAc1BLsCqGYlCEpxfv2RTunjaI="
     },
     "ipkgJson": {
       "name": "evince-async-js",
@@ -1397,7 +1397,7 @@
         "async",
         "async-js"
       ],
-      "version": "0.7.0",
+      "version": "0.8.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "JS/Node concurrent runner for evince (async-js event loop)",
@@ -1410,8 +1410,8 @@
     "ipkgDir": "evince-async-posix",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
-      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
+      "rev": "5605be9ff472f0452fa86cbc3ba13cf1a25cb01a",
+      "hash": "sha256-A7mvktfR1rSXM6Ak4pAc1BLsCqGYlCEpxfv2RTunjaI="
     },
     "ipkgJson": {
       "name": "evince-async-posix",
@@ -1421,7 +1421,7 @@
         "async",
         "async-posix"
       ],
-      "version": "0.7.0",
+      "version": "0.8.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Multi-threaded parallel runner for evince (posix/poll thread pool)",
@@ -1434,8 +1434,8 @@
     "ipkgDir": "evince-hedgehog",
     "src": {
       "url": "https://github.com/bio-aeon/evince",
-      "rev": "4725a4e7e30a45da9ae02328361c66018de5b2cd",
-      "hash": "sha256-rOaO/3a9JJ9fcSG6J5XfcESEVoq5HWgy2Q5M9HYGmZo="
+      "rev": "5605be9ff472f0452fa86cbc3ba13cf1a25cb01a",
+      "hash": "sha256-A7mvktfR1rSXM6Ak4pAc1BLsCqGYlCEpxfv2RTunjaI="
     },
     "ipkgJson": {
       "name": "evince-hedgehog",
@@ -1443,7 +1443,7 @@
         "evince",
         "hedgehog"
       ],
-      "version": "0.7.0",
+      "version": "0.8.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Hedgehog property testing bridge for evince",
@@ -2164,8 +2164,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
-      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
+      "rev": "6c0c590035fdba3a4b6cfaff9dd9deb2791e4aff",
+      "hash": "sha256-sogXlHe72kHwpafl72CcAP2rImM6OxXyjfu/Eayi974="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -2195,8 +2195,8 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
-      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
+      "rev": "6c0c590035fdba3a4b6cfaff9dd9deb2791e4aff",
+      "hash": "sha256-sogXlHe72kHwpafl72CcAP2rImM6OxXyjfu/Eayi974="
     },
     "ipkgJson": {
       "name": "ilex-core",
@@ -2222,8 +2222,8 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
-      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
+      "rev": "6c0c590035fdba3a4b6cfaff9dd9deb2791e4aff",
+      "hash": "sha256-sogXlHe72kHwpafl72CcAP2rImM6OxXyjfu/Eayi974="
     },
     "ipkgJson": {
       "name": "ilex-debug",
@@ -2266,8 +2266,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
-      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
+      "rev": "6c0c590035fdba3a4b6cfaff9dd9deb2791e4aff",
+      "hash": "sha256-sogXlHe72kHwpafl72CcAP2rImM6OxXyjfu/Eayi974="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -2286,8 +2286,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
-      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
+      "rev": "6c0c590035fdba3a4b6cfaff9dd9deb2791e4aff",
+      "hash": "sha256-sogXlHe72kHwpafl72CcAP2rImM6OxXyjfu/Eayi974="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -2314,8 +2314,8 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "e5ddfca2b9f7846801edd89967442a01cfbbb618",
-      "hash": "sha256-YoTV9uaKblCE3To6ZdcV99rjcCeDubLvThKDSaLrW/k="
+      "rev": "6c0c590035fdba3a4b6cfaff9dd9deb2791e4aff",
+      "hash": "sha256-sogXlHe72kHwpafl72CcAP2rImM6OxXyjfu/Eayi974="
     },
     "ipkgJson": {
       "name": "ilex-toml",
@@ -3011,8 +3011,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-oracle",
-      "rev": "12b55aefea32b83faf43e74141df8e852326fbdc",
-      "hash": "sha256-+widQuxAKaa/3OZ1Z9vUc6Z7cWpkc5vL60O4Xlrk6P0="
+      "rev": "a990c565c8025be470781a0d2635b6f819f0ba54",
+      "hash": "sha256-vF07L6zv9PR05dcEEKXq9qsCRe1CEWeaqA4+e9j4fzw="
     },
     "ipkgJson": {
       "name": "oracle",
