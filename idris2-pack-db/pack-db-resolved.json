@@ -3011,8 +3011,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-oracle",
-      "rev": "098ff68f1e9fcb242982f06d820a0ce45e8cb30b",
-      "hash": "sha256-3pcGutjO5PNQ5dRN7g0Prd9z28+UAbejz/A+9v+cnVo="
+      "rev": "942c7f3359ae7e19a2797bf2adc3a78699c4abce",
+      "hash": "sha256-vWULvnLxeXI9pt1J86yNZ2YBH/G7vdyayGc8Ag/6Rpw="
     },
     "ipkgJson": {
       "name": "oracle",
