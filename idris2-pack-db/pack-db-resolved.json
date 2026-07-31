@@ -1572,8 +1572,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-fixed",
-      "rev": "8645a0329368deefaef94aa68fc4adaca35c037f",
-      "hash": "sha256-UcYTBgLexPK5eaMwG9mfoGCpdJ7xVCJTVjQ0JoWY5Gs="
+      "rev": "d117ca5849348c3541a263774d556348ea821e56",
+      "hash": "sha256-dcknJVVVyYo+L0gLNc+VZIBTPqgU1RSLZXdvpMUuT1w="
     },
     "ipkgJson": {
       "name": "fixed",
@@ -3039,8 +3039,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "d126fbe908825517a01c91c8aa3e4b4048e6ddc3",
-      "hash": "sha256-XBN2QWrA21wm7MzHXEqMfCm3sZyRiIYDmdbzzZYkdOg="
+      "rev": "be9725bc108a09a70ebb4b6a40159cc283f38d54",
+      "hash": "sha256-ErW9KckOaVupMkDsSpKOTLXhzxWBjQGcdrQ+fVgnc1I="
     },
     "ipkgJson": {
       "name": "pack",
@@ -3074,8 +3074,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "d126fbe908825517a01c91c8aa3e4b4048e6ddc3",
-      "hash": "sha256-XBN2QWrA21wm7MzHXEqMfCm3sZyRiIYDmdbzzZYkdOg="
+      "rev": "be9725bc108a09a70ebb4b6a40159cc283f38d54",
+      "hash": "sha256-ErW9KckOaVupMkDsSpKOTLXhzxWBjQGcdrQ+fVgnc1I="
     },
     "ipkgJson": {
       "name": "pack-admin",
