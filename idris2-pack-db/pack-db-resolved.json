@@ -2637,8 +2637,8 @@
     "ipkgDir": "log4types",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "7ff8c07a3a53de690c95e70ec0f68d060a4c246a",
-      "hash": "sha256-qs62GlGU/UcKF7b3f2MSOBBEcZF45N2msck9iaXge6s="
+      "rev": "2900b7b1768a613a7f02f133525474c8fe75f174",
+      "hash": "sha256-WVLmoAFnAakrr7G5srfMTCEFEOIpHDh4JTrr/A8vo00="
     },
     "ipkgJson": {
       "name": "log4types",
@@ -2647,7 +2647,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.4.0",
+      "version": "0.5.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Composable structured logging for Idris 2 applications",
@@ -2660,8 +2660,8 @@
     "ipkgDir": "log4types-core",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "7ff8c07a3a53de690c95e70ec0f68d060a4c246a",
-      "hash": "sha256-qs62GlGU/UcKF7b3f2MSOBBEcZF45N2msck9iaXge6s="
+      "rev": "2900b7b1768a613a7f02f133525474c8fe75f174",
+      "hash": "sha256-WVLmoAFnAakrr7G5srfMTCEFEOIpHDh4JTrr/A8vo00="
     },
     "ipkgJson": {
       "name": "log4types-core",
@@ -2669,7 +2669,7 @@
         "base",
         "contrib"
       ],
-      "version": "0.4.0",
+      "version": "0.5.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Core algebra for composable logging, refined by dependent types",
@@ -2682,8 +2682,8 @@
     "ipkgDir": "log4types-json",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "7ff8c07a3a53de690c95e70ec0f68d060a4c246a",
-      "hash": "sha256-qs62GlGU/UcKF7b3f2MSOBBEcZF45N2msck9iaXge6s="
+      "rev": "2900b7b1768a613a7f02f133525474c8fe75f174",
+      "hash": "sha256-WVLmoAFnAakrr7G5srfMTCEFEOIpHDh4JTrr/A8vo00="
     },
     "ipkgJson": {
       "name": "log4types-json",
@@ -2692,7 +2692,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.4.0",
+      "version": "0.5.0",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "JSON backend for log4types structured logging",
@@ -2705,8 +2705,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-lsm-rrbvector",
-      "rev": "cd8e6107b8dd03ee2757a1d085a02b03b8b7f3a3",
-      "hash": "sha256-nUQzXW7BWQkjqCV+e7dcDlhQ1GMBFNwusMeXxZg4b0U="
+      "rev": "9c190ab321888e66a0fe855378ad0c58c2a3b9f4",
+      "hash": "sha256-Oem9fRMYceNvaHGGA7ITUvFJ3NwwEs/0PdZaD78A938="
     },
     "ipkgJson": {
       "name": "lsm-rrbvector",
@@ -3465,8 +3465,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "08faedf93c365839c0a613cb0dd8f1ce656a6d6b",
-      "hash": "sha256-LGFOlNTE7tfPfEgepj8Lgju1lEZlkL4JFNmcTra6dHM="
+      "rev": "c6938c51ced97199d7b13e95d79eb1fe56caf983",
+      "hash": "sha256-7UfcKWRY/eJyIcKELUPjzhUsUFXl4I8MR34uwdyJi4o="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3486,8 +3486,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "08faedf93c365839c0a613cb0dd8f1ce656a6d6b",
-      "hash": "sha256-LGFOlNTE7tfPfEgepj8Lgju1lEZlkL4JFNmcTra6dHM="
+      "rev": "c6938c51ced97199d7b13e95d79eb1fe56caf983",
+      "hash": "sha256-7UfcKWRY/eJyIcKELUPjzhUsUFXl4I8MR34uwdyJi4o="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -4200,8 +4200,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "08faedf93c365839c0a613cb0dd8f1ce656a6d6b",
-      "hash": "sha256-LGFOlNTE7tfPfEgepj8Lgju1lEZlkL4JFNmcTra6dHM="
+      "rev": "c6938c51ced97199d7b13e95d79eb1fe56caf983",
+      "hash": "sha256-7UfcKWRY/eJyIcKELUPjzhUsUFXl4I8MR34uwdyJi4o="
     },
     "ipkgJson": {
       "name": "spidr",
