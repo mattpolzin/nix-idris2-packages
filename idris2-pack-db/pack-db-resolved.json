@@ -2653,6 +2653,29 @@
       "sourcedir": "src"
     }
   },
+  "log4types-async": {
+    "packName": "log4types-async",
+    "ipkgName": "log4types-async",
+    "ipkgDir": "log4types-async",
+    "src": {
+      "url": "https://github.com/bio-aeon/log4types",
+      "rev": "4ba9e4f5b731e1ec3ecb308094d8138a5daafedd",
+      "hash": "sha256-vmYt/JL1YzHwbrKRsCmUGEIJdkXtf6I+R7SOX/O5+m4="
+    },
+    "ipkgJson": {
+      "name": "log4types-async",
+      "depends": [
+        "base",
+        "log4types-core",
+        "async"
+      ],
+      "version": "0.5.0",
+      "authors": "Alexandr Chigrinets",
+      "license": "MIT",
+      "brief": "Asynchronous background-fiber logging for log4types",
+      "sourcedir": "src"
+    }
+  },
   "log4types-core": {
     "packName": "log4types-core",
     "ipkgName": "log4types-core",
