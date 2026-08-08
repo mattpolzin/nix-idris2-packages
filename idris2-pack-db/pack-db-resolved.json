@@ -332,6 +332,30 @@
       "preinstall": "make -C support install"
     }
   },
+  "bcrypt": {
+    "packName": "bcrypt",
+    "ipkgName": "bcrypt",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-bcrypt",
+      "rev": "f67cd406271aa5fd038fb290888696a9661bf519",
+      "hash": "sha256-IbLZZ2OMsgk55Zg5F3rEnWXXC1BmId9c+9aSoQqAYoc="
+    },
+    "ipkgJson": {
+      "name": "bcrypt",
+      "depends": [
+        "base",
+        "elab-util"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew Mosior",
+      "license": "BSD-3 Clause",
+      "brief": "Idris2 bindings to the bcrypt password hashing algorithm",
+      "sourcedir": "src",
+      "prebuild": "make -C support",
+      "preinstall": "make -C support install"
+    }
+  },
   "best-alternative": {
     "packName": "best-alternative",
     "ipkgName": "best-alternative",
@@ -984,8 +1008,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ddf5224f5a9f23a209e390458d51f3dbc0cb9b93",
-      "hash": "sha256-Or5Sic1cFyvkUfInOm7o1i5pGxlPy9CD4Ab9F3FO+e8="
+      "rev": "0f070214dd5ba085125e46e5fa8fe44bd2540b63",
+      "hash": "sha256-wy2WZHDNBDD3lczA1XjiBEDkWLpCYYMPgWhGPUAYH6U="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1258,8 +1282,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ddf5224f5a9f23a209e390458d51f3dbc0cb9b93",
-      "hash": "sha256-Or5Sic1cFyvkUfInOm7o1i5pGxlPy9CD4Ab9F3FO+e8="
+      "rev": "0f070214dd5ba085125e46e5fa8fe44bd2540b63",
+      "hash": "sha256-wy2WZHDNBDD3lczA1XjiBEDkWLpCYYMPgWhGPUAYH6U="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -2372,6 +2396,36 @@
       "brief": "Array-backed, order indexed, sparse, simple graphs in Idris2",
       "readme": "README.md",
       "sourcedir": "src"
+    }
+  },
+  "iotaTime": {
+    "packName": "iotaTime",
+    "ipkgName": "iotaTime",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/jason-johnson/iotaTime",
+      "rev": "0ab334759ee0e69153ed32009621596322015a5f",
+      "hash": "sha256-SNt0Thwf3rI7XRvSn9q4ph4BkQYbasJZPjqW2cWZVio="
+    },
+    "ipkgJson": {
+      "name": "iotaTime",
+      "depends": [
+        "contrib",
+        "elab-util"
+      ],
+      "version": "1.0.1",
+      "authors": "Jason Johnson",
+      "maintainers": "Jason Johnson",
+      "license": "BSD-3-Clause",
+      "brief": "Proof-oriented date, time, calendar, and timezone types for Idris 2",
+      "readme": "README.md",
+      "homepage": "https://github.com/jason-johnson/iotaTime",
+      "sourceloc": "https://github.com/jason-johnson/iotaTime",
+      "bugtracker": "https://github.com/jason-johnson/iotaTime/issues",
+      "sourcedir": "src",
+      "prebuild": "make support",
+      "postinstall": "make install-support",
+      "postclean": "make clean-support"
     }
   },
   "js": {
