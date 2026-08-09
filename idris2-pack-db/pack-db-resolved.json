@@ -2404,8 +2404,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/jason-johnson/iotaTime",
-      "rev": "0ab334759ee0e69153ed32009621596322015a5f",
-      "hash": "sha256-SNt0Thwf3rI7XRvSn9q4ph4BkQYbasJZPjqW2cWZVio="
+      "rev": "4403a02d955bd94fbef2f8f436243dcfa4918f2b",
+      "hash": "sha256-MA7dEcIjjWECyKrJ7gLPvxnM/V0DicDpxw7/zNmm2ck="
     },
     "ipkgJson": {
       "name": "iotaTime",
