@@ -4020,8 +4020,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-resource-pool",
-      "rev": "60d2053338a6ee7bdf70399cbe86d28d2f2e8cf1",
-      "hash": "sha256-9Xors8b80/0y5DoSu08fR1tSjZKHOp6iMwmVTE03LOM="
+      "rev": "3da229156fc281412adda4c66621bb84b7fb302f",
+      "hash": "sha256-x6+5PnmND9bDuLwS8vukZhb8fBTcsUXsMbj+h0uxyKE="
     },
     "ipkgJson": {
       "name": "resource-pool",
@@ -4459,8 +4459,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
-      "rev": "31ca9a9ac3376324ab7183242214f2a98fe358aa",
-      "hash": "sha256-jBSOeK72CMxM9FWVfMm2CNF3V0yCbWCEjZ6p/bUcFPE="
+      "rev": "f7572fd561e0cb4e47136f4aa609933f05fb41f4",
+      "hash": "sha256-HFphBDa71AnQPJ2Zy02inQeg5ulwgyrAFbDpPb6F3Vs="
     },
     "ipkgJson": {
       "name": "stringsearch-algorithms",
