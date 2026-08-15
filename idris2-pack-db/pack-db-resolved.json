@@ -2404,8 +2404,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/jason-johnson/iotaTime",
-      "rev": "4403a02d955bd94fbef2f8f436243dcfa4918f2b",
-      "hash": "sha256-MA7dEcIjjWECyKrJ7gLPvxnM/V0DicDpxw7/zNmm2ck="
+      "rev": "0b2588d877d39f2c847bfbc05008ba211a9c0454",
+      "hash": "sha256-G5IkV6prJp9hCXZTZWRIDKGI9w+/k331/wdPYn5F7yM="
     },
     "ipkgJson": {
       "name": "iotaTime",
@@ -2413,7 +2413,7 @@
         "contrib",
         "elab-util"
       ],
-      "version": "1.0.1",
+      "version": "1.1.1",
       "authors": "Jason Johnson",
       "maintainers": "Jason Johnson",
       "license": "BSD-3-Clause",
@@ -4020,8 +4020,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-resource-pool",
-      "rev": "3da229156fc281412adda4c66621bb84b7fb302f",
-      "hash": "sha256-x6+5PnmND9bDuLwS8vukZhb8fBTcsUXsMbj+h0uxyKE="
+      "rev": "407ebbdf7fb29473d351596efb9fe07aca02155a",
+      "hash": "sha256-OAZKAMaYHU7Wqxpb0qcKjs3y3X9DRgjWtImlMqnvUuU="
     },
     "ipkgJson": {
       "name": "resource-pool",
