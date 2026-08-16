@@ -4020,8 +4020,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-resource-pool",
-      "rev": "407ebbdf7fb29473d351596efb9fe07aca02155a",
-      "hash": "sha256-OAZKAMaYHU7Wqxpb0qcKjs3y3X9DRgjWtImlMqnvUuU="
+      "rev": "cd431aa0e7a5f4304d48d28d066f86cab745658b",
+      "hash": "sha256-m21k/1V5AUt3oeV9J2ZZvLHSx08QQVd0sUKCk/WdtK8="
     },
     "ipkgJson": {
       "name": "resource-pool",
