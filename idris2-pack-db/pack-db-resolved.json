@@ -4459,8 +4459,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
-      "rev": "f7572fd561e0cb4e47136f4aa609933f05fb41f4",
-      "hash": "sha256-HFphBDa71AnQPJ2Zy02inQeg5ulwgyrAFbDpPb6F3Vs="
+      "rev": "a2c09cc322a6f2a3c2606df58ebb5cc10f2fe22c",
+      "hash": "sha256-ABdsbObDca0KLJYkQ/FC+u1nCa2YUJwpMuV/auVFsGQ="
     },
     "ipkgJson": {
       "name": "stringsearch-algorithms",
