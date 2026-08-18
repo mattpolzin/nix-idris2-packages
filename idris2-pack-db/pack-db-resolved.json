@@ -362,8 +362,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-best-alternative",
-      "rev": "7b084aa829c7eaa5ce608ceca6b486256436fdda",
-      "hash": "sha256-eTVX+sQb1J4ExapVHqG65OUij1Peg5glsrnqq08jtoo="
+      "rev": "7772679117ed7201690ba160bce286f244ecd8aa",
+      "hash": "sha256-sCktmS3SFPkoLXSNPFdvcplwc0wgVLxY9eByQUfRQJU="
     },
     "ipkgJson": {
       "name": "best-alternative",
@@ -597,8 +597,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-collection-utils",
-      "rev": "6df30b19c55233939065129b1c488f4aa4cdf60f",
-      "hash": "sha256-VxprrHyYyAEjfdC6OYYg9FVRQmesfEYt30OMUE1IRY4="
+      "rev": "0ddea1f62ff340f12488c371fa521d2af775ceea",
+      "hash": "sha256-KI7lXLKa9U91pUzfwq/wSwv/1BtSSS8CbCj5Z7SHZCc="
     },
     "ipkgJson": {
       "name": "collection-utils",
@@ -794,8 +794,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-cozippable",
-      "rev": "157960afd73f8f30a9521f936945991dd8369a35",
-      "hash": "sha256-lC3f8LUk0zopSTBmeyfNWDN3oI3cQ95yyh24uvM4tAo="
+      "rev": "20610cdacbe4f192f044f5c7d27875bff475c750",
+      "hash": "sha256-46XJuGTZlAS/jQa/WHzy3K8wJDKyTbsTg3LEKCo0MOc="
     },
     "ipkgJson": {
       "name": "cozippable",
@@ -987,8 +987,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-dependent-vect",
-      "rev": "bd955c80acb46f9ed92101d7bd6c9090d2d7041d",
-      "hash": "sha256-O0r4CyWggt0lnPYaMCyznEs6I+0U7SMrzWYdp4EupSg="
+      "rev": "2e6cc43bf2d8b6b57b4d0f3eab6377dafe624192",
+      "hash": "sha256-Gzqhg1NPI4C66D9CJsH831RRbs0ZKqAOzL53peHc0SE="
     },
     "ipkgJson": {
       "name": "dependent-vect",
@@ -1008,8 +1008,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b85e2a98676b94254575bf0e36088ffc3005f718",
-      "hash": "sha256-1r/x0G9OapvVAqEFVHTZshlRJmbpn0Bgajl+FvA7N48="
+      "rev": "92bedf142e52e1ae842942992026459e2cd8d96f",
+      "hash": "sha256-8udaNFM3ytgBT/4YKRK1mniO4CR65xXJ+rAScHrFoaw="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1282,8 +1282,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "b85e2a98676b94254575bf0e36088ffc3005f718",
-      "hash": "sha256-1r/x0G9OapvVAqEFVHTZshlRJmbpn0Bgajl+FvA7N48="
+      "rev": "92bedf142e52e1ae842942992026459e2cd8d96f",
+      "hash": "sha256-8udaNFM3ytgBT/4YKRK1mniO4CR65xXJ+rAScHrFoaw="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1530,8 +1530,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-fin-lizzie",
-      "rev": "0bfed91651ea60a4b4a97ed12494da0eba769b8f",
-      "hash": "sha256-22/c9Vp5uTJKOa0eNyszLzLuUZMIxodNVa9HJcLHqa0="
+      "rev": "1638579a112b4943000ddcd3ff350af7c16bd557",
+      "hash": "sha256-rX9sF3egUmPaXOYKEK2VRoschn+Rveh8Ngt3roO6d6c="
     },
     "ipkgJson": {
       "name": "fin-lizzie",
@@ -2013,8 +2013,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-i-hate-parens",
-      "rev": "c1ef924566319a9fec0ed8033c78f4b76798446b",
-      "hash": "sha256-XsUh2aA7ZdX6UxmTB9Xo3bpn5gR3DBm2ENq2Y5Q9DEA="
+      "rev": "b4d8c3416197b0c4b95b455541668586df43693b",
+      "hash": "sha256-ersAs5gcSIR3gtONrIpkdS3lHBZ/0uLGsQDzCaTBmus="
     },
     "ipkgJson": {
       "name": "i-hate-parens",
@@ -2167,8 +2167,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-if-unsolved-implicit",
-      "rev": "a749bacf2ba37e91c37258d7aceb7d7f69df4446",
-      "hash": "sha256-PMXxhLf/r6X2WlI+FEaAKEQej7rsulhYpSmdoY/tTcY="
+      "rev": "0e7f75b83c17119ac2a1668905b9feeaa50f33b8",
+      "hash": "sha256-nADkay1aPimv+9fiSZPrBz6FTLvFlps9icQlX+nluyo="
     },
     "ipkgJson": {
       "name": "if-unsolved-implicit",
@@ -2859,8 +2859,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-mk",
-      "rev": "0df0651b12ecc574d5083a361333f80aaaa912ad",
-      "hash": "sha256-GwgdbLc6+iPjU4T7h8/SJIaNoEq7fQQK1wrs1xv53sY="
+      "rev": "977b00c2dad23bf395df171504fddd88e9d99a85",
+      "hash": "sha256-ou9c0R/XGbhe3apTFPY+LcoKqMY9bsrFvuZLKGKjcSQ="
     },
     "ipkgJson": {
       "name": "mk",
@@ -3583,8 +3583,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-positive-nat",
-      "rev": "6f0858bc2158059231110babd02fa40b6ea3ff21",
-      "hash": "sha256-VVVYM9sd7SOyAvAPtjuIDMabjIiatDBMDpIO7neQKhY="
+      "rev": "6390dd8e0a0bd0702a5555365ca5c83b0bed62e3",
+      "hash": "sha256-xFqKPsNAxvv5t1+vLIYLXACQPF7cKtzEVKJ8DniEyxc="
     },
     "ipkgJson": {
       "name": "positive-nat",
@@ -4558,8 +4558,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-swirl",
-      "rev": "6fee6df50cf3c369e80bca06372a81687bf6b248",
-      "hash": "sha256-zzyIVWwgh3bKHNySlGqr/TK4uUrRjxqmGeIY5kzwYdM="
+      "rev": "45de1f077250f5242f8d894238e64f709e432bba",
+      "hash": "sha256-YaSZIWRuIWNcL+nA+Ha9+L1kICyU8tChuMuxxcqmSJI="
     },
     "ipkgJson": {
       "name": "swirl",
@@ -4656,8 +4656,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "638590c8674ad42628776841d9f49237a20bd8af",
-      "hash": "sha256-pIoH0cagSs9mhsa2DYiPqD9WLVsQHCNUFOYjHF2hyI0="
+      "rev": "40846af8a831481195ae779b2336c02b89d25004",
+      "hash": "sha256-Guns3tJhM8tzlX/MQnuFyPcMurm5CTlX86fe2C9zxKk="
     },
     "ipkgJson": {
       "name": "tensortype",
@@ -4719,8 +4719,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-time-for-sleep",
-      "rev": "8e50060df0d6ff19d6049b90bd26906a6b4aae5f",
-      "hash": "sha256-nWDrxqEfriwhUoF5xuFIk9ywOgAg1CKHYpOXQg3HIm0="
+      "rev": "7ce093209bf8f6a3ea7560812bacacb08660d9a5",
+      "hash": "sha256-ojYhqdtpAbjKtcNFkl+CrSnde62TwqJSo1LaVpGVVUo="
     },
     "ipkgJson": {
       "name": "time-for-sleep",
@@ -4846,8 +4846,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-typelevel-emptiness-collections",
-      "rev": "bfb00b9ee20abbeea0254fc93ca51765fb2ec851",
-      "hash": "sha256-3f2rZxxkki7GYAnQuAFNTww18v/bgWlwbPbJHlD7mI0="
+      "rev": "8dfc9c675618e7e1478ab1ce7e1bd95b50c66087",
+      "hash": "sha256-0pMm8S+9aBNmYHagqUUo/hYqZj0qCLLcHT7H1vvzLkc="
     },
     "ipkgJson": {
       "name": "typelevel-emptiness-collections",
@@ -5144,8 +5144,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-weaker-traversals",
-      "rev": "ad37eecdc705951da22369fbe255174c0423b0b7",
-      "hash": "sha256-N3zJa/r90/mg+DShBlIGPEOtWugqQEj6Gyxyoq60+bc="
+      "rev": "0c3cb74cea9c4e838e82c2536198a0a1de2a5d8d",
+      "hash": "sha256-SYsM2kBdGjgzlrjGCcGtQXolkwUMxuak+bYUvGyW0DA="
     },
     "ipkgJson": {
       "name": "weaker-traversals",
