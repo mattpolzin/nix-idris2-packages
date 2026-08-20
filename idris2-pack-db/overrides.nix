@@ -112,6 +112,10 @@
     meta.broken = true;
   };
 
+  iotaTime = {
+    meta.platforms = lib.platforms.linux;
+  };
+
   linux = {
     preBuild = ''
       patchShebangs --build gencode.sh
