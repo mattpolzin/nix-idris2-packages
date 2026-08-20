@@ -53,6 +53,8 @@
 
       packages = ps { withSource = false; };
 
+      packdbPackageNames = forEachSystem (system: builtins.attrNames self.packages.${system}.idris2Packages.packdb);
+
       buildIdris = lib.mapAttrs (_: attrs: attrs.buildIdris) (ps { withSource = false;});
       buildIdris' = lib.mapAttrs (_: attrs: attrs.buildIdris') (ps { withSource = false; });
       experimental = lib.mapAttrs (_: attrs: attrs.experimental) (ps { withSource = false; });
