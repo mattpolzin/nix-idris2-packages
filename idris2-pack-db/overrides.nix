@@ -41,6 +41,10 @@
     meta.broken = stdenv.isAarch64 || stdenv.isAarch32;
   };
 
+  bcrypt = {
+    nativeBuildInputs = [ lld ];
+  };
+
   c-ffi = {
     nativeBuildInputs = [ gcc ];
     # this package only builds its included C library for Linux currently.
