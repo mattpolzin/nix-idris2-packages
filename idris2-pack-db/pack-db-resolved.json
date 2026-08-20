@@ -381,8 +381,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/ohad/betti",
-      "rev": "a41a76ae26874d82ab25d4b93a8dad0a84f16097",
-      "hash": "sha256-aTU71ZbCtCTzWn8ifdQlHlAawZpze+KogRP6MVy4jic="
+      "rev": "bb881ec75668c06c13b1090f023acb5ea1196066",
+      "hash": "sha256-yBG6aIpqHOgZPDnhmZhQlQzTyBKfZCJUpka2utxqDv8="
     },
     "ipkgJson": {
       "name": "betti",
@@ -420,8 +420,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-bounded-doubles",
-      "rev": "078934f6ba4bf69284c9cbc365840e645e71f22d",
-      "hash": "sha256-D8R48MVrUu88JMSfOIEdxOWQR1XgXeqTImYBsRd0zlg="
+      "rev": "ffbf1b4121e87f70920655904fd55e0db97849ee",
+      "hash": "sha256-1N90m8ee090usoRooNLhs3OYP1bztv9FacUP3PiMKmo="
     },
     "ipkgJson": {
       "name": "bounded-doubles",
@@ -440,8 +440,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-bounded-doubles",
-      "rev": "078934f6ba4bf69284c9cbc365840e645e71f22d",
-      "hash": "sha256-D8R48MVrUu88JMSfOIEdxOWQR1XgXeqTImYBsRd0zlg="
+      "rev": "ffbf1b4121e87f70920655904fd55e0db97849ee",
+      "hash": "sha256-1N90m8ee090usoRooNLhs3OYP1bztv9FacUP3PiMKmo="
     },
     "ipkgJson": {
       "name": "bounded-doubles-hedgehog-generators",
@@ -771,8 +771,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-coop",
-      "rev": "dd41cc8dc9d9d0757a23399f0a15df3e230a6695",
-      "hash": "sha256-MuP583CEKeGXnQABOZUC54fG8NTjnLoXskEq8t0TqfE="
+      "rev": "48ea49e27310bb964985a292f8b25c3c8813da8f",
+      "hash": "sha256-gsG6mQtpHkmvynerKrAHLEbi4QuXBlfDOeHrujyMlvk="
     },
     "ipkgJson": {
       "name": "coop",
@@ -3541,8 +3541,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "d5539d4dabb427907d8d74a64eb5a775224e0b49",
-      "hash": "sha256-XMAAWuDDlodBqmq0gcBN77D2jL1iCle7K6GxAlMKM/0="
+      "rev": "a69d292dbb730d3d481bc4c5f65730be9e02a129",
+      "hash": "sha256-ykeEE8dL43grYO4GBHW/UqzNQ/tEqkMbBOhGiIpDIuo="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3562,8 +3562,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "d5539d4dabb427907d8d74a64eb5a775224e0b49",
-      "hash": "sha256-XMAAWuDDlodBqmq0gcBN77D2jL1iCle7K6GxAlMKM/0="
+      "rev": "a69d292dbb730d3d481bc4c5f65730be9e02a129",
+      "hash": "sha256-ykeEE8dL43grYO4GBHW/UqzNQ/tEqkMbBOhGiIpDIuo="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -3736,8 +3736,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/kiana-S/idris2-profunctors",
-      "rev": "e862ef887f9dcdf90eacb1ca1c0a997d7a251135",
-      "hash": "sha256-fqAiBhlACZJ1VJkESkkd9yEzPmXxquq/9Myrzt+R9cY="
+      "rev": "17295bb928a4a128d315f6bdab2978d6ed2cfabf",
+      "hash": "sha256-wk/YrxHTuxQcEXm98VaNrUo30u08UCmg1YU9gpER45M="
     },
     "ipkgJson": {
       "name": "profunctors",
@@ -4276,8 +4276,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "d5539d4dabb427907d8d74a64eb5a775224e0b49",
-      "hash": "sha256-XMAAWuDDlodBqmq0gcBN77D2jL1iCle7K6GxAlMKM/0="
+      "rev": "a69d292dbb730d3d481bc4c5f65730be9e02a129",
+      "hash": "sha256-ykeEE8dL43grYO4GBHW/UqzNQ/tEqkMbBOhGiIpDIuo="
     },
     "ipkgJson": {
       "name": "spidr",
