@@ -542,6 +542,35 @@
       "postinstall": "./postinstall.sh"
     }
   },
+  "cats-and-arrows": {
+    "packName": "cats-and-arrows",
+    "ipkgName": "cats-and-arrows",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/tokinanpa/cats-and-arrows",
+      "rev": "7ea2219e774481b2a08b295be691881b4509e27e",
+      "hash": "sha256-LDgY0s+qDhrQmu7x6Hx0xO+tJqJI/zMkKOc7bBw/pGE="
+    },
+    "ipkgJson": {
+      "name": "cats-and-arrows",
+      "depends": [
+        "linear",
+        "profunctors"
+      ],
+      "version": "0.1.0",
+      "langversion": {
+        "lowerInclusive": true,
+        "lowerBound": "0.7.0",
+        "upperInclusive": true,
+        "upperBound": "*"
+      },
+      "authors": "Kiana Sheibani",
+      "license": "LGPL-3.0-or-later",
+      "brief": "A categorical foundation for a new effect system",
+      "readme": "README.md",
+      "sourcedir": "src"
+    }
+  },
   "chem": {
     "packName": "chem",
     "ipkgName": "chem",
@@ -1008,8 +1037,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "8bd9956276af8e108b20920ae00aebce41779fb9",
-      "hash": "sha256-wYAC46F23DO4wQ9K+jvsRGZR565kL/z61oEvBFg4cgI="
+      "rev": "f83b67db078d089223c8d73e33e9c42d32f8baa9",
+      "hash": "sha256-sfZL/tfZQPHL2g0An+nW4xT9XlG1iJs0qYhvS1mwaJQ="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1018,6 +1047,8 @@
         "best-alternative",
         "dependent-vect",
         "elab-util-extra",
+        "hashable",
+        "hashable-derive",
         "i-hate-parens",
         "if-unsolved-implicit",
         "mtl-tuple-impls",
@@ -1025,7 +1056,7 @@
         "random-pure",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.260802",
+      "version": "0.0.260827",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1282,8 +1313,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "8bd9956276af8e108b20920ae00aebce41779fb9",
-      "hash": "sha256-wYAC46F23DO4wQ9K+jvsRGZR565kL/z61oEvBFg4cgI="
+      "rev": "f83b67db078d089223c8d73e33e9c42d32f8baa9",
+      "hash": "sha256-sfZL/tfZQPHL2g0An+nW4xT9XlG1iJs0qYhvS1mwaJQ="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -2596,7 +2627,7 @@
     "ipkgName": "lens",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/kiana-S/idris2-lens",
+      "url": "https://github.com/tokinanpa/idris2-lens",
       "rev": "d6bae26222a0b2290bf4146279bdc31bb900d527",
       "hash": "sha256-JV7fdlF39Y0uUlUJsMG6t+X9N+Dd+/twIfb6Rhlg8OU="
     },
@@ -3037,7 +3068,7 @@
     "ipkgName": "numidr",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/kiana-S/numidr",
+      "url": "https://github.com/tokinanpa/numidr",
       "rev": "bd1eee136662ef638628bca9907ae64f1b7538f9",
       "hash": "sha256-YDQ7ODnZrmBq/G4BKYIO5RgJEdS8WZV2QxFV4JUx7Mw="
     },
@@ -3541,8 +3572,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "2005a5b34e95aaea8ffec9d804a457e3eeb5b5a3",
-      "hash": "sha256-0um5/F12y7B9S1rPFjrrdmZ8VUu3m1m8ncO7JVJWDh0="
+      "rev": "ec29bff64003a5859e797ff1642c9af594b0c823",
+      "hash": "sha256-VjiXJa7tjGw7oBcxyw6MEjpf/MMd5tyoHcHMvs8bRAM="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3553,6 +3584,7 @@
       "license": "AGPL-3.0-or-later",
       "brief": "XLA PJRT plugin for CPU.",
       "readme": "README.md",
+      "sourcedir": "src",
       "postinstall": "./postinstall.sh"
     }
   },
@@ -3562,8 +3594,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "2005a5b34e95aaea8ffec9d804a457e3eeb5b5a3",
-      "hash": "sha256-0um5/F12y7B9S1rPFjrrdmZ8VUu3m1m8ncO7JVJWDh0="
+      "rev": "ec29bff64003a5859e797ff1642c9af594b0c823",
+      "hash": "sha256-VjiXJa7tjGw7oBcxyw6MEjpf/MMd5tyoHcHMvs8bRAM="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -3574,6 +3606,7 @@
       "license": "AGPL-3.0-or-later",
       "brief": "XLA PJRT plugin for CUDA-enabled GPUs.",
       "readme": "README.md",
+      "sourcedir": "src",
       "postinstall": "./postinstall.sh"
     }
   },
@@ -3735,7 +3768,7 @@
     "ipkgName": "profunctors",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/kiana-S/idris2-profunctors",
+      "url": "https://github.com/tokinanpa/idris2-profunctors",
       "rev": "17295bb928a4a128d315f6bdab2978d6ed2cfabf",
       "hash": "sha256-wk/YrxHTuxQcEXm98VaNrUo30u08UCmg1YU9gpER45M="
     },
@@ -3869,7 +3902,7 @@
     "ipkgName": "ratio",
     "ipkgDir": "",
     "src": {
-      "url": "https://github.com/kiana-S/idris2-ratio",
+      "url": "https://github.com/tokinanpa/idris2-ratio",
       "rev": "1bdfde80d70c1dc63df186e32f7c86ba6545dff2",
       "hash": "sha256-hk03nilUPs64o8lDLHLAoy3Ccp9pZs0OKNz9/npYROQ="
     },
@@ -3909,8 +3942,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ref1",
-      "rev": "d2355c8b51f9f278b82fb4c73547606ba2709a9a",
-      "hash": "sha256-F6SYzXYKssCSI1Q0Mem7rXb01qrG4SDQemP1ZvlgH+c="
+      "rev": "7ababaeb9dfd88aaf80a342ac93a6b50e58f485d",
+      "hash": "sha256-lLJ4FfhSLb9qoQhShw9lKBE6ayIDcu8AFkCXnhl9n9U="
     },
     "ipkgJson": {
       "name": "ref1",
@@ -4276,8 +4309,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "2005a5b34e95aaea8ffec9d804a457e3eeb5b5a3",
-      "hash": "sha256-0um5/F12y7B9S1rPFjrrdmZ8VUu3m1m8ncO7JVJWDh0="
+      "rev": "ec29bff64003a5859e797ff1642c9af594b0c823",
+      "hash": "sha256-VjiXJa7tjGw7oBcxyw6MEjpf/MMd5tyoHcHMvs8bRAM="
     },
     "ipkgJson": {
       "name": "spidr",
@@ -4372,8 +4405,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "0188659dc8474f1d4a06c4368db4bc2758675d6d",
-      "hash": "sha256-m3wsJa8OeZCtsr5+3oh0YPTg7tQ1V4uhrf7Rc8qG9HQ="
+      "rev": "83980a9e228cb2d6d8ca7ace9f1f64ce047cfcf7",
+      "hash": "sha256-CuVN53Cf1NJq36CKEBxXbMF7sP5bV/6f9T8PIrLpN8s="
     },
     "ipkgJson": {
       "name": "streams",
@@ -4395,8 +4428,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-streams",
-      "rev": "0188659dc8474f1d4a06c4368db4bc2758675d6d",
-      "hash": "sha256-m3wsJa8OeZCtsr5+3oh0YPTg7tQ1V4uhrf7Rc8qG9HQ="
+      "rev": "83980a9e228cb2d6d8ca7ace9f1f64ce047cfcf7",
+      "hash": "sha256-CuVN53Cf1NJq36CKEBxXbMF7sP5bV/6f9T8PIrLpN8s="
     },
     "ipkgJson": {
       "name": "streams-posix",
@@ -4459,8 +4492,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-stringsearch-algorithms",
-      "rev": "533a705b9875bc990a58ca7e8e516425a7ad5efe",
-      "hash": "sha256-xc0Js3jJYpp9xfYMskTQh4gDx8PEH8RAFZJWrwMMYq0="
+      "rev": "18c4dd6ff44b3a9dfc9d64872531fee83008e19d",
+      "hash": "sha256-ohrKR0l2C1jrAAfJ3hGdNx2x8BxhVSXLWgMCFEEsIz8="
     },
     "ipkgJson": {
       "name": "stringsearch-algorithms",
