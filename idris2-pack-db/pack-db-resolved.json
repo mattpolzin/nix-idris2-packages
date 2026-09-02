@@ -27,8 +27,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-algebra",
-      "rev": "b80241edadc9237c2663df098c27e6dbc99886d0",
-      "hash": "sha256-a+mIn6pxEOyo6urbzauVyam54VFwm+BI2IXsDTSHuOs="
+      "rev": "45ebdcd6808e694994cb9639598bb27cad64df4b",
+      "hash": "sha256-4eWEa8UHtySig8KwZR3aZDbTRi6npWGxdUgDNkATa3E="
     },
     "ipkgJson": {
       "name": "algebra",
@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "41a001cd6d8d1ba394d875dedfeae56183a64bd1",
-      "hash": "sha256-sojK0TQC9AlFFh3c3al7XHrgYOs5lWoOSzmuVreAwos="
+      "rev": "e5870d49b995fd672a6b6c33190223ecfde48477",
+      "hash": "sha256-72Sh0tfbbs0X5+AsKYxqje2nQhv+L7UHHAFN0F3kLEk="
     },
     "ipkgJson": {
       "name": "array",
@@ -313,23 +313,22 @@
     "ipkgDir": "",
     "src": {
       "url": "https://git.sr.ht/~janus/base64",
-      "rev": "f749111b3a4ffa2b0c39d16153bc5670e7347ef9",
-      "hash": "sha256-EoHV7Wa1jjjjSgHsS2u6/VKgQZznl118Mb6vtLqa+fU="
+      "rev": "ed8df65e09f9f3070ea1e98f3ac8be394956c1ac",
+      "hash": "sha256-Z4+Zt6buxfM+EwWYrMkhsuJqXWOBkfZS23RuHwlRUig="
     },
     "ipkgJson": {
       "name": "base64",
       "depends": [
         "base",
         "array",
+        "ref1",
         "utf8"
       ],
-      "version": "0.0.1",
+      "version": "0.0.2",
       "authors": "Janus Troelsen <ysangkok@gmail.com> and Matthew Mosior <mattm.github@gmail.com>",
       "license": "BSD-3-Clause",
-      "brief": "Base64 decoding/encoding, based on C. Provides `Data.String.Base64`. Used in e.g. the `scram` package.",
-      "sourcedir": "src",
-      "prebuild": "make -C support",
-      "preinstall": "make -C support install"
+      "brief": "Native base64 decoding/encoding. Provides `Data.String.Base64`. Used in e.g. the `scram` package.",
+      "sourcedir": "src"
     }
   },
   "bcrypt": {
@@ -548,8 +547,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/tokinanpa/cats-and-arrows",
-      "rev": "7ea2219e774481b2a08b295be691881b4509e27e",
-      "hash": "sha256-LDgY0s+qDhrQmu7x6Hx0xO+tJqJI/zMkKOc7bBw/pGE="
+      "rev": "5e00e26cb5ebf998d2ffc5f79604ee4a2090d5bf",
+      "hash": "sha256-V8jytriV6ZeANn5CygEhP7bVPsXWG4RkrYLem/GvXhg="
     },
     "ipkgJson": {
       "name": "cats-and-arrows",
@@ -961,6 +960,28 @@
       "sourcedir": "src"
     }
   },
+  "darray": {
+    "packName": "darray",
+    "ipkgName": "darray",
+    "ipkgDir": "darray",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-array",
+      "rev": "e5870d49b995fd672a6b6c33190223ecfde48477",
+      "hash": "sha256-72Sh0tfbbs0X5+AsKYxqje2nQhv+L7UHHAFN0F3kLEk="
+    },
+    "ipkgJson": {
+      "name": "darray",
+      "depends": [
+        "base",
+        "enum",
+        "array"
+      ],
+      "version": "0.0.1",
+      "authors": "Stefan Höck",
+      "brief": "Immutable and mutable enum-indexed dependent arrays",
+      "sourcedir": "src"
+    }
+  },
   "decord": {
     "packName": "decord",
     "ipkgName": "decord",
@@ -1355,6 +1376,29 @@
       "version": "0.7.0",
       "authors": "stefan-hoeck",
       "brief": "Stateful linear computations with error handling",
+      "sourcedir": "src"
+    }
+  },
+  "enum": {
+    "packName": "enum",
+    "ipkgName": "enum",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/stefan-hoeck/idris2-enum",
+      "rev": "3fd69ffd95daf5c7be30ae7f074cefeed6f5fca4",
+      "hash": "sha256-LS6aPnyrdEHr/iduRVZQWVLPA6lSq9OQCM2PlGABIkE="
+    },
+    "ipkgJson": {
+      "name": "enum",
+      "depends": [
+        "base",
+        "elab-util",
+        "finite",
+        "refined"
+      ],
+      "version": "0.0.1",
+      "authors": "Stefan Höck",
+      "brief": "Verified enumeration types",
       "sourcedir": "src"
     }
   },
@@ -2557,8 +2601,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/katla",
-      "rev": "b28e5be98819e0516cc799bf57de1d6f56f70034",
-      "hash": "sha256-+7EMUS2RiuAwb+TGH1FCssV89Ib6ZI1LRIKCK916im8="
+      "rev": "63f768340fc1e60295f075b65f67e2cf37dc33f5",
+      "hash": "sha256-I58U/gn4VLMiTDqO80eSpwp1vyHUAEMpaLotx/j/9Zc="
     },
     "ipkgJson": {
       "name": "katla",
@@ -2580,8 +2624,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/katla",
-      "rev": "b28e5be98819e0516cc799bf57de1d6f56f70034",
-      "hash": "sha256-+7EMUS2RiuAwb+TGH1FCssV89Ib6ZI1LRIKCK916im8="
+      "rev": "63f768340fc1e60295f075b65f67e2cf37dc33f5",
+      "hash": "sha256-I58U/gn4VLMiTDqO80eSpwp1vyHUAEMpaLotx/j/9Zc="
     },
     "ipkgJson": {
       "name": "katla-pandoc",
@@ -2591,6 +2635,29 @@
       "authors": "Robert Wright",
       "main": "Katla.Pandoc",
       "executable": "katla-pandoc",
+      "sourcedir": "src"
+    }
+  },
+  "katla-typst": {
+    "packName": "katla-typst",
+    "ipkgName": "katla-typst",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/idris-community/katla",
+      "rev": "63f768340fc1e60295f075b65f67e2cf37dc33f5",
+      "hash": "sha256-I58U/gn4VLMiTDqO80eSpwp1vyHUAEMpaLotx/j/9Zc="
+    },
+    "ipkgJson": {
+      "name": "katla-typst",
+      "depends": [
+        "idris2",
+        "contrib",
+        "collie",
+        "idrall"
+      ],
+      "authors": "Stefan Höck",
+      "main": "Katla.Typst.Main",
+      "executable": "katla-typst",
       "sourcedir": "src"
     }
   },
@@ -2839,8 +2906,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/lsp-lib",
-      "rev": "ca77e80a392b8cfeee3aaeb150069957699cdb82",
-      "hash": "sha256-maXHx/OrflIdV7XPfDCRShUGZekLbLOSFQPHnL6DxnI="
+      "rev": "512504c6680f9ee45d82f1cc06c596cc0be7c4ea",
+      "hash": "sha256-UlSM5Q6EwPgBaCe9TfDZ2VSq0pvEo0V+5d2tZDZ109Y="
     },
     "ipkgJson": {
       "name": "lsp-lib",
@@ -4689,8 +4756,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "40846af8a831481195ae779b2336c02b89d25004",
-      "hash": "sha256-Guns3tJhM8tzlX/MQnuFyPcMurm5CTlX86fe2C9zxKk="
+      "rev": "9d7179113f226d99c24395c9b1fb66a4ed7e6df6",
+      "hash": "sha256-oM0TBHJkDt3IqDPSOp3EOmE7SFTC21UY3XUrlTXCKis="
     },
     "ipkgJson": {
       "name": "tensortype",
