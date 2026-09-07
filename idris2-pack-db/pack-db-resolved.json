@@ -3186,8 +3186,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-oracle",
-      "rev": "942c7f3359ae7e19a2797bf2adc3a78699c4abce",
-      "hash": "sha256-vWULvnLxeXI9pt1J86yNZ2YBH/G7vdyayGc8Ag/6Rpw="
+      "rev": "acd25aa170077254cb67384529d41a4dec09d6e4",
+      "hash": "sha256-DOsMYl87xg8ULTJbW7WwDInoiNLpBYEAZSMH+h/KIoA="
     },
     "ipkgJson": {
       "name": "oracle",
@@ -3214,8 +3214,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "846a90d76d1d4c451484eb09773f11a9e2fd58f2",
-      "hash": "sha256-1nn6IUjJTKAUNlVS5Wc44DWJ2r+ZdLjqXFp9lQqssZM="
+      "rev": "0efdab5fbd086fa1005b57a94cec963909fd7fb4",
+      "hash": "sha256-HHdp/h8HY4jeWGUYRbJO6/dGYZhQfBNgUB32UT0N15E="
     },
     "ipkgJson": {
       "name": "pack",
@@ -3249,8 +3249,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-pack",
-      "rev": "846a90d76d1d4c451484eb09773f11a9e2fd58f2",
-      "hash": "sha256-1nn6IUjJTKAUNlVS5Wc44DWJ2r+ZdLjqXFp9lQqssZM="
+      "rev": "0efdab5fbd086fa1005b57a94cec963909fd7fb4",
+      "hash": "sha256-HHdp/h8HY4jeWGUYRbJO6/dGYZhQfBNgUB32UT0N15E="
     },
     "ipkgJson": {
       "name": "pack-admin",
