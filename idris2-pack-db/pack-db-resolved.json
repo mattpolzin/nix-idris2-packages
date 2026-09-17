@@ -547,8 +547,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/tokinanpa/cats-and-arrows",
-      "rev": "bb1acc0e52349b9033eea1dd7e609b865c2a5b0c",
-      "hash": "sha256-GSQA4+GavzSqVsTJHVDcf90o3gX9zTd/SgM8uODhLps="
+      "rev": "0ee236fef2b85031279cbf0e22df9d3597780fd5",
+      "hash": "sha256-8n9xONCv0JWUx4G2EgAfvsdatPdBbpAwHKMEeOWcAfE="
     },
     "ipkgJson": {
       "name": "cats-and-arrows",
@@ -1058,8 +1058,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "00c9398dedfc9a4b4b056282e28e84d8e0914373",
-      "hash": "sha256-8EHoqHJhB2M04APOTzSCLzQb9wgz0JkJ8gcOV3N1Hig="
+      "rev": "3b2467c6b22a7a0e01795bb3776354219558d747",
+      "hash": "sha256-uKZxblsEMWqt9l1p74l8pm8IF2R/2Nj90u/7570pq1s="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1334,8 +1334,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "00c9398dedfc9a4b4b056282e28e84d8e0914373",
-      "hash": "sha256-8EHoqHJhB2M04APOTzSCLzQb9wgz0JkJ8gcOV3N1Hig="
+      "rev": "3b2467c6b22a7a0e01795bb3776354219558d747",
+      "hash": "sha256-uKZxblsEMWqt9l1p74l8pm8IF2R/2Nj90u/7570pq1s="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -2262,8 +2262,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "db628ad94a87f4e19a655a97694c4ee72f73e096",
-      "hash": "sha256-PhPSSarnXTqYBUXCEP1kkRp/qHAuFNA8sE0vW5cIorA="
+      "rev": "09a88144c46a03b6316946df9abb5ea729c15a79",
+      "hash": "sha256-s5ufyqoLnB5C+N9uIQTX5XZUph+RLKNrjNWPcgBjIXU="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -2294,8 +2294,8 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "db628ad94a87f4e19a655a97694c4ee72f73e096",
-      "hash": "sha256-PhPSSarnXTqYBUXCEP1kkRp/qHAuFNA8sE0vW5cIorA="
+      "rev": "09a88144c46a03b6316946df9abb5ea729c15a79",
+      "hash": "sha256-s5ufyqoLnB5C+N9uIQTX5XZUph+RLKNrjNWPcgBjIXU="
     },
     "ipkgJson": {
       "name": "ilex-core",
@@ -2321,8 +2321,8 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "db628ad94a87f4e19a655a97694c4ee72f73e096",
-      "hash": "sha256-PhPSSarnXTqYBUXCEP1kkRp/qHAuFNA8sE0vW5cIorA="
+      "rev": "09a88144c46a03b6316946df9abb5ea729c15a79",
+      "hash": "sha256-s5ufyqoLnB5C+N9uIQTX5XZUph+RLKNrjNWPcgBjIXU="
     },
     "ipkgJson": {
       "name": "ilex-debug",
@@ -2365,8 +2365,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "db628ad94a87f4e19a655a97694c4ee72f73e096",
-      "hash": "sha256-PhPSSarnXTqYBUXCEP1kkRp/qHAuFNA8sE0vW5cIorA="
+      "rev": "09a88144c46a03b6316946df9abb5ea729c15a79",
+      "hash": "sha256-s5ufyqoLnB5C+N9uIQTX5XZUph+RLKNrjNWPcgBjIXU="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -2385,8 +2385,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "db628ad94a87f4e19a655a97694c4ee72f73e096",
-      "hash": "sha256-PhPSSarnXTqYBUXCEP1kkRp/qHAuFNA8sE0vW5cIorA="
+      "rev": "09a88144c46a03b6316946df9abb5ea729c15a79",
+      "hash": "sha256-s5ufyqoLnB5C+N9uIQTX5XZUph+RLKNrjNWPcgBjIXU="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -2413,8 +2413,8 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "db628ad94a87f4e19a655a97694c4ee72f73e096",
-      "hash": "sha256-PhPSSarnXTqYBUXCEP1kkRp/qHAuFNA8sE0vW5cIorA="
+      "rev": "09a88144c46a03b6316946df9abb5ea729c15a79",
+      "hash": "sha256-s5ufyqoLnB5C+N9uIQTX5XZUph+RLKNrjNWPcgBjIXU="
     },
     "ipkgJson": {
       "name": "ilex-toml",
