@@ -2532,8 +2532,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
-      "rev": "955867bc9199a5c2d5bf8303855bd2bf8964680e",
-      "hash": "sha256-GbeWd2hKvRr95AWMX71weO6nFpg7sFp2axHmrRqNx5s="
+      "rev": "8b8fdfbd5dc6ca673931b54c1c791d4b5ebc304c",
+      "hash": "sha256-ftw6I1CdSjV7ymzQxQSqMdDRE4MdCzVm5sug8x5huq4="
     },
     "ipkgJson": {
       "name": "json",
@@ -2555,8 +2555,8 @@
     "ipkgDir": "simple",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-json",
-      "rev": "955867bc9199a5c2d5bf8303855bd2bf8964680e",
-      "hash": "sha256-GbeWd2hKvRr95AWMX71weO6nFpg7sFp2axHmrRqNx5s="
+      "rev": "8b8fdfbd5dc6ca673931b54c1c791d4b5ebc304c",
+      "hash": "sha256-ftw6I1CdSjV7ymzQxQSqMdDRE4MdCzVm5sug8x5huq4="
     },
     "ipkgJson": {
       "name": "json-simple",
