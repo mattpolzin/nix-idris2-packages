@@ -4244,15 +4244,15 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-scgi",
-      "rev": "80c5e0e3e40a2ce853fe5dac9b954cf4ad426e89",
-      "hash": "sha256-DFhZdlggQugForVqzyPUFaebJ/BCHqprMCu/ENg1uuA="
+      "rev": "efde9930a62c827ed326b59fc7ec5b2e815cb4b0",
+      "hash": "sha256-sWZtcAasL6r6Y0Ko4Az67PYWs7OMzUdtgFIOs9NSfEc="
     },
     "ipkgJson": {
       "name": "scgi",
       "depends": [
         "base",
         "ansi",
-        "async-epoll",
+        "async-posix",
         "http-server-api"
       ],
       "version": "0.7.0",
