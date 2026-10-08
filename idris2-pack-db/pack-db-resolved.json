@@ -916,8 +916,8 @@
     "ipkgDir": "cyby-css",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "b26a6dd82121d835dc0ed3cd52172e48bcba17e3",
-      "hash": "sha256-DYQPeSSV4OCKcBl1UmE2yERVobF4+vwbwR8+6RQgOd4="
+      "rev": "3b838acd30f8a055303588305db90d27d2ae8d93",
+      "hash": "sha256-gHgn/VTGwdvB2YcBr2q4Jn8NolT8pluFX85xqpC1FIM="
     },
     "ipkgJson": {
       "name": "cyby-css",
@@ -938,8 +938,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cyby-draw",
-      "rev": "b26a6dd82121d835dc0ed3cd52172e48bcba17e3",
-      "hash": "sha256-DYQPeSSV4OCKcBl1UmE2yERVobF4+vwbwR8+6RQgOd4="
+      "rev": "3b838acd30f8a055303588305db90d27d2ae8d93",
+      "hash": "sha256-gHgn/VTGwdvB2YcBr2q4Jn8NolT8pluFX85xqpC1FIM="
     },
     "ipkgJson": {
       "name": "cyby-draw",
@@ -2568,6 +2568,25 @@
       "version": "0.5.0",
       "authors": "stefan-hoeck",
       "brief": "Simplified derivable JSON marshallers for simple people like me",
+      "sourcedir": "src"
+    }
+  },
+  "jsonrpc": {
+    "packName": "jsonrpc",
+    "ipkgName": "jsonrpc",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://gitlab.com/avidela/idris2-jsonrpc",
+      "rev": "de5d66ad9556472ae04fd875d1110509892928db",
+      "hash": "sha256-TsH3lOZHASC0JhzJynekxNXaoUgkQsG9b50axMudPIg="
+    },
+    "ipkgJson": {
+      "name": "jsonrpc",
+      "depends": [
+        "json-simple"
+      ],
+      "version": "0.1.0",
+      "authors": "André Videla",
       "sourcedir": "src"
     }
   },
