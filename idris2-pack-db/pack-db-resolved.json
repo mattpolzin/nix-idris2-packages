@@ -2808,8 +2808,8 @@
     "ipkgDir": "log4types",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "4ba9e4f5b731e1ec3ecb308094d8138a5daafedd",
-      "hash": "sha256-vmYt/JL1YzHwbrKRsCmUGEIJdkXtf6I+R7SOX/O5+m4="
+      "rev": "11ec3986a55408d4367bc36554858790be21ccf0",
+      "hash": "sha256-qZFEKEYvhrKM7U0wIUXkaEizL+ZhtScUfD1Pq98KT/c="
     },
     "ipkgJson": {
       "name": "log4types",
@@ -2818,7 +2818,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.5.0",
+      "version": "0.5.1",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Composable structured logging for Idris 2 applications",
@@ -2831,8 +2831,8 @@
     "ipkgDir": "log4types-async",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "4ba9e4f5b731e1ec3ecb308094d8138a5daafedd",
-      "hash": "sha256-vmYt/JL1YzHwbrKRsCmUGEIJdkXtf6I+R7SOX/O5+m4="
+      "rev": "11ec3986a55408d4367bc36554858790be21ccf0",
+      "hash": "sha256-qZFEKEYvhrKM7U0wIUXkaEizL+ZhtScUfD1Pq98KT/c="
     },
     "ipkgJson": {
       "name": "log4types-async",
@@ -2841,7 +2841,7 @@
         "log4types-core",
         "async"
       ],
-      "version": "0.5.0",
+      "version": "0.5.1",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Asynchronous background-fiber logging for log4types",
@@ -2854,8 +2854,8 @@
     "ipkgDir": "log4types-core",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "4ba9e4f5b731e1ec3ecb308094d8138a5daafedd",
-      "hash": "sha256-vmYt/JL1YzHwbrKRsCmUGEIJdkXtf6I+R7SOX/O5+m4="
+      "rev": "11ec3986a55408d4367bc36554858790be21ccf0",
+      "hash": "sha256-qZFEKEYvhrKM7U0wIUXkaEizL+ZhtScUfD1Pq98KT/c="
     },
     "ipkgJson": {
       "name": "log4types-core",
@@ -2863,7 +2863,7 @@
         "base",
         "contrib"
       ],
-      "version": "0.5.0",
+      "version": "0.5.1",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "Core algebra for composable logging, refined by dependent types",
@@ -2876,8 +2876,8 @@
     "ipkgDir": "log4types-json",
     "src": {
       "url": "https://github.com/bio-aeon/log4types",
-      "rev": "4ba9e4f5b731e1ec3ecb308094d8138a5daafedd",
-      "hash": "sha256-vmYt/JL1YzHwbrKRsCmUGEIJdkXtf6I+R7SOX/O5+m4="
+      "rev": "11ec3986a55408d4367bc36554858790be21ccf0",
+      "hash": "sha256-qZFEKEYvhrKM7U0wIUXkaEizL+ZhtScUfD1Pq98KT/c="
     },
     "ipkgJson": {
       "name": "log4types-json",
@@ -2886,7 +2886,7 @@
         "contrib",
         "log4types-core"
       ],
-      "version": "0.5.0",
+      "version": "0.5.1",
       "authors": "Alexandr Chigrinets",
       "license": "MIT",
       "brief": "JSON backend for log4types structured logging",
@@ -4777,8 +4777,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/bgavran/TensorType",
-      "rev": "4d72b0d3f45c53cd26c462fc6fa1d56731e7218c",
-      "hash": "sha256-EssJ4QJIe7W+mFssanl6muZI+4bzmmL7Og3uAD9ubx0="
+      "rev": "7715491df8a38e121489187f0a2383523af69d47",
+      "hash": "sha256-OdRyafhNyvLvaofVzNhJLzdallPzKyqXC5LJhJIvNXw="
     },
     "ipkgJson": {
       "name": "tensortype",
