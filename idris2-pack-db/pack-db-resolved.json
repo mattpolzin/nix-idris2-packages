@@ -547,8 +547,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/tokinanpa/cats-and-arrows",
-      "rev": "83eff9b5a6c157402534c51803d4300ee9d031f6",
-      "hash": "sha256-UAyf/SOhiMCTmXCUP6rZVSwM/VFyw00wcG1y9T4f9PI="
+      "rev": "fea1605a512fe45b43b7246e03f3b4162fb2db59",
+      "hash": "sha256-RE4gWhmymaKlOuElHcfv37f4Wzpuoqb28PiAeTuLUnw="
     },
     "ipkgJson": {
       "name": "cats-and-arrows",
