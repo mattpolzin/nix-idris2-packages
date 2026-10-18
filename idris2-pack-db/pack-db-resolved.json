@@ -2577,8 +2577,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://gitlab.com/avidela/idris2-jsonrpc",
-      "rev": "de5d66ad9556472ae04fd875d1110509892928db",
-      "hash": "sha256-TsH3lOZHASC0JhzJynekxNXaoUgkQsG9b50axMudPIg="
+      "rev": "a24430a60f1cd2232a3253826e697d6838840dc8",
+      "hash": "sha256-uxsoyWP8+2h/rIKcwVQn6BNQb0TxDkVtOWgaOsWzr8U="
     },
     "ipkgJson": {
       "name": "jsonrpc",
