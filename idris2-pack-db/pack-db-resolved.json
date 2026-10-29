@@ -4,7 +4,7 @@
     "ipkgName": "algdata",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/avidela/algebraic-data",
+      "url": "https://gitlab.com/avidela/algebraic-data.git/",
       "rev": "de259eca0ad3b7bb70360d41fa3b444449e817c2",
       "hash": "sha256-PY8STaZteozpxPCExYKz2OyoCQYxc0aT50qPTws3+q4="
     },
@@ -731,7 +731,7 @@
     "ipkgName": "continuation-monad",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/avidela/continuation-monad",
+      "url": "https://gitlab.com/avidela/continuation-monad.git/",
       "rev": "76ad994491b3bb5b890a84fa9b320b64dd5370fd",
       "hash": "sha256-u44dUVs4juN/UXd7PZe6gVjQGNGaDWz/tMMRxsONANw="
     },
@@ -1058,8 +1058,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "922d4dd42a3bd7451f15df4feaf815a850117f20",
-      "hash": "sha256-2WyNPcPm+umWQIDI90YfrHpYf2Bzd5PEsBajWzIzhs8="
+      "rev": "ee6614874ecc6011ec0b7f12699beefc851b8f90",
+      "hash": "sha256-AmApMr+UaQdUTg2vXvk4/WQHoexRkgergSB8KxZYOYo="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1334,8 +1334,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "922d4dd42a3bd7451f15df4feaf815a850117f20",
-      "hash": "sha256-2WyNPcPm+umWQIDI90YfrHpYf2Bzd5PEsBajWzIzhs8="
+      "rev": "ee6614874ecc6011ec0b7f12699beefc851b8f90",
+      "hash": "sha256-AmApMr+UaQdUTg2vXvk4/WQHoexRkgergSB8KxZYOYo="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1385,8 +1385,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-enum",
-      "rev": "3fd69ffd95daf5c7be30ae7f074cefeed6f5fca4",
-      "hash": "sha256-LS6aPnyrdEHr/iduRVZQWVLPA6lSq9OQCM2PlGABIkE="
+      "rev": "a51dff59793a23349978f90710d0739e1fa19d5b",
+      "hash": "sha256-bc+pvgerWHl3D9OUZvEyWpm0gN97uzQIugYwbrIZ3Rw="
     },
     "ipkgJson": {
       "name": "enum",
@@ -1731,7 +1731,7 @@
     "ipkgName": "fs-utils",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/avidela/fs-utils",
+      "url": "https://gitlab.com/avidela/fs-utils.git/",
       "rev": "28dd3c9a1f086f54704c17c4f2d65378fe3b6f3e",
       "hash": "sha256-0WDpmj3sOrY6CFnAAwhOCCGGjwYl+Pj8q0H4Slzs9yY="
     },
@@ -1914,8 +1914,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-hedgehog",
-      "rev": "f413d4bb7010063dedb15f29839accbc0617c4d4",
-      "hash": "sha256-u2XN4sPTHLOwVCJy4VNV7p6uWuF7+app+40aERohvK4="
+      "rev": "f01cc85bc974b371bdeef55db427a9dead79ea4d",
+      "hash": "sha256-fsH+USlOPBM410fONzlnaL7MD3SueArhFKojgl3rZuM="
     },
     "ipkgJson": {
       "name": "hedgehog",
@@ -2262,8 +2262,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "07af8b537a36892c7b22a559238bdfe1fc788d36",
-      "hash": "sha256-z7NKAEWDVYUvS+jOfQuGHK4nrbDX6HLQ9sQuQiHcEos="
+      "rev": "bf5a1086df494b444193aca9a99d7a216c4c7103",
+      "hash": "sha256-RlLXeNR+oSTauyqQxyG+CVFbvSeU2CVuXaiA2j3JYpc="
     },
     "ipkgJson": {
       "name": "ilex",
@@ -2294,8 +2294,8 @@
     "ipkgDir": "core",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "07af8b537a36892c7b22a559238bdfe1fc788d36",
-      "hash": "sha256-z7NKAEWDVYUvS+jOfQuGHK4nrbDX6HLQ9sQuQiHcEos="
+      "rev": "bf5a1086df494b444193aca9a99d7a216c4c7103",
+      "hash": "sha256-RlLXeNR+oSTauyqQxyG+CVFbvSeU2CVuXaiA2j3JYpc="
     },
     "ipkgJson": {
       "name": "ilex-core",
@@ -2321,8 +2321,8 @@
     "ipkgDir": "debug",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "07af8b537a36892c7b22a559238bdfe1fc788d36",
-      "hash": "sha256-z7NKAEWDVYUvS+jOfQuGHK4nrbDX6HLQ9sQuQiHcEos="
+      "rev": "bf5a1086df494b444193aca9a99d7a216c4c7103",
+      "hash": "sha256-RlLXeNR+oSTauyqQxyG+CVFbvSeU2CVuXaiA2j3JYpc="
     },
     "ipkgJson": {
       "name": "ilex-debug",
@@ -2365,8 +2365,8 @@
     "ipkgDir": "json",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "07af8b537a36892c7b22a559238bdfe1fc788d36",
-      "hash": "sha256-z7NKAEWDVYUvS+jOfQuGHK4nrbDX6HLQ9sQuQiHcEos="
+      "rev": "bf5a1086df494b444193aca9a99d7a216c4c7103",
+      "hash": "sha256-RlLXeNR+oSTauyqQxyG+CVFbvSeU2CVuXaiA2j3JYpc="
     },
     "ipkgJson": {
       "name": "ilex-json",
@@ -2385,8 +2385,8 @@
     "ipkgDir": "streams",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "07af8b537a36892c7b22a559238bdfe1fc788d36",
-      "hash": "sha256-z7NKAEWDVYUvS+jOfQuGHK4nrbDX6HLQ9sQuQiHcEos="
+      "rev": "bf5a1086df494b444193aca9a99d7a216c4c7103",
+      "hash": "sha256-RlLXeNR+oSTauyqQxyG+CVFbvSeU2CVuXaiA2j3JYpc="
     },
     "ipkgJson": {
       "name": "ilex-streams",
@@ -2413,8 +2413,8 @@
     "ipkgDir": "toml",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-ilex",
-      "rev": "07af8b537a36892c7b22a559238bdfe1fc788d36",
-      "hash": "sha256-z7NKAEWDVYUvS+jOfQuGHK4nrbDX6HLQ9sQuQiHcEos="
+      "rev": "bf5a1086df494b444193aca9a99d7a216c4c7103",
+      "hash": "sha256-RlLXeNR+oSTauyqQxyG+CVFbvSeU2CVuXaiA2j3JYpc="
     },
     "ipkgJson": {
       "name": "ilex-toml",
@@ -2576,7 +2576,7 @@
     "ipkgName": "jsonrpc",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/avidela/idris2-jsonrpc",
+      "url": "https://gitlab.com/avidela/idris2-jsonrpc.git/",
       "rev": "46f871f1c85040cc960e25e90671b8e7416b19a1",
       "hash": "sha256-pirqo3Zroi+qvW5vpxS//KteY65txvZi2YsMC6XcOJo="
     },
@@ -2744,8 +2744,8 @@
     "ipkgDir": "linux",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "f34c638ce71f0a46b8b0ef471e2a43e9a91a5853",
-      "hash": "sha256-EyEcUqhJwTKdNwF1Rl18C4KROpt8jqXJo/tFQMFYke0="
+      "rev": "e4b91d7f950e258210c357e90567638d2c661395",
+      "hash": "sha256-lQNI9arj9v2KhTfIMcdpuJOjm9HgAAwA2X0qyfe905w="
     },
     "ipkgJson": {
       "name": "linux",
@@ -3113,7 +3113,7 @@
     "ipkgName": "nested",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/bss03/nested",
+      "url": "https://gitlab.com/bss03/nested.git/",
       "rev": "83a9b03196d3a93b841cf281b649512313084a1a",
       "hash": "sha256-iociVZXb0LbAJfzQWGHgF0cPjQMz7FP5dIUOv4OICq0="
     },
@@ -3181,7 +3181,7 @@
     "ipkgName": "okasaki-pfds",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/bss03/idris2-okasaki-pfds",
+      "url": "https://gitlab.com/bss03/idris2-okasaki-pfds.git/",
       "rev": "a8dd0b89dc307ef621f35e59216b11aadb128ade",
       "hash": "sha256-1v76ZD5FQXfaA886GfV6kxn06O7duJK//jdYtu6hWUE="
     },
@@ -3639,9 +3639,9 @@
     "ipkgName": "pipelines",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/glaive-research/pipelines.git",
-      "rev": "a931a12b0fc3656ad279368deb4428cb2b38c144",
-      "hash": "sha256-DXY3HrcBXLQjLoC5Q+uWZB9LkvXggT7cqw5Rd3z5iqA="
+      "url": "https://gitlab.com/glaive-research/pipelines.git/",
+      "rev": "785aaf0dac6fb68ad71e5f2558d3b94f65087a33",
+      "hash": "sha256-2otixUJNKa/W6PDcDb58N//5nH9yWtW8siRl3kP/xjU="
     },
     "ipkgJson": {
       "name": "pipelines",
@@ -3650,6 +3650,9 @@
       ],
       "version": "0.1.0",
       "authors": "André Videla",
+      "license": "MIT",
+      "brief": "Composing programs categorically",
+      "readme": "README.md",
       "sourcedir": "src"
     }
   },
@@ -3724,8 +3727,8 @@
     "ipkgDir": "posix",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-linux",
-      "rev": "f34c638ce71f0a46b8b0ef471e2a43e9a91a5853",
-      "hash": "sha256-EyEcUqhJwTKdNwF1Rl18C4KROpt8jqXJo/tFQMFYke0="
+      "rev": "e4b91d7f950e258210c357e90567638d2c661395",
+      "hash": "sha256-lQNI9arj9v2KhTfIMcdpuJOjm9HgAAwA2X0qyfe905w="
     },
     "ipkgJson": {
       "name": "posix",
@@ -4334,7 +4337,7 @@
     "ipkgName": "simple-tests",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/avidela/idris2-simple-tests",
+      "url": "https://gitlab.com/avidela/idris2-simple-tests.git/",
       "rev": "945aab794e42d2d06c88433f9fd33c2c417e14d9",
       "hash": "sha256-9nxhzzv2qdm28x9mhSMtn6/yJ/+JvpdvNjZAp5nFCWs="
     },
@@ -4758,7 +4761,7 @@
     "ipkgName": "telescope",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/avidela/idris2-telescope.git",
+      "url": "https://gitlab.com/avidela/idris2-telescope.git/",
       "rev": "e20f473ddd18f1104c0a2a8bc17b36b2ea9fad03",
       "hash": "sha256-GB5nFcTFJhihkUNhYzk0+PMDJ+wC22PzVCsasHXRtKY="
     },
@@ -4885,8 +4888,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/idris-community/idris2-tls",
-      "rev": "29e9ccb1510a8e26c6434712f55daf240a627feb",
-      "hash": "sha256-ZgU+TjdySIFse+MYFHzTSI5SjoJR5y8RDerltb4rRiE="
+      "rev": "49f8548f8895652ba4f1012de1ee84d73f50ea96",
+      "hash": "sha256-0+nl+N2h4Cx76eKwDHG2Ymy6POuNlcjBJZS9WkzRw6Y="
     },
     "ipkgJson": {
       "name": "tls",
@@ -4934,9 +4937,9 @@
     "ipkgName": "type-aligned",
     "ipkgDir": "",
     "src": {
-      "url": "https://gitlab.com/bss03/type-aligned",
-      "rev": "ff95d40aebbde14e48b4bccf006bea5bab256ada",
-      "hash": "sha256-C2nO7T8NkciY50iuD1KGCiNceLOGO34+1DOUIldoYRY="
+      "url": "https://gitlab.com/bss03/type-aligned.git/",
+      "rev": "f1372c6f49c2875423449a4c466fd12ea079736b",
+      "hash": "sha256-jCkVAsus/WzgTdOj9nrS1dXu8Rr00lv28NaWGclXBdM="
     },
     "ipkgJson": {
       "name": "type-aligned",
@@ -5391,6 +5394,34 @@
       "license": "BSD-2-Clause",
       "brief": "Total parser for the YAML file format",
       "sourcedir": "src"
+    }
+  },
+  "zlib": {
+    "packName": "zlib",
+    "ipkgName": "zlib",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/Matthew-Mosior/idris2-zlib",
+      "rev": "6853aa69dd1788b83253a3be7e08b3efbb2091dd",
+      "hash": "sha256-gnxj2KE+DWCh4S+HiHJO7dKblT2jnNx0nRTXhNFkzOs="
+    },
+    "ipkgJson": {
+      "name": "zlib",
+      "depends": [
+        "base",
+        "array",
+        "elab-util",
+        "elin",
+        "posix",
+        "ref1"
+      ],
+      "version": "0.1.0",
+      "authors": "Matthew Mosior",
+      "license": "BSD-3 Clause",
+      "brief": "Idris2 bindings to zlib",
+      "sourcedir": "src",
+      "prebuild": "make -C support",
+      "preinstall": "make -C support install"
     }
   }
 }
