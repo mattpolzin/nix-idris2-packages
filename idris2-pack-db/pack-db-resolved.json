@@ -1058,8 +1058,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ee6614874ecc6011ec0b7f12699beefc851b8f90",
-      "hash": "sha256-AmApMr+UaQdUTg2vXvk4/WQHoexRkgergSB8KxZYOYo="
+      "rev": "4b3105cbb9b52147be04f36b6117e3497e8c1fb6",
+      "hash": "sha256-4xAXRPrN/6sh/1xSHH8y2XKZlXOP9zGfoITx2b/PmZc="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1334,8 +1334,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "ee6614874ecc6011ec0b7f12699beefc851b8f90",
-      "hash": "sha256-AmApMr+UaQdUTg2vXvk4/WQHoexRkgergSB8KxZYOYo="
+      "rev": "4b3105cbb9b52147be04f36b6117e3497e8c1fb6",
+      "hash": "sha256-4xAXRPrN/6sh/1xSHH8y2XKZlXOP9zGfoITx2b/PmZc="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -4391,6 +4391,29 @@
       "brief": "Generic representation of data types as sums of products",
       "readme": "README.md",
       "sourcedir": "src"
+    }
+  },
+  "specialise-data": {
+    "packName": "specialise-data",
+    "ipkgName": "specialise-data",
+    "ipkgDir": "",
+    "src": {
+      "url": "https://github.com/DepTyCheck/idris2-specialise-data",
+      "rev": "81c18c5139c05757715bddbea48d9152286fdb24",
+      "hash": "sha256-iIoJzGEHVBqs2TKXtHgjf4Q6G3ECvnQYDpur5nWdar0="
+    },
+    "ipkgJson": {
+      "name": "specialise-data",
+      "depends": [
+        "containers",
+        "elab-util-extra",
+        "mk"
+      ],
+      "authors": "Anton Gusev, Denis Buzdalov",
+      "license": "Apache-2.0",
+      "brief": "Macro functions to derive specialised data types",
+      "sourcedir": "src",
+      "builddir": ".build"
     }
   },
   "spidr": {
