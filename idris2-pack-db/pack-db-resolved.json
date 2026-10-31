@@ -547,8 +547,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/tokinanpa/cats-and-arrows",
-      "rev": "fea1605a512fe45b43b7246e03f3b4162fb2db59",
-      "hash": "sha256-RE4gWhmymaKlOuElHcfv37f4Wzpuoqb28PiAeTuLUnw="
+      "rev": "c3855f1fcbb15448443217af51f0cc9e517a7e2a",
+      "hash": "sha256-L6nXe3hPjljL/68dnc2IBnP28hyHzL6wly71QRUbRd4="
     },
     "ipkgJson": {
       "name": "cats-and-arrows",
@@ -1058,8 +1058,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "4b3105cbb9b52147be04f36b6117e3497e8c1fb6",
-      "hash": "sha256-4xAXRPrN/6sh/1xSHH8y2XKZlXOP9zGfoITx2b/PmZc="
+      "rev": "e74f2422be0394e0ca1a30df58e1014bde02bdca",
+      "hash": "sha256-Fhb6Rb218+UiFwiKOi3mZt0f0ktyhKt7bgGuamW8qSs="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1075,9 +1075,10 @@
         "mtl-tuple-impls",
         "positive-nat",
         "random-pure",
+        "specialise-data",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.260827",
+      "version": "0.0.261030",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1334,8 +1335,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "4b3105cbb9b52147be04f36b6117e3497e8c1fb6",
-      "hash": "sha256-4xAXRPrN/6sh/1xSHH8y2XKZlXOP9zGfoITx2b/PmZc="
+      "rev": "e74f2422be0394e0ca1a30df58e1014bde02bdca",
+      "hash": "sha256-Fhb6Rb218+UiFwiKOi3mZt0f0ktyhKt7bgGuamW8qSs="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1346,8 +1347,6 @@
         "elab-pretty",
         "elab-util",
         "fin-lizzie",
-        "i-hate-parens",
-        "mk",
         "mtl-tuple-impls"
       ],
       "authors": "Denis Buzdalov",
@@ -3662,8 +3661,8 @@
     "ipkgDir": "pjrt-plugins/xla-cpu",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "590e7e9b392037bfa7607c1d395658daf5720d74",
-      "hash": "sha256-/bC5nLl5fM1wvdE33TV2w0umEKkyVLzGtb/lf1FdiBA="
+      "rev": "7dbc679d95cfbe4dbe6b45a7bb663807f11e1834",
+      "hash": "sha256-M7jUwGL7XK18OsSOmQQjZ/3QwDBGkpcGx0/ZkiCTqbg="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cpu",
@@ -3684,8 +3683,8 @@
     "ipkgDir": "pjrt-plugins/xla-cuda",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "590e7e9b392037bfa7607c1d395658daf5720d74",
-      "hash": "sha256-/bC5nLl5fM1wvdE33TV2w0umEKkyVLzGtb/lf1FdiBA="
+      "rev": "7dbc679d95cfbe4dbe6b45a7bb663807f11e1834",
+      "hash": "sha256-M7jUwGL7XK18OsSOmQQjZ/3QwDBGkpcGx0/ZkiCTqbg="
     },
     "ipkgJson": {
       "name": "pjrt-plugin-xla-cuda",
@@ -4422,8 +4421,8 @@
     "ipkgDir": "spidr",
     "src": {
       "url": "https://codeberg.org/joelberkeley/spidr",
-      "rev": "590e7e9b392037bfa7607c1d395658daf5720d74",
-      "hash": "sha256-/bC5nLl5fM1wvdE33TV2w0umEKkyVLzGtb/lf1FdiBA="
+      "rev": "7dbc679d95cfbe4dbe6b45a7bb663807f11e1834",
+      "hash": "sha256-M7jUwGL7XK18OsSOmQQjZ/3QwDBGkpcGx0/ZkiCTqbg="
     },
     "ipkgJson": {
       "name": "spidr",
