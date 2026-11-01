@@ -45,6 +45,12 @@
     nativeBuildInputs = [ lld ];
   };
 
+  zlib = {
+    # lld input solves:
+    # collect2: fatal error: cannot find 'ld'
+    nativeBuildInputs = [ lld ];
+  };
+
   c-ffi = {
     nativeBuildInputs = [ gcc ];
     # this package only builds its included C library for Linux currently.
