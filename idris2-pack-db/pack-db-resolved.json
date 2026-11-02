@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "b9208169424b7fbaa9747d649651ee5ba04615dd",
-      "hash": "sha256-25qwIMO7ym47j1xkxMrGSHvu4Uq9ZvGZPTJPie4wswk="
+      "rev": "8b039f81fcc4a93bbf9d4d68b05cde29288b6c82",
+      "hash": "sha256-fikjNc/5LUnyHrEz8F00O/tUDSclgJ7U9pi3o51lm2o="
     },
     "ipkgJson": {
       "name": "array",
@@ -966,8 +966,8 @@
     "ipkgDir": "darray",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "b9208169424b7fbaa9747d649651ee5ba04615dd",
-      "hash": "sha256-25qwIMO7ym47j1xkxMrGSHvu4Uq9ZvGZPTJPie4wswk="
+      "rev": "8b039f81fcc4a93bbf9d4d68b05cde29288b6c82",
+      "hash": "sha256-fikjNc/5LUnyHrEz8F00O/tUDSclgJ7U9pi3o51lm2o="
     },
     "ipkgJson": {
       "name": "darray",
@@ -1384,8 +1384,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-enum",
-      "rev": "a51dff59793a23349978f90710d0739e1fa19d5b",
-      "hash": "sha256-bc+pvgerWHl3D9OUZvEyWpm0gN97uzQIugYwbrIZ3Rw="
+      "rev": "abce4da10149c1a233e977230508e97dedb69d5b",
+      "hash": "sha256-I0de1VX3qX5HTYWEox0YYDNoRJ85JaqneL0kFnbwv8c="
     },
     "ipkgJson": {
       "name": "enum",
@@ -4398,8 +4398,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/DepTyCheck/idris2-specialise-data",
-      "rev": "81c18c5139c05757715bddbea48d9152286fdb24",
-      "hash": "sha256-iIoJzGEHVBqs2TKXtHgjf4Q6G3ECvnQYDpur5nWdar0="
+      "rev": "b9af8abbf429796fe51b5672e8feacce55dd3de4",
+      "hash": "sha256-T/6ciBEfWfTL6rD+yllk2NdfnopHYACSlAW9W93ohIs="
     },
     "ipkgJson": {
       "name": "specialise-data",
