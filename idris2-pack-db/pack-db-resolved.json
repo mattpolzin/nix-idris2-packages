@@ -1058,8 +1058,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "c2e65d211c993017d54278fa69dd61ec9e40ac0e",
-      "hash": "sha256-mgGO3HXGpyQaAllKDBTj+kz5o9t9nahK7f/U9LHUuHY="
+      "rev": "610a89a6ac87039a2f5d2cf62734dcd9776e5297",
+      "hash": "sha256-zSwq1ZKLBAx2ccwqhVMQXkQdXplWarjZJrwMYqSTXfY="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1335,8 +1335,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "c2e65d211c993017d54278fa69dd61ec9e40ac0e",
-      "hash": "sha256-mgGO3HXGpyQaAllKDBTj+kz5o9t9nahK7f/U9LHUuHY="
+      "rev": "610a89a6ac87039a2f5d2cf62734dcd9776e5297",
+      "hash": "sha256-zSwq1ZKLBAx2ccwqhVMQXkQdXplWarjZJrwMYqSTXfY="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -3113,8 +3113,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/ncurses-idris",
-      "rev": "9f1e575d48cb2acb837f9713e003fbb6ddbf8f44",
-      "hash": "sha256-Yh1I30Jg3Z0/8ZlQlekP+PTXhgnfwxs6J69J1Up3fnk="
+      "rev": "53fa73d6ab867b17acee02ecb1e832969649b953",
+      "hash": "sha256-SIxllS1dE2oC9s1eyixgaqcakaxEF3GfW0n/gY2apMA="
     },
     "ipkgJson": {
       "name": "ncurses-idris",
@@ -3619,8 +3619,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/pg-idris",
-      "rev": "509bc468c9b30cdd0e7f554deeec9cf1b0832863",
-      "hash": "sha256-w8wusaIBbB25Eje42WFZxHgCS1/gEifpqdZjJQMrDAs="
+      "rev": "0fad010418464e0e5d227548cffe834d48395e13",
+      "hash": "sha256-qUWqTyfnazDifs6uSr8vcyYtQI9sssFgbKMbbNMuTGU="
     },
     "ipkgJson": {
       "name": "pg-idris",
@@ -3758,8 +3758,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-positive-nat",
-      "rev": "6390dd8e0a0bd0702a5555365ca5c83b0bed62e3",
-      "hash": "sha256-xFqKPsNAxvv5t1+vLIYLXACQPF7cKtzEVKJ8DniEyxc="
+      "rev": "eb428bf341ee9d7c9451a946a8df7163862c846d",
+      "hash": "sha256-1B0Mg1NSL1SC4wlcyRq2OSsVNBRqxtTAa5N8hKZKhcM="
     },
     "ipkgJson": {
       "name": "positive-nat",
@@ -4451,8 +4451,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/DepTyCheck/idris2-specialise-data",
-      "rev": "0aca0007f5e92a5e2e7ef8fdc86b1bc5850a9dab",
-      "hash": "sha256-aafESR16dMAnnx5mTKvShL5yLGzSyaLZ5yVtZKIrtI0="
+      "rev": "ca677a365c297e7e885fe94ec6de4338c9794a12",
+      "hash": "sha256-+PHmLnbZe7b/zGVz5PpN2PorUmReh+gk85QWhsJ2gAw="
     },
     "ipkgJson": {
       "name": "specialise-data",
