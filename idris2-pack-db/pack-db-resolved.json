@@ -3758,8 +3758,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/idris2-positive-nat",
-      "rev": "eb428bf341ee9d7c9451a946a8df7163862c846d",
-      "hash": "sha256-1B0Mg1NSL1SC4wlcyRq2OSsVNBRqxtTAa5N8hKZKhcM="
+      "rev": "31eea08ed917247a364e1d1c96935ada2c1727db",
+      "hash": "sha256-IWcqxbw5ZfPZx4VkpWAITvtNAaGBmjzmfB7PVLZwa6M="
     },
     "ipkgJson": {
       "name": "positive-nat",
