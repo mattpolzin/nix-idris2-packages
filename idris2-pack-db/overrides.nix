@@ -171,7 +171,6 @@
   };
 
   pg-idris = {
-    nativeBuildInputs = [ clang ];
     buildInputs = [ postgresql.dev postgresql.pg_config ];
   };
 
