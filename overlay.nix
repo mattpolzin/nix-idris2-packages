@@ -1,20 +1,21 @@
-# Provide an overlay that overrides the nixpkgs versions of the idris2 tools
-# with the versions exposed from this flake.
+# Provide an overlay that supports overriding the nixpkgs versions of the
+# idris2 tools.
 {
-  idris2,
-  idris2Lsp,
-  withSource,
+  idris2 ? null,
+  idris2Lsp ? null,
+  withSource ? true,
 }:
 final: prev:
 let
+  inherit (final) lib;
   packages = import ./default.nix {
     inherit (prev) system;
     inherit withSource;
     pkgs = prev;
-    idris2Override = idris2.packages.${prev.system}.idris2;
-    idris2SupportOverride = idris2.packages.${prev.system}.support;
-    idris2LspOverride = idris2Lsp.packages.${prev.system}.idris2Lsp;
-    buildIdrisOverride = idris2.buildIdris.${prev.system};
+    idris2Override = lib.mapNullable (idr: idr.packages.${prev.system}.idris2) idris2;
+    idris2SupportOverride = lib.mapNullable (idr: idr.packages.${prev.system}.support) idris2;
+    idris2LspOverride = lib.mapNullable (lsp: lsp.packages.${prev.system}.idris2Lsp) idris2Lsp;
+    buildIdrisOverride = lib.mapNullable (idr: idr.buildIdris.${prev.system}) idris2;
   };
 in
 {
@@ -26,7 +27,7 @@ in
       idris2Api
       idris2Lsp
       ;
-    inherit (packages.idris2Packages) packdb;
+    inherit (packages.idris2Packages) pack packdb;
   };
-  idris2 = final.idris2Packages.idris2;
+  inherit (final.idris2Packages) idris2;
 }
