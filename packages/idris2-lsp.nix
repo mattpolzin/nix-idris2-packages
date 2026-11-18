@@ -6,7 +6,7 @@ let
   repo = flakeLock.nodes.idris2Lsp.locked.repo;
 
   idris2Lsp = import (
-    builtins.fetchTarball {
+    fetchTarball {
       url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
       sha256 = hash;
     }

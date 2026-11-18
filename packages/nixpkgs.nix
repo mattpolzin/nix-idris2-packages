@@ -6,7 +6,7 @@ let
   repo = flakeLock.nodes.nixpkgs.locked.repo;
 in
 import
-  (builtins.fetchTarball {
+  (fetchTarball {
     url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
     sha256 = hash;
   })

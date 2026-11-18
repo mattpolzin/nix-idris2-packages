@@ -55,7 +55,7 @@ let
 
   allDeps = builtins.foldl' addDep extraIdrisLibraries (ipkgAttrs.depends or [ ]);
 
-  additionalAttrs = builtins.removeAttrs attrs [
+  additionalAttrs = removeAttrs attrs [
     "src"
     "ipkgName"
     "extraIdrisLibraries"
