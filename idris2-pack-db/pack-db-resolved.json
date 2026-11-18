@@ -3113,8 +3113,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/ncurses-idris",
-      "rev": "53fa73d6ab867b17acee02ecb1e832969649b953",
-      "hash": "sha256-SIxllS1dE2oC9s1eyixgaqcakaxEF3GfW0n/gY2apMA="
+      "rev": "746e33f16f2847c2f308fa8c54a6a6ff8732bf02",
+      "hash": "sha256-Rp12kLiaKyUrf1NtMeTQmxWwNCMJKH6CpntG6A17MHo="
     },
     "ipkgJson": {
       "name": "ncurses-idris",
@@ -3619,8 +3619,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/mattpolzin/pg-idris",
-      "rev": "07922c5b44827142f1cd6b73200165d4116beb0a",
-      "hash": "sha256-JQUqhKoDPa4JTF5AV94yDiMQY1e1oZ+g7Xz28VeJOe8="
+      "rev": "45094f35932de216d696896fe28d4e90271abef2",
+      "hash": "sha256-oJLfs10pR8o/zqg8CZsKW2QAwEanw6IKqufSnX/pDZY="
     },
     "ipkgJson": {
       "name": "pg-idris",
@@ -4780,8 +4780,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/Matthew-Mosior/idris2-systemd",
-      "rev": "b29785bb24ab5963c1640acdd209fef9f28e7455",
-      "hash": "sha256-h5DjiehUGs7hFjefXM7A1Q176L89715Z726dOEtLg84="
+      "rev": "6b910d9d5eed0283d76087a63a224cc4fbf14eb7",
+      "hash": "sha256-dTXTK2DTlq4gm6/wMOiMXPzh4aRZiKd3Nsr64dh5tOU="
     },
     "ipkgJson": {
       "name": "systemd",
@@ -4791,19 +4791,9 @@
         "posix"
       ],
       "version": "0.1.0",
-      "langversion": {
-        "lowerInclusive": true,
-        "lowerBound": "0.7.0",
-        "upperInclusive": true,
-        "upperBound": "*"
-      },
       "authors": "Matthew Mosior",
-      "maintainers": "Matthew Mosior",
       "license": "BSD-3 Clause",
       "brief": "A systemd library",
-      "homepage": "https://github.com/Matthew-Mosior/idris2-systemd",
-      "sourceloc": "https://github.com/Matthew-Mosior/idris2-systemd/tree/main/src",
-      "bugtracker": "https://github.com/Matthew-Mosior/idris2-systemd/issues",
       "sourcedir": "src",
       "prebuild": "make -C support",
       "preinstall": "make -C support install"
