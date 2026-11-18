@@ -171,7 +171,8 @@
   };
 
   pg-idris = {
-    buildInputs = [ postgresql.dev postgresql.pg_config ];
+    nativeBuildInputs = [ postgresql.pg_config ];
+    buildInputs = [ postgresql.lib ];
   };
 
   posix = {
@@ -260,7 +261,7 @@
       patchShebangs --build cleanup.sh
     '';
 
-    buildInputs = [
+    nativeBuildInputs = [
       clang
       libuv.dev
     ];
