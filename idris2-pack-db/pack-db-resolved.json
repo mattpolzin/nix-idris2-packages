@@ -4451,8 +4451,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/DepTyCheck/idris2-specialise-data",
-      "rev": "aa716f0aabd5740416c821976fb250794928fc4d",
-      "hash": "sha256-JS920n99vI7EC/HzDmWWqVI6uvBzg5lBCLyJE+0k7lE="
+      "rev": "ac41cfd80d857b08c066d70afa667c24a480cafa",
+      "hash": "sha256-ju8ddwhzwXoZxVY/GVqh9ltFS1VwIAQsRmw+anWcLSw="
     },
     "ipkgJson": {
       "name": "specialise-data",
