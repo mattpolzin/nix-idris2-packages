@@ -841,8 +841,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-cptr",
-      "rev": "fbd9287b171f23b03858cf02d0be0981af221c68",
-      "hash": "sha256-lhZ3gflA+JLgxMrL7jXH4cyocJbrActf23EDASnBV88="
+      "rev": "5a7628dee2f14f7f3cd6ff287c084acf118a6efa",
+      "hash": "sha256-XzI2Gpxq1Y6NPpB1TOm+5yQo9/AseFlJ+6t5Fr0TfbQ="
     },
     "ipkgJson": {
       "name": "cptr",
@@ -1058,8 +1058,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "af2f9f98d0e8604099e30c8b597b5181efe1c002",
-      "hash": "sha256-2M5PJoXSR6H2Xh6Z74q+s1Ptvphqan+qPjEzlz3+3d8="
+      "rev": "8a26feaf55b8bfbd05dd0fa74073f60f42d6ea1c",
+      "hash": "sha256-SyXVXD9DgML/InD0B7MCNJEKWZOreAGeefEgiaGup10="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1335,8 +1335,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "af2f9f98d0e8604099e30c8b597b5181efe1c002",
-      "hash": "sha256-2M5PJoXSR6H2Xh6Z74q+s1Ptvphqan+qPjEzlz3+3d8="
+      "rev": "8a26feaf55b8bfbd05dd0fa74073f60f42d6ea1c",
+      "hash": "sha256-SyXVXD9DgML/InD0B7MCNJEKWZOreAGeefEgiaGup10="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -4451,8 +4451,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/DepTyCheck/idris2-specialise-data",
-      "rev": "ac41cfd80d857b08c066d70afa667c24a480cafa",
-      "hash": "sha256-ju8ddwhzwXoZxVY/GVqh9ltFS1VwIAQsRmw+anWcLSw="
+      "rev": "b0a335a93e573f5577950b16c802946329ae2a6b",
+      "hash": "sha256-eqZccJQzFuSqwtaQ8+zyOIrivNBCdnvUfPBaE1fxpaI="
     },
     "ipkgJson": {
       "name": "specialise-data",
