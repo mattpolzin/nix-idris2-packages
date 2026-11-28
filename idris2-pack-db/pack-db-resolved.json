@@ -89,8 +89,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "8b039f81fcc4a93bbf9d4d68b05cde29288b6c82",
-      "hash": "sha256-fikjNc/5LUnyHrEz8F00O/tUDSclgJ7U9pi3o51lm2o="
+      "rev": "81a943b09186a06b5c0fad984fa94465e5da8686",
+      "hash": "sha256-P76wfUO+InZwk7ETzN5fF4aeUOqs9gy/c5QiSMhRDz8="
     },
     "ipkgJson": {
       "name": "array",
@@ -576,8 +576,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "9a9aacc004cedd1e9653eed5a263d057f8279f2b",
-      "hash": "sha256-3Q9cnmYe1qRyYxN8mlZlx8tMP/fU4QPakUYeUsRKZeQ="
+      "rev": "9dd406ebb4a8ddcc24fbb69eed97dcbadbd86f27",
+      "hash": "sha256-yaLCm6WDrPZ0RD7uoaW69JJXbTaqIn6b8NNPJ6vNaYk="
     },
     "ipkgJson": {
       "name": "chem",
@@ -603,8 +603,8 @@
     "ipkgDir": "chem-generators",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-chem",
-      "rev": "9a9aacc004cedd1e9653eed5a263d057f8279f2b",
-      "hash": "sha256-3Q9cnmYe1qRyYxN8mlZlx8tMP/fU4QPakUYeUsRKZeQ="
+      "rev": "9dd406ebb4a8ddcc24fbb69eed97dcbadbd86f27",
+      "hash": "sha256-yaLCm6WDrPZ0RD7uoaW69JJXbTaqIn6b8NNPJ6vNaYk="
     },
     "ipkgJson": {
       "name": "chem-generators",
@@ -966,8 +966,8 @@
     "ipkgDir": "darray",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-array",
-      "rev": "8b039f81fcc4a93bbf9d4d68b05cde29288b6c82",
-      "hash": "sha256-fikjNc/5LUnyHrEz8F00O/tUDSclgJ7U9pi3o51lm2o="
+      "rev": "81a943b09186a06b5c0fad984fa94465e5da8686",
+      "hash": "sha256-P76wfUO+InZwk7ETzN5fF4aeUOqs9gy/c5QiSMhRDz8="
     },
     "ipkgJson": {
       "name": "darray",
@@ -1058,8 +1058,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "8a26feaf55b8bfbd05dd0fa74073f60f42d6ea1c",
-      "hash": "sha256-SyXVXD9DgML/InD0B7MCNJEKWZOreAGeefEgiaGup10="
+      "rev": "18fc166edccb0ed67c3b5471069ba40a2231a010",
+      "hash": "sha256-v2BZoxezCoUlOZs5qsx0BYZErWKmS2/EcmYVVln3WUw="
     },
     "ipkgJson": {
       "name": "deptycheck",
@@ -1068,8 +1068,6 @@
         "best-alternative",
         "dependent-vect",
         "elab-util-extra",
-        "hashable",
-        "hashable-derive",
         "i-hate-parens",
         "if-unsolved-implicit",
         "mtl-tuple-impls",
@@ -1078,7 +1076,7 @@
         "specialise-data",
         "typelevel-emptiness-collections"
       ],
-      "version": "0.0.261116",
+      "version": "0.0.261125",
       "authors": "Denis Buzdalov",
       "license": "MPL-2.0",
       "brief": "Property-based testing with dependent types",
@@ -1335,8 +1333,8 @@
     "ipkgDir": "elab-util-extra",
     "src": {
       "url": "https://github.com/buzden/deptycheck",
-      "rev": "8a26feaf55b8bfbd05dd0fa74073f60f42d6ea1c",
-      "hash": "sha256-SyXVXD9DgML/InD0B7MCNJEKWZOreAGeefEgiaGup10="
+      "rev": "18fc166edccb0ed67c3b5471069ba40a2231a010",
+      "hash": "sha256-v2BZoxezCoUlOZs5qsx0BYZErWKmS2/EcmYVVln3WUw="
     },
     "ipkgJson": {
       "name": "elab-util-extra",
@@ -1913,8 +1911,8 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/stefan-hoeck/idris2-hedgehog",
-      "rev": "0bd4e793143e0bda092c8f76320d041da11adc7d",
-      "hash": "sha256-wspnFZe4GBu3XF77sHp+u3b8In6+ASKqvQo3Z2+b9jY="
+      "rev": "e817b9c5c7439598f473e63b00c8c535f2ab2668",
+      "hash": "sha256-o9HDSLaV89T7WMF+XowMAc0+xQ9ohal9YLE6IFDEKyU="
     },
     "ipkgJson": {
       "name": "hedgehog",
@@ -4451,14 +4449,16 @@
     "ipkgDir": "",
     "src": {
       "url": "https://github.com/DepTyCheck/idris2-specialise-data",
-      "rev": "b0a335a93e573f5577950b16c802946329ae2a6b",
-      "hash": "sha256-eqZccJQzFuSqwtaQ8+zyOIrivNBCdnvUfPBaE1fxpaI="
+      "rev": "3a2844d93b8af95a8f9726da367a66f830a36768",
+      "hash": "sha256-EPWkavoT/0vaIQZ4S28FuMThlLJal7rQDfB1zJHMfeE="
     },
     "ipkgJson": {
       "name": "specialise-data",
       "depends": [
         "containers",
         "elab-util-extra",
+        "hashable",
+        "hashable-derive",
         "mk"
       ],
       "authors": "Anton Gusev, Denis Buzdalov",
